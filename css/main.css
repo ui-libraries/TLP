@@ -58,11 +58,13 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper {
     width: 90%;
-    margin: 0 5%;
+    margin: 0 ;
 }
 
 /* ===================
@@ -101,7 +103,7 @@ nav ul {
 nav a {
     display: block;
     margin-bottom: 10px;
-    padding: 15px 0;
+    padding: 0;
 
     text-align: center;
     text-decoration: none;
@@ -373,5 +375,16 @@ nav a:hover {
 }
 
 #sidebar {
-    background-color: lightblue;
+    background: #ebfafa;
+    min-height: 1377px;
+}
+
+#map {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
 }
