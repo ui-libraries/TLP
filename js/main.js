@@ -1,3 +1,6 @@
+var sectionDiv = '';
+var splitSection = [];
+var sectionNum = '';
 var gap = 50;
 
 
@@ -57,7 +60,22 @@ function precision(a) {
     return precision;
 }
 
-console.log(precision(2.212));
+function findSection(section, lang) {
+    sectionNum = section;
+    
+    //jquery doesn't want a period in the selector since it could be a class, so we have to escape it
+    if (sectionNum.indexOf('.') !== -1) {
+        splitSection = sectionNum.split('.');
+        sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
+    } else {
+        sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
+    }
+
+    $('#section-text').load(sectionDiv, function () {
+        $('.ger, .pmc, .ogd').hide();
+        $(lang).show();
+    });
+}
 
 function findPoints (d) {
     var points = {};
@@ -87,27 +105,27 @@ var rect = elemLineEnter.append("line")
 var circle = elemEnter.append("circle")
     .attr("cx", function (d) { return d.x_axis * gap; })
     .attr("cy", function (d) { return d.y_axis * gap; })
-    .attr("r", 10)
+    .attr("r", 15)
     .attr("stroke","black")
     .attr("fill", "white")
-    .attr("stroke-width", 2)
+    .attr("stroke-width", 4)
     .on("click", showSection);
-
 
 
 /* Create the text for each block */
 elemEnter.append("text")
-    .attr("dx", function(d){return d.x_axis * gap + 13})
+    .attr("dx", function(d){return d.x_axis * gap + 18})
     .attr("dy", function(d){return d.y_axis * gap + 5})
     .attr("font-size","16px")
     .text(function(d){return d.label});
 
     
-function showSection (d) {
+function showSection (d) {    
     var label = d.label;
-    var sectionText = _.filter(content, {"label": label} );
-    $("#section-text").html(sectionText[0].label + " " + sectionText[0].ogd);
-    console.log(sectionText[0].ogd);
+    findSection(label, ".ogd");
+    //var sectionText = _.filter(content, {"label": label} );
+    //$("#section-text").html(sectionText[0].label + " " + sectionText[0].ogd);
+    //console.log(sectionText[0].ogd);
 }
 
 function buildGroup(d) {
