@@ -1,34 +1,7 @@
 var sectionDiv = '';
 var splitSection = [];
-var sectionNum = '';
 var gap = 50;
 
-
-
-/*var lines = 
-    [
-        //x1 = first x_axis, x2 = second x_axis, y1 = first y_axis, y2 = second y_axis
-        {"label": "1-2", "x1": 1, "x2": 13, "y1": 31, "y2": 31, "color": "yellow"},
-        {"label": "1-1.2", "x1": 1, "x2": 1, "y1": 31, "y2": 35, "color": "#cc3300"},
-        {"label": "1.1-1.13", "x1": 1, "x2": 7, "y1": 33, "y2": 33, "color": "#ff794d"},
-        {"label": "1.2-1.21", "x1": 1, "x2": 3, "y1": 35, "y2": 35, "color": "#ff794d"},
-    ];*/
-
-
-
-var content = 
-    [
-        {"label": "", "ger": "", "ogd": "", "pmc": ""},
-        {"label": "1", "ger": "Die Welt ist alles, was der Fall ist.", "ogd": "The world is everything that is the case.", "pmc": "The world is all that is the case."},        
-        {"label": "1.1", "ger": "Die Welt ist die Gesamtheit der Tatsachen, nicht der Dinge.", "ogd": "The world is the totality of facts, not of things.", "pmc": "The world is the totality of facts, not of things."},
-        {"label": "1.11", "ger": "Die Welt ist durch die Tatsachen bestimmt und dadurch, dass es alle Tatsachen sind.", "ogd": "The world is determined by the facts, and by these being all the facts.", "pmc": "The world is determined by the facts, and by their being all the facts."},
-        {"label": "1.12", "ger": "Denn, die Gesamtheit der Tatsachen bestimmt, was der Fall ist und auch, was alles nicht der Fall ist.", "ogd": "For the totality of facts determines both what is the case, and also all that is not the case.", "pmc": "For the totality of facts determines what is the case, and also whatever is not the case."},
-        {"label": "1.13", "ger": "Die Tatsachen im logischen Raum sind die Welt.", "ogd": "The facts in logical space are the world.", "pmc": "The facts in logical space are the world."},
-        {"label": "1.2", "ger": "Die Welt zerfällt in Tatsachen.", "ogd": "The world divides into facts.", "pmc": "The world divides into facts."},
-        {"label": "1.21", "ger": "Eines kann der Fall sein oder nicht der Fall sein und alles übrige gleich bleiben.", "ogd": "Any one can either be the case or not be the case, and everything else remain the same.", "pmc": "Each item can be the case or not the case while everything else remains the same."},
-        {"label": "2", "ger": "Was der Fall ist, die Tatsache, ist das Bestehen von Sachverhalten.", "ogd": "What is the case, the fact, is the existence of atomic facts.", "pmc": "What is the case—a fact—is the existence of states of affairs."}    
-        
-    ];
 
 var width = $("#map").width();
 //var width = 1000;
@@ -61,9 +34,11 @@ function precision(a) {
 }
 
 function findSection(section, lang) {
+    var sectionNum = '';
     sectionNum = section;
     
     //jquery doesn't want a period in the selector since it could be a class, so we have to escape it
+    //find out if section has a decimal point
     if (sectionNum.indexOf('.') !== -1) {
         splitSection = sectionNum.split('.');
         sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
@@ -123,9 +98,6 @@ elemEnter.append("text")
 function showSection (d) {    
     var label = d.label;
     findSection(label, ".ogd");
-    //var sectionText = _.filter(content, {"label": label} );
-    //$("#section-text").html(sectionText[0].label + " " + sectionText[0].ogd);
-    //console.log(sectionText[0].ogd);
 }
 
 function buildGroup(d) {

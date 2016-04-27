@@ -10,7 +10,6 @@ var lightBlue = "#b8dede";
 var navy = "#4f83bb";
 var lightPink = "#f2dcda";
 var pale = "#fde9da";
-var x = 0;
 
 var lines = 
     [        
@@ -204,71 +203,5 @@ var lines =
         {"start": "6.03", "end": "6.031", "color": lightOrange},
         {"start": "6.02", "end": "6.022", "color": lightOrange},
         {"start": "6", "end": "6.001", "color": pale},
-        {"start": "6.001", "end": "6.002", "color": pale},
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-         
+        {"start": "6.001", "end": "6.002", "color": pale}
     ];
