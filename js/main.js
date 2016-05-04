@@ -27,9 +27,15 @@ var elemLineEnter = elemLine.enter()
 var elemEnter = elem.enter()
     .append("g");
 
-function precision(a) {
+function findPrecision(a) {
+    var precision;
     //convert to string and count the length after the decimal point
-    var precision = (a + "").split(".")[1].length;
+    if (a.indexOf('.') != -1) {
+        precision = (a + "").split(".")[1].length;
+    } else {
+        precision = 0;
+    }
+    
     return precision;
 }
 
@@ -44,12 +50,13 @@ function findSection(section, lang) {
         sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
     } else {
         sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
-    }
-
-    $('#section-text').load(sectionDiv, function () {
+    }    
+    
+    //append each section to section-text list
+    $('#section-text').append($('<div>').load(sectionDiv, function () {
         $('.ger, .pmc, .ogd').hide();
         $(lang).show();
-    });
+    }));
 }
 
 function findPoints (d) {
@@ -67,7 +74,7 @@ function findPoints (d) {
     return points;
 }
 
-var rect = elemLineEnter.append("line")
+var line = elemLineEnter.append("line")
     .attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap;}) //x_axis of 1st section + radius/2 ?
     .attr("y1", function (d) {var point = findPoints(d); return point.y1* gap;}) //y_axis of 1st section
     .attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap;}) //x_axis of 2nd section
@@ -86,6 +93,12 @@ var circle = elemEnter.append("circle")
     .attr("stroke-width", 4)
     .on("click", showSection);
 
+/*var square = elemEnter.append("rect")
+    .attr("x", function (d) { return d.x_axis * gap; })
+    .attr("y", function (d) { return d.y_axis * gap; })
+    .attr("width", 50)
+    .attr("height", 100);*/
+
 
 /* Create the text for each block */
 elemEnter.append("text")
@@ -97,10 +110,43 @@ elemEnter.append("text")
     
 function showSection (d) {    
     var label = d.label;
+    $('#section-text').empty();
     findSection(label, ".ogd");
 }
 
-function buildGroup(d) {
-    console.log(d);
+function buildGroup(d) {    
+    var start = d.start,
+        end = d.end,
+        precision = findPrecision(d.end),
+        sectionList = [],
+        range = [],
+        i, j,
+        preciseList = [];
+    
+    //find all objects with label values between start value and end value
+    sectionList.push(_.filter(sections, function(o) { return o.label <= end && o.label >= start}));
+    _.forEach(sectionList, function(a) {
+        _.forEach(a, function(b) {
+            range.push(b.label);
+        })
+    });
+    
+    //add start location to list since it has a different precision
+    preciseList.push(start);
+    
+    //add section to list if it has the same precision as end
+    for (i = 0; i < range.length; i += 1) {
+        if (findPrecision(range[i]) === precision) {
+            preciseList.push(range[i]);
+        }       
+    }
+    
+    //clear the list
+    $('#section-text').empty();
+    
+    //loop through final list and display each section text
+    for (j = 0; j < preciseList.length; j += 1) {
+        findSection(preciseList[j], '.ogd');
+    }
 }
 
