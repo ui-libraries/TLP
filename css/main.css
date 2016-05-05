@@ -940,3 +940,22 @@ span.verlinks {
     font-size: 60%;
     font-weight: normal;
 }
+
+#section-text {   
+    padding:0; 
+    margin:0;
+}
+
+#section-text li {
+    list-style-type: none;
+    background-color: #ffffff;
+}
+
+#section-text li:first-child {    
+    background-color: #ffff00;
+    font-weight: bold;    
+}
+
+.pnum {
+    font-size: x-small;
+}

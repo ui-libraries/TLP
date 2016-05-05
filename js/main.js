@@ -53,7 +53,7 @@ function findSection(section, lang) {
     }    
     
     //append each section to section-text list
-    $('#section-text').append($('<div>').load(sectionDiv, function () {
+    $('#section-text').append($('<li>').load(sectionDiv, function () {
         $('.ger, .pmc, .ogd').hide();
         $(lang).show();
     }));
@@ -108,7 +108,7 @@ elemEnter.append("text")
     .text(function(d){return d.label});
 
     
-function showSection (d) {    
+function showSection(d) {    
     var label = d.label;
     $('#section-text').empty();
     findSection(label, ".ogd");
@@ -121,8 +121,8 @@ function buildGroup(d) {
         sectionList = [],
         range = [],
         i, j,
-        preciseList = [];
-    
+        preciseList = [];   
+
     //find all objects with label values between start value and end value
     sectionList.push(_.filter(sections, function(o) { return o.label <= end && o.label >= start}));
     _.forEach(sectionList, function(a) {
@@ -146,7 +146,8 @@ function buildGroup(d) {
     
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
-        findSection(preciseList[j], '.ogd');
+        findSection(preciseList[j], '.ogd');        
     }
+    
 }
 
