@@ -23,14 +23,14 @@ var elemLine = svg.selectAll("g")
 var elemLineEnter = elemLine.enter()
     .append("g");
 
-/*Create and place the "blocks" containing the circle and the text */  
+/*Create and place the "blocks" containing the circle and the text */
 var elemEnter = elem.enter()
     .append("g");
 
 function findPrecision(a) {
     var precision;
     //convert to string and count the length after the decimal point
-    if (a.indexOf('.') != -1) {
+    if (a.indexOf('.') !== -1) {
         precision = (a + "").split(".")[1].length;
     } else {
         precision = 0;
@@ -50,7 +50,7 @@ function findSection(section, lang) {
         sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
     } else {
         sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
-    }    
+    }
     
     //append each section to section-text list
     $('#section-text').append($('<li>').load(sectionDiv, function () {
@@ -59,12 +59,13 @@ function findSection(section, lang) {
     }));
 }
 
-function findPoints (d) {
-    var points = {};
-    var start = d.start;
-    var end = d.end;    
-    var startPoint = _.filter(sections, {"label": start});
-    var endPoint = _.filter(sections, {"label": end});
+function findPoints(d) {
+    var points = {},
+        start = d.start,
+        end = d.end,
+        startPoint = _.filter(sections, {"label": start}),
+        endPoint = _.filter(sections, {"label": end});
+    
     points.x1 = startPoint[0].x_axis;
     points.x2 = endPoint[0].x_axis;
     points.y1 = startPoint[0].y_axis;
@@ -75,12 +76,12 @@ function findPoints (d) {
 }
 
 var line = elemLineEnter.append("line")
-    .attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap;}) //x_axis of 1st section + radius/2 ?
-    .attr("y1", function (d) {var point = findPoints(d); return point.y1* gap;}) //y_axis of 1st section
-    .attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap;}) //x_axis of 2nd section
-    .attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap;}) //y_axis of 2nd section
+    .attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
+    .attr("y1", function (d) {var point = findPoints(d); return point.y1 * gap; }) //y_axis of 1st section
+    .attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap; }) //x_axis of 2nd section
+    .attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
     .attr("stroke-width", 20)   //double radius?
-    .attr("stroke", function (d) {return d.color;})
+    .attr("stroke", function (d) {return d.color; })
     .on("click", buildGroup);
 
 /*Create the circle for each block */
@@ -102,10 +103,10 @@ var circle = elemEnter.append("circle")
 
 /* Create the text for each block */
 elemEnter.append("text")
-    .attr("dx", function(d){return d.x_axis * gap + 18})
-    .attr("dy", function(d){return d.y_axis * gap + 5})
+    .attr("dx", function (d) {return d.x_axis * gap + 18; })
+    .attr("dy", function(d){return d.y_axis * gap + 5; })
     .attr("font-size","16px")
-    .text(function(d){return d.label});
+    .text(function (d) {return d.label});
 
     
 function showSection(d) {    
@@ -120,15 +121,16 @@ function buildGroup(d) {
         precision = findPrecision(d.end),
         sectionList = [],
         range = [],
-        i, j,
-        preciseList = [];   
+        i,
+        j,
+        preciseList = [];
 
     //find all objects with label values between start value and end value
-    sectionList.push(_.filter(sections, function(o) { return o.label <= end && o.label >= start}));
-    _.forEach(sectionList, function(a) {
-        _.forEach(a, function(b) {
+    sectionList.push(_.filter(sections, function (o) { return o.label <= end && o.label >= start; }));
+    _.forEach(sectionList, function (a) {
+        _.forEach(a, function (b) {
             range.push(b.label);
-        })
+        });
     });
     
     //add start location to list since it has a different precision
@@ -138,7 +140,7 @@ function buildGroup(d) {
     for (i = 0; i < range.length; i += 1) {
         if (findPrecision(range[i]) === precision) {
             preciseList.push(range[i]);
-        }       
+        }
     }
     
     //clear the list
@@ -146,7 +148,7 @@ function buildGroup(d) {
     
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
-        findSection(preciseList[j], '.ogd');        
+        findSection(preciseList[j], '.ogd');
     }
     
 }
