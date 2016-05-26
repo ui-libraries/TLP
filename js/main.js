@@ -1,6 +1,8 @@
 var sectionDiv = '';
 var splitSection = [];
 var gap = 50;
+var version = '.ogd';
+var lineGroup = [];
 
 
 var width = $("#map").width();
@@ -112,7 +114,7 @@ elemEnter.append("text")
 function showSection(d) {    
     var label = d.label;
     $('#section-text').empty();
-    findSection(label, ".ogd");
+    findSection(label, version);
 }
 
 function buildGroup(d) {    
@@ -135,6 +137,7 @@ function buildGroup(d) {
     
     //add start location to list since it has a different precision
     preciseList.push(start);
+    lineGroup = _.cloneDeep(preciseList);
     
     //add section to list if it has the same precision as end
     for (i = 0; i < range.length; i += 1) {
@@ -148,8 +151,18 @@ function buildGroup(d) {
     
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
-        findSection(preciseList[j], '.ogd');
+        findSection(preciseList[j], version);
     }
     
 }
+
+$('.radio-inline').on('change', function(){
+    var elem = $( "input:checked" );
+    var lang = elem[0].parentElement.id;
+    version = '.' + lang;
+    
+    for (j = 0; j < lineGroup.length; j += 1) {
+        findSection(lineGroup[j], version);
+    }
+});
 
