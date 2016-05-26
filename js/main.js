@@ -105,8 +105,8 @@ var circle = elemEnter.append("circle")
 
 /* Create the text for each block */
 elemEnter.append("text")
-    .attr("dx", function (d) {return d.x_axis * gap + 18; })
-    .attr("dy", function(d){return d.y_axis * gap + 5; })
+    .attr("dx", function (d) {return d.x_axis * gap + 15; })
+    .attr("dy", function(d){return d.y_axis * gap - 15; })
     .attr("font-size","16px")
     .text(function (d) {return d.label});
 
