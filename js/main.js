@@ -54,8 +54,11 @@ function findSection(section, lang) {
         sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
     }
     
+    $('.modal').modal({ keyboard: false, show: true, backdrop: 'static' });
+    $(".modal-backdrop").remove();
+    
     //append each section to section-text list
-    $('#section-text').append($('<li>').load(sectionDiv, function () {
+    $('.modal-body').append($('<li>').load(sectionDiv, function () {
         $('.ger, .pmc, .ogd').hide();
         $(lang).show();
     }));
@@ -113,7 +116,8 @@ elemEnter.append("text")
     
 function showSection(d) {    
     var label = d.label;
-    $('#section-text').empty();
+    $('.modal-body').empty();
+    $(".modal-backdrop").remove();
     findSection(label, version);
 }
 
@@ -147,7 +151,7 @@ function buildGroup(d) {
     }
     
     //clear the list
-    $('#section-text').empty();
+    $('.modal-body').empty();
     
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
@@ -165,4 +169,13 @@ $('.radio-inline').on('change', function(){
         findSection(lineGroup[j], version);
     }
 });
+
+$('.modal').modal({ keyboard: false, show: false, backdrop: 'static' });
+
+// Jquery draggable
+$('.modal-dialog').draggable({
+    handle: ".modal-header"
+});
+
+
 

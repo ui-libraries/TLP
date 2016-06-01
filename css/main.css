@@ -959,3 +959,16 @@ span.verlinks {
 .pnum {
     font-size: x-small;
 }
+
+.modal-backdrop {
+   background-color: transparent;
+   
+}
+
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 15px;
+    
+}
