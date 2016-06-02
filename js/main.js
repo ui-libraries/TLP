@@ -3,6 +3,7 @@ var splitSection = [];
 var gap = 50;
 var version = '.ogd';
 var lineGroup = [];
+var divCounter = 0; //append to div name to create unique ids every time
 
 
 var width = $("#map").width();
@@ -54,14 +55,25 @@ function findSection(section, lang) {
         sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
     }
     
-    $('.modal').modal({ keyboard: false, show: true, backdrop: 'static' });
-    $(".modal-backdrop").remove();
+    var div = "#dialog" + divCounter;
     
+    $(div).dialog({
+        modal: false,
+        draggable: true,
+        resizable: true,
+        close: closeFunction,
+        position: ['center', 'bottom'],        
+        height: 500,
+        width: 400,
+        dialogClass: 'ui-dialog-osx',
+    });
+   
     //append each section to section-text list
-    $('.modal-body').append($('<li>').load(sectionDiv, function () {
+    $(div).append($('<li>').load(sectionDiv, function () {
         $('.ger, .pmc, .ogd').hide();
         $(lang).show();
     }));
+
 }
 
 function findPoints(d) {
@@ -116,9 +128,12 @@ elemEnter.append("text")
     
 function showSection(d) {    
     var label = d.label;
-    $('.modal-body').empty();
-    $(".modal-backdrop").remove();
+    
     findSection(label, version);
+}
+
+function closeFunction(e) {
+    console.log(e.target.id);
 }
 
 function buildGroup(d) {    
@@ -150,8 +165,19 @@ function buildGroup(d) {
         }
     }
     
+    //create a unique id for each new dialog div
+    divCounter += 1;
+    var div = "dialog" + divCounter;
+    
+    //create a new div and append to dialog div
+    $('<div/>', {
+        "id": div,
+        "title": 'Tractatus Logico-Philosophicus',
+        "class": 'dialog',
+    }).appendTo('#dialog');
+    
     //clear the list
-    $('.modal-body').empty();
+    $('#foo').empty();
     
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
@@ -170,12 +196,6 @@ $('.radio-inline').on('change', function(){
     }
 });
 
-$('.modal').modal({ keyboard: false, show: false, backdrop: 'static' });
-
-// Jquery draggable
-$('.modal-dialog').draggable({
-    handle: ".modal-header"
-});
 
 
 

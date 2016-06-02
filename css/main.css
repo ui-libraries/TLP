@@ -941,17 +941,19 @@ span.verlinks {
     font-weight: normal;
 }
 
-#section-text {   
-    padding:0; 
+.dialog {   
+    padding:5px; 
     margin-top:20px;
+    height:350px; 
+    overflow:auto;
 }
 
-#section-text li {
+.dialog li {
     list-style-type: none;
     background-color: #ffffff;
 }
 
-#section-text li:first-child {    
+.dialog li:first-child {    
     background-color: #ffff00;
     font-weight: bold;    
 }
@@ -960,15 +962,15 @@ span.verlinks {
     font-size: x-small;
 }
 
-.modal-backdrop {
-   background-color: transparent;
-   
+.ui-dialog-osx {
+    -moz-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    border-radius: 0 0 8px 8px; border-width: 0 8px 8px 8px;
 }
 
-.modal-body {
-    position: relative;
-    overflow-y: auto;
-    max-height: 400px;
-    padding: 15px;
-    
+#dialog {
+    height: 400px;
+    overflow-y:auto;
 }
+
+.ui-dialog > .ui-widget-header {background: orange;}
