@@ -1,5 +1,21 @@
 var sections =
 [    
+    
+    { "label": "", "y_axis": 3, "x_axis": 9 },
+    { "label": " ", "y_axis": 37, "x_axis": 9 },
+    { "label": "  ", "y_axis": 3, "x_axis": 37 },
+    { "label": "   ", "y_axis": 5, "x_axis": 37 },
+    { "label": "    ", "y_axis": 3, "x_axis": 51 },
+    { "label": "     ", "y_axis": 7, "x_axis": 51 },
+    { "label": "      ", "y_axis": 3, "x_axis": 75 },
+    { "label": "       ", "y_axis": 5, "x_axis": 75 },
+    { "label": "        ", "y_axis": 49, "x_axis": 75 },
+    { "label": "         ", "y_axis": 3, "x_axis": 107 },
+    { "label": "          ", "y_axis": 5, "x_axis": 107 },
+    { "label": "           ", "y_axis": 11, "x_axis": 113 },
+    { "label": "            ", "y_axis": 49, "x_axis": 85 },
+    { "label": "             ", "y_axis": 7, "x_axis": 75 },
+    
     { "label": "1", "y_axis": 1, "x_axis": 1 },
     { "label": "2", "y_axis": 1, "x_axis": 9 },
     { "label": "3", "y_axis": 1, "x_axis": 37 },
