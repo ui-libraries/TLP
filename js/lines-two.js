@@ -163,7 +163,7 @@ var lines =
         {"start": "5.1", "end": "5.101", "color": lightOrange},
         {"start": "      ", "end": "5.02", "color": pink},
         
-         {"start": "6", "end": "6.5", "color": red},
+        {"start": "6", "end": "6.5", "color": red},
         {"start": "6.1", "end": "6.13", "color": orange},
         {"start": "6.2", "end": "6.24", "color": orange},
         {"start": "6.3", "end": "6.37", "color": orange},
@@ -187,7 +187,8 @@ var lines =
         {"start": "6.126", "end": "6.1265", "color": blue},
         {"start": "6.127", "end": "6.1271", "color": blue},
         {"start": "6.231", "end": "6.2311", "color": blue},
-        {"start": "6.232", "end": "6.2323", "color": blue},        
+        {"start": "6.232", "end": "6.2323", "color": blue},
+        {"start": "6.233", "end": "6.2331", "color": blue},
         {"start": "6.234", "end": "6.2341", "color": blue},
         {"start": "6.321", "end": "6.3211", "color": blue},
         {"start": "6.343", "end": "6.3432", "color": blue},
