@@ -12,7 +12,10 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
         <link rel="stylesheet" href="css/main.css">
         
         <style type="text/css">
@@ -34,26 +37,26 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->        
 
-        <div class="container-fluid">
-            <div id="map" class="col-md-9">
-                
-            </div>   
-            <div id="sidebar" class="col-md-3">                
-                <label class="radio-inline" id="ger"><input type="radio" name="optradio">German</label>
-                <label class="radio-inline active" id="ogd"><input type="radio" checked name="optradio">Ogden</label>
-                <label class="radio-inline" id="pmc"><input type="radio" name="optradio">Pears/McGuinness</label>                
-                <ol id="section-text"></ol>
-            </div>       
+        <div class="container-fluid" id="container">
+            <label class="radio-inline" id="ger"><input type="radio" name="optradio">German</label>
+            <label class="radio-inline active" id="ogd"><input type="radio" checked name="optradio">Ogden</label>
+            <label class="radio-inline" id="pmc"><input type="radio" name="optradio">Pears/McGuinness</label>
+            
+            <div id="map" class="col-md-12"></div>
+            
+            <div id="dialog"></div>
+            
         </div>
         
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="js/vendor/jquery-ui.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.1/lodash.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
         <script src="http://ariutta.github.io/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
-        <script src="js/sections.js"></script>
-        <script src="js/lines.js"></script>        
+        <script src="js/sections-two.js"></script>
+        <script src="js/lines-two.js"></script>          
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
