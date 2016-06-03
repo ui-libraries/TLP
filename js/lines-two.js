@@ -10,6 +10,7 @@ var lightBlue = "#b8dede";
 var navy = "#4f83bb";
 var lightPink = "#f2dcda";
 var pale = "#fde9da";
+var purple = "#b8cce4";
 
 var lines = 
     [    
@@ -24,20 +25,20 @@ var lines =
         {"start": " ", "end": "2.22", "color": orange},
         {"start": "2.22", "end": "2.225", "color": green},
         {"start": "2.1", "end": "2.19", "color": orange},
-        {"start": "2.06", "end": "2.063", "color": lightOrange},
-        {"start": "2.03", "end": "2.034", "color": lightOrange},
+        {"start": "2.06", "end": "2.063", "color": lightGreen},
+        {"start": "2.03", "end": "2.034", "color": lightGreen},
         {"start": "3.1", "end": "3.14", "color": orange},
-        {"start": "2.02", "end": "2.027", "color": lightOrange},
-        {"start": "2.01", "end": "2.014", "color": lightOrange},
-        {"start": "2.021", "end": "2.0212", "color": lightGreen},
-        {"start": "2.023", "end": "2.0233", "color": lightGreen},
-        {"start": "2.025", "end": "2.0251", "color": lightGreen},
-        {"start": "2.027", "end": "2.0272", "color": lightGreen},
-        {"start": "2.0233", "end": "2.02331", "color": lightBlue},
-        {"start": "2.011", "end": "2.0124", "color": lightGreen},
-        {"start": "2.013", "end": "2.0131", "color": lightGreen},
-        {"start": "2.014", "end": "2.0141", "color": lightGreen},
-        {"start": "2.0123", "end": "2.01231", "color": lightBlue},        
+        {"start": "2.02", "end": "2.027", "color": lightGreen},
+        {"start": "2.01", "end": "2.014", "color": lightGreen},
+        {"start": "2.021", "end": "2.0212", "color": lightBlue},
+        {"start": "2.023", "end": "2.0233", "color": lightBlue},
+        {"start": "2.025", "end": "2.0251", "color": lightBlue},
+        {"start": "2.027", "end": "2.0272", "color": lightBlue},
+        {"start": "2.0233", "end": "2.02331", "color": purple},
+        {"start": "2.011", "end": "2.0124", "color": lightBlue},
+        {"start": "2.013", "end": "2.0131", "color": lightBlue},
+        {"start": "2.014", "end": "2.0141", "color": lightBlue},
+        {"start": "2.0123", "end": "2.01231", "color": purple},        
         {"start": "2.13", "end": "2.131", "color": green},
         {"start": "2.14", "end": "2.141", "color": green},
         {"start": "2.15", "end": "2.151", "color": green},
@@ -46,6 +47,10 @@ var lines =
         {"start": "2.18", "end": "2.182", "color": green},
         {"start": "2.151", "end": "2.1515", "color": blue},
         {"start": "2.1512", "end": "2.15121", "color": navy},
+        {"start": "              ", "end": "2.0201", "color": purple},
+        
+        
+        
         
         {"start": "3", "end": "3.5", "color": red},
         {"start": "3.1", "end": "3.14", "color": orange},
@@ -99,16 +104,16 @@ var lines =
         {"start": "4.466", "end": "4.4661", "color": blue},
         {"start": "4.1272", "end": "4.12721", "color": navy},
         {"start": "     ", "end": "4.06", "color": pink},
-        {"start": "4.06", "end": "4.064", "color": lightOrange},
-        {"start": "4.04", "end": "4.041", "color": lightOrange},
-        {"start": "4.03", "end": "4.032", "color": lightOrange},
-        {"start": "4.02", "end": "4.027", "color": lightOrange},
-        {"start": "4.01", "end": "4.016", "color": lightOrange},
-        {"start": "4.062", "end": "4.0621", "color": lightGreen},
-        {"start": "4.064", "end": "4.0641", "color": lightGreen},
-        {"start": "4.041", "end": "4.0412", "color": lightGreen},
-        {"start": "4.031", "end": "4.0312", "color": lightGreen},
-        {"start": "4.014", "end": "4.0141", "color": lightGreen},        
+        {"start": "4.06", "end": "4.064", "color": lightGreen},
+        {"start": "4.04", "end": "4.041", "color": lightGreen},
+        {"start": "4.03", "end": "4.032", "color": lightGreen},
+        {"start": "4.02", "end": "4.027", "color": lightGreen},
+        {"start": "4.01", "end": "4.016", "color": lightGreen},
+        {"start": "4.062", "end": "4.0621", "color": lightBlue},
+        {"start": "4.064", "end": "4.0641", "color": lightBlue},
+        {"start": "4.041", "end": "4.0412", "color": lightBlue},
+        {"start": "4.031", "end": "4.0312", "color": lightBlue},
+        {"start": "4.014", "end": "4.0141", "color": lightBlue},        
         {"start": "    ", "end": "4.003", "color": lightPink},
         {"start": "4.003", "end": "4.0031", "color": pale},
         
@@ -161,7 +166,7 @@ var lines =
         {"start": "5.53", "end": "5.5303", "color": lightGreen},
         {"start": "5.5", "end": "5.503", "color": lightOrange},
         {"start": "5.1", "end": "5.101", "color": lightOrange},
-        {"start": "      ", "end": "5.02", "color": pink},
+        {"start": "      ", "end": "5.02", "color": lightOrange},
         
         {"start": "6", "end": "6.5", "color": red},
         {"start": "6.1", "end": "6.13", "color": orange},
@@ -201,7 +206,7 @@ var lines =
         {"start": "6.3631", "end": "6.36311", "color": navy},
         {"start": "6.12", "end": "6.1203", "color": lightGreen},
         {"start": "          ", "end": "6.03", "color": pink},
-        {"start": "6.03", "end": "6.031", "color": lightOrange},
-        {"start": "6.02", "end": "6.022", "color": lightOrange},        
+        {"start": "6.03", "end": "6.031", "color": lightGreen},
+        {"start": "6.02", "end": "6.022", "color": lightGreen},        
         {"start": "         ", "end": "6.002", "color": pale}
     ];

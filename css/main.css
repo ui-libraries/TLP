@@ -944,7 +944,7 @@ span.verlinks {
 .dialog {   
     padding:5px; 
     margin-top:20px;
-    height:350px; 
+    height:400px; 
     overflow:auto;
 }
 
@@ -974,3 +974,9 @@ span.verlinks {
 }
 
 .ui-dialog > .ui-widget-header {background: orange;}
+.ui-button:focus { outline:none !important }
+
+#container {
+    margin: 20px;
+    margin-top: 0px;
+}

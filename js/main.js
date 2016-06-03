@@ -188,8 +188,8 @@ function buildGroup(d) {
             start = "5.01";
             break;
             
-            case "       ":
-            start = "";
+            case "              ":
+            start = "2.0201";
             break;
             
             case "        ":
