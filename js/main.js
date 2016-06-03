@@ -158,14 +158,11 @@ function buildGroup(d) {
         n,
         preciseList = [];
     
-<<<<<<< HEAD
     if (end == " ") {
         end = "2.2";
         precision = findPrecision(end);
     }
     
-=======
->>>>>>> origin/master
     //my god there has to be a better way. Last minute hack.
     switch (start) {
         case "":
@@ -237,11 +234,8 @@ function buildGroup(d) {
         });
     });
     
-<<<<<<< HEAD
     console.log(range);
     
-=======
->>>>>>> origin/master
     //add start location to list since it has a different precision    
     
     //n = start.search(/^(?:[1-9]\d*|0)?(?:\.\d+)?$/);
