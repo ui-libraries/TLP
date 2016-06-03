@@ -3,6 +3,7 @@ var splitSection = [];
 var gap = 50;
 var version = '.ogd';
 var lineGroup = [];
+var divCounter = 0; //append to div name to create unique ids every time
 
 
 var width = $("#map").width();
@@ -54,11 +55,25 @@ function findSection(section, lang) {
         sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
     }
     
+    var div = "#dialog" + divCounter;
+    
+    $(div).dialog({
+        modal: false,
+        draggable: true,
+        resizable: true,
+        close: closeFunction,
+        position: ['center', 'bottom'],        
+        height: 500,
+        width: 400,
+        dialogClass: 'ui-dialog-osx',
+    });
+   
     //append each section to section-text list
-    $('#section-text').append($('<li>').load(sectionDiv, function () {
+    $(div).append($('<li>').load(sectionDiv, function () {
         $('.ger, .pmc, .ogd').hide();
         $(lang).show();
     }));
+
 }
 
 function findPoints(d) {
@@ -113,8 +128,23 @@ elemEnter.append("text")
     
 function showSection(d) {    
     var label = d.label;
-    $('#section-text').empty();
+    
+    //create a unique id for each new dialog div
+    divCounter += 1;
+    var div = "dialog" + divCounter;
+    
+    //create a new div and append to dialog div
+    $('<div/>', {
+        "id": div,
+        "title": 'Tractatus Logico-Philosophicus',
+        "class": 'dialog',
+    }).appendTo('#dialog');   
+    
     findSection(label, version);
+}
+
+function closeFunction(e) {
+    //console.log(e.target.id);
 }
 
 function buildGroup(d) {    
@@ -125,7 +155,76 @@ function buildGroup(d) {
         range = [],
         i,
         j,
+        n,
         preciseList = [];
+    
+    if (end == " ") {
+        end = "2.2";
+        precision = findPrecision(end);
+    }
+    
+    //my god there has to be a better way. Last minute hack.
+    switch (start) {
+        case "":
+            start = "2.01";
+            break;
+            
+        case " ":
+            start = "2.21";
+            break;
+            
+            case "  ":
+            start = "3.001";
+            break;
+            
+            case "   ":
+            start = "3.01";
+            break;
+            
+            case "    ":
+            start = "4.001";
+            break;
+            
+            case "     ":
+            start = "4.01";
+            break;
+            
+            case "      ":
+            start = "5.01";
+            break;
+            
+            case "              ":
+            start = "2.0201";
+            break;
+            
+            case "        ":
+            start = "5.51";
+            break;
+            
+            case "         ":
+            start = "6.001";
+            break;
+            
+            case "          ":
+            start = "6.01";
+            break;
+            
+            case "           ":
+            start = "6.121";
+            break;
+            
+            case "            ":
+            start = "5.531";
+            break;
+            
+            case "             ":
+            start = "5.11";
+            break;
+            
+            case "              ":
+            start = "";
+            break;
+    }
 
     //find all objects with label values between start value and end value
     sectionList.push(_.filter(sections, function (o) { return o.label <= end && o.label >= start; }));
@@ -135,9 +234,18 @@ function buildGroup(d) {
         });
     });
     
-    //add start location to list since it has a different precision
+    console.log(range);
+    
+    //add start location to list since it has a different precision    
+    
+    //n = start.search(/^(?:[1-9]\d*|0)?(?:\.\d+)?$/);
+    
+
     preciseList.push(start);
+    
     lineGroup = _.cloneDeep(preciseList);
+    
+    
     
     //add section to list if it has the same precision as end
     for (i = 0; i < range.length; i += 1) {
@@ -146,8 +254,22 @@ function buildGroup(d) {
         }
     }
     
-    //clear the list
-    $('#section-text').empty();
+    //remove the duplicate
+    if (preciseList[0] == preciseList[1]) {
+        preciseList.shift();
+    }
+    
+    //create a unique id for each new dialog div
+    divCounter += 1;
+    var div = "dialog" + divCounter;
+    
+    //create a new div and append to dialog div
+    $('<div/>', {
+        "id": div,
+        "title": 'Tractatus Logico-Philosophicus',
+        "class": 'dialog',
+    }).appendTo('#dialog');   
+
     
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
@@ -165,4 +287,7 @@ $('.radio-inline').on('change', function(){
         findSection(lineGroup[j], version);
     }
 });
+
+
+
 
