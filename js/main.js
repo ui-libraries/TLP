@@ -1,7 +1,7 @@
 var sectionDiv = '';
 var splitSection = [];
 var gap = 50;
-var version = '.ogd';
+var version = '.ger';
 var lineGroup = [];
 var divCounter = 0; //append to div name to create unique ids every time
 
@@ -29,68 +29,6 @@ var elemLineEnter = elemLine.enter()
 /*Create and place the "blocks" containing the circle and the text */
 var elemEnter = elem.enter()
     .append("g");
-
-function findPrecision(a) {
-    var precision;
-    //convert to string and count the length after the decimal point
-    if (a.indexOf('.') !== -1) {
-        precision = (a + "").split(".")[1].length;
-    } else {
-        precision = 0;
-    }
-    
-    return precision;
-}
-
-function findSection(section, lang) {
-    var sectionNum = '';
-    sectionNum = section;
-    
-    //jquery doesn't want a period in the selector since it could be a class, so we have to escape it
-    //find out if section has a decimal point
-    if (sectionNum.indexOf('.') !== -1) {
-        splitSection = sectionNum.split('.');
-        sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
-    } else {
-        sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
-    }
-    
-    var div = "#dialog" + divCounter;
-    
-    $(div).dialog({
-        modal: false,
-        draggable: true,
-        resizable: true,
-        close: closeFunction,
-        position: ['center', 'bottom'],        
-        height: 500,
-        width: 400,
-        dialogClass: 'ui-dialog-osx',
-    });
-   
-    //append each section to section-text list
-    $(div).append($('<li>').load(sectionDiv, function () {
-        $('.ger, .pmc, .ogd').hide();
-        $(lang).show();
-    }));
-
-}
-
-function findPoints(d) {
-    var points = {},
-        start = d.start,
-        end = d.end,
-        startPoint = _.filter(sections, {"label": start}),
-        endPoint = _.filter(sections, {"label": end});
-    
-    points.x1 = startPoint[0].x_axis;
-    points.x2 = endPoint[0].x_axis;
-    points.y1 = startPoint[0].y_axis;
-    points.y2 = endPoint[0].y_axis;
-    points.color = d.color;
-    
-    return points;
-}
 
 var line = elemLineEnter.append("line")
     .attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
@@ -125,8 +63,76 @@ elemEnter.append("text")
     .attr("font-size","16px")
     .text(function (d) {return d.label});
 
+function findPrecision(a) {
+    var precision;
+    //convert to string and count the length after the decimal point
+    if (a.indexOf('.') !== -1) {
+        precision = (a + "").split(".")[1].length;
+    } else {
+        precision = 0;
+    }
     
-function showSection(d) {    
+    return precision;
+}
+
+function findSection(section, lang) {
+    var sectionNum = '';
+
+    sectionNum = section;
+    
+    //jquery doesn't want a period in the selector since it could be a class, so we have to escape it
+    //find out if section has a decimal point
+    if (sectionNum.indexOf('.') !== -1) {
+        splitSection = sectionNum.split('.');
+        sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
+    } else {
+        sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
+    }
+    
+    var div = "#dialog" + divCounter;
+    
+    $(div).dialog({
+        modal: false,
+        draggable: true,
+        resizable: true,
+        close: closeFunction,
+        position: ['center', 'bottom'],        
+        height: 500,
+        width: 400,
+        dialogClass: 'ui-dialog-osx',
+    });
+    
+    //append each section to section-text list
+    $(div).append($('<li>').load(sectionDiv, function () {
+        $('.ger, .pmc, .ogd').hide();
+        $(lang).show();
+    }));
+
+}
+
+function addDropdown(div) {
+    console.log(div);
+    $(div).append($('<div>').load('lang-version.html'));
+}
+
+function findPoints(d) {
+    var points = {},
+        start = d.start,
+        end = d.end,
+        startPoint = _.filter(sections, {"label": start}),
+        endPoint = _.filter(sections, {"label": end});
+    
+    points.x1 = startPoint[0].x_axis;
+    points.x2 = endPoint[0].x_axis;
+    points.y1 = startPoint[0].y_axis;
+    points.y2 = endPoint[0].y_axis;
+    points.color = d.color;
+    
+    return points;
+}
+
+function showSection(d) {
+    
     var label = d.label;
     
     //create a unique id for each new dialog div
@@ -134,12 +140,14 @@ function showSection(d) {
     var div = "dialog" + divCounter;
     
     //create a new div and append to dialog div
-    $('<div/>', {
+    $('<div>', {
         "id": div,
         "title": 'Tractatus Logico-Philosophicus',
         "class": 'dialog',
-    }).appendTo('#dialog');   
+    }).appendTo('#dialog');
     
+    $('#'+div).append($('<div>').load('lang-version.html'));
+
     findSection(label, version);
 }
 
@@ -162,6 +170,7 @@ function buildGroup(d) {
         end = "2.2";
         precision = findPrecision(end);
     }
+
     
     //my god there has to be a better way. Last minute hack.
     switch (start) {
@@ -234,8 +243,6 @@ function buildGroup(d) {
         });
     });
     
-    console.log(range);
-    
     //add start location to list since it has a different precision    
     
     //n = start.search(/^(?:[1-9]\d*|0)?(?:\.\d+)?$/);
@@ -263,13 +270,19 @@ function buildGroup(d) {
     divCounter += 1;
     var div = "dialog" + divCounter;
     
+    //add dropdown
+    //$(div).append($('<div>').load('lang-version.html'));
+    //var version = $('<div>').load('lang-version.html');
+    //$(version).appendTo('#dialog');
+    
     //create a new div and append to dialog div
-    $('<div/>', {
+    $('<div>', {
         "id": div,
         "title": 'Tractatus Logico-Philosophicus',
         "class": 'dialog',
-    }).appendTo('#dialog');   
-
+    }).appendTo('#dialog');
+    
+    $('#'+div).append($('<div>').load('lang-version.html'));
     
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
@@ -278,14 +291,17 @@ function buildGroup(d) {
     
 }
 
-$('.radio-inline').on('change', function(){
-    var elem = $( "input:checked" );
-    var lang = elem[0].parentElement.id;
-    version = '.' + lang;
+$(document).on('change', ".selectChange", function () {
+    var divID = $(this).parent()[0].offsetParent.id;
+    var lang = this.value;
+    var version = '.' + lang;
     
-    for (j = 0; j < lineGroup.length; j += 1) {
-        findSection(lineGroup[j], version);
-    }
+    //remove all of the sections
+    $('#' + divID + ' .sections').empty();
+    
+    //for (j = 0; j < lineGroup.length; j += 1) {
+      //  findSection(lineGroup[j], version);
+    //}
 });
 
 
