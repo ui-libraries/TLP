@@ -104,8 +104,8 @@ function findSection(section, lang) {
     
     //append each section to section-text list
     $(div).append($('<li>').load(sectionDiv, function () {
-        $('.ger, .pmc, .ogd').hide();
-        $(lang).show();
+        $(div).find('.ger, .pmc, .ogd').hide();
+        $(div).find(version).show();
     }));
 
 }
@@ -268,13 +268,8 @@ function buildGroup(d) {
     
     //create a unique id for each new dialog div
     divCounter += 1;
-    var div = "dialog" + divCounter;
-    
-    //add dropdown
-    //$(div).append($('<div>').load('lang-version.html'));
-    //var version = $('<div>').load('lang-version.html');
-    //$(version).appendTo('#dialog');
-    
+    var div = "dialog" + divCounter;    
+
     //create a new div and append to dialog div
     $('<div>', {
         "id": div,
@@ -292,16 +287,12 @@ function buildGroup(d) {
 }
 
 $(document).on('change', ".selectChange", function () {
-    var divID = $(this).parent()[0].offsetParent.id;
-    var lang = this.value;
-    var version = '.' + lang;
+    var divID = '#' + $(this).parent()[0].offsetParent.id;
+    var lang = '.' + this.value;
     
-    //remove all of the sections
-    $('#' + divID + ' .sections').empty();
-    
-    //for (j = 0; j < lineGroup.length; j += 1) {
-      //  findSection(lineGroup[j], version);
-    //}
+    $(divID).find('.ger, .pmc, .ogd').hide();
+    $(divID).find(lang).show();
+
 });
 
 
