@@ -67,7 +67,7 @@ var lines =
         {"start": "3.41", "end": "3.411", "color": green},
         {"start": "3.143", "end": "3.1432", "color": blue},
         {"start": "3.341", "end": "3.3411", "color": blue},
-        {"start": "3.342", "end": "3.3422", "color": blue},
+        {"start": "3.342", "end": "3.3421", "color": blue},
         {"start": "3.344", "end": "3.3442", "color": blue},
         
 
@@ -208,11 +208,3 @@ var lines =
         {"start": "6.02", "end": "6.022", "color": lightGreen},        
         {"start": "6.001", "end": "6.002", "color": pale}
     ];
-
-var curved = [
-    
-    {"start": "2", "end": "2.01", "color": pink}
-    
-    
-    
-];

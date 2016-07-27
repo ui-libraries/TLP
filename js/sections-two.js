@@ -290,7 +290,7 @@ var sections =
     { "label": "3.322", "y_axis": 33, "x_axis": 41 },
     { "label": "3.332", "y_axis": 33, "x_axis": 43 },
     { "label": "3.342", "y_axis": 33, "x_axis": 45 },
-    { "label": "3.3422", "y_axis": 33, "x_axis": 47 },
+    { "label": "3.3421", "y_axis": 33, "x_axis": 47 },
     { "label": "4.115", "y_axis": 33, "x_axis": 53 },
     { "label": "4.125", "y_axis": 33, "x_axis": 59 },
     { "label": "4.1251", "y_axis": 33, "x_axis": 61 },

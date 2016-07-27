@@ -24,7 +24,14 @@ var elem = svg.selectAll("g")
 var elemLine = svg.selectAll("g")
     .data(lines);
 
+/* Define the data for the curves */
+var elemCurve = svg.selectAll("g")
+    .data(curves);
+
 var elemLineEnter = elemLine.enter()
+    .append("g");
+
+var elemCurveEnter = elemCurve.enter()
     .append("g");
 
 /*Create and place the "blocks" containing the circle and the text */
@@ -38,6 +45,15 @@ var line = elemLineEnter.append("line")
     .attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
     .attr("stroke-width", 20)   //double radius?
     .attr("stroke", function (d) {return d.color; })
+    .on("click", buildGroup);
+
+var curve = elemCurveEnter.append("line")    
+    .attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
+    .attr("y1", function (d) {var point = findPoints(d); return point.y1 * gap; }) //y_axis of 1st section
+    .attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap; }) //x_axis of 2nd section
+    .attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
+    .attr("stroke-width", 20)   //double radius?
+    .attr("stroke", function (d) {return d.color; })   
     .on("click", buildGroup);
 
 /*Create the circle for each block */
@@ -177,8 +193,7 @@ function buildGroup(d) {
     
     preciseList.push(start);
     
-    lineGroup = _.cloneDeep(preciseList);
-    
+    lineGroup = _.cloneDeep(preciseList);    
     
     
     //add section to list if it has the same precision as end
