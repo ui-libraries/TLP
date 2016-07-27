@@ -20,6 +20,7 @@ var svg = d3.select("#map").append("svg")
 var elem = svg.selectAll("g")
     .data(sections);
 
+/* Define the data for the lines */
 var elemLine = svg.selectAll("g")
     .data(lines);
 
@@ -166,75 +167,6 @@ function buildGroup(d) {
         n,
         preciseList = [];
     
-    if (end == " ") {
-        end = "2.2";
-        precision = findPrecision(end);
-    }
-
-    
-    //my god there has to be a better way. Last minute hack.
-    switch (start) {
-        case "":
-            start = "2.01";
-            break;
-            
-        case " ":
-            start = "2.21";
-            break;
-            
-            case "  ":
-            start = "3.001";
-            break;
-            
-            case "   ":
-            start = "3.01";
-            break;
-            
-            case "    ":
-            start = "4.001";
-            break;
-            
-            case "     ":
-            start = "4.01";
-            break;
-            
-            case "      ":
-            start = "5.01";
-            break;
-            
-            case "              ":
-            start = "2.0201";
-            break;
-            
-            case "        ":
-            start = "5.51";
-            break;
-            
-            case "         ":
-            start = "6.001";
-            break;
-            
-            case "          ":
-            start = "6.01";
-            break;
-            
-            case "           ":
-            start = "6.121";
-            break;
-            
-            case "            ":
-            start = "5.531";
-            break;
-            
-            case "             ":
-            start = "5.11";
-            break;
-            
-            case "              ":
-            start = "";
-            break;
-    }
-
     //find all objects with label values between start value and end value
     sectionList.push(_.filter(sections, function (o) { return o.label <= end && o.label >= start; }));
     _.forEach(sectionList, function (a) {
@@ -243,11 +175,6 @@ function buildGroup(d) {
         });
     });
     
-    //add start location to list since it has a different precision    
-    
-    //n = start.search(/^(?:[1-9]\d*|0)?(?:\.\d+)?$/);
-    
-
     preciseList.push(start);
     
     lineGroup = _.cloneDeep(preciseList);
