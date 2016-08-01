@@ -28,10 +28,22 @@ var elemLine = svg.selectAll("g")
 var elemCurve = svg.selectAll("g")
     .data(curves);
 
+var elemEnd = svg.selectAll("g")
+    .data(ends);
+
+var elemRect = svg.selectAll("g")
+    .data(rectangles);
+
 var elemLineEnter = elemLine.enter()
     .append("g");
 
 var elemCurveEnter = elemCurve.enter()
+    .append("g");
+
+var elemRectEnter = elemRect.enter()
+    .append("g");
+
+var elemEndEnter = elemEnd.enter()
     .append("g");
 
 /*Create and place the "blocks" containing the circle and the text */
@@ -66,16 +78,38 @@ var circle = elemEnter.append("circle")
     .attr("stroke-width", 4)
     .on("click", showSection);
 
-/*var square = elemEnter.append("rect")
+var rect = elemRectEnter.append("rect")
     .attr("x", function (d) { return d.x_axis * gap; })
     .attr("y", function (d) { return d.y_axis * gap; })
-    .attr("width", 50)
-    .attr("height", 100);*/
+    .attr("fill", function (d) { return d.color; })
+    .attr("width", 25)
+    .attr("height", 30)
+    .on("click", showSection);
 
+var ends = elemEndEnter.append("rect")
+    .attr("x", function (d) { return d.x_axis * gap - 1; })
+    .attr("y", function (d) { return d.y_axis * gap - 28; })
+    .attr("fill", function (d) { return d.color; })
+    .attr("width", 25)
+    .attr("height", 60)
+    .on("click", showSection);
+
+/* Create the text for each block */
+elemRectEnter.append("text")
+    .attr("dx", function (d) {return d.x_axis * gap; })
+    .attr("dy", function(d){return d.y_axis * gap - 15; })
+    .attr("font-size","16px")
+    .text(function (d) {return d.label});
 
 /* Create the text for each block */
 elemEnter.append("text")
     .attr("dx", function (d) {return d.x_axis * gap + 15; })
+    .attr("dy", function(d){return d.y_axis * gap - 15; })
+    .attr("font-size","16px")
+    .text(function (d) {return d.label});
+
+elemEndEnter.append("text")
+    .attr("dx", function (d) {return d.x_axis * gap + 30; })
     .attr("dy", function(d){return d.y_axis * gap - 15; })
     .attr("font-size","16px")
     .text(function (d) {return d.label});
@@ -138,6 +172,10 @@ function findPoints(d) {
         end = d.end,
         startPoint = _.filter(sections, {"label": start}),
         endPoint = _.filter(sections, {"label": end});
+    
+    if (end === "1.13") {
+        endPoint = _.filter(ends, {"label": end});
+    }
     
     points.x1 = startPoint[0].x_axis;
     points.x2 = endPoint[0].x_axis;

@@ -14,7 +14,7 @@ var purple = "#b8cce4";
 
 var lines = 
     [    
-        {"start": "1", "end": "7", "color": "yellow"},
+        {"start": "1", "end": "7", "color": yellow},
         {"start": "1", "end": "1.2", "color": red},
         {"start": "1.1", "end": "1.13", "color": orange},
         {"start": "1.2", "end": "1.21", "color": orange},
