@@ -142,6 +142,7 @@ var lines =
         {"start": "4.102", "end": "4.1022", "color": lightGreen},
         {"start": "4.103", "end": "4.1032", "color": lightGreen},
         {"start": "4.1", "end": "4.11", "color": orange},
+        {"start": "4.11", "end": "[4.111]", "color": green},
         {"start": "4.1022", "end": "4.10227", "color": lightBlue},
         {"start": "4.10221", "end": "4.102212", "color": lightPurple},
         {"start": "4.10223", "end": "4.102234", "color": lightPurple},
