@@ -142,18 +142,23 @@ function findPrecision(a) {
 
 //for each circle, rectangle, and end cap -- looks up numerical label in the html, builds a jquery dialog box, then populates dialog with relevant section text
 function findSection(section, lang) {
-    var sectionNum = '';
+    var sectionNum = '',
+        ptsec;
 
     sectionNum = section;
     
     //jquery doesn't want a period in the selector since it could be a class, so we have to escape it
     //find out if section has a decimal point
-    if (sectionNum.indexOf('.') !== -1) {
+   if (sectionNum.indexOf('.') !== -1) {
         splitSection = sectionNum.split('.');
         sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
     } else {
         sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
-    }
+    } 
+    
+    sectionContent = createHTML(sectionNum);
+    
+    console.log(sectionDiv);
     
     var div = "#dialog" + divCounter;
     
@@ -167,12 +172,32 @@ function findSection(section, lang) {
         dialogClass: 'ui-dialog-osx',
     });
     
-    //append each section to section-text list
+    $(div).append(sectionContent);
+    $(div).find('.ger, .pmc, .ogd').hide();
+    $(div).find(version).show();
+    
+    /*//append each section to section-text list
     $(div).append($('<li>').load(sectionDiv, function () {
         $(div).find('.ger, .pmc, .ogd').hide();
         $(div).find(version).show();
-    }));
+    })); */
 
+}
+
+function createHTML(section) {
+    var html;
+        
+    
+    ptsec = _.find(pt, function(obj) {
+                 return  obj.pt == section;
+            });
+    
+    html = `<div class="sections"><div class="pnum" id="p${ptsec.pt}">${ptsec.pt}</div>
+            <div class="ger">${ptsec.german}</div>
+            <div class="ogd">${ptsec.english}</div>
+            <div class="pmc">${ptsec.english}</div></div>`;    
+    
+    return html;
 }
 
 //returns a point object with beginning and end sections
@@ -183,7 +208,7 @@ function findPoints(d) {
         startPoint = _.filter(sections, {"label": start}),
         endPoint = _.filter(sections, {"label": end});
     
-    console.log("line " + i);
+    //console.log("line " + i);
     //temporary workaround for end cap demo. delete this when actual list is working
     /*if (end === "1.13") {
         endPoint = _.filter(ends, {"label": end});
