@@ -183,7 +183,12 @@ function findSection(section, lang) {
         modal: false,
         draggable: true,
         resizable: true,
-        position: ['center', 'bottom'],        
+        position: { 
+                    my: "left top",
+                    at: "left top" ,
+                    of: event,
+                    within: $("body")
+                  },        
         height: 500,
         width: 400,
         dialogClass: 'ui-dialog-osx',
