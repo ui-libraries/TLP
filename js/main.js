@@ -127,6 +127,25 @@ elemEndEnter.append("text")
     .text(function (d) {return d.label});*/
 
 
+//testing
+/*var secArray = _.map(pt, 'pt');
+var missing = [];
+_.forEach(sections, function(value, key) {
+    var sec = value.label;
+   
+    secString = Number(sec);    
+    if (_.includes(secArray, secString)) {
+        
+    }else {
+        missing.push(secString);
+    }
+    
+  
+});
+
+console.log(_.uniq(missing));*/
+
+
 //calculates how many decimal points each section number has
 function findPrecision(a) {
     var precision;
@@ -149,16 +168,14 @@ function findSection(section, lang) {
     
     //jquery doesn't want a period in the selector since it could be a class, so we have to escape it
     //find out if section has a decimal point
-   if (sectionNum.indexOf('.') !== -1) {
+/*   if (sectionNum.indexOf('.') !== -1) {
         splitSection = sectionNum.split('.');
         sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
     } else {
         sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
-    } 
+    } */
     
-    sectionContent = createHTML(sectionNum);
-    
-    console.log(sectionDiv);
+    sectionContent = createHTML(sectionNum);   
     
     var div = "#dialog" + divCounter;
     

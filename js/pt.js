@@ -4,8 +4,8 @@ var pt =
         "page": 3,
         "tlp": 1,
         "pt": 1,
-        "english": "The world is all that is the case.",
-        "german": "Die Welt ist alles was der Fall ist. "
+        "english": "<em>The world is all that is the case.</em>",
+        "german": "Die Welt ist alles was der Fall ist."
     },
     {
         "page": 3,
