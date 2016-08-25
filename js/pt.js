@@ -4,7 +4,7 @@ var pt =
         "page": 3,
         "tlp": 1,
         "pt": 1,
-        "english": "<em>The world is all that is the case.</em>",
+        "english": "The world is all that is the case.",
         "german": "Die Welt ist alles was der Fall ist."
     },
     {
@@ -102,8 +102,8 @@ var pt =
         "page": 3,
         "tlp": 6,
         "pt": 6,
-        "english": "The general form of a truth-function is\n|N(p̅0), ᾱ, N(ᾱ)|",
-        "german": "Die allgemeine Form der Wahrheitsfunktion ist:\n|N(p̅0), ᾱ, N(ᾱ)|"
+        "english": "The general form of a truth-function is<br />|N(p̅0), ᾱ, N(ᾱ)|",
+        "german": "Die allgemeine Form der Wahrheitsfunktion ist:<br />|N(p̅0), ᾱ, N(ᾱ)|"
     },
     {
         "page": 4,
@@ -375,8 +375,8 @@ var pt =
         "page": 7,
         "tlp": 3.02,
         "pt": 3.02,
-        "english": "A thought contains the possibility of the situation of which it is the thought.\nWhat is thinkable is possible too.",
-        "german": "Der Gedanke enthält die Möglichkeit der Sachlage, die er denkt.\nWas denkbar ist, ist auch möglich."
+        "english": "A thought contains the possibility of the situation of which it is the thought.<br />What is thinkable is possible too.",
+        "german": "Der Gedanke enthält die Möglichkeit der Sachlage, die er denkt.<br />Was denkbar ist, ist auch möglich."
     },
     {
         "page": 7,
@@ -410,15 +410,15 @@ var pt =
         "page": 7,
         "tlp": 4.442,
         "pt": 4.431,
-        "english": "So for example, the following is a propositional sign. \n' p| q |    '\n T | F | T\n T | T | T\n F | F |\n F | T | T\n",
-        "german": "Also ist z.B. ’ \n' p | q |    '\n W | F | W\n W |W | W\n F | F   |\n F | W | W\nein Satzzeichen."
+        "english": "So for example, the following is a propositional sign. <br />' p| q |    '<br /> T | F | T<br /> T | T | T<br /> F | F |<br /> F | T | T<br />",
+        "german": "Also ist z.B. ’ <br />' p | q |    '<br /> W | F | W<br /> W |W | W<br /> F | F   |<br /> F | W | W<br />ein Satzzeichen."
     },
     {
         "page": 7,
         "tlp": "None",
         "pt": 4.432,
-        "english": "For the sake of perspicuousness we now write this sign in the following way:\n' p| q |    '\n T | F | T\n T | T | T\n F | F | F\n F | T | T\nThe propositional signs which, according to §4.43, are constructed in this way, we call proposition signs of the first kind.",
-        "german": "Der Deutlichkeit halber schreiben wir dieses Zeichen nun so: \n' p | q |    '\n W | F | W\n W |W | W\n F | F   | F\n F | W | W\nDie nach §4.43 auf diese Weise gebauten Satzzeichen nennen wir Satzzeichen der ersten Art."
+        "english": "For the sake of perspicuousness we now write this sign in the following way:<br />' p| q |    '<br /> T | F | T<br /> T | T | T<br /> F | F | F<br /> F | T | T<br />The propositional signs which, according to §4.43, are constructed in this way, we call proposition signs of the first kind.",
+        "german": "Der Deutlichkeit halber schreiben wir dieses Zeichen nun so: <br />' p | q |    '<br /> W | F | W<br /> W |W | W<br /> F | F   | F<br /> F | W | W<br />Die nach §4.43 auf diese Weise gebauten Satzzeichen nennen wir Satzzeichen der ersten Art."
     },
     {
         "page": 7,
@@ -585,8 +585,8 @@ var pt =
         "page": 9,
         "tlp": 4.27,
         "pt": 4.24,
-        "english": "For n states of affairs, there are Kn =  0∑n v (nv) possibilities of existence and non-existence.",
-        "german": "Bezüglich des Bestehens und nicht Bestehens von n Sachverhalten gibt es Kn =  0∑n v (nv) Möglichkeiten."
+        "english": "For n states of affairs, there are <em>K</em><sub>n</sub> =  <sup>0</sup>&sum;<sup>n</sup> <em>v</em> (<sup>n</sup><sub>v</sub>) possibilities of existence and non-existence.",
+        "german": "Bezüglich des Bestehens und nicht Bestehens von n Sachverhalten gibt es <em>K</em><sub>n</sub> =  <sup>0</sup>&sum;<sup>n</sup> <em>v</em> (<sup>n</sup><sub>v</sub>) Möglichkeiten."
     },
     {
         "page": 9,
@@ -606,8 +606,8 @@ var pt =
         "page": 9,
         "tlp": 4.31,
         "pt": 4.31,
-        "english": "We can represent truth-possibilities by a schema of the following kind ('p', 'q', and 'r' are elementary propositions. 'T' means 'true', 'F' means 'false'; the rows of 'T's' and 'F's' under the row of elementary propositons symbolize their truth-possibilities in a way that can be easily understood):\np | q | r          \nT | T | T\nF | T | T          p | q          \nT | F | T          T | T          p\nT | T | F          F | T          T\nF | F | T          T | F          F\nF | T | F          F | F\nT | F | F\nF | F | F\nWe call this Schema I.",
-        "german": "Die Wahrheitsmöglichkeiten können wir durch ein Schema folgender Art darstellen: ( 〟p\", 〟q\", 〟r\" sind Elementarsätze. 〟W\" bedeutet 〟wahr\", 〟F\" 〟falsch\" die Reihen der 〟W\" und 〟F\" unter der Reihe der Elementarsätze bedeuten in leicht verständlicher Symbolik deren Wahrheitsmöglichkeiten.)\n p  | q  | r          \nW | W | W\nF  | W | W          p | q          \nW | F  | W         W | W        p\nW | W | F           F | W        W\n F |  F  | W        W | F          F\n F | W  | F          F | F\nW | F   | F\n F | F   | F\nWir nennen dies das Schema I."
+        "english": "We can represent truth-possibilities by a schema of the following kind ('p', 'q', and 'r' are elementary propositions. 'T' means 'true', 'F' means 'false'; the rows of 'T's' and 'F's' under the row of elementary propositons symbolize their truth-possibilities in a way that can be easily understood):<br />p | q | r          <br />T | T | T<br />F | T | T          p | q          <br />T | F | T          T | T          p<br />T | T | F          F | T          T<br />F | F | T          T | F          F<br />F | T | F          F | F<br />T | F | F<br />F | F | F<br />We call this Schema I.",
+        "german": "Die Wahrheitsmöglichkeiten können wir durch ein Schema folgender Art darstellen: ( 〟p\", 〟q\", 〟r\" sind Elementarsätze. 〟W\" bedeutet 〟wahr\", 〟F\" 〟falsch\" die Reihen der 〟W\" und 〟F\" unter der Reihe der Elementarsätze bedeuten in leicht verständlicher Symbolik deren Wahrheitsmöglichkeiten.)<br /> p  | q  | r          <br />W | W | W<br />F  | W | W          p | q          <br />W | F  | W         W | W        p<br />W | W | F           F | W        W<br /> F |  F  | W        W | F          F<br /> F | W  | F          F | F<br />W | F   | F<br /> F | F   | F<br />Wir nennen dies das Schema I."
     },
     {
         "page": 10,
@@ -718,8 +718,8 @@ var pt =
         "page": 11,
         "tlp": 5.101,
         "pt": 5.02,
-        "english": "The truth-functions of a given number of elementary propositions can always be set out in a schema of the following kind:\nWe call it Schema No. II.",
-        "german": "Die Wahrheitsfunktionen einer bestimmten Anzahl von Sätzen lassen sich in einem Schema folgender Art hinschreiben:\nWir nennen es das Schema II."
+        "english": "The truth-functions of a given number of elementary propositions can always be set out in a schema of the following kind:<br />We call it Schema No. II.",
+        "german": "Die Wahrheitsfunktionen einer bestimmten Anzahl von Sätzen lassen sich in einem Schema folgender Art hinschreiben:<br />Wir nennen es das Schema II."
     },
     {
         "page": 11,
@@ -830,8 +830,8 @@ var pt =
         "page": 13,
         "tlp": 4.42,
         "pt": 4.4011,
-        "english": "Ln =  0∑Kn μ (Knμ)",
-        "german": "Ln =  0∑Kn μ (Knμ)"
+        "english": "<em>L</em><sub>n</sub> =  <sup>0</sup>&sum;<em><sup>Kn</sup></em> <em>μ</em> (<em><sup>Kn</sup></em><em><sub>μ</sub></em>)",
+        "german": "<em>L</em><sub>n</sub> =  <sup>0</sup>&sum;<em><sup>Kn</sup></em> <em>μ</em> (<em><sup>Kn</sup></em><em><sub>μ</sub></em>)"
     },
     {
         "page": 13,
@@ -865,7 +865,7 @@ var pt =
         "page": 13,
         "tlp": 4.46,
         "pt": 4.446,
-        "english": "In one of these cases the proposition is true for all the truth-possibilities of the elementary propositions. We say that the truth-conditions are tautological.\nIn the second case the proposition is all false for all the truth-possibilities: the truth-conditions are contradictory.",
+        "english": "In one of these cases the proposition is true for all the truth-possibilities of the elementary propositions. We say that the truth-conditions are tautological.<br />In the second case the proposition is all false for all the truth-possibilities: the truth-conditions are contradictory.",
         "german": "Im einen Fall ist der Satz für sämtliche Wahrheitsmöglichkeiten der Elementarsätze wahr. Wir sagen die Wahrheitsbedingungen sind tautologisch. Im zweiten Fall ist der Satz für sämtliche Wahrheitsmöglichkeiten falsch; die Wahrheitsbedingungen sind kontradiktorisch. "
     },
     {
@@ -963,7 +963,7 @@ var pt =
         "page": 14,
         "tlp": 2.171,
         "pt": 2.172,
-        "english": "A picture can depict any reality whose form it has.\nA spatial picture can depict anything spatial, etc.",
+        "english": "A picture can depict any reality whose form it has.<br />A spatial picture can depict anything spatial, etc.",
         "german": "Das Bild kann jede Wirklichkeit abbilden, deren Form es hat. "
     },
     {
@@ -1327,7 +1327,7 @@ var pt =
         "page": 18,
         "tlp": 5.532,
         "pt": 5.332,
-        "english": "And analogously I do not write '(∃x, y).F(x, y).x=y', but '(∃x).F(x, x)'; and not '(∃x, y).F(x, y).x≠y', but '(∃x, y).F(x, y)'.\n(So Russell's '(∃x, y).F(x, y)' becomes '(∃x, y).F(x, y) v (∃x).F(x, x)'.)",
+        "english": "And analogously I do not write '(∃x, y).F(x, y).x=y', but '(∃x).F(x, x)'; and not '(∃x, y).F(x, y).x≠y', but '(∃x, y).F(x, y)'.<br />(So Russell's '(∃x, y).F(x, y)' becomes '(∃x, y).F(x, y) v (∃x).F(x, x)'.)",
         "german": "Und analog, nicht 〟(∃x,y)·F(x,y)·x=y\", sondern (∃x)·F(x,x)\" und nicht 〟(∃x,y)·F(x,y)·x≠y\", sondern 〟(∃x,y)·F(x,y)\". (Also statt dem Russellschen 〟(∃x,y)·F(x,y)\": 〟(∃x,y)·F(x,y) v (x)·F(x,x)\".)"
     },
     {
@@ -1621,8 +1621,8 @@ var pt =
         "page": 23,
         "tlp": 4.126,
         "pt": 4.10226,
-        "english": "When something falls under a formal concept as one of its objects, this cannot be expressed by means of a proposition.\nIt (this) is shown in the very sign for this object.\n(A name shows that it signifies an object, a sign for a number that it signifies a number.)",
-        "german": "Daß etwas unter einen formalen Begriff als dessen Gegenstand fällt, kann nicht durch einen Satz ausgedrückt werden.\nEs zeigt sich an dem Zeichen dieses Gegenstandes selbst. (Der Name zeigt daß er einen Gegenstand bezeichnet, das Zahlzeichen daß es eine Zahl bezeichnet.)"
+        "english": "When something falls under a formal concept as one of its objects, this cannot be expressed by means of a proposition.<br />It (this) is shown in the very sign for this object.<br />(A name shows that it signifies an object, a sign for a number that it signifies a number.)",
+        "german": "Daß etwas unter einen formalen Begriff als dessen Gegenstand fällt, kann nicht durch einen Satz ausgedrückt werden.<br />Es zeigt sich an dem Zeichen dieses Gegenstandes selbst. (Der Name zeigt daß er einen Gegenstand bezeichnet, das Zahlzeichen daß es eine Zahl bezeichnet.)"
     },
     {
         "page": 23,
@@ -1642,7 +1642,7 @@ var pt =
         "page": 23,
         "tlp": 4.1272,
         "pt": 4.1022723,
-        "english": "For example, in the proposition 'There are 2 objects which…', it is expressed by \n'(∃x, y)…'.",
+        "english": "For example, in the proposition 'There are 2 objects which…', it is expressed by <br />'(∃x, y)…'.",
         "german": "Z.B. in dem Satz 〟es gibt 2 Gegenstände, welche…\" durch 〟(Ex,y)...\". "
     },
     {
@@ -1705,8 +1705,8 @@ var pt =
         "page": 24,
         "tlp": 3.34,
         "pt": 3.23,
-        "english": "Accidental features are those that result from the particular way in which the propositional sign it produced.\nEssential features are those without which the proposition could not express its sense.",
-        "german": "Zufällig sind die Züge die von der besonderen Art der Hervorbringung des Satzzeichens herrühren.\nWesentlich diejenigen, welche allein den Satz befähigen seinen Sinn auszudrücken."
+        "english": "Accidental features are those that result from the particular way in which the propositional sign it produced.<br />Essential features are those without which the proposition could not express its sense.",
+        "german": "Zufällig sind die Züge die von der besonderen Art der Hervorbringung des Satzzeichens herrühren.<br />Wesentlich diejenigen, welche allein den Satz befähigen seinen Sinn auszudrücken."
     },
     {
         "page": 24,
@@ -1838,8 +1838,8 @@ var pt =
         "page": 26,
         "tlp": 2.021,
         "pt": 2.021,
-        "english": "Objects make up the substance of the world.\nThat is why they cannot be composite.",
-        "german": "Die Gegenstände bilden die Substanz der Welt. \nDarum können sie nicht zusammengesetzt sein."
+        "english": "Objects make up the substance of the world.<br />That is why they cannot be composite.",
+        "german": "Die Gegenstände bilden die Substanz der Welt. <br />Darum können sie nicht zusammengesetzt sein."
     },
     {
         "page": 26,
@@ -2020,8 +2020,8 @@ var pt =
         "page": 28,
         "tlp": 4.062,
         "pt": 4.092,
-        "english": "Can we not make ourselves understood with false propositions just as we have done up till now with true ones? So long as it is known that they are meant to be false.\nNo! For a proposition is true if we use it to say that things stand in a certain way, and they do; and if by 'q' we mean ~q and things stand as we mean that they do, then, construed in the new way, 'q' is true and not false.\n",
-        "german": "〟Kann man sich nicht mit falschen Sätzen, wie bisher mit wahren verständigen? solange man nur weiß daß sie falsch gemeint sind.\"\nNein! Denn wahr ist ein Satz wenn es sich so verhält wie wir es durch ihn sagen; und wenn wir mit 〟q\" ~q meinen und es sich so verhält wie wir es meinen so ist 〟q\" in der neuen Auffassung wahr und nicht falsch. "
+        "english": "Can we not make ourselves understood with false propositions just as we have done up till now with true ones? So long as it is known that they are meant to be false.<br />No! For a proposition is true if we use it to say that things stand in a certain way, and they do; and if by 'q' we mean ~q and things stand as we mean that they do, then, construed in the new way, 'q' is true and not false.<br />",
+        "german": "〟Kann man sich nicht mit falschen Sätzen, wie bisher mit wahren verständigen? solange man nur weiß daß sie falsch gemeint sind.\"<br />Nein! Denn wahr ist ein Satz wenn es sich so verhält wie wir es durch ihn sagen; und wenn wir mit 〟q\" ~q meinen und es sich so verhält wie wir es meinen so ist 〟q\" in der neuen Auffassung wahr und nicht falsch. "
     },
     {
         "page": 28,
@@ -2041,15 +2041,15 @@ var pt =
         "page": 29,
         "tlp": 3.322,
         "pt": 3.2012,
-        "english": "It can never indicate the common characteristic of two objects that we designate them by the same name but by means of two different modes of designation.\nFor the name, of course, is arbitrary. So we could choose two different names instead, and then what would be left in common on the signifying side?",
+        "english": "It can never indicate the common characteristic of two objects that we designate them by the same name but by means of two different modes of designation.<br />For the name, of course, is arbitrary. So we could choose two different names instead, and then what would be left in common on the signifying side?",
         "german": "Es kann nie das gemeinsame Merkmal zweier Gegenstände anzeigen, daß wir sie mit demselben Namen, aber durch zwei verschiedene Bezeichnungsweisen bezeichnen. Denn der Name ist ja willkürlich; man könnte also auch zwei verschiedene Namen wählen, und wo bliebe dann das Gemeinsame in der Bezeichnung. "
     },
     {
         "page": 29,
         "tlp": 4.063,
         "pt": 4.094,
-        "english": "An analogy to illustrate the concept of truth: imagine a black spot on white paper. You can describe the shape of the spot by saying, for each point on the sheet, whether it is black or white. To the fact that a point is black there corresponds a positive fact, and to the fact that a point is white (not black), a negative fact. If I designate a point on the sheet (a truth-value according to Frege), then this corresponds to the supposition that is put forward for judgment, etc. etc.\nBut in order to be able to say that a point is black or white, I must first know when a point is called black, and when white: in order to be able to say, 'p' is true (or false), I must have determined in what circumstances I call p true, and in so doing I determine the sense of the proposition.\nNow the point where the simile breaks down is this: we can indicate a point on the paper even if we do not know what black and white are, but if a proposition has no sense, nothing corresponds to it, since it does not designate a thing (a truth-value) which might have properties called 'false' or 'true'. The verb of a proposition is not 'is true' or 'is false', as Frege thought: rather, that which 'is true' must already contain the verb.",
-        "german": "Ein Bild zur Erklärung des Wahrheitsbegriffes: Schwarzer Fleck auf weißem Papier. Die Form des Fleckes kann man beschreiben indem man für jeden Punkt der Fläche angibt, ob er weiß oder schwarz ist. Der Tatsache daß ein Punkt schwarz ist entspricht eine positive — der, daß ein Punkt weiß (nicht schwarz) ist eine negative Tatsache. Bezeichne ich einen Punkt der Fläche (einen Fregeschen Wahrheitswert), so entspricht dies der Annahme die zur Beurteilung aufgestellt wird etc. etc.\nUm aber sagen zu können ein Punkt sei schwarz oder weiß, muß ich vorerst wissen wann man einen Punkt schwarz und wann man ihn weiß nennt; um sagen zu können 〟p\" ist wahr (oder falsch) muß ich bestimmt haben unter welchen Umständen ich p wahr nenne, und damit bestimme ich den Sinn des Satzes.\nDer Punkt an dem das Gleichnis hinkt ist nun der: Wir können auf einen Punkt des Papiers zeigen auch ohne zu wissen was weiß und schwarz ist; einem Satz ohne Sinn aber entspricht gar nichts, denn er bezeichnet kein Ding (Wahrheitswert) dessen Eigenschaften etwa 〟falsch\" oder 〟wahr\" hießen; das Verbum eines Satzes ist nicht 〟ist wahr\" oder 〟ist falsch\" — wie Frege glaubte —, sondern das was 〟wahr ist\" muß das Verbum schon enthalten."
+        "english": "An analogy to illustrate the concept of truth: imagine a black spot on white paper. You can describe the shape of the spot by saying, for each point on the sheet, whether it is black or white. To the fact that a point is black there corresponds a positive fact, and to the fact that a point is white (not black), a negative fact. If I designate a point on the sheet (a truth-value according to Frege), then this corresponds to the supposition that is put forward for judgment, etc. etc.<br />But in order to be able to say that a point is black or white, I must first know when a point is called black, and when white: in order to be able to say, 'p' is true (or false), I must have determined in what circumstances I call p true, and in so doing I determine the sense of the proposition.<br />Now the point where the simile breaks down is this: we can indicate a point on the paper even if we do not know what black and white are, but if a proposition has no sense, nothing corresponds to it, since it does not designate a thing (a truth-value) which might have properties called 'false' or 'true'. The verb of a proposition is not 'is true' or 'is false', as Frege thought: rather, that which 'is true' must already contain the verb.",
+        "german": "Ein Bild zur Erklärung des Wahrheitsbegriffes: Schwarzer Fleck auf weißem Papier. Die Form des Fleckes kann man beschreiben indem man für jeden Punkt der Fläche angibt, ob er weiß oder schwarz ist. Der Tatsache daß ein Punkt schwarz ist entspricht eine positive — der, daß ein Punkt weiß (nicht schwarz) ist eine negative Tatsache. Bezeichne ich einen Punkt der Fläche (einen Fregeschen Wahrheitswert), so entspricht dies der Annahme die zur Beurteilung aufgestellt wird etc. etc.<br />Um aber sagen zu können ein Punkt sei schwarz oder weiß, muß ich vorerst wissen wann man einen Punkt schwarz und wann man ihn weiß nennt; um sagen zu können 〟p\" ist wahr (oder falsch) muß ich bestimmt haben unter welchen Umständen ich p wahr nenne, und damit bestimme ich den Sinn des Satzes.<br />Der Punkt an dem das Gleichnis hinkt ist nun der: Wir können auf einen Punkt des Papiers zeigen auch ohne zu wissen was weiß und schwarz ist; einem Satz ohne Sinn aber entspricht gar nichts, denn er bezeichnet kein Ding (Wahrheitswert) dessen Eigenschaften etwa 〟falsch\" oder 〟wahr\" hießen; das Verbum eines Satzes ist nicht 〟ist wahr\" oder 〟ist falsch\" — wie Frege glaubte —, sondern das was 〟wahr ist\" muß das Verbum schon enthalten."
     },
     {
         "page": 29,
@@ -2125,8 +2125,8 @@ var pt =
         "page": 31,
         "tlp": 4.024,
         "pt": 4.025,
-        "english": "To understand a proposition means to know what is the case if it is true.\nOne can understand it, therefore, without knowing whether it is true.",
-        "german": "Einen Satz verstehen heißt, wissen was der Fall ist, wenn er wahr ist.\nMan kann ihn also verstehen ohne zu wissen ob er wahr ist. "
+        "english": "To understand a proposition means to know what is the case if it is true.<br />One can understand it, therefore, without knowing whether it is true.",
+        "german": "Einen Satz verstehen heißt, wissen was der Fall ist, wenn er wahr ist.<br />Man kann ihn also verstehen ohne zu wissen ob er wahr ist. "
     },
     {
         "page": 31,
@@ -2181,8 +2181,8 @@ var pt =
         "page": 32,
         "tlp": 5.451,
         "pt": 5.301,
-        "english": "If logic has primitive ideas, they must be independent of one another. If a primitive idea has been introduced, it must have been introduced in all the combinations in which it ever occurs. It cannot, therefore, be introduced first for one combination and later re-introduced for one another. For example, once negation has been introduced, we must understand it both in propositions of the form ~p and in propositions like ~(p∨q), (or (∃x).~ϕx), etc. We must not introduce it first for the one class of cases and then for the other, since it would then be left in doubt whether its meaning were the same in both cases, and no reason would have been given for combining the signs in the same way in both cases.\n(In short, Frege's remarks about introducing signs by means of definitions (in The Fundamental Laws of Arithmetic) also apply, mutatis mutandis, to the introduction of primitive signs.)",
-        "german": "Hat die Logik Grundbegriffe, so müssen sie von einander unabhängig sein. Ist ein Grundbegriff eingeführt so muß er in allen Verbindungen eingeführt sein worin er überhaupt vorkommt. Man kann ihn also nicht zuerst für eine Verbindung, dann nocheinmal für eine andere einführen. Z.B.: Ist die Verneinung eingeführt so müssen wir sie jetzt in Sätzen von der Form ~p ebenso verstehen, wie in Sätzen wie ~(p ∨ q) (oder (Ex).~ϕx) u.a.. Wir dürfen sie nicht erst für die eine Klasse von Fällen, dann für die andere einführen, denn es bliebe dann zweifelhaft ob ihre Bedeutung in beiden Fällen die gleiche wäre und es wäre kein Grund vorhanden in beiden Fällen die selbe Art der Zeichenverbindung zu benützen.\n(Kurz, für die Einführung der Urzeichen gilt mutatis mutandis dasselbe was Frege (Grundgesetze der Arithmetik) für die Einführung von Zeichen durch Definitionen gesagt hat.)"
+        "english": "If logic has primitive ideas, they must be independent of one another. If a primitive idea has been introduced, it must have been introduced in all the combinations in which it ever occurs. It cannot, therefore, be introduced first for one combination and later re-introduced for one another. For example, once negation has been introduced, we must understand it both in propositions of the form ~p and in propositions like ~(p∨q), (or (∃x).~ϕx), etc. We must not introduce it first for the one class of cases and then for the other, since it would then be left in doubt whether its meaning were the same in both cases, and no reason would have been given for combining the signs in the same way in both cases.<br />(In short, Frege's remarks about introducing signs by means of definitions (in The Fundamental Laws of Arithmetic) also apply, mutatis mutandis, to the introduction of primitive signs.)",
+        "german": "Hat die Logik Grundbegriffe, so müssen sie von einander unabhängig sein. Ist ein Grundbegriff eingeführt so muß er in allen Verbindungen eingeführt sein worin er überhaupt vorkommt. Man kann ihn also nicht zuerst für eine Verbindung, dann nocheinmal für eine andere einführen. Z.B.: Ist die Verneinung eingeführt so müssen wir sie jetzt in Sätzen von der Form ~p ebenso verstehen, wie in Sätzen wie ~(p ∨ q) (oder (Ex).~ϕx) u.a.. Wir dürfen sie nicht erst für die eine Klasse von Fällen, dann für die andere einführen, denn es bliebe dann zweifelhaft ob ihre Bedeutung in beiden Fällen die gleiche wäre und es wäre kein Grund vorhanden in beiden Fällen die selbe Art der Zeichenverbindung zu benützen.<br />(Kurz, für die Einführung der Urzeichen gilt mutatis mutandis dasselbe was Frege (Grundgesetze der Arithmetik) für die Einführung von Zeichen durch Definitionen gesagt hat.)"
     },
     {
         "page": 33,
@@ -2258,8 +2258,8 @@ var pt =
         "page": 34,
         "tlp": 5.5301,
         "pt": 5.3302,
-        "english": "This becomes very clear if one considers, for example, the proposition (x):ϕx ⊃ x = a. What this proposition says is simply that only a satisfies the function ϕ, and not that only things that have a certain relation to a satisfy ϕ.\nOf course, it might then be said that only a did have this relation to a; but in order to express that, we should need the identity-sign itself.",
-        "german": "Dies wird sehr klar, wenn man z.B. den Satz (x):ϕ(x)⊃x=a betrachtet. Was dieser Satz sagt ist einfach, daß nur a der Funktion ϕ genügt und nicht daß nur solche Dinge ϕ genügen welche eine gewisse Beziehung zu a haben. \nMan könnte nun freilich sagen daß eben nur a diese Beziehung zu a habe, aber um dies auszudrücken brauchten wir das Gleichheitszeichen selber."
+        "english": "This becomes very clear if one considers, for example, the proposition (x):ϕx ⊃ x = a. What this proposition says is simply that only a satisfies the function ϕ, and not that only things that have a certain relation to a satisfy ϕ.<br />Of course, it might then be said that only a did have this relation to a; but in order to express that, we should need the identity-sign itself.",
+        "german": "Dies wird sehr klar, wenn man z.B. den Satz (x):ϕ(x)⊃x=a betrachtet. Was dieser Satz sagt ist einfach, daß nur a der Funktion ϕ genügt und nicht daß nur solche Dinge ϕ genügen welche eine gewisse Beziehung zu a haben. <br />Man könnte nun freilich sagen daß eben nur a diese Beziehung zu a habe, aber um dies auszudrücken brauchten wir das Gleichheitszeichen selber."
     },
     {
         "page": 34,
@@ -2538,7 +2538,7 @@ var pt =
         "page": 39,
         "tlp": 5.452,
         "pt": 5.30231,
-        "english": "The introduction of any new device into the symbolism of logic is necessarily a momentous event. In logic a new device should not be introduced in brackets or in a footnote with what one might call a completely innocent air.\nThus in Russell and Whitehead's Principia Mathematica there occur definitions and primitive propositions expressed in words. Why this sudden appearance of words? It would require a long justification, but none is given, or could be given, since the procedure is in fact illicit.",
+        "english": "The introduction of any new device into the symbolism of logic is necessarily a momentous event. In logic a new device should not be introduced in brackets or in a footnote with what one might call a completely innocent air.<br />Thus in Russell and Whitehead's Principia Mathematica there occur definitions and primitive propositions expressed in words. Why this sudden appearance of words? It would require a long justification, but none is given, or could be given, since the procedure is in fact illicit.",
         "german": "Die Einführung eines neuen Behelfs im Symbolismus der Logik muß immer ein folgenschweres Ereignis sein. Kein neuer Behelf darf in die Logik — sozusagen, mit ganz unschuldiger Miene — in Klammern oder unter dem Striche, eingeführt werden. So kommen in den 〟Principia Mathematica\" von Russell und Whitehead Definitionen und Grundgesetze in Worten vor. Warum hier plötzlich Worte? Dies bedürfte einer langen Rechtfertigung. Sie fehlt und muß fehlen da das Vorgehen tatsächlich unerlaubt ist. "
     },
     {
@@ -2559,7 +2559,7 @@ var pt =
         "page": 40,
         "tlp": 4.0641,
         "pt": 4.0951,
-        "english": "One could say that negation must be related to the logical place determined by the negated proposition.\nThe negating proposition determines a logical place different from that of the negated proposition.",
+        "english": "One could say that negation must be related to the logical place determined by the negated proposition.<br />The negating proposition determines a logical place different from that of the negated proposition.",
         "german": "Man könnte sagen: die Verneinung bezieht sich schon auf den logischen Ort, den der verneinte Satz bestimmt. Der verneinende Satz bestimmt einen anderen logischen Ort als der verneinte. "
     },
     {
@@ -2734,8 +2734,8 @@ var pt =
         "page": 43,
         "tlp": 3.42,
         "pt": 3.2104,
-        "english": "A proposition can determine only one place in logical space: nevertheless the whole of logical space must already be given by it.\n(Otherwise negation, disjunction, etc., would introduce more and more new elements - in co-ordination.)",
-        "german": "Obwohl der Satz nur einen Ort des logischen Raumes bestimmen darf, so muß doch durch ihn schon der ganze logische Raum gegeben sein.\n(Sonst würden durch Verneinung, Disjunktion, etc. immer neue Elemente — in Koordination — eingeführt.)"
+        "english": "A proposition can determine only one place in logical space: nevertheless the whole of logical space must already be given by it.<br />(Otherwise negation, disjunction, etc., would introduce more and more new elements - in co-ordination.)",
+        "german": "Obwohl der Satz nur einen Ort des logischen Raumes bestimmen darf, so muß doch durch ihn schon der ganze logische Raum gegeben sein.<br />(Sonst würden durch Verneinung, Disjunktion, etc. immer neue Elemente — in Koordination — eingeführt.)"
     },
     {
         "page": 43,
@@ -3000,8 +3000,8 @@ var pt =
         "page": 48,
         "tlp": 2.0122,
         "pt": 2.0122,
-        "english": "What this comes to is that if it were the case that names had meaning both when combined in propositions and outside them, it would, so to speak, be impossible to guarantee that in both cases they really had the same meaning, in the same sense of the word.\nIt seems to be impossible for words to appear in two different roles: by themselves, and in propositions.",
-        "german": "Das kommt darauf hinaus, daß, im Falle Namen in — und außerhalb des Satzverbandes Bedeutung hätten, es sozusagen, nicht zu verbürgen wäre, daß sie in beiden Fällen wirklich dasselbe, im selben Sinne des Wortes, bedeuten.\nEs scheint unmöglich zu sein, daß Worte in zwei verschiedenen Weisen auftreten, allein und im Satz."
+        "english": "What this comes to is that if it were the case that names had meaning both when combined in propositions and outside them, it would, so to speak, be impossible to guarantee that in both cases they really had the same meaning, in the same sense of the word.<br />It seems to be impossible for words to appear in two different roles: by themselves, and in propositions.",
+        "german": "Das kommt darauf hinaus, daß, im Falle Namen in — und außerhalb des Satzverbandes Bedeutung hätten, es sozusagen, nicht zu verbürgen wäre, daß sie in beiden Fällen wirklich dasselbe, im selben Sinne des Wortes, bedeuten.<br />Es scheint unmöglich zu sein, daß Worte in zwei verschiedenen Weisen auftreten, allein und im Satz."
     },
     {
         "page": 48,
@@ -3105,8 +3105,8 @@ var pt =
         "page": 50,
         "tlp": 3.343,
         "pt": 3.25,
-        "english": "Definitions are rules for translating from one language into another.\nAny correct sign-language must be translatable into any other in accordance with such rules: it is this that all have in common.",
-        "german": "Definitionen sind Regeln der Übersetzung von einer Sprache in eine andere. \nJede richtige Zeichensprache muß sich in jede andere nach solchen Regeln übersetzen lassen: dies ist, was sie alle gemeinsam haben."
+        "english": "Definitions are rules for translating from one language into another.<br />Any correct sign-language must be translatable into any other in accordance with such rules: it is this that all have in common.",
+        "german": "Definitionen sind Regeln der Übersetzung von einer Sprache in eine andere. <br />Jede richtige Zeichensprache muß sich in jede andere nach solchen Regeln übersetzen lassen: dies ist, was sie alle gemeinsam haben."
     },
     {
         "page": 50,
@@ -3140,8 +3140,8 @@ var pt =
         "page": 50,
         "tlp": 6.51,
         "pt": 6.51,
-        "english": "Skepticism is not irrefutable, but not obviously nonsensical, when it tries to raise doubts where no questions can be asked.\nFor doubt can exist only where a question exists, a question only where an answer exists, and an answer only where something can be said.",
-        "german": "Skeptizismus ist nicht unwiderleglich, sondern offenbar unsinnig, wenn er bezweifeln will, wo nicht gefragt werden kann.\nDenn Zweifel kann nur bestehen, wo eine Frage besteht; eine Frage nur, wo eine Antwort besteht, und diese nur wo etwas gesagt werden kann. "
+        "english": "Skepticism is not irrefutable, but not obviously nonsensical, when it tries to raise doubts where no questions can be asked.<br />For doubt can exist only where a question exists, a question only where an answer exists, and an answer only where something can be said.",
+        "german": "Skeptizismus ist nicht unwiderleglich, sondern offenbar unsinnig, wenn er bezweifeln will, wo nicht gefragt werden kann.<br />Denn Zweifel kann nur bestehen, wo eine Frage besteht; eine Frage nur, wo eine Antwort besteht, und diese nur wo etwas gesagt werden kann. "
     },
     {
         "page": 51,
@@ -3161,8 +3161,8 @@ var pt =
         "page": 51,
         "tlp": 4.466,
         "pt": 4.4491,
-        "english": "What corresponds to a determinate logical combination of signs is a determinate logical combination of their meanings. It is only to the uncombined signs that absolutely any combination corresponds.\nIn other words, propositions that are true for every situation cannot be combinations of signs at all, since, if they were, only determinate combinations of objects could correspond to them.\n(And what is not a logical combination has no combination of objects corresponding to it.)",
-        "german": "Einer bestimmten logischen Verbindung von Zeichen entspricht eine bestimmte logische Verbindung ihrer Bedeutungen; jede beliebige Verbindung entspricht nur den unverbundenen Zeichen.\nDas heißt, Sätze die für jede Sachlage wahr sind können überhaupt keine Zeichenverbindungen sein, denn sonst könnten ihnen nur bestimmte Verbindungen von Gegenständen entsprechen.\n(Und keiner logischen Verbindung entspricht keine Verbindung der Gegenstände.)"
+        "english": "What corresponds to a determinate logical combination of signs is a determinate logical combination of their meanings. It is only to the uncombined signs that absolutely any combination corresponds.<br />In other words, propositions that are true for every situation cannot be combinations of signs at all, since, if they were, only determinate combinations of objects could correspond to them.<br />(And what is not a logical combination has no combination of objects corresponding to it.)",
+        "german": "Einer bestimmten logischen Verbindung von Zeichen entspricht eine bestimmte logische Verbindung ihrer Bedeutungen; jede beliebige Verbindung entspricht nur den unverbundenen Zeichen.<br />Das heißt, Sätze die für jede Sachlage wahr sind können überhaupt keine Zeichenverbindungen sein, denn sonst könnten ihnen nur bestimmte Verbindungen von Gegenständen entsprechen.<br />(Und keiner logischen Verbindung entspricht keine Verbindung der Gegenstände.)"
     },
     {
         "page": 51,
@@ -3245,7 +3245,7 @@ var pt =
         "page": 53,
         "tlp": 5.4733,
         "pt": 5.3064,
-        "english": "Frege says that any legitimately constructed proposition must have a sense. And I say that any possible proposition is legitimately constructed, and, if it has no sense, that can only be because we have failed to give a meaning to some of its constituents.\nEven if we think we have done so.",
+        "english": "Frege says that any legitimately constructed proposition must have a sense. And I say that any possible proposition is legitimately constructed, and, if it has no sense, that can only be because we have failed to give a meaning to some of its constituents.<br />Even if we think we have done so.",
         "german": "Frege sagt: Jeder rechtmäßig gebildete Satz muß einen Sinn haben; und ich sage: jeder mögliche Satz ist rechtmäßig gebildet, und wenn er keinen Sinn hat so kann das nur daran liegen, daß wir einigen seiner Bestandteile keine Bedeutung gegeben haben. Wenn wir auch glauben es getan zu haben. "
     },
     {
@@ -3420,7 +3420,7 @@ var pt =
         "page": 57,
         "tlp": 5.5563,
         "pt": 5.414,
-        "english": "In fact, all the propositions of our everyday language, just as they stand, are in perfect logical order. - That utterly simple thing, which we have to formulate here, is not an image of the truth, but the truth itself in its entirety.\n(Our problems are not abstract, but perhaps the most concrete that there are.)",
+        "english": "In fact, all the propositions of our everyday language, just as they stand, are in perfect logical order. - That utterly simple thing, which we have to formulate here, is not an image of the truth, but the truth itself in its entirety.<br />(Our problems are not abstract, but perhaps the most concrete that there are.)",
         "german": "Alle Sätze unserer Umgangssprache sind tatsächlich, so wie sie sind, logisch vollkommen geordnet. — Jenes Einfachste, was wir hier angeben sollen, ist nicht ein Gleichnis der Wahrheit, sondern die volle Wahrheit selbst. (Unsere Probleme sind nicht abstrakt, sondern vielleicht die konkretesten die es gibt.) "
     },
     {
@@ -3665,8 +3665,8 @@ var pt =
         "page": 61,
         "tlp": 5.512,
         "pt": 5.313,
-        "english": "But in '~p' it is not '~' that negates; it is rather what is common to all the signs of this notation that negate 'p'.\nThat is to say the common rule that governs the construction of ~p, ~~~p, ~p∨~p, ~p.~p, etc., etc. (ad inf.). And this common factor mirrors negation.",
-        "german": "Dasjenige was in 〟~p\" verneint ist aber nicht das 〟~\" sondern dasjenige was allen Zeichen dieser Notation welche 〟p\" verneinen gemeinsam ist. \nAlso die gemeinsame Regel nach welcher ~p, ~~~p, ~p∨~p, ~p·~p, etc. etc. (ad inf.) gebildet werden. Und dies Gemeinsame spiegelt die Verneinung wieder."
+        "english": "But in '~p' it is not '~' that negates; it is rather what is common to all the signs of this notation that negate 'p'.<br />That is to say the common rule that governs the construction of ~p, ~~~p, ~p∨~p, ~p.~p, etc., etc. (ad inf.). And this common factor mirrors negation.",
+        "german": "Dasjenige was in 〟~p\" verneint ist aber nicht das 〟~\" sondern dasjenige was allen Zeichen dieser Notation welche 〟p\" verneinen gemeinsam ist. <br />Also die gemeinsame Regel nach welcher ~p, ~~~p, ~p∨~p, ~p·~p, etc. etc. (ad inf.) gebildet werden. Und dies Gemeinsame spiegelt die Verneinung wieder."
     },
     {
         "page": 61,
@@ -3693,8 +3693,8 @@ var pt =
         "page": 62,
         "tlp": 5.515,
         "pt": 5.315,
-        "english": "It must be manifest in our propositional signs that it can only be propositional signs that are combined with one another by '∨', '.', etc.\nAnd this is indeed the case, since the symbol in 'p' and 'q' itself presupposes '∨', '.', etc. If the sign 'p' in 'p∨q' does not stand for a complex sign, then it cannot have sense by itself: but in that case the signs 'p∨p', 'p.p', etc., which have the same sense as 'p', must also lack sense. But if 'p∨p' has no sense, then 'p∨q' cannot have sense either.",
-        "german": "Es muß sich an unseren Satzzeichen zeigen, daß das, was durch 〟∨\" 〟·\" etc. mit einander verbunden ist, Satzzeichen sein müssen. \nUnd dies ist auch der Fall, denn das Symbol 〟p\" und 〟q\" setzt ja selbst das 〟∨\", 〟.\", etc. voraus. Wenn das Zeichen 〟p\" in 〟p ∨ q\" nicht für ein komplexes Zeichen steht, dann kann es allein nicht Sinn haben; dann können aber auch die mit 〟p\" gleichsinnigen Zeichen 〟p ∨ p\", 〟p·p\" etc. keinen Sinn haben. Wenn aber 〟p ∨ p\" keinen Sinn hat dann kann auch p ∨ q keinen Sinn haben."
+        "english": "It must be manifest in our propositional signs that it can only be propositional signs that are combined with one another by '∨', '.', etc.<br />And this is indeed the case, since the symbol in 'p' and 'q' itself presupposes '∨', '.', etc. If the sign 'p' in 'p∨q' does not stand for a complex sign, then it cannot have sense by itself: but in that case the signs 'p∨p', 'p.p', etc., which have the same sense as 'p', must also lack sense. But if 'p∨p' has no sense, then 'p∨q' cannot have sense either.",
+        "german": "Es muß sich an unseren Satzzeichen zeigen, daß das, was durch 〟∨\" 〟·\" etc. mit einander verbunden ist, Satzzeichen sein müssen. <br />Und dies ist auch der Fall, denn das Symbol 〟p\" und 〟q\" setzt ja selbst das 〟∨\", 〟.\", etc. voraus. Wenn das Zeichen 〟p\" in 〟p ∨ q\" nicht für ein komplexes Zeichen steht, dann kann es allein nicht Sinn haben; dann können aber auch die mit 〟p\" gleichsinnigen Zeichen 〟p ∨ p\", 〟p·p\" etc. keinen Sinn haben. Wenn aber 〟p ∨ p\" keinen Sinn hat dann kann auch p ∨ q keinen Sinn haben."
     },
     {
         "page": 62,
@@ -3749,8 +3749,8 @@ var pt =
         "page": 63,
         "tlp": 5.5262,
         "pt": 5.326,
-        "english": "The truth or falsity of every proposition does make some alteration in the general construction of the world. And the range that the totality of elementary propositions leaves open for its construction is exactly the same as that which is delimited by entirely general propositions.\n(For if an elementary proposition is true, that means, at any rate, one more true elementary proposition.)",
-        "german": "Es verändert ja die Wahr- oder Falschheit jedes Satzes etwas am allgemeinen Bau der Welt. Und der Spielraum welcher ihrem Bau durch die Gesamtheit der Elementarsätze gelassen wird, ist eben derjenige, welchen die ganz allgemeinen Sätze begrenzen. \n(Denn wenn ein Elementarsatz wahr ist, so ist damit doch jedenfalls ein Elementarsatz mehr wahr.)"
+        "english": "The truth or falsity of every proposition does make some alteration in the general construction of the world. And the range that the totality of elementary propositions leaves open for its construction is exactly the same as that which is delimited by entirely general propositions.<br />(For if an elementary proposition is true, that means, at any rate, one more true elementary proposition.)",
+        "german": "Es verändert ja die Wahr- oder Falschheit jedes Satzes etwas am allgemeinen Bau der Welt. Und der Spielraum welcher ihrem Bau durch die Gesamtheit der Elementarsätze gelassen wird, ist eben derjenige, welchen die ganz allgemeinen Sätze begrenzen. <br />(Denn wenn ein Elementarsatz wahr ist, so ist damit doch jedenfalls ein Elementarsatz mehr wahr.)"
     },
     {
         "page": 64,
@@ -3826,7 +3826,7 @@ var pt =
         "page": 65,
         "tlp": 6.1221,
         "pt": 6.121,
-        "english": "If, for example, two propositions p and q in the combination p⊃q yield a tautology, then it is clear in that case q follows from p.\nFor example, we see from the two propositions themselves that 'q' follows from 'p⊃q.p', but it is also possible to show it in this way: we combine them to form 'p⊃q.p.⊃.q', and then show that this is a tautology.",
+        "english": "If, for example, two propositions p and q in the combination p⊃q yield a tautology, then it is clear in that case q follows from p.<br />For example, we see from the two propositions themselves that 'q' follows from 'p⊃q.p', but it is also possible to show it in this way: we combine them to form 'p⊃q.p.⊃.q', and then show that this is a tautology.",
         "german": "Ergeben z.B. zwei Sätze p und q in der Verbindung p ⊃ q eine Tautologie so ist klar daß dann q aus p folgt. Daß z.B. 〟q\" aus 〟p ⊃ q·p\" folgt ersehen wir aus jenen beiden Sätzen selbst aber wir können es auch so zeigen indem wir sie zu 〟p ⊃ q·p .⊃. q\" verbinden und nun zeigen daß dies eine Tautologie ist. "
     },
     {
@@ -3966,7 +3966,7 @@ var pt =
         "page": 68,
         "tlp": 6.1231,
         "pt": 6.114,
-        "english": "The mark of a logical proposition is not general validity.\nTo be general means no more than to be accidentally valid for all things.",
+        "english": "The mark of a logical proposition is not general validity.<br />To be general means no more than to be accidentally valid for all things.",
         "german": "Das Anzeichen des logischen Satzes ist nicht die Allgemeingültigkeit. Allgemein sein heißt ja nur: zufälligerweise für alle Dinge gelten. "
     },
     {
@@ -4036,8 +4036,8 @@ var pt =
         "page": 70,
         "tlp": 6.01,
         "pt": 6.01,
-        "english": "The general form of an operation is\n|σ̅, α̅, N(α̅)|'(σ̅)",
-        "german": "Die allgemeine Form der Operation ist:\n|σ̅, α̅, N(α̅)|'(σ̅)."
+        "english": "The general form of an operation is<br />|σ̅, α̅, N(α̅)|'(σ̅)",
+        "german": "Die allgemeine Form der Operation ist:<br />|σ̅, α̅, N(α̅)|'(σ̅)."
     },
     {
         "page": 70,
@@ -4064,8 +4064,8 @@ var pt =
         "page": 70,
         "tlp": 6.127,
         "pt": 6.1135,
-        "english": "All the propositions of logic are of equal status: it is not the case that some of them are essentially primitive propositions and others essentially derived propositions.\nEvery tautology itself shows that it is a tautology.",
-        "german": "Alle Sätze der Logik sind gleichberechtigt es gibt unter ihnen nicht wesentlich Grundgesetze und abgeleitete Sätze.\nJede Tautologie zeigt selbst daß sie eine Tautologie ist. "
+        "english": "All the propositions of logic are of equal status: it is not the case that some of them are essentially primitive propositions and others essentially derived propositions.<br />Every tautology itself shows that it is a tautology.",
+        "german": "Alle Sätze der Logik sind gleichberechtigt es gibt unter ihnen nicht wesentlich Grundgesetze und abgeleitete Sätze.<br />Jede Tautologie zeigt selbst daß sie eine Tautologie ist. "
     },
     {
         "page": 70,
@@ -4106,8 +4106,8 @@ var pt =
         "page": 71,
         "tlp": 6.3211,
         "pt": 6.311,
-        "english": "Indeed people even surmised that there must be a 'law of least action' before they knew exactly how it went.\n(Here, as always, what is a priori proves to be something purely logical.)",
-        "german": "Man hat ja auch davon eine Ahnung gehabt daß es ein 〟Gesetz der kleinsten Wirkung\" geben müsse, ehe man genau wußte wie es lautete. \n(Hier wie immer stellt sich das Aprioristische als etwas rein Logisches heraus.)"
+        "english": "Indeed people even surmised that there must be a 'law of least action' before they knew exactly how it went.<br />(Here, as always, what is a priori proves to be something purely logical.)",
+        "german": "Man hat ja auch davon eine Ahnung gehabt daß es ein 〟Gesetz der kleinsten Wirkung\" geben müsse, ehe man genau wußte wie es lautete. <br />(Hier wie immer stellt sich das Aprioristische als etwas rein Logisches heraus.)"
     },
     {
         "page": 71,
@@ -4141,15 +4141,15 @@ var pt =
         "page": 72,
         "tlp": 6.341,
         "pt": 6.331,
-        "english": "Newtonian mechanics, for example, imposes a unified form on the description of the world. Let us imagine a white surface with irregular black spots on it. We then say that whatever kind of picture these make, I shall be able to approximate as closely as I wish to the description of it by covering the surface with a sufficiently fine square mesh, and then saying of every square whether it is black or white. In this way I shall have imposed a unified form on the description of the surface. The form is optional, since I could have achieved the same result by using a net with a triangular or hexagonal mesh. Possibly the use of a triangular mesh would have made the description simpler: that is to say, it might be that we could describe the surface more accurately with a coarse triangular mesh than with a fine square mesh (or conversely), and so on. The differing nets correspond to different systems for describing the world. Mechanics determines one form of description of the world by saying that all propositions used in the description of the world must be obtained in a given way from a given set of propositions - the axioms of mechanics. It thus supplies the bricks for building the edifice of science, and it says, 'Any building that you want to erect, whatever it may be, must somehow be constructed with these bricks, and with these alone'.\n(Just as with the number-system we must be able to write down any number we wish, so with the system of mechanics we must be able to write down any proposition of physics that we wish.)",
-        "german": "Die Newtonsche Mechanik z.B. bringt die Weltbeschreibung auf eine einheitliche Form. Denken wir uns eine weiße Fläche, auf der unregelmäßige schwarze Flecken wären. Wir sagen nun: Was immer für ein Bild hiedurch entsteht, immer werde ich seiner Beschreibung beliebig nahe kommen können, indem ich die Fläche mit einem entsprechend feinen quadratischen Netzwerk bedecke und nun von jedem Quadrat sage, daß es weiß oder schwarz ist. Ich werde auf diese Weise die Beschreibung der Fläche auf eine einheitliche Form gebracht haben. Diese Form ist beliebig, denn ich hätte mit dem gleichen Erfolge ein Netz mit dreieckigen oder sechseckigen Maschen verwenden können. Es kann sein daß die Beschreibung mit Hilfe eines Dreiecks-Netzes einfacher geworden wäre; das heißt daß wir die Fläche mit einem gröberen Dreiecksnetz genauer beschreiben könnten als mit einem feineren quadratischen (oder umgekehrt) u.s.w.. Denverschiedenen Netzen entsprechen verschiedene Systeme der Weltbeschreibung. Die Mechanik bestimmt eine Form der Weltbeschreibung indem sie sagt: Alle Sätze der Weltbeschreibung müssen aus einer Anzahl gegebener Sätze — den mechanischen Axiomen — auf eine gegebene Art und Weise erhalten werden. Hierdurch liefert sie die Bausteine zum Bau des wissenschaftlichen Gebäudes und sagt: Welches Gebäude immer Du aufführen willst, jedes mußt du irgendwie mit diesen und nur diesen Bausteinen zusammenbringen.\n(Wie man mit dem Zahlensystem jede beliebige Anzahl, so muß ich mit dem System der Mechanik jeden beliebigen Satz der Physik hinschreiben können.)"
+        "english": "Newtonian mechanics, for example, imposes a unified form on the description of the world. Let us imagine a white surface with irregular black spots on it. We then say that whatever kind of picture these make, I shall be able to approximate as closely as I wish to the description of it by covering the surface with a sufficiently fine square mesh, and then saying of every square whether it is black or white. In this way I shall have imposed a unified form on the description of the surface. The form is optional, since I could have achieved the same result by using a net with a triangular or hexagonal mesh. Possibly the use of a triangular mesh would have made the description simpler: that is to say, it might be that we could describe the surface more accurately with a coarse triangular mesh than with a fine square mesh (or conversely), and so on. The differing nets correspond to different systems for describing the world. Mechanics determines one form of description of the world by saying that all propositions used in the description of the world must be obtained in a given way from a given set of propositions - the axioms of mechanics. It thus supplies the bricks for building the edifice of science, and it says, 'Any building that you want to erect, whatever it may be, must somehow be constructed with these bricks, and with these alone'.<br />(Just as with the number-system we must be able to write down any number we wish, so with the system of mechanics we must be able to write down any proposition of physics that we wish.)",
+        "german": "Die Newtonsche Mechanik z.B. bringt die Weltbeschreibung auf eine einheitliche Form. Denken wir uns eine weiße Fläche, auf der unregelmäßige schwarze Flecken wären. Wir sagen nun: Was immer für ein Bild hiedurch entsteht, immer werde ich seiner Beschreibung beliebig nahe kommen können, indem ich die Fläche mit einem entsprechend feinen quadratischen Netzwerk bedecke und nun von jedem Quadrat sage, daß es weiß oder schwarz ist. Ich werde auf diese Weise die Beschreibung der Fläche auf eine einheitliche Form gebracht haben. Diese Form ist beliebig, denn ich hätte mit dem gleichen Erfolge ein Netz mit dreieckigen oder sechseckigen Maschen verwenden können. Es kann sein daß die Beschreibung mit Hilfe eines Dreiecks-Netzes einfacher geworden wäre; das heißt daß wir die Fläche mit einem gröberen Dreiecksnetz genauer beschreiben könnten als mit einem feineren quadratischen (oder umgekehrt) u.s.w.. Denverschiedenen Netzen entsprechen verschiedene Systeme der Weltbeschreibung. Die Mechanik bestimmt eine Form der Weltbeschreibung indem sie sagt: Alle Sätze der Weltbeschreibung müssen aus einer Anzahl gegebener Sätze — den mechanischen Axiomen — auf eine gegebene Art und Weise erhalten werden. Hierdurch liefert sie die Bausteine zum Bau des wissenschaftlichen Gebäudes und sagt: Welches Gebäude immer Du aufführen willst, jedes mußt du irgendwie mit diesen und nur diesen Bausteinen zusammenbringen.<br />(Wie man mit dem Zahlensystem jede beliebige Anzahl, so muß ich mit dem System der Mechanik jeden beliebigen Satz der Physik hinschreiben können.)"
     },
     {
         "page": 73,
         "tlp": 6.342,
         "pt": 6.34,
-        "english": "And here we can see the relative position of logic and mechanics. (The net might also consist of more than one kind of mesh.) The possibility of describing a picture like the one mentioned above with a net of a given form tells us nothing about the picture. (For that is true of all such pictures.) But what does characterize a picture is that it can be described completely by a particular net with a particular size of mesh.\nSimilarly the possibility of describing the world by means of Newtonian mechanics tells us nothing about the world: but what does tell us something about it is the precise way in which it is possible to describe it by these means. We are also told something about the world by the fact that it can be described more simply with one system of mechanics than with another.",
-        "german": "Und hier sehen wir nun die gegenseitige Stellung von Logik und Mechanik (man könnte das Netz auch aus verschiedenartigen Figuren bestehen lassen). Daß sich ein Bild, wie das vorhin erwähnte durch ein Netz von gegebener Form beschreiben läßt sagt über das Bild nichts aus. (denn dies gilt für jedes Bild dieser Art). Das aber charakterisiert das Bild, daß es sich durch ein bestimmtes Netz von bestimmter Feinheit vollständig beschreiben läßt. \nSo auch sagt es nichts über die Welt aus, daß sie sich durch die Newtonsche Mechanik beschreiben läßt; wohl aber daß sie sich so durch jene beschreiben läßt, wie dies eben der Fall ist. Auch das sagt etwas über die Welt daß sie sich durch die eine Mechanik einfacher beschreiben läßt als durch die andere."
+        "english": "And here we can see the relative position of logic and mechanics. (The net might also consist of more than one kind of mesh.) The possibility of describing a picture like the one mentioned above with a net of a given form tells us nothing about the picture. (For that is true of all such pictures.) But what does characterize a picture is that it can be described completely by a particular net with a particular size of mesh.<br />Similarly the possibility of describing the world by means of Newtonian mechanics tells us nothing about the world: but what does tell us something about it is the precise way in which it is possible to describe it by these means. We are also told something about the world by the fact that it can be described more simply with one system of mechanics than with another.",
+        "german": "Und hier sehen wir nun die gegenseitige Stellung von Logik und Mechanik (man könnte das Netz auch aus verschiedenartigen Figuren bestehen lassen). Daß sich ein Bild, wie das vorhin erwähnte durch ein Netz von gegebener Form beschreiben läßt sagt über das Bild nichts aus. (denn dies gilt für jedes Bild dieser Art). Das aber charakterisiert das Bild, daß es sich durch ein bestimmtes Netz von bestimmter Feinheit vollständig beschreiben läßt. <br />So auch sagt es nichts über die Welt aus, daß sie sich durch die Newtonsche Mechanik beschreiben läßt; wohl aber daß sie sich so durch jene beschreiben läßt, wie dies eben der Fall ist. Auch das sagt etwas über die Welt daß sie sich durch die eine Mechanik einfacher beschreiben läßt als durch die andere."
     },
     {
         "page": 73,
@@ -4225,14 +4225,14 @@ var pt =
         "page": 75,
         "tlp": 6.41,
         "pt": 6.41,
-        "english": "The sense of the world must lie outside the world. In the world everything is as it is, and everything happens as it does happen: in it no value exists. - And if it did exist, it would have no value.\nIf there is any value that does have value, it must lie outside the whole sphere of what happens and is the case. For all that happens and is the case is accidental.\nWhat makes it non-accidental cannot lie within the world, since if it did it would itself be accidental.\nIt must lie outside the world.",
-        "german": "Der Sinn der Welt muß außerhalb ihr liegen. In der Welt ist alles wie es ist und geschieht alles wie es geschieht, es gibt inihr keinen Wert — und wenn es ihn gäbe so hätte er keinen Wert. \nWenn es einen Wert gibt der Wert hat, so muß er außerhalb alles Geschehens und So-Seins liegen. Denn alles Geschehen und So-Sein ist zufällig.\nWas es nicht-zufällig macht, kann nicht in der Welt liegen, denn sonst wäre dies wieder zufällig.\nEs muß außerhalb der Welt liegen."
+        "english": "The sense of the world must lie outside the world. In the world everything is as it is, and everything happens as it does happen: in it no value exists. - And if it did exist, it would have no value.<br />If there is any value that does have value, it must lie outside the whole sphere of what happens and is the case. For all that happens and is the case is accidental.<br />What makes it non-accidental cannot lie within the world, since if it did it would itself be accidental.<br />It must lie outside the world.",
+        "german": "Der Sinn der Welt muß außerhalb ihr liegen. In der Welt ist alles wie es ist und geschieht alles wie es geschieht, es gibt inihr keinen Wert — und wenn es ihn gäbe so hätte er keinen Wert. <br />Wenn es einen Wert gibt der Wert hat, so muß er außerhalb alles Geschehens und So-Seins liegen. Denn alles Geschehen und So-Sein ist zufällig.<br />Was es nicht-zufällig macht, kann nicht in der Welt liegen, denn sonst wäre dies wieder zufällig.<br />Es muß außerhalb der Welt liegen."
     },
     {
         "page": 75,
         "tlp": 6.42,
         "pt": 6.42,
-        "english": "And so it is impossible for there to be propositions of ethics.\nPropositions can express nothing that is higher.",
+        "english": "And so it is impossible for there to be propositions of ethics.<br />Propositions can express nothing that is higher.",
         "german": "Darum kann es auch keine Sätze der Ethik geben. Sätze können nichts Höheres ausdrücken. "
     },
     {
@@ -4246,22 +4246,22 @@ var pt =
         "page": 75,
         "tlp": 6.5,
         "pt": 6.5,
-        "english": "When the answer cannot be put into words, neither can the question be put into words.\nThe riddle does not exist.\nIf a question can be framed at all, it is also possible to answer it.",
-        "german": "Zu einer Antwort, die man nicht aussprechen kann, kann man auch die Frage nicht aussprechen. \nDas Rätsel gibt es nicht.\nWenn sich eine Frage überhaupt stellen läßt so kann sie auch beantwortet werden."
+        "english": "When the answer cannot be put into words, neither can the question be put into words.<br />The riddle does not exist.<br />If a question can be framed at all, it is also possible to answer it.",
+        "german": "Zu einer Antwort, die man nicht aussprechen kann, kann man auch die Frage nicht aussprechen. <br />Das Rätsel gibt es nicht.<br />Wenn sich eine Frage überhaupt stellen läßt so kann sie auch beantwortet werden."
     },
     {
         "page": 76,
         "tlp": 4.0411,
         "pt": 4.0742,
-        "english": "If we wanted to express what we now write as '(x).fx', say, by putting an affix in front of 'fx' - for instance by writing 'Gen.fx' - it would not be adequate: we should not know what was being generalized.\nIf we wanted to signalize it with an affix attached to the 'x' - for instance by writing '(xg)' - that would not be adequate either: we should not know the scope of the generality-sign.\nIf we were to try to do it by introducing a mark into the argument places -for instance, by writing '(G, G).F(G, G)' - it would not be adequate: we should not be able to establish the identity of the variables. And so on.\nAll these modes of signifying are inadequate because they lack the necessary mathematical multiplicity.",
-        "german": "Wollten wir das, was wir durch 〟(x)·fx\" ausdrücken, z.B. durch Vorsetzen eines Indexes vor 〟fx\" ausdrücken — etwa so 〟Alg·fx\", es würde nicht genügen — wir wüßten nicht was verallgemeinert wurde.\nWollten wir es durch einen Index am 〟x\" anzeigen — etwa so 〟f(xa)\" — es würde auch nicht genügen — wir wüßten nicht den Bereich der Allgemeinheitsbezeichnung.\nWollten wir es durch Einführen einer Marke in die Argumentstellen versuchen — etwa so 〟(A,A)·F(A,A)\" — es würde nicht genügen — wir könnten die Identität der Variablen nicht feststellen — u.s.w.\nAlle diese Bezeichnungsweisen genügen nicht, weil sie nicht die notwendige mathematische Mannigfaltigkeit haben."
+        "english": "If we wanted to express what we now write as '(x).fx', say, by putting an affix in front of 'fx' - for instance by writing 'Gen.fx' - it would not be adequate: we should not know what was being generalized.<br />If we wanted to signalize it with an affix attached to the 'x' - for instance by writing '(xg)' - that would not be adequate either: we should not know the scope of the generality-sign.<br />If we were to try to do it by introducing a mark into the argument places -for instance, by writing '(G, G).F(G, G)' - it would not be adequate: we should not be able to establish the identity of the variables. And so on.<br />All these modes of signifying are inadequate because they lack the necessary mathematical multiplicity.",
+        "german": "Wollten wir das, was wir durch 〟(x)·fx\" ausdrücken, z.B. durch Vorsetzen eines Indexes vor 〟fx\" ausdrücken — etwa so 〟Alg·fx\", es würde nicht genügen — wir wüßten nicht was verallgemeinert wurde.<br />Wollten wir es durch einen Index am 〟x\" anzeigen — etwa so 〟f(xa)\" — es würde auch nicht genügen — wir wüßten nicht den Bereich der Allgemeinheitsbezeichnung.<br />Wollten wir es durch Einführen einer Marke in die Argumentstellen versuchen — etwa so 〟(A,A)·F(A,A)\" — es würde nicht genügen — wir könnten die Identität der Variablen nicht feststellen — u.s.w.<br />Alle diese Bezeichnungsweisen genügen nicht, weil sie nicht die notwendige mathematische Mannigfaltigkeit haben."
     },
     {
         "page": 76,
         "tlp": 5.4541,
         "pt": 5.30225,
-        "english": "Men have always had a presentiment that there must be a realm in which the answers to questions are symmetrically combined - a priori to form a self-contained system.\nA realm subject ot the law: Simplex sigillum veri.",
-        "german": "Die Menschen haben immer geahnt, daß es ein Gebiet von Fragen geben müsse, worin die Antworten — a priori — symmetrisch, und zu einem abgeschlossenen, regelmäßigen Gebilde vereint-liegen.\nEin Gebiet in dem der Satz gilt: simplex sigillum veri."
+        "english": "Men have always had a presentiment that there must be a realm in which the answers to questions are symmetrically combined - a priori to form a self-contained system.<br />A realm subject ot the law: Simplex sigillum veri.",
+        "german": "Die Menschen haben immer geahnt, daß es ein Gebiet von Fragen geben müsse, worin die Antworten — a priori — symmetrisch, und zu einem abgeschlossenen, regelmäßigen Gebilde vereint-liegen.<br />Ein Gebiet in dem der Satz gilt: simplex sigillum veri."
     },
     {
         "page": 76,
@@ -4428,7 +4428,7 @@ var pt =
         "page": 79,
         "tlp": 6.031,
         "pt": 6.0201,
-        "english": "The theory of classes is completely superfluous in mathematics.\nThis is connected with the fact that the generality required in mathematics is not 'accidental' generality.",
+        "english": "The theory of classes is completely superfluous in mathematics.<br />This is connected with the fact that the generality required in mathematics is not 'accidental' generality.",
         "german": "Die Theorie der Klassen ist in der Mathematik ganz überflüssig. Dies hängt damit zusammen daß die Allgemeinheit die wir in der Mathematik brauchen nicht die 〟zufällige\" ist. "
     },
     {
@@ -4554,7 +4554,7 @@ var pt =
         "page": 81,
         "tlp": 5.5561,
         "pt": 5.413,
-        "english": "Empirical reality is limited by the totality of objects.\nThe limit also makes itself manifest in the totality of objects.\nHierarchies are and must be independent of reality.",
+        "english": "Empirical reality is limited by the totality of objects.<br />The limit also makes itself manifest in the totality of objects.<br />Hierarchies are and must be independent of reality.",
         "german": "Die empirische Realität ist begrenzt durch die Gesamtheit der Gegenstände. Die Grenze zeigt sich wieder in der Gesamtheit der Elementarsätze. Die Hierarchien sind und müssen unabhängig von der Realität sein. "
     },
     {
@@ -4568,8 +4568,8 @@ var pt =
         "page": 82,
         "tlp": 6.372,
         "pt": 6.372,
-        "english": "Thus people today stop at the laws of nature, treating them as something inviolable, just as God and Fate were treated in past ages.\nAnd in fact both are right and both wrong: though the view of the ancients is clearer in so far as they have a clear and acknowledged terminus, while the modern system tries to make it look as if everything were explained.",
-        "german": "So bleiben sie bei den Naturgesetzen als bei etwas Unantastbarem stehen, wie die Älteren bei Gott und dem Schicksal. \nUnd sie haben ja beide, recht und unrecht. Die Alten sind allerdings insofern klarer als sie einen klaren Abschluß anerkennen, während es bei dem neuen System scheinen soll als sei alles erklärt. "
+        "english": "Thus people today stop at the laws of nature, treating them as something inviolable, just as God and Fate were treated in past ages.<br />And in fact both are right and both wrong: though the view of the ancients is clearer in so far as they have a clear and acknowledged terminus, while the modern system tries to make it look as if everything were explained.",
+        "german": "So bleiben sie bei den Naturgesetzen als bei etwas Unantastbarem stehen, wie die Älteren bei Gott und dem Schicksal. <br />Und sie haben ja beide, recht und unrecht. Die Alten sind allerdings insofern klarer als sie einen klaren Abschluß anerkennen, während es bei dem neuen System scheinen soll als sei alles erklärt. "
     },
     {
         "page": 82,
@@ -4694,8 +4694,8 @@ var pt =
         "page": 84,
         "tlp": 5.633,
         "pt": 5.33543,
-        "english": "Where in the world is a metaphysical subject to be found?\nYou will say that this is exactly like the case of the eye and the visual field. But really you do not see the eye.\nAnd nothing in the visual field allows you to infer that it is seen by an eye.",
-        "german": "Wo in der Welt ist ein metaphysisches Subjekt zu merken?\nDu sagst, es verhält sich hier ganz wie bei Auge und Gesichtsfeld. Aber das Auge siehst Du wirklich nicht. \nUnd nichts am Gesichtsfeld läßt darauf schließen daß es von einem Auge gesehen wird."
+        "english": "Where in the world is a metaphysical subject to be found?<br />You will say that this is exactly like the case of the eye and the visual field. But really you do not see the eye.<br />And nothing in the visual field allows you to infer that it is seen by an eye.",
+        "german": "Wo in der Welt ist ein metaphysisches Subjekt zu merken?<br />Du sagst, es verhält sich hier ganz wie bei Auge und Gesichtsfeld. Aber das Auge siehst Du wirklich nicht. <br />Und nichts am Gesichtsfeld läßt darauf schließen daß es von einem Auge gesehen wird."
     },
     {
         "page": 84,
@@ -4708,15 +4708,15 @@ var pt =
         "page": 84,
         "tlp": 6.422,
         "pt": 6.4412,
-        "english": "When an ethical law of the form 'Thou shalt…' is laid down, one's first thought is, 'And what if I do not do it?' It is clear, however, that ethics has nothing to do with punishment and reward in the usual sense of the terms. So our question about the consequences of an action must be unimportant. At least those consequences should not be events. For there must be something right about the question we posed. There must indeed be a kind of ethical reward and punishment, but they must reside in the action itself.\n(And it is also clear that the reward must be something pleasant and the punishment something unpleasant.)",
-        "german": "Der erste Gedanke bei der Aufstellung eines ethischen Gesetzes von der Form 〟Du sollst …\" ist: 〟Und was dann, wenn ich es nicht tue\"? Es ist aber klar daß die Ethik nichts mit Strafe und Lohn im gewöhnlichen Sinn zu tun hat. Also muß diese Frage nach den Folgen einer Handlung belanglos sein. Zum mindesten dürfen diese Folgen nicht Ereignisse sein. Denn etwas muß doch an jener Fragestellung richtig sein. Es muß zwar eine Art von ethischem Lohn und ethischer Strafe geben, aber diese müssen in der Handlung selbst liegen.\n(Und das ist auch klar, daß der Lohn etwas Angenehmes, die Strafe etwas Unangenehmes sein muß.) "
+        "english": "When an ethical law of the form 'Thou shalt…' is laid down, one's first thought is, 'And what if I do not do it?' It is clear, however, that ethics has nothing to do with punishment and reward in the usual sense of the terms. So our question about the consequences of an action must be unimportant. At least those consequences should not be events. For there must be something right about the question we posed. There must indeed be a kind of ethical reward and punishment, but they must reside in the action itself.<br />(And it is also clear that the reward must be something pleasant and the punishment something unpleasant.)",
+        "german": "Der erste Gedanke bei der Aufstellung eines ethischen Gesetzes von der Form 〟Du sollst …\" ist: 〟Und was dann, wenn ich es nicht tue\"? Es ist aber klar daß die Ethik nichts mit Strafe und Lohn im gewöhnlichen Sinn zu tun hat. Also muß diese Frage nach den Folgen einer Handlung belanglos sein. Zum mindesten dürfen diese Folgen nicht Ereignisse sein. Denn etwas muß doch an jener Fragestellung richtig sein. Es muß zwar eine Art von ethischem Lohn und ethischer Strafe geben, aber diese müssen in der Handlung selbst liegen.<br />(Und das ist auch klar, daß der Lohn etwas Angenehmes, die Strafe etwas Unangenehmes sein muß.) "
     },
     {
         "page": 84,
         "tlp": "None",
         "pt": "None",
-        "english": "How everything stands is God.\nGod is how everything stands.",
-        "german": "Wie sich alles verhält, ist Gott.\nGott ist, wie sich alles verhält."
+        "english": "How everything stands is God.<br />God is how everything stands.",
+        "german": "Wie sich alles verhält, ist Gott.<br />Gott ist, wie sich alles verhält."
     },
     {
         "page": 85,
@@ -4736,22 +4736,22 @@ var pt =
         "page": 85,
         "tlp": 5.634,
         "pt": 5.33545,
-        "english": "Whatever we see could be other than it is.\nWhatever we can describe at all could be other than it is.",
-        "german": "Alles was wir sehen, könnte auch anders sein.\nAlles was wir überhaupt beschreiben können, könnte auch anders sein."
+        "english": "Whatever we see could be other than it is.<br />Whatever we can describe at all could be other than it is.",
+        "german": "Alles was wir sehen, könnte auch anders sein.<br />Alles was wir überhaupt beschreiben können, könnte auch anders sein."
     },
     {
         "page": 85,
         "tlp": 5.64,
         "pt": 5.3355,
         "english": "Here it can be seen that solipsism, when its implications are followed out strictly, coincides with pure realism. The self of solipsism shrinks to a point without extension, and there remains the reality co-ordinate with it.",
-        "german": "Hier sieht man daß der Solipsismus streng durchgeführt mit dem reinen Realismus zusammenfällt. \nDas Ich des Solipsismus schrumpft zum ausdehnungslosen Punkt zusammen und es bleibt die ihm koordinierte Realität."
+        "german": "Hier sieht man daß der Solipsismus streng durchgeführt mit dem reinen Realismus zusammenfällt. <br />Das Ich des Solipsismus schrumpft zum ausdehnungslosen Punkt zusammen und es bleibt die ihm koordinierte Realität."
     },
     {
         "page": 85,
         "tlp": 5.641,
         "pt": 5.33551,
-        "english": "Thus there really is a sense in which philosophy can talk about the self in a non-psychological way.\nWhat brings the self into philosophy is that 'the world is my world'.",
-        "german": "Es gibt also wirklich einen Sinn in welchem in der Philosophie nicht-psychologisch vom Ich die Rede sein kann.\nDas Ich tritt in die Philosophie dadurch ein daß 〟die Welt meine Welt ist\"."
+        "english": "Thus there really is a sense in which philosophy can talk about the self in a non-psychological way.<br />What brings the self into philosophy is that 'the world is my world'.",
+        "german": "Es gibt also wirklich einen Sinn in welchem in der Philosophie nicht-psychologisch vom Ich die Rede sein kann.<br />Das Ich tritt in die Philosophie dadurch ein daß 〟die Welt meine Welt ist\"."
     },
     {
         "page": 85,
@@ -4806,8 +4806,8 @@ var pt =
         "page": 86,
         "tlp": "None",
         "pt": "None",
-        "english": "In the sense in which there is a hierarchy of propositions, we may no doubt also speak of a hierarchy of truths, negations, etc. But in the sense in which there are simply propositions, there is only one truth and one negation.\nThe lowest level and the operation can serve as the representatives of the whole hierarchy.",
-        "german": "In dem Sinn in welchem es eine Hierarchie der Sätze gibt kann man wohl auch von einer Hierarchie der Wahrheiten, der Verneinungen etc. sprechen. In dem Sinne aber in welchem es Sätze überhaupt gibt, gibt es nur eine Wahrheit und eine Verneinung.\nDie unterste Stufe und die Operation kann die ganze Hierarchie vertreten."
+        "english": "In the sense in which there is a hierarchy of propositions, we may no doubt also speak of a hierarchy of truths, negations, etc. But in the sense in which there are simply propositions, there is only one truth and one negation.<br />The lowest level and the operation can serve as the representatives of the whole hierarchy.",
+        "german": "In dem Sinn in welchem es eine Hierarchie der Sätze gibt kann man wohl auch von einer Hierarchie der Wahrheiten, der Verneinungen etc. sprechen. In dem Sinne aber in welchem es Sätze überhaupt gibt, gibt es nur eine Wahrheit und eine Verneinung.<br />Die unterste Stufe und die Operation kann die ganze Hierarchie vertreten."
     },
     {
         "page": 87,
@@ -4834,8 +4834,8 @@ var pt =
         "page": 87,
         "tlp": 5.521,
         "pt": 5.3201,
-        "english": "I dissociate the concept all from truth-functions.\nFrege and Russell introduced generality in association with the logical product or logical sum. This made it difficult to understand the propositions '(∃x).ϕx' and '(x).ϕx', in which both ideas are embedded.",
-        "german": "Ich trenne den Begriff 〟Alle\" von der Wahrheitsfunktion.\nFrege und Russell haben die Allgemeinheit in Verbindung mit dem logischen Produkt oder der logischen Summe eingeführt. So wurde es schwer die Sätze (Ex)·ϕx und (x)·ϕx , in welchen beide Ideen beschlossen liegen, zu verstehen."
+        "english": "I dissociate the concept all from truth-functions.<br />Frege and Russell introduced generality in association with the logical product or logical sum. This made it difficult to understand the propositions '(∃x).ϕx' and '(x).ϕx', in which both ideas are embedded.",
+        "german": "Ich trenne den Begriff 〟Alle\" von der Wahrheitsfunktion.<br />Frege und Russell haben die Allgemeinheit in Verbindung mit dem logischen Produkt oder der logischen Summe eingeführt. So wurde es schwer die Sätze (Ex)·ϕx und (x)·ϕx , in welchen beide Ideen beschlossen liegen, zu verstehen."
     },
     {
         "page": 87,
@@ -4876,8 +4876,8 @@ var pt =
         "page": 88,
         "tlp": 6.3751,
         "pt": 6.3751,
-        "english": "For example, the simultaneous presence of two colors at the same place in the visual field is impossible, in fact logically impossible, since it is subject to the logical structure of color.\nLet us now think how this contradiction appears in physics: more or less as follows - a particle cannot have two velocities at the same time; that is to say, particles that are in different places at the same time cannot be the same particle.",
-        "german": "Daß z.B. zwei Farben zugleich an einem Ort des Gesichtsfeldes sind ist unmöglich und zwar logisch unmöglich denn es ist durch die logische Struktur der Farbe bedingt.\nDenken wir daran wie sich dieser Widerspruch in der Physik darstellt: ungefähr so daß ein Teilchen nicht zu gleicher Zeit zwei Geschwindigkeiten haben kann d.h. daß es nicht zu gleicher Zeit an zwei Orten sein kann d.h. daß Teilchen an verschiedenen Orten zu einer Zeit nicht dasselbe Teilchen sein können. "
+        "english": "For example, the simultaneous presence of two colors at the same place in the visual field is impossible, in fact logically impossible, since it is subject to the logical structure of color.<br />Let us now think how this contradiction appears in physics: more or less as follows - a particle cannot have two velocities at the same time; that is to say, particles that are in different places at the same time cannot be the same particle.",
+        "german": "Daß z.B. zwei Farben zugleich an einem Ort des Gesichtsfeldes sind ist unmöglich und zwar logisch unmöglich denn es ist durch die logische Struktur der Farbe bedingt.<br />Denken wir daran wie sich dieser Widerspruch in der Physik darstellt: ungefähr so daß ein Teilchen nicht zu gleicher Zeit zwei Geschwindigkeiten haben kann d.h. daß es nicht zu gleicher Zeit an zwei Orten sein kann d.h. daß Teilchen an verschiedenen Orten zu einer Zeit nicht dasselbe Teilchen sein können. "
     },
     {
         "page": 90,
@@ -4967,8 +4967,8 @@ var pt =
         "page": 92,
         "tlp": 4.014,
         "pt": 4.01141,
-        "english": "A gramophone record, the musical idea, the written notes, and the sound-waves, all stand to one another in the same internal relation of depicting that holds between language and the world.\nThey are all constructed according to a common logical pattern.",
-        "german": "Die Grammophonplatte, der musikalische Gedanke, die Notenschrift, die Schallwellen, stehen alle in jener abbildenden internen Beziehung zu einander die zwischen Sprache und Welt besteht. \nIhnen allen ist der logische Bau gemeinsam. "
+        "english": "A gramophone record, the musical idea, the written notes, and the sound-waves, all stand to one another in the same internal relation of depicting that holds between language and the world.<br />They are all constructed according to a common logical pattern.",
+        "german": "Die Grammophonplatte, der musikalische Gedanke, die Notenschrift, die Schallwellen, stehen alle in jener abbildenden internen Beziehung zu einander die zwischen Sprache und Welt besteht. <br />Ihnen allen ist der logische Bau gemeinsam. "
     },
     {
         "page": 92,
@@ -5037,15 +5037,15 @@ var pt =
         "page": 93,
         "tlp": 5.5423,
         "pt": 6.0051,
-        "english": "This no doubt explains why there are two possible ways of seeing the figure\n\nas a cube; and all similar phenomena. For we really see two different facts.\n(If I look in the first place at the corner marked a and only glance at b, then a appears to be in front, and vice versa.)",
-        "german": "Dies erklärt wohl auch daß man die Figur \n\nauf zweierlei Art als Würfel sehen kann; und alle ähnlichen Erscheinungen. Denn wir sehen eben wirklich zwei verschiedene Tatsachen. (Sehe ich erst auf die Ecke a und nur flüchtig auf b so erscheint a vorn und umgekehrt.)"
+        "english": "This no doubt explains why there are two possible ways of seeing the figure<br /><br />as a cube; and all similar phenomena. For we really see two different facts.<br />(If I look in the first place at the corner marked a and only glance at b, then a appears to be in front, and vice versa.)",
+        "german": "Dies erklärt wohl auch daß man die Figur <br /><br />auf zweierlei Art als Würfel sehen kann; und alle ähnlichen Erscheinungen. Denn wir sehen eben wirklich zwei verschiedene Tatsachen. (Sehe ich erst auf die Ecke a und nur flüchtig auf b so erscheint a vorn und umgekehrt.)"
     },
     {
         "page": 93,
         "tlp": 6.022,
         "pt": 6.012,
-        "english": "The 'concept of number' is simply what is common to all numerals; it is the general form of a number. \nAnd the concept of numerical equality is the general form of all particular cases of numerical equality.",
-        "german": "Der 〟Zahlbegriff\" ist nichts anderes als das Gemeinsame aller Zahlzeichen; er ist die allgemeine Form der Zahl. \nUnd der Begriff der Zahlengleichheit ist die allgemeine Form aller speziellen Zahlengleichheiten."
+        "english": "The 'concept of number' is simply what is common to all numerals; it is the general form of a number. <br />And the concept of numerical equality is the general form of all particular cases of numerical equality.",
+        "german": "Der 〟Zahlbegriff\" ist nichts anderes als das Gemeinsame aller Zahlzeichen; er ist die allgemeine Form der Zahl. <br />Und der Begriff der Zahlengleichheit ist die allgemeine Form aller speziellen Zahlengleichheiten."
     },
     {
         "page": 93,
@@ -5100,8 +5100,8 @@ var pt =
         "page": 94,
         "tlp": 6.1271,
         "pt": 6.113501,
-        "english": "It is clear that the number of the 'primitive propositions of logic' is arbitrary, since one could derive logic from a single primitive proposition, e.g. by simply constructing the logical product of Frege's primitive propositions.\n(Frege would perhaps have said that we should then no longer have an immediately self-evident primitive proposition. But it is remarkable that a thinker as rigorous as Frege appealed to the degree of self-evidence as the criterion of a logical proposition.)",
-        "german": "Es ist klar daß die Anzahl der 〟logischen Grundgesetze\" willkürlich ist denn man könnte die Logik ja aus einemGrundgesetz ableiten indem man einfach z.B. aus Freges Grundgesetzen das logische Produkt bildet. \n(Frege hätte vielleicht gesagt daß dieses Grundgesetz nun nicht mehr unmittelbar einleuchte. Aber es ist merkwürdig daß ein so exakter Denker wie Frege sich auf den Grad des Einleuchtens als Kriterium des logischen Satzes berufen hat.)"
+        "english": "It is clear that the number of the 'primitive propositions of logic' is arbitrary, since one could derive logic from a single primitive proposition, e.g. by simply constructing the logical product of Frege's primitive propositions.<br />(Frege would perhaps have said that we should then no longer have an immediately self-evident primitive proposition. But it is remarkable that a thinker as rigorous as Frege appealed to the degree of self-evidence as the criterion of a logical proposition.)",
+        "german": "Es ist klar daß die Anzahl der 〟logischen Grundgesetze\" willkürlich ist denn man könnte die Logik ja aus einemGrundgesetz ableiten indem man einfach z.B. aus Freges Grundgesetzen das logische Produkt bildet. <br />(Frege hätte vielleicht gesagt daß dieses Grundgesetz nun nicht mehr unmittelbar einleuchte. Aber es ist merkwürdig daß ein so exakter Denker wie Frege sich auf den Grad des Einleuchtens als Kriterium des logischen Satzes berufen hat.)"
     },
     {
         "page": 94,
@@ -5114,8 +5114,8 @@ var pt =
         "page": 95,
         "tlp": 2.0123,
         "pt": 2.0124,
-        "english": "If I know an object I also know all its possible occurrences in states of affairs.\nEvery one of these possibilities must be part of the nature of the object.",
-        "german": "Wenn ich den Gegenstand kenne so kenne ich auch sämtliche Möglichkeiten seines Vorkommens in Sachverhalten.\nJede solche Möglichkeit muß in der Natur des Gegenstandes liegen."
+        "english": "If I know an object I also know all its possible occurrences in states of affairs.<br />Every one of these possibilities must be part of the nature of the object.",
+        "german": "Wenn ich den Gegenstand kenne so kenne ich auch sämtliche Möglichkeiten seines Vorkommens in Sachverhalten.<br />Jede solche Möglichkeit muß in der Natur des Gegenstandes liegen."
     },
     {
         "page": 95,
@@ -5128,15 +5128,15 @@ var pt =
         "page": 95,
         "tlp": 4.002,
         "pt": 3.201412,
-        "english": "The tacit conventions on which the understanding of our language depends are enormously complicated. With every proposition much is supplied in thought which is not put into words.\nIf 'A' is used to mean a person, the proposition, 'A is sitting', is admissible, but not if 'A' signifies this book. - But once a proposition is completely analyzed, everything that depends upon the understanding of its form must be unaffected by the meanings of its parts.",
-        "german": "Die stillschweigenden Abmachungen zum Verständnis unserer Sprache sind enorm kompliziert zu jedem Satz wird viel hinzu gedacht, was nicht ausgesprochen wird. \nIst mit 〟A\" ein Mensch gemeint so ist der Satz 〟A sitzt\" zulässig, aber nicht wenn A dieses Buch bezeichnet. — Ist aber ein Satz ganz zerlegt dann müssen für alles was vom Verständnis seiner Form abhängt die Bedeutungen seiner Teile belanglos sein."
+        "english": "The tacit conventions on which the understanding of our language depends are enormously complicated. With every proposition much is supplied in thought which is not put into words.<br />If 'A' is used to mean a person, the proposition, 'A is sitting', is admissible, but not if 'A' signifies this book. - But once a proposition is completely analyzed, everything that depends upon the understanding of its form must be unaffected by the meanings of its parts.",
+        "german": "Die stillschweigenden Abmachungen zum Verständnis unserer Sprache sind enorm kompliziert zu jedem Satz wird viel hinzu gedacht, was nicht ausgesprochen wird. <br />Ist mit 〟A\" ein Mensch gemeint so ist der Satz 〟A sitzt\" zulässig, aber nicht wenn A dieses Buch bezeichnet. — Ist aber ein Satz ganz zerlegt dann müssen für alles was vom Verständnis seiner Form abhängt die Bedeutungen seiner Teile belanglos sein."
     },
     {
         "page": 95,
         "tlp": 4.123,
         "pt": 4.1022331,
-        "english": "A property is internal if it is unthinkable that its object should not possess it.\n(This shade of blue and that one stand, eo ipso, in the internal relation of lighter to darker. It is unthinkable that these two objects should not stand in this relation.)",
-        "german": "Eine Eigenschaft ist intern wenn es undenkbar ist, daß ihr Gegenstand sie nicht besitzt.\n(Diese blaue Farbe und jene stehen in der internen Relation von heller und dunkler eo ipso. Es ist undenkbar, daß diese beiden Gegenstände nicht in dieser Relation stünden.)"
+        "english": "A property is internal if it is unthinkable that its object should not possess it.<br />(This shade of blue and that one stand, eo ipso, in the internal relation of lighter to darker. It is unthinkable that these two objects should not stand in this relation.)",
+        "german": "Eine Eigenschaft ist intern wenn es undenkbar ist, daß ihr Gegenstand sie nicht besitzt.<br />(Diese blaue Farbe und jene stehen in der internen Relation von heller und dunkler eo ipso. Es ist undenkbar, daß diese beiden Gegenstände nicht in dieser Relation stünden.)"
     },
     {
         "page": 95,
@@ -5156,7 +5156,7 @@ var pt =
         "page": 96,
         "tlp": 2.02331,
         "pt": 2.02331,
-        "english": "In a manner of speaking: either a thing has properties that nothing else has, in which case we can immediately use a description to distinguish it from the others and refer to it; or, on the other hand, there are several things that have the whole set of their properties in common, in which case it is quite impossible to indicate one.\nFor if there is nothing to distinguish a thing, I cannot distinguish it, since if I do it will be distinguished after all.",
+        "english": "In a manner of speaking: either a thing has properties that nothing else has, in which case we can immediately use a description to distinguish it from the others and refer to it; or, on the other hand, there are several things that have the whole set of their properties in common, in which case it is quite impossible to indicate one.<br />For if there is nothing to distinguish a thing, I cannot distinguish it, since if I do it will be distinguished after all.",
         "german": "Beiläufig gesprochen: Entweder ein Ding hat Eigenschaften die kein anderes hat, dann kann man es ohne weiteres durch eine Beschreibung aus den anderen herausheben und darauf hinweisen; oder aber es gibt mehrere Dinge, die ihre sämtlichen Eigenschaften gemeinsam haben, dann ist es überhaupt unmöglich auf eines zu zeigen. Denn ist das Ding durch nichts hervorgehoben, so kann ich es nicht hervorheben, denn sonst ist es eben hervorgehoben."
     },
     {
@@ -5324,8 +5324,8 @@ var pt =
         "page": 98,
         "tlp": 6.3611,
         "pt": 6.3631,
-        "english": "We cannot compare a process with 'the passage of time' - there is no such thing - but only with another process (such as the working of a chronometer).\nHence we can describe the lapse of time only by relying on some other process.",
-        "german": "Wir können keinen Vorgang mit dem 〟Ablauf der Zeit\" vergleichen — diesen gibt es nicht —, sondern nur mit einem anderen Vorgang (etwa mit dem Gang des Chronometers).\nDaher ist die Beschreibung des zeitlichen Verlaufs nur so möglich, daß wir uns auf einen anderen Vorgang stützen."
+        "english": "We cannot compare a process with 'the passage of time' - there is no such thing - but only with another process (such as the working of a chronometer).<br />Hence we can describe the lapse of time only by relying on some other process.",
+        "german": "Wir können keinen Vorgang mit dem 〟Ablauf der Zeit\" vergleichen — diesen gibt es nicht —, sondern nur mit einem anderen Vorgang (etwa mit dem Gang des Chronometers).<br />Daher ist die Beschreibung des zeitlichen Verlaufs nur so möglich, daß wir uns auf einen anderen Vorgang stützen."
     },
     {
         "page": 99,
@@ -5339,7 +5339,7 @@ var pt =
         "tlp": 6.36111,
         "pt": 6.36321,
         "english": "Kant's problem about the right hand and left hand, which cannot be made to coincide, exists even in two dimensions. Indeed, it exists in one-dimensional space in which the two congruent figures, a and b, cannot be made to coincide unless they are moved out of this space.",
-        "german": "Das Kantsche Problem von der rechten und linken Hand die man nicht zur Deckung bringen kann, besteht schon in der Ebene, ja im eindimensionalen Raum wo die beiden kongruenten Figuren a und b auch nicht zur Deckung gebracht werden können ohne \n\naus diesem Raum herausbewegt zu werden."
+        "german": "Das Kantsche Problem von der rechten und linken Hand die man nicht zur Deckung bringen kann, besteht schon in der Ebene, ja im eindimensionalen Raum wo die beiden kongruenten Figuren a und b auch nicht zur Deckung gebracht werden können ohne <br /><br />aus diesem Raum herausbewegt zu werden."
     },
     {
         "page": 99,
@@ -5366,15 +5366,15 @@ var pt =
         "page": 100,
         "tlp": 6.2321,
         "pt": 6.232,
-        "english": "It is a property of affirmation that it can be construed as double negation.\nIt is a property of 1+1+1+1 that it can be construed as (1+1)+(1+1).",
-        "german": "Es ist eine Eigenschaft der Bejahung daß man sie als doppelte Verneinung auffassen kann. \nEs ist eine Eigenschaft von 1+1+1+1 daß man es als (1+1) + (1+1) auffassen kann."
+        "english": "It is a property of affirmation that it can be construed as double negation.<br />It is a property of 1+1+1+1 that it can be construed as (1+1)+(1+1).",
+        "german": "Es ist eine Eigenschaft der Bejahung daß man sie als doppelte Verneinung auffassen kann. <br />Es ist eine Eigenschaft von 1+1+1+1 daß man es als (1+1) + (1+1) auffassen kann."
     },
     {
         "page": 100,
         "tlp": 6.24,
         "pt": 6.24,
-        "english": "The method by which mathematics arrives at its equations is the method of substitution.\nFor equations express the substitutability of two expressions and, starting from a number of equations, we advance to new equations by substituting different expressions in accordance with the equations.",
-        "german": "Die Methode der Mathematik zu ihren Gleichungen zu kommen ist die Substitutionsmethode. \nDenn die Gleichungen drücken die Ersetzbarkeit zweier Ausdrücke aus und wir schreiten von einer Anzahl von Gleichungen zu neuen Gleichungen vor indem wir den Gleichungen entsprechend die einen Ausdrücke durch andere ersetzen."
+        "english": "The method by which mathematics arrives at its equations is the method of substitution.<br />For equations express the substitutability of two expressions and, starting from a number of equations, we advance to new equations by substituting different expressions in accordance with the equations.",
+        "german": "Die Methode der Mathematik zu ihren Gleichungen zu kommen ist die Substitutionsmethode. <br />Denn die Gleichungen drücken die Ersetzbarkeit zweier Ausdrücke aus und wir schreiten von einer Anzahl von Gleichungen zu neuen Gleichungen vor indem wir den Gleichungen entsprechend die einen Ausdrücke durch andere ersetzen."
     },
     {
         "page": 100,
@@ -5450,8 +5450,8 @@ var pt =
         "page": 101,
         "tlp": 5.154,
         "pt": "None",
-        "english": "Suppose that an urn contains white and black balls in equal numbers. Then I can establish by this experiment that the number of white balls drawn and the number of black balls drawn approximate to one another as the draw continues.\nSo this is not a mathematical truth.",
-        "german": "In einer Urne seien gleichviel schwarze und weiße Kugeln. Dann kann ich durch das Experiment feststellen, daß sich die Zahlen der gezogenen weißen und schwarzen Kugeln bei fortgesetztem Ziehen einander nähern.\nDas ist also kein mathematisches Faktum."
+        "english": "Suppose that an urn contains white and black balls in equal numbers. Then I can establish by this experiment that the number of white balls drawn and the number of black balls drawn approximate to one another as the draw continues.<br />So this is not a mathematical truth.",
+        "german": "In einer Urne seien gleichviel schwarze und weiße Kugeln. Dann kann ich durch das Experiment feststellen, daß sich die Zahlen der gezogenen weißen und schwarzen Kugeln bei fortgesetztem Ziehen einander nähern.<br />Das ist also kein mathematisches Faktum."
     },
     {
         "page": 102,
@@ -5478,15 +5478,15 @@ var pt =
         "page": 102,
         "tlp": 5.2522,
         "pt": 5.005351,
-        "english": "Let us write the general term of a series of forms as follows:\n|x̅0, x̅, O'(x̅)|\nThe x̅0's are the initial terms of the series, the x̅'s are terms arbitrarily selected from it, and O'(x̅) is the term produced from the x̅'s by means of the operation O(α̅) as the series proceeds.",
-        "german": "Schreiben wir das allgemeine Glied der Formenreihe so:\n|x̅0, x̅, O'(x̅)|\nDie x0 sind die Anfangsglieder der Reihe, die x beliebige ihrer Glieder und O'(x̅) dasjenige Glied welches beim Fortschreiten in der Reihe durch die Operation O'(α̅) aus den (x̅) entsteht."
+        "english": "Let us write the general term of a series of forms as follows:<br />|x̅0, x̅, O'(x̅)|<br />The x̅0's are the initial terms of the series, the x̅'s are terms arbitrarily selected from it, and O'(x̅) is the term produced from the x̅'s by means of the operation O(α̅) as the series proceeds.",
+        "german": "Schreiben wir das allgemeine Glied der Formenreihe so:<br />|x̅0, x̅, O'(x̅)|<br />Die x0 sind die Anfangsglieder der Reihe, die x beliebige ihrer Glieder und O'(x̅) dasjenige Glied welches beim Fortschreiten in der Reihe durch die Operation O'(α̅) aus den (x̅) entsteht."
     },
     {
         "page": 102,
         "tlp": 6.02,
         "pt": 6.011,
-        "english": "I give the following definitions:\nx = O0'x Def.\nand |x, ξ, O'ξ| = |O0'x, Oν'ξ, Oν+1'ξ|\nand O+1 = 1 Def.\nTherefore instead of 'x, O'x, O'O'x, O'O'O'x etc.', I write: 'O0'x, O1'x, O1+1'x, O1+1+1'x, etc.'\n1+1  =  2 Def.;\n1+1+1  =  3 Def.; etc.",
-        "german": "Ich definiere nun:\nx = O0'x Def.\nund |x, ξ, O'ξ| = |O0'x, Oν'ξ, Oν+1'ξ|\nund O+1 = 1 Def.\nalso schreibe ich statt 〟x, O'x, O'O'x, O'O'O'x etc.\" 〟O0'x, O1'x, O1+1'x, O1+1+1'x, etc\"\n1+1  =  2  Def.\n1+1+1  =  3  Def. u.s.w."
+        "english": "I give the following definitions:<br />x = O0'x Def.<br />and |x, ξ, O'ξ| = |O0'x, Oν'ξ, Oν+1'ξ|<br />and O+1 = 1 Def.<br />Therefore instead of 'x, O'x, O'O'x, O'O'O'x etc.', I write: 'O0'x, O1'x, O1+1'x, O1+1+1'x, etc.'<br />1+1  =  2 Def.;<br />1+1+1  =  3 Def.; etc.",
+        "german": "Ich definiere nun:<br />x = O0'x Def.<br />und |x, ξ, O'ξ| = |O0'x, Oν'ξ, Oν+1'ξ|<br />und O+1 = 1 Def.<br />also schreibe ich statt 〟x, O'x, O'O'x, O'O'O'x etc.\" 〟O0'x, O1'x, O1+1'x, O1+1+1'x, etc\"<br />1+1  =  2  Def.<br />1+1+1  =  3  Def. u.s.w."
     },
     {
         "page": 103,
