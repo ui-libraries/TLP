@@ -38,7 +38,7 @@
         <![endif]-->        
 
         <div class="container-fluid" id="container">
-            <input id="tlp-btn" class="btn btn-success" type="button" value="load Tractatus" onclick="return tlpbtn()" />
+            <input id="pt-btn" class="btn btn-success" type="button" value="load Prototractatus" onclick="return ptbtn()" />
             
             <div id="map" class="col-md-12"></div>
             
@@ -52,13 +52,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.1/lodash.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
         <script src="http://ariutta.github.io/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
-        <script src="js/prototractatus-sections.js"></script>
-        <!--<script src="js/ends-two.js"></script>-->
-        <!--<script src="js/lines-two.js"></script>-->
-        <script src="js/prototractatus-lines.js"></script>
-        <!--<script src="js/curves-two.js"></script>-->
+        <script src="js/sections-two.js"></script>
+        <script src="js/ends-two.js"></script>
+        <script src="js/lines-two.js"></script>
+        
+        <script src="js/curves-two.js"></script>
         <script src="js/rectangles-two.js"></script>
-        <script src="js/pt.js"></script>
         
         <script src="js/main.js"></script>
 
@@ -74,8 +73,9 @@
                 maxZoom: 10
             });
           };
-        function tlpbtn() {
-            window.location.href = "/tlp";
+        
+        function ptbtn() {
+            window.location.href = "/";
         }
     </script>
 
