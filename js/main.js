@@ -186,7 +186,7 @@ function findSection(section, lang) {
         position: { 
                     my: "left top",
                     at: "left top" ,
-                    of: event,
+                    of: window.event,
                     within: $("body")
                   },        
         height: 500,
