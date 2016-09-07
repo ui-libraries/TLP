@@ -5524,3 +5524,17 @@ var pt =
         "german": "Russell und Whitehead haben die Möglichkeit dieses Fortschreitens nicht zugegeben aber immer wieder von ihr Gebrauch gemacht. "
     }
 ];
+
+var corePT = [];
+_.forEach(pt, function(value, key) {
+  	if (value.page >= 3 && value.page <= 83) {
+		corePT.push(value.pt);	
+	};
+});
+
+var protoPT = [];
+_.forEach(pt, function(value, key) {
+  	if (value.page >= 3 && value.page <= 4) {
+		protoPT.push(value.pt);	
+	};
+});

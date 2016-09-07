@@ -7,6 +7,7 @@ var divCounter = 0; //append to div name to create unique ids every time
 var i = 17;
 
 
+
 var width = $("#map").width();
 //var width = 1000;
 var height = $(window).height();
@@ -57,6 +58,23 @@ var elemEndEnter = elemEnd.enter()
 var elemEnter = elem.enter()
     .append("g");
 
+
+var testArr = [1, 1.1, 2];
+
+function checkColor(sections, value, color) {
+	var myVal = Number(value);
+	var result = _.includes(sections, myVal);
+	console.log(result);
+	
+	if (result === true) {
+		console.log("YES");
+		return color;		
+	} else {
+		console.log("NO");
+		return 'Gainsboro';		
+	}
+}	
+
 /*Create the line */
 var line = elemLineEnter.append("line")
     .attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
@@ -64,7 +82,7 @@ var line = elemLineEnter.append("line")
     .attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap; }) //x_axis of 2nd section
     .attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
     .attr("stroke-width", 20)   //double radius?
-    .attr("stroke", function (d) {return d.color; })
+    .attr("stroke", function (d) {return checkColor(protoPT, d.start, d.color) })
     .on("click", buildGroup);
 
 /*Create the curve 
@@ -86,6 +104,8 @@ var circle = elemEnter.append("circle")
     .attr("fill", "white")
     .attr("stroke-width", 4)
     .on("click", showSection);
+								  
+							
 
 /*Create the rectangles for stops 
 var rect = elemRectEnter.append("rect")

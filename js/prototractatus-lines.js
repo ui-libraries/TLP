@@ -14,8 +14,6 @@ var purple = "#BDA0CB";
 var lightPurple = "#b8cce4";
 var grey = "#C0C0C0";
 
-// {"start": "", "end": "", "color": },
-
 var lines = 
     [    
         {"start": "1", "end": "7", "color": yellow},
