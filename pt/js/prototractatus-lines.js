@@ -334,24 +334,6 @@ var lines =
         {"start": "6.442", "end": "6.4423", "color": blue},
         {"start": "6.521", "end": "6.5211", "color": blue},
         {"start": "6.4422", "end": "6.44221", "color": navy},
-        {"start": "6.4423", "end": "6.44232", "color": navy},
-        
-        
-        
-        
-        
-
-
-        
-
-
-
-
-        		
-        		
-        		
-         
-        
-        
+        {"start": "6.4423", "end": "6.44232", "color": navy}
 
     ];
