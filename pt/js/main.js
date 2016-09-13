@@ -4,12 +4,14 @@ var gap = 50;
 var version = '.ger';
 var lineGroup = [];
 var divCounter = 0; //append to div name to create unique ids every time
-var i = 17;
+//var i = 17;
 currentGrouping = [];
 var protoPT = [];
 var subPT = [];
 var startPage = '3';
 var endPage = '83';
+
+
 
 startPage = localStorage.getItem('startpage');
 endPage = localStorage.getItem('endpage');
@@ -22,7 +24,7 @@ _.forEach(pt, function(value, key) {
 	};
 });
 
-console.log(subPT);
+//console.log(subPT);
 
 currentGrouping = subPT;
 
@@ -50,6 +52,10 @@ var svg = d3.select("#map").append("svg")
     .attr("height", height)
     .attr("id", "tractatus-map");
 
+/* Define the data for the non-junction stops */
+var elemRect = svg.selectAll("g")
+    .data(rectangles);
+
 /* Define the data for the circles */
 var elem = svg.selectAll("g")
     .data(sections);
@@ -58,14 +64,9 @@ var elem = svg.selectAll("g")
 var elemLine = svg.selectAll("g")
     .data(lines);
 
-/* Define the data for the non-junction stops */
-var elemRect = svg.selectAll("g")
-    .data(rectangles);
-
 /*Create and place the "blocks" containing the lines */
 var elemLineEnter = elemLine.enter()
     .append("g");
-
 
 /*Create and place the "blocks" containing the circle and the text */
 var elemEnter = elem.enter()
@@ -95,6 +96,7 @@ function checkCircleColor(sections, startValue, color) {
 	}
 }
 
+//returns all the points along a line given a start and end
 function computeLinePoints(start, end) {
 	var startObj = _.find(sections, function(o) { return o.label == start; });
 	var endObj = _.find(sections, function(o) { return o.label == end; });
@@ -105,42 +107,73 @@ function computeLinePoints(start, end) {
 	var points = [];
 	
 	if (startX - endX === 0) {
-		//x axis is the same
+		//vertical line, x axis is the same
 		//find everything on the x axis between the y range
 		_.forEach(sections, function(value, key) {
 			if (value.x_axis === startX && (value.y_axis >= startY && value.y_axis <= endY)) {
 				points.push(value);				
 			}
 		});
-		console.log("vertical");
 	} else if (startY - endY === 0) {
-		//y axis is the same
+		//horizontal line, y axis is the same
 		//find everything on the y axis between the x range
 		_.forEach(sections, function(value, key) {
 			if (value.y_axis === startY && (value.x_axis >= startX && value.x_axis <= endX)) {
 				points.push(value);				
 			}
-		})
-		console.log("horizontal");
+		});
 	}
 	
-	//find which axis has a difference of zero. take points on that axis between the points of the other
-	
-	console.log(points);
+	return points;
 }
 
-computeLinePoints("1", "7");
+function findHighestEnd(lineObj) {
+	//compute points for start and end on line object. Highest value that is included in currentGrouping is returned
+	var points = [];
+	var pointLabels = [];
+	var diff = [];
+	var num;	
+	var last;
+	
+	points = computeLinePoints(lineObj.start, lineObj.end);
+	
+	_.forEach(points, function(v, k) {
+		num = Number(v.label);			
+		pointLabels.push(num);						
+	});
+	
+
+	diff = _.intersection(pointLabels, currentGrouping);
+	last = _.last(diff);
+	
+	return last;	
+}
+
+// TESTING TESTING
+var tester = findHighestEnd({"start": "1.2", "end": "1.21", "color": yellow});
+
+if (tester !== undefined) {
+	console.log(tester);
+} else {
+	console.log("naw");
+}
+// END TESTING
 
 /*Create the line */
-var line = elemLineEnter.append("line")
-    .attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
-    .attr("y1", function (d) {var point = findPoints(d); return point.y1 * gap; }) //y_axis of 1st section
-    .attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap; }) //x_axis of 2nd section
-    .attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
-    .attr("stroke-width", 20)   //double radius?
-    .attr("stroke", function (d) {return checkLineColor(currentGrouping, d.start, d.end, d.color) })
-    .on("click", buildGroup);
+function buildLine() {
+	
+	var line = elemLineEnter.append("line")
+		.attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
+		.attr("y1", function (d) {var point = findPoints(d); return point.y1 * gap; }) //y_axis of 1st section
+		.attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap; }) //x_axis of 2nd section
+		.attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
+		.attr("stroke-width", 20)   //double radius?
+		.attr("stroke", function (d) {return checkLineColor(currentGrouping, d.start, d.end, d.color) })
+		.on("click", buildGroup);
+}
 
+buildLine();
+	
 /*Create the circles for junctions */
 var circle = elemEnter.append("circle")
     .attr("cx", function (d) { return d.x_axis * gap; })
@@ -151,7 +184,7 @@ var circle = elemEnter.append("circle")
     .attr("stroke-width", 4)
     .on("click", showSection);
 								  
-							
+
 /* Create the text for each block */
 elemEnter.append("text")
     .attr("dx", function (d) {return d.x_axis * gap + 15; })
@@ -223,9 +256,13 @@ function createHTML(section) {
 function findPoints(d) {
     var points = {},        
         start = d.start,
-        end = d.end,
-        startPoint = _.filter(sections, {"label": start}),
+        end = d.end,		
+    	startPoint = _.filter(sections, {"label": start}),
         endPoint = _.filter(sections, {"label": end});
+	
+	//endPoint = _.filter(sections, {"label": findHighestEnd(d).toString()});
+	
+	//console.log(d);
 
     points.x1 = startPoint[0].x_axis;
     points.x2 = endPoint[0].x_axis;
@@ -233,7 +270,9 @@ function findPoints(d) {
     points.y2 = endPoint[0].y_axis;
     points.color = d.color; 
     
-    i++;
+    //i++;
+	
+	//console.log(points);
 
     return points;
 }
