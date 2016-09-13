@@ -59,7 +59,7 @@ var elemRect = svg.selectAll("g")
 /* Define the data for the circles */
 var elem = svg.selectAll("g")
     .data(sections);
-
+makePartials();
 /* Define the data for the lines */
 var elemLine = svg.selectAll("g")
     .data(lines);
@@ -145,34 +145,58 @@ function findHighestEnd(lineObj) {
 
 	diff = _.intersection(pointLabels, currentGrouping);
 	last = _.last(diff);
+	last = last;
 	
-	return last;	
+	return _.toString(last);	
 }
 
 // TESTING TESTING
-var tester = findHighestEnd({"start": "1.2", "end": "1.21", "color": yellow});
+//var tester = findHighestEnd({"start": "1.2", "end": "1.21", "color": yellow});
 
-if (tester !== undefined) {
-	console.log(tester);
-} else {
-	console.log("naw");
-}
+//if (tester !== undefined) {
+	//console.log(tester);
+//} else {
+	//console.log("naw");
+//}
 // END TESTING
 
-/*Create the line */
-function buildLine() {
+function partialLine(lineObj) {
+	//console.log(lineObj);
+	// {"start": "1", "end": "7", "color": yellow},
+	var start = lineObj.start,
+		end = lineObj.end,
+		color = lineObj.color,
+		newLines = [],
+		line = {},
+		highEnd = findHighestEnd(lineObj);	
 	
-	var line = elemLineEnter.append("line")
-		.attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
-		.attr("y1", function (d) {var point = findPoints(d); return point.y1 * gap; }) //y_axis of 1st section
-		.attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap; }) //x_axis of 2nd section
-		.attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
-		.attr("stroke-width", 20)   //double radius?
-		.attr("stroke", function (d) {return checkLineColor(currentGrouping, d.start, d.end, d.color) })
-		.on("click", buildGroup);
+	if (highEnd !== "") {
+		line.start = start;
+		line.end = highEnd;
+		line.color = color;
+		console.log(line);
+		lines.push(line);
+	}
+	
 }
 
-buildLine();
+function makePartials() {
+	_.forEach(lines, function(v, k) {		
+		partialLine(v);
+	})
+}
+
+/*Create the line */
+	
+var line = elemLineEnter.append("line")
+	.attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
+	.attr("y1", function (d) {var point = findPoints(d); return point.y1 * gap; }) //y_axis of 1st section
+	.attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap; }) //x_axis of 2nd section
+	.attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
+	.attr("stroke-width", 20)   //double radius?
+	//.attr("stroke", function (d) {return d.end, d.start, "pink"})
+	.attr("stroke", function (d) {return checkLineColor(currentGrouping, d.start, d.end, d.color) })
+	.on("click", buildGroup);
 	
 /*Create the circles for junctions */
 var circle = elemEnter.append("circle")
