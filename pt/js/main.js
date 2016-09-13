@@ -33,6 +33,18 @@ function setStorage(start, end) {
 	localStorage.setItem('endpage', end);	
 }
 
+$(window).keyup(function(e) {
+     if (e.which === 13) {
+        console.log("next page");
+		endPage = $('#end-page').val();
+		var nextPage = Number(endPage) + 1;
+		$('#end-page').val(nextPage);
+		nextPage = endPage.toString();
+		$('#page-submit').trigger( "click" );
+		 
+     }
+});
+
 $('#page-submit').click(function() {	
     startPage = $('#start-page').val();
 	endPage = $('#end-page').val();	
