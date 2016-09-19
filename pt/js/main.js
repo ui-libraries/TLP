@@ -1,7 +1,6 @@
 var sectionDiv = '';
 var splitSection = [];
 var gap = 50;
-var version = '.ger';
 var lineGroup = [];
 var divCounter = 0; //append to div name to create unique ids every time
 //var i = 17;
@@ -10,9 +9,16 @@ var protoPT = [];
 var subPT = [];
 var startPage = '3';
 var endPage = '83';
+var version = '';
 
+var version = localStorage.getItem('language');
 
+if (version === null) {	
+	version = '.ger';
+	localStorage.setItem('language', version);
+}
 
+console.log(version);
 startPage = localStorage.getItem('startpage');
 endPage = localStorage.getItem('endpage');
 $('#start-page').val(startPage);
@@ -35,7 +41,7 @@ function setStorage(start, end) {
 
 $(window).keyup(function(e) {
      if (e.which === 13) {
-        console.log("next page");
+        //console.log("next page");
 		endPage = $('#end-page').val();
 		var nextPage = Number(endPage) + 1;
 		$('#end-page').val(nextPage);
@@ -50,8 +56,7 @@ $('#page-submit').click(function() {
 	endPage = $('#end-page').val();	
 	startPage = startPage.toString();
 	endPage = endPage.toString();
-	setStorage(startPage, endPage);
-	
+	setStorage(startPage, endPage);	
  });
 
 var width = $("#map").width();
@@ -186,7 +191,7 @@ function partialLine(lineObj) {
 		line.start = start;
 		line.end = highEnd;
 		line.color = color;
-		console.log(line);
+		//console.log(line);
 		lines.push(line);
 	}
 	
@@ -258,7 +263,7 @@ function findSection(section, lang) {
         resizable: true,
         position: { 
                     my: "left top",
-                    at: "left top" ,
+                    at: "left top",
                     of: window.event,
                     within: $("body")
                   },        
@@ -328,8 +333,13 @@ function showSection(d) {
         "title": 'Prototractatus',
         "class": 'dialog',
     }).appendTo('#dialog');
-    
-    $('#'+div).append($('<div>').load('../pt/lang-version.html'));
+    version = localStorage.getItem('language');
+	//put it all in the callback, of course
+    $('#'+div).append($('<div>').load('../pt/lang-version.html', function() {
+		version = localStorage.getItem('language');		
+		$('.selectChange').val(version);
+		//findSection(label, version);
+	}));
 
     findSection(label, version);
 }
@@ -381,26 +391,34 @@ function buildGroup(d) {
         "title": 'Prototractatus',
         "class": 'dialog',
     }).appendTo('#dialog');
-    
-    $('#'+div).append($('<div>').load('../pt/lang-version.html'));
+    version = localStorage.getItem('language');
+    $('#'+div).append($('<div>').load('../pt/lang-version.html', function() {
+		version = localStorage.getItem('language');
+		$('.selectChange').val(version);
+	}));
     
     //loop through final list and display each section text
-    for (j = 0; j < preciseList.length; j += 1) {
-        findSection(preciseList[j], version);
-    }
+	for (j = 0; j < preciseList.length; j += 1) {
+		findSection(preciseList[j], version);
+	}
+    
+   
     
 }
 
 //switches the language when language dropdown is changed
 $(document).on('change', ".selectChange", function () {
     var divID = '#' + $(this).parent()[0].offsetParent.id;
-    var lang = '.' + this.value;
-    
+	var lang = this.value;
+	if (!_.includes(lang, '.')) {
+		lang = '.' + this.value;
+	}
+	console.log(lang);
+	localStorage.setItem('language', lang);
     $(divID).find('.ger, .pmc, .ogd').hide();
     $(divID).find(lang).show();
 
 });
-
 
 
 
