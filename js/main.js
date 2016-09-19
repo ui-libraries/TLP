@@ -1,5 +1,3 @@
-var sectionDiv = '';
-var splitSection = [];
 var gap = 50;
 var version = '.ger';
 var lineGroup = [];
@@ -127,7 +125,9 @@ function findPrecision(a) {
 }
 
 function findSection(section, lang) {
-    var sectionNum = '';
+    var sectionNum = '',
+        sectionDiv,
+        splitSection;
 
     sectionNum = section;
     

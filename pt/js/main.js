@@ -246,14 +246,64 @@ function findPrecision(a) {
     return precision;
 }
 
+function findDiff(section, lang) {
+	var sectionNum = '',
+		splitSection,
+		sectionDiv,
+		sectionText,
+		diff,
+		fragment = $('<div class="diff"></div>'),
+        ptsec;
+	
+	    ptsec = _.find(pt, function(obj) {
+                 return  obj.pt == section;
+            });
+	
+	console.log(ptsec.tlp);
+	console.log(ptsec);
+	
+	sectionNum = _.toString(ptsec.tlp);
+	sectionContent = createHTML(section);
+	sectionText = $(sectionContent).find(lang).text();	
+
+	 if (sectionNum.indexOf('.') !== -1) {
+        splitSection = sectionNum.split('.');
+        sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
+    } else {
+        sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
+    }
+
+    $('<div>').load(sectionDiv, function () {
+        var html = this;
+		var result = $(html).find(lang).text();
+		diff = JsDiff.diffWords(result, sectionText);
+		
+		diff.forEach(function(part){
+		  // blue for additions, red for deletions
+		  // grey for common parts
+		  color = part.added ? 'red' :
+			part.removed ? 'blue' : 'grey';
+		  span = document.createElement('span');
+		  span.style.color = color;
+		  span.appendChild(document
+			.createTextNode(part.value));
+		  $(fragment).append(span);			
+		});		
+    });	
+
+	return fragment;
+	
+}
+
 //for each circle, rectangle, and end cap -- looks up numerical label in the html, builds a jquery dialog box, then populates dialog with relevant section text
 function findSection(section, lang) {
     var sectionNum = '',
+		sectionContent,		
         ptsec;
 
     sectionNum = section; 
     
-    sectionContent = createHTML(sectionNum);   
+    sectionContent = createHTML(sectionNum);
     
     var div = "#dialog" + divCounter;
     
@@ -274,8 +324,7 @@ function findSection(section, lang) {
     
     $(div).append(sectionContent);
     $(div).find('.ger, .pmc, .ogd').hide();
-    $(div).find(version).show();
-    
+    $(div).find(version).show();    
 }
 
 function createHTML(section) {
@@ -320,8 +369,10 @@ function findPoints(d) {
 
 //builds the dialog container then uses findSection to populate
 function showSection(d) {
-    
+    var returnVal;
     var label = d.label;
+	var display;
+	var textLabel;
     
     //create a unique id for each new dialog div
     divCounter += 1;
@@ -334,14 +385,21 @@ function showSection(d) {
         "class": 'dialog',
     }).appendTo('#dialog');
     version = localStorage.getItem('language');
+	
 	//put it all in the callback, of course
     $('#'+div).append($('<div>').load('../pt/lang-version.html', function() {
 		version = localStorage.getItem('language');		
 		$('.selectChange').val(version);
 		//findSection(label, version);
 	}));
-
+	//console.log(label, version);
+	display = document.getElementById(div);
+	textLabel = label.toString();
+	returnVal = findDiff(textLabel, version);	
     findSection(label, version);
+	$('#' + div).append('<br /><div class="pnum">text difference</div>');
+	$('#' + div).append(returnVal);
+	
 }
 
 //creates an array of sections when a line is clicked then populates a dialog with each section text
@@ -402,8 +460,6 @@ function buildGroup(d) {
 		findSection(preciseList[j], version);
 	}
     
-   
-    
 }
 
 //switches the language when language dropdown is changed
@@ -416,6 +472,7 @@ $(document).on('change', ".selectChange", function () {
 	console.log(lang);
 	localStorage.setItem('language', lang);
     $(divID).find('.ger, .pmc, .ogd').hide();
+	//$(divID).find('.diff').hide();
     $(divID).find(lang).show();
 
 });
