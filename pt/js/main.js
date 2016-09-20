@@ -246,23 +246,27 @@ function findPrecision(a) {
     return precision;
 }
 
+function ptToTlp(ptsection) {
+	var ptsec,
+		sectionNum,
+		sectionText;
+	
+	ptsec = _.find(pt, function(obj) { return  obj.pt == ptsection; });
+	sectionNum = _.toString(ptsec.tlp);
+	
+	return sectionNum;
+}
+
 function findDiff(section, lang) {
 	var sectionNum = '',
 		splitSection,
 		sectionDiv,
 		sectionText,
 		diff,
-		fragment = $('<div class="diff"></div>'),
-        ptsec;
+		fragment = $('<div class="diff"></div>');
+
 	
-	    ptsec = _.find(pt, function(obj) {
-                 return  obj.pt == section;
-            });
-	
-	console.log(ptsec.tlp);
-	console.log(ptsec);
-	
-	sectionNum = _.toString(ptsec.tlp);
+	sectionNum = ptToTlp(section);
 	sectionContent = createHTML(section);
 	sectionText = $(sectionContent).find(lang).text();	
 
@@ -397,7 +401,7 @@ function showSection(d) {
 	textLabel = label.toString();
 	returnVal = findDiff(textLabel, version);	
     findSection(label, version);
-	$('#' + div).append('<br /><div class="pnum">text difference</div>');
+	$('#' + div).append('<br /><div class="pnum">text difference when compared to TLP ' + ptToTlp(textLabel) + '</div>');
 	$('#' + div).append(returnVal);
 	
 }
