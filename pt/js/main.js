@@ -416,6 +416,9 @@ function buildGroup(d) {
         i,
         j,
         n,
+		display,
+		textLavel,
+		returnVal,
         preciseList = [];
     
     //find all objects with label values between start value and end value
@@ -461,7 +464,12 @@ function buildGroup(d) {
     
     //loop through final list and display each section text
 	for (j = 0; j < preciseList.length; j += 1) {
+		display = document.getElementById(div);
+		textLabel = preciseList[j].toString();
+		returnVal = findDiff(textLabel, version);
 		findSection(preciseList[j], version);
+		$('#' + div).append('<div class="pnum">text difference when compared to TLP ' + ptToTlp(textLabel) + '</div>');
+		$('#' + div).append(returnVal, '<br />');
 	}
     
 }
