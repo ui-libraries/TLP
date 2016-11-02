@@ -1,3 +1,16 @@
+var red = "#bf4f4e";
+var orange = "#f6944c";
+var yellow = "#fffc30";
+var green = "#9cb95e";
+var pink = "#e5b8b7";
+var blue = "#4dadc5";
+var lightOrange = "#fcd4b5";
+var lightGreen = "#d9e3bd";
+var lightBlue = "#b8dede";
+var navy = "#4f83bb";
+var lightPink = "#f2dcda";
+var pale = "#fde9da";
+
 var lines = 
     [        
         {"start": "1", "end": "7", "color": "yellow"},
