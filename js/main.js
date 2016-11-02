@@ -84,13 +84,13 @@ var rect = elemRectEnter.append("rect")
     .attr("height", 30)
     .on("click", showSection);
 
-var ends = elemEndEnter.append("rect")
+/*var ends = elemEndEnter.append("rect")
     .attr("x", function (d) { return d.x_axis * gap - 1; })
     .attr("y", function (d) { return d.y_axis * gap - 28; })
     .attr("fill", function (d) { return d.color; })
     .attr("width", 25)
     .attr("height", 60)
-    .on("click", showSection);
+    .on("click", showSection);*/
 
 /* Create the text for each block */
 elemRectEnter.append("text")

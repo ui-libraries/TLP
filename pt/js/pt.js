@@ -1,7 +1,7 @@
 var pt =
 [
     {
-        "page": 3,
+        "page": 1,
         "tlp": 1,
         "pt": 1,
         "english": "The world is all that is the case.",
@@ -15,7 +15,7 @@ var pt =
         "german": "Die Welt ist die Gesamtheit der Tatsachen, nicht der Dinge. "
     },
     {
-        "page": 3,
+        "page": 1,
         "tlp": 2,
         "pt": 2,
         "english": "What is the case - a fact - is the existence of states of affairs.",
@@ -36,7 +36,7 @@ var pt =
         "german": "Das Bild hat mit dem Abgebildeten die logische Form der Abbildung gemein."
     },
     {
-        "page": 3,
+        "page": 1,
         "tlp": 3,
         "pt": 3,
         "english": "A logical picture of facts is a thought.",
@@ -57,7 +57,7 @@ var pt =
         "german": "Das Satzzeichen mit der Art und Weise seiner Abbildung ist der Satz. "
     },
     {
-        "page": 3,
+        "page": 1,
         "tlp": 4,
         "pt": 4,
         "english": "A thought is a proposition with a sense.",
@@ -92,14 +92,14 @@ var pt =
         "german": "Der Satz ist der Ausdruck der Übereinstimmung und nicht Übereinstimmung mit den Wahrheitsmöglichkeiten der Elementarsätze. "
     },
     {
-        "page": 3,
+        "page": 1,
         "tlp": 5,
         "pt": 5,
         "english": "A proposition is a truth-function of elementary propositions.",
         "german": "Der Satz ist eine Wahrheitsfunktion der Elementarsätze. "
     },
     {
-        "page": 3,
+        "page": 1,
         "tlp": 6,
         "pt": 6,
         "english": "The general form of a truth-function is<br />|N(p̅0), ᾱ, N(ᾱ)|",
