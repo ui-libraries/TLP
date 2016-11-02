@@ -1,52 +1,44 @@
-// the container that holds the loaded section from tractatus.html
 var sectionDiv = '';
-// an array to contain the two parts of the TLP section number. Because the dot interferes with jquery
 var splitSection = [];
-// number of pixels between sections on the screen
 var gap = 50;
-//append to div name to create unique ids every time
-var divCounter = 0; 
-// a list of sections of the prototractatus that represent the currently selected page range
+var lineGroup = [];
+var divCounter = 0; //append to div name to create unique ids every time
+//var i = 17;
 currentGrouping = [];
-// place holder list of subsections in the current page range. usually identical to currentGrouping
+var protoPT = [];
 var subPT = [];
+var startPage = '3';
+var endPage = '83';
+var version = '';
 
-// load the language version from local storage
 var version = localStorage.getItem('language');
 
-// make german the default if no language is set
 if (version === null) {	
 	version = '.ger';
 	localStorage.setItem('language', version);
 }
 
-// load the start page from local storage
+console.log(version);
 startPage = localStorage.getItem('startpage');
-// load the end page from local storage
 endPage = localStorage.getItem('endpage');
-
-// add the start and end page values to the text boxes
 $('#start-page').val(startPage);
 $('#end-page').val(endPage);
 
-// add all object in the pt.js that fall between start and end page numbers. Hold this in subPT
 _.forEach(pt, function(value, key) {
   	if (value.page >= startPage && value.page <= endPage) {
 		subPT.push(value.pt);	
 	};
 });
 
-// make a currentGrouping list from subPT for functions in case we need to keep the subPT separate at some point
+//console.log(subPT);
+
 currentGrouping = subPT;
 
-// called from the page-submit click handler. sets start and end page values
 function setStorage(start, end) {	
 	localStorage.setItem('startpage', start);
 	localStorage.setItem('endpage', end);	
 }
 
-// if the enter key is pressed, increment the end page and trigger a submit click
-// used to crudely animate moving through pages
 $(window).keyup(function(e) {
      if (e.which === 13) {
         //console.log("next page");
@@ -59,7 +51,6 @@ $(window).keyup(function(e) {
      }
 });
 
-// when the page form submit button is clicked, set the start and end page values based on text box values
 $('#page-submit').click(function() {	
     startPage = $('#start-page').val();
 	endPage = $('#end-page').val();	
@@ -68,38 +59,36 @@ $('#page-submit').click(function() {
 	setStorage(startPage, endPage);	
  });
 
-// get the current window dimensions for d3
 var width = $("#map").width();
+//var width = 1000;
 var height = $(window).height();
+//var height = 1000;
 
-// add a new svg object to the map div in index.html
 var svg = d3.select("#map").append("svg")
     .attr("width", width)
     .attr("height", height)
     .attr("id", "tractatus-map");
 
-// Define the data for the circles. sections array loaded from prototractatus-sections.js
+/* Define the data for the non-junction stops */
+var elemRect = svg.selectAll("g")
+    .data(rectangles);
+
+/* Define the data for the circles */
 var elem = svg.selectAll("g")
     .data(sections);
-
-// needs to be called here so the lines array is correct before d3 data is made
-// mutates the lines array loaded from prototractatus-lines.js to only include end points found in the current page range
 makePartials();
-
-// Define the data for the lines. lines array loaded from prototractatus-lines and mutated with makePartials function
+/* Define the data for the lines */
 var elemLine = svg.selectAll("g")
     .data(lines);
 
-// Create and place the "blocks" containing the lines
+/*Create and place the "blocks" containing the lines */
 var elemLineEnter = elemLine.enter()
     .append("g");
 
-// Create and place the "blocks" containing the circle and the text
+/*Create and place the "blocks" containing the circle and the text */
 var elemEnter = elem.enter()
     .append("g");
 
-// if the line is in the current start and end range, use its original color. If not, make it grey
-// invoked in the d3 line var
 function checkLineColor(sections, startValue, endValue, color) {
 	var startVal = Number(startValue);
 	var endVal = Number(endValue);
@@ -113,8 +102,6 @@ function checkLineColor(sections, startValue, endValue, color) {
 	}
 }
 
-// if the circle is in the current start and end range, use its original color. If not, make it grey
-// invoked in the d3 circle var
 function checkCircleColor(sections, startValue, color) {
 	var startVal = Number(startValue);
 	var resultStart = _.includes(sections, startVal);
@@ -157,8 +144,8 @@ function computeLinePoints(start, end) {
 	return points;
 }
 
-//compute points for start and end on line object. Highest value that is included in currentGrouping is returned
 function findHighestEnd(lineObj) {
+	//compute points for start and end on line object. Highest value that is included in currentGrouping is returned
 	var points = [];
 	var pointLabels = [];
 	var diff = [];
@@ -170,7 +157,8 @@ function findHighestEnd(lineObj) {
 	_.forEach(points, function(v, k) {
 		num = Number(v.label);			
 		pointLabels.push(num);						
-	});	
+	});
+	
 
 	diff = _.intersection(pointLabels, currentGrouping);
 	last = _.last(diff);
@@ -179,15 +167,19 @@ function findHighestEnd(lineObj) {
 	return _.toString(last);	
 }
 
-// iterates over lines array and makes partial lines. called before lines d3 data is made
-function makePartials() {
-	_.forEach(lines, function(v, k) {		
-		partialLine(v);
-	})
-}
+// TESTING TESTING
+//var tester = findHighestEnd({"start": "1.2", "end": "1.21", "color": yellow});
 
-// mutates the line array to add partial lines
+//if (tester !== undefined) {
+	//console.log(tester);
+//} else {
+	//console.log("naw");
+//}
+// END TESTING
+
 function partialLine(lineObj) {
+	//console.log(lineObj);
+	// {"start": "1", "end": "7", "color": yellow},
 	var start = lineObj.start,
 		end = lineObj.end,
 		color = lineObj.color,
@@ -199,10 +191,17 @@ function partialLine(lineObj) {
 		line.start = start;
 		line.end = highEnd;
 		line.color = color;
+		//console.log(line);
 		lines.push(line);
-	}	
+	}
+	
 }
 
+function makePartials() {
+	_.forEach(lines, function(v, k) {		
+		partialLine(v);
+	})
+}
 
 /*Create the line */
 	
@@ -247,7 +246,6 @@ function findPrecision(a) {
     return precision;
 }
 
-// get the corresponding TLP number from the PT
 function ptToTlp(ptsection) {
 	var ptsec,
 		sectionNum,
@@ -259,7 +257,6 @@ function ptToTlp(ptsection) {
 	return sectionNum;
 }
 
-// create an HTML fragment of color-coded text differences between a specified PT number and its corresponding TLP section
 function findDiff(section, lang) {
 	var sectionNum = '',
 		splitSection,
@@ -302,7 +299,7 @@ function findDiff(section, lang) {
 	
 }
 
-//for each circle, look up numerical label in the html, build a jquery dialog box, then populate dialog with relevant section text
+//for each circle, rectangle, and end cap -- looks up numerical label in the html, builds a jquery dialog box, then populates dialog with relevant section text
 function findSection(section, lang) {
     var sectionNum = '',
 		sectionContent,		
@@ -334,9 +331,9 @@ function findSection(section, lang) {
     $(div).find(version).show();    
 }
 
-// for the PT we are loading from json, so we need to generate a snippet of html instead of loading from file
 function createHTML(section) {
-    var html;        
+    var html;
+        
     
     ptsec = _.find(pt, function(obj) {
                  return  obj.pt == section;
@@ -356,12 +353,20 @@ function findPoints(d) {
         end = d.end,		
     	startPoint = _.filter(sections, {"label": start}),
         endPoint = _.filter(sections, {"label": end});
+	
+	//endPoint = _.filter(sections, {"label": findHighestEnd(d).toString()});
+	
+	//console.log(d);
 
     points.x1 = startPoint[0].x_axis;
     points.x2 = endPoint[0].x_axis;
     points.y1 = startPoint[0].y_axis;
     points.y2 = endPoint[0].y_axis;
     points.color = d.color; 
+    
+    //i++;
+	
+	//console.log(points);
 
     return points;
 }
@@ -389,8 +394,9 @@ function showSection(d) {
     $('#'+div).append($('<div>').load('../pt/lang-version.html', function() {
 		version = localStorage.getItem('language');		
 		$('.selectChange').val(version);
+		//findSection(label, version);
 	}));
-
+	//console.log(label, version);
 	display = document.getElementById(div);
 	textLabel = label.toString();
 	returnVal = findDiff(textLabel, version);	
@@ -478,8 +484,10 @@ $(document).on('change', ".selectChange", function () {
 	console.log(lang);
 	localStorage.setItem('language', lang);
     $(divID).find('.ger, .pmc, .ogd').hide();
+	//$(divID).find('.diff').hide();
     $(divID).find(lang).show();
 
 });
+
 
 
