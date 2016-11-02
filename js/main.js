@@ -162,7 +162,10 @@ function findSection(section, lang) {
     $(div).append($('<li>').load(sectionDiv, function () {
         $(div).find('.ger, .pmc, .ogd').hide();
         $(div).find(version).show();
+		MathJax.Hub.Queue(["Typeset",MathJax.Hub,div]);
     }));
+	
+	
 
 }
 
@@ -206,9 +209,9 @@ function showSection(d) {
         "class": 'dialog',
     }).appendTo('#dialog');
     
-    $('#'+div).append($('<div>').load('lang-version.html'));
+    $('#'+div).append($('<div>').load('lang-version.html'));	
 
-    findSection(label, version);
+    findSection(label, version);	
 }
 
 function closeFunction(e) {
