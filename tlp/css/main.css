@@ -980,3 +980,13 @@ span.verlinks {
     margin: 20px;
     margin-top: 0px;
 }
+
+.possibilities {
+    display: inline-table;
+    vertical-align: middle;
+    border-collapse: collapse;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    text-indent: 0px;
+}

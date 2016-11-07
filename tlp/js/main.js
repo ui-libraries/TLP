@@ -1,5 +1,3 @@
-var sectionDiv = '';
-var splitSection = [];
 var gap = 50;
 var version = '.ger';
 var lineGroup = [];
@@ -24,26 +22,7 @@ var elem = svg.selectAll("g")
 var elemLine = svg.selectAll("g")
     .data(lines);
 
-/* Define the data for the curves */
-var elemCurve = svg.selectAll("g")
-    .data(curves);
-
-var elemEnd = svg.selectAll("g")
-    .data(ends);
-
-var elemRect = svg.selectAll("g")
-    .data(rectangles);
-
 var elemLineEnter = elemLine.enter()
-    .append("g");
-
-var elemCurveEnter = elemCurve.enter()
-    .append("g");
-
-var elemRectEnter = elemRect.enter()
-    .append("g");
-
-var elemEndEnter = elemEnd.enter()
     .append("g");
 
 /*Create and place the "blocks" containing the circle and the text */
@@ -59,15 +38,6 @@ var line = elemLineEnter.append("line")
     .attr("stroke", function (d) {return d.color; })
     .on("click", buildGroup);
 
-var curve = elemCurveEnter.append("line")    
-    .attr("x1", function (d) {var point = findPoints(d); return point.x1 * gap; }) //x_axis of 1st section + radius/2 ?
-    .attr("y1", function (d) {var point = findPoints(d); return point.y1 * gap; }) //y_axis of 1st section
-    .attr("x2", function (d) {var point = findPoints(d); return point.x2 * gap; }) //x_axis of 2nd section
-    .attr("y2", function (d) {var point = findPoints(d); return point.y2 * gap; }) //y_axis of 2nd section
-    .attr("stroke-width", 20)   //double radius?
-    .attr("stroke", function (d) {return d.color; })   
-    .on("click", buildGroup);
-
 /*Create the circle for each block */
 var circle = elemEnter.append("circle")
     .attr("cx", function (d) { return d.x_axis * gap; })
@@ -78,38 +48,9 @@ var circle = elemEnter.append("circle")
     .attr("stroke-width", 4)
     .on("click", showSection);
 
-var rect = elemRectEnter.append("rect")
-    .attr("x", function (d) { return d.x_axis * gap; })
-    .attr("y", function (d) { return d.y_axis * gap; })
-    .attr("fill", function (d) { return d.color; })
-    .attr("width", 25)
-    .attr("height", 30)
-    .on("click", showSection);
-
-var ends = elemEndEnter.append("rect")
-    .attr("x", function (d) { return d.x_axis * gap - 1; })
-    .attr("y", function (d) { return d.y_axis * gap - 28; })
-    .attr("fill", function (d) { return d.color; })
-    .attr("width", 25)
-    .attr("height", 60)
-    .on("click", showSection);
-
-/* Create the text for each block */
-elemRectEnter.append("text")
-    .attr("dx", function (d) {return d.x_axis * gap; })
-    .attr("dy", function(d){return d.y_axis * gap - 15; })
-    .attr("font-size","16px")
-    .text(function (d) {return d.label});
-
 /* Create the text for each block */
 elemEnter.append("text")
     .attr("dx", function (d) {return d.x_axis * gap + 15; })
-    .attr("dy", function(d){return d.y_axis * gap - 15; })
-    .attr("font-size","16px")
-    .text(function (d) {return d.label});
-
-elemEndEnter.append("text")
-    .attr("dx", function (d) {return d.x_axis * gap + 30; })
     .attr("dy", function(d){return d.y_axis * gap - 15; })
     .attr("font-size","16px")
     .text(function (d) {return d.label});
@@ -127,7 +68,9 @@ function findPrecision(a) {
 }
 
 function findSection(section, lang) {
-    var sectionNum = '';
+    var sectionNum = '',
+        sectionDiv,
+        splitSection;
 
     sectionNum = section;
     
@@ -150,7 +93,7 @@ function findSection(section, lang) {
         position: { 
                      my: "left top",
                      at: "left top" ,
-                     of: event,
+                     of: window.event,
                      within: $("body")
                    },        
         height: 500,
@@ -162,13 +105,16 @@ function findSection(section, lang) {
     $(div).append($('<li>').load(sectionDiv, function () {
         $(div).find('.ger, .pmc, .ogd').hide();
         $(div).find(version).show();
+		MathJax.Hub.Queue(["Typeset",MathJax.Hub,div]);
     }));
+	
+	
 
 }
 
 function addDropdown(div) {
     console.log(div);
-    $(div).append($('<div>').load('lang-version.html'));
+    $(div).append($('<div>').load('/lang-version.html'));
 }
 
 function findPoints(d) {
@@ -177,10 +123,6 @@ function findPoints(d) {
         end = d.end,
         startPoint = _.filter(sections, {"label": start}),
         endPoint = _.filter(sections, {"label": end});
-    
-    if (end === "1.13") {
-        endPoint = _.filter(ends, {"label": end});
-    }
     
     points.x1 = startPoint[0].x_axis;
     points.x2 = endPoint[0].x_axis;
@@ -206,9 +148,9 @@ function showSection(d) {
         "class": 'dialog',
     }).appendTo('#dialog');
     
-    $('#'+div).append($('<div>').load('lang-version.html'));
+    $('#'+div).append($('<div>').load('lang-version.html'));	
 
-    findSection(label, version);
+    findSection(label, version);	
 }
 
 function closeFunction(e) {
