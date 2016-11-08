@@ -15,15 +15,8 @@ body {
     height: 50%;
 }
 
-.head-textsx {
-	z-index: 100;
-	position: absolute;
-	color: white;
-	font-size: 24px;
-	font-weight: bold;
-	left: 150px;
-	top: 350px;
-}
+.item,
+.active,
 
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -39,4 +32,14 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+.head-text {
+	z-index: 1;
+	position: absolute;
+	color: black;
+	font-size: 44px;
+	font-weight: bold;
+	left: 25%;
+	top: 25%;
 }
