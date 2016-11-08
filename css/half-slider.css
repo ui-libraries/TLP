@@ -15,10 +15,14 @@ body {
     height: 50%;
 }
 
-.item,
-.active,
-.carousel-inner {
-    height: 100%;
+.head-textsx {
+	z-index: 100;
+	position: absolute;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	left: 150px;
+	top: 350px;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
@@ -26,7 +30,7 @@ body {
 .fill {
     width: 100%;
     height: 100%;
-    background-position: center;
+    background-position:bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
