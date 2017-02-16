@@ -47,12 +47,11 @@ var lines =
         {"start": "2.18", "end": "2.182", "color": green},
         {"start": "2.151", "end": "2.1515", "color": blue},
         {"start": "2.1512", "end": "2.15121", "color": navy},
-        //{"start": "              ", "end": "2.0201", "color": purple},     
-        
-        
         {"start": "3", "end": "3.5", "color": red},
         {"start": "3.1", "end": "3.14", "color": orange},
         {"start": "3.2", "end": "3.26", "color": orange},
+		{"start": "3.2", "end": "3.201", "color": orange},
+		{"start": "3.201", "end": "3.203", "color": orange},
         {"start": "3.3", "end": "3.34", "color": orange},
         {"start": "3.4", "end": "3.42", "color": orange},
         {"start": "3.4", "end": "3.42", "color": orange},
