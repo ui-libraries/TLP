@@ -1,8 +1,16 @@
 var gap = 50;
-var version = '.ger';
+//var version = '.ger';
 var lineGroup = [];
 var divCounter = 0; //append to div name to create unique ids every time
 
+// load the language version from local storage
+var version = localStorage.getItem('language');
+
+// make german the default if no language is set
+if (version === null) {	
+	version = '.ger';
+	localStorage.setItem('language', version);
+}
 
 var width = $("#map").width();
 //var width = 1000;
@@ -114,7 +122,7 @@ function findSection(section, lang) {
 
 function addDropdown(div) {
     console.log(div);
-    $(div).append($('<div>').load('/lang-version.html'));
+    $(div).append($('<div>').load('lang-version.html'));
 }
 
 function findPoints(d) {
@@ -133,9 +141,9 @@ function findPoints(d) {
     return points;
 }
 
-function showSection(d) {
+function showSection(d) {	
     
-    var label = d.label;
+    var label = d.label;	
     
     //create a unique id for each new dialog div
     divCounter += 1;
@@ -147,8 +155,19 @@ function showSection(d) {
         "title": 'Tractatus Logico-Philosophicus',
         "class": 'dialog',
     }).appendTo('#dialog');
+	
+	version = localStorage.getItem('language');
+	
+	
+	
+	//put it all in the callback, of course
+    $('#'+div).append($('<div>').load('lang-version.html', function() {
+		version = localStorage.getItem('language');	
+		
+		$('.selectChange').val(version.substring(1));
+	}));
     
-    $('#'+div).append($('<div>').load('lang-version.html'));	
+    //$('#'+div).append($('<div>').load('lang-version.html'));	
 
     findSection(label, version);	
 }
@@ -203,8 +222,15 @@ function buildGroup(d) {
         "title": 'Tractatus Logico-Philosophicus',
         "class": 'dialog',
     }).appendTo('#dialog');
+	
+	version = localStorage.getItem('language');
+	
+	$('#'+div).append($('<div>').load('lang-version.html', function() {
+		version = localStorage.getItem('language');
+		$('.selectChange').val(version);
+	}));
     
-    $('#'+div).append($('<div>').load('lang-version.html'));
+    //$('#'+div).append($('<div>').load('lang-version.html'));
     
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
@@ -213,10 +239,16 @@ function buildGroup(d) {
     
 }
 
+//switches the language when language dropdown is changed
 $(document).on('change', ".selectChange", function () {
     var divID = '#' + $(this).parent()[0].offsetParent.id;
-    var lang = '.' + this.value;
-    
+	var lang = this.value;
+	
+	if (!_.includes(lang, '.')) {
+		lang = '.' + this.value;
+	}	
+	
+	localStorage.setItem('language', lang);
     $(divID).find('.ger, .pmc, .ogd').hide();
     $(divID).find(lang).show();
 
