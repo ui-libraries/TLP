@@ -11,13 +11,41 @@ currentGrouping = [];
 // place holder list of subsections in the current page range. usually identical to currentGrouping
 var subPT = [];
 
+//calculates how many decimal points each section number has
+function findPrecision(a) {
+    var precision;
+    //convert to string and count the length after the decimal point
+    if (a.indexOf('.') !== -1) {
+        precision = (a + "").split(".")[1].length;
+    } else {
+        precision = 0;
+    }
+    
+    return precision;
+}
+
+//need to modify sections array from sections-two.js in place. probably bad idea to mutate this, but oh well
+_.forEach(sections, function(data) {
+	if (findPrecision(data.label) == 0) {
+		size = "64px"
+	} else if (findPrecision(data.label) == 1) {
+		size = "48px"
+	} else if (findPrecision(data.label) == 2) {
+		size = "32px"
+	} else if (findPrecision(data.label) > 2) {
+		size = "18px"
+	}
+	
+	data.size = size
+})
+
 // load the language version from local storage
 var version = localStorage.getItem('language');
 
 // make german the default if no language is set
-if (version === null) {	
-	version = '.ger';
-	localStorage.setItem('language', version);
+if (version === null) { 
+    version = '.ger';
+    localStorage.setItem('language', version);
 }
 
 // load the start page from local storage
@@ -119,7 +147,7 @@ var circle = elemEnter.append("circle")
 elemEnter.append("text")
     .attr("dx", function (d) {return d.x_axis * gap + 15; })
     .attr("dy", function(d){return d.y_axis * gap - 15; })
-    .attr("font-size","16px")
+    .attr("font-size", function (d) {return d.size})
     .text(function (d) {return d.label});
 
 // called from the page-submit click handler. sets start and end page values
@@ -231,19 +259,6 @@ function partialLine(lineObj) {
 		line.color = color;
 		lines.push(line);
 	}	
-}
-
-//calculates how many decimal points each section number has
-function findPrecision(a) {
-    var precision;
-    //convert to string and count the length after the decimal point
-    if (a.indexOf('.') !== -1) {
-        precision = (a + "").split(".")[1].length;
-    } else {
-        precision = 0;
-    }
-    
-    return precision;
 }
 
 // get the corresponding TLP number from the PT
@@ -471,14 +486,14 @@ function buildGroup(d) {
 $(document).on('change', ".selectChange", function () {
     var divID = '#' + $(this).parent()[0].offsetParent.id;
 	var lang = this.value;
+
 	if (!_.includes(lang, '.')) {
 		lang = '.' + this.value;
 	}
-	console.log(lang);
+	
 	localStorage.setItem('language', lang);
     $(divID).find('.ger, .pmc, .ogd').hide();
     $(divID).find(lang).show();
 
 });
-
 

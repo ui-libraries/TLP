@@ -7,15 +7,42 @@ var divCounter = 0; //append to div name to create unique ids every time
 var version = localStorage.getItem('language');
 
 // make german the default if no language is set
-if (version === null) {	
-	version = '.ger';
-	localStorage.setItem('language', version);
+if (version === null) { 
+    version = 'ger';
+    localStorage.setItem('language', version);
 }
 
 var width = $("#map").width();
 //var width = 1000;
 var height = $(window).height();
 //var height = 1000;
+
+function findPrecision(a) {
+    var precision;
+    //convert to string and count the length after the decimal point
+    if (a.indexOf('.') !== -1) {
+        precision = (a + "").split(".")[1].length;
+    } else {
+        precision = 0;
+    }
+    
+    return precision;
+}
+
+//need to modify sections array from sections-two.js in place. probably bad idea to mutate this, but oh well
+_.forEach(sections, function(data) {
+	if (findPrecision(data.label) == 0) {
+		size = "64px"
+	} else if (findPrecision(data.label) == 1) {
+		size = "48px"
+	} else if (findPrecision(data.label) == 2) {
+		size = "32px"
+	} else if (findPrecision(data.label) > 2) {
+		size = "18px"
+	}
+	
+	data.size = size
+})
 
 var svg = d3.select("#map").append("svg")
     .attr("width", width)
@@ -60,20 +87,9 @@ var circle = elemEnter.append("circle")
 elemEnter.append("text")
     .attr("dx", function (d) {return d.x_axis * gap + 15; })
     .attr("dy", function(d){return d.y_axis * gap - 15; })
-    .attr("font-size","16px")
+    .attr("font-size", function (d) {return d.size})
     .text(function (d) {return d.label});
 
-function findPrecision(a) {
-    var precision;
-    //convert to string and count the length after the decimal point
-    if (a.indexOf('.') !== -1) {
-        precision = (a + "").split(".")[1].length;
-    } else {
-        precision = 0;
-    }
-    
-    return precision;
-}
 
 function findSection(section, lang) {
     var sectionNum = '',
@@ -113,15 +129,15 @@ function findSection(section, lang) {
     $(div).append($('<li>').load(sectionDiv, function () {
         $(div).find('.ger, .pmc, .ogd').hide();
         $(div).find(version).show();
-		MathJax.Hub.Queue(["Typeset",MathJax.Hub,div]);
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub,div]);
     }));
-	
-	
+    
+    
 
 }
 
 function addDropdown(div) {
-    console.log(div);
+    //console.log(div);
     $(div).append($('<div>').load('lang-version.html'));
 }
 
@@ -141,9 +157,9 @@ function findPoints(d) {
     return points;
 }
 
-function showSection(d) {	
+function showSection(d) {   
     
-    var label = d.label;	
+    var label = d.label;    
     
     //create a unique id for each new dialog div
     divCounter += 1;
@@ -155,21 +171,20 @@ function showSection(d) {
         "title": 'Tractatus Logico-Philosophicus',
         "class": 'dialog',
     }).appendTo('#dialog');
-	
-	version = localStorage.getItem('language');
-	
-	
-	
-	//put it all in the callback, of course
-    $('#'+div).append($('<div>').load('lang-version.html', function() {
-		version = localStorage.getItem('language');	
-		
-		$('.selectChange').val(version.substring(1));
-	}));
     
-    //$('#'+div).append($('<div>').load('lang-version.html'));	
+    version = localStorage.getItem('language');  
+    
+    
+    //put it all in the callback, of course
+    $('#'+div).append($('<div>').load('lang-version.html', function() {
+        version = localStorage.getItem('language'); 
+        
+        $('.selectChange').val(version.substring(1));
+    }));
+    
+    //$('#'+div).append($('<div>').load('lang-version.html'));  
 
-    findSection(label, version);	
+    findSection(label, version);    
 }
 
 function closeFunction(e) {
@@ -222,13 +237,13 @@ function buildGroup(d) {
         "title": 'Tractatus Logico-Philosophicus',
         "class": 'dialog',
     }).appendTo('#dialog');
-	
-	version = localStorage.getItem('language');
-	
-	$('#'+div).append($('<div>').load('lang-version.html', function() {
-		version = localStorage.getItem('language');
-		$('.selectChange').val(version.substring(1));
-	}));
+    
+    version = localStorage.getItem('language');
+    
+    $('#'+div).append($('<div>').load('lang-version.html', function() {
+        version = localStorage.getItem('language');
+        $('.selectChange').val(version.substring(1));
+    }));
     
     //$('#'+div).append($('<div>').load('lang-version.html'));
     
@@ -242,18 +257,17 @@ function buildGroup(d) {
 //switches the language when language dropdown is changed
 $(document).on('change', ".selectChange", function () {
     var divID = '#' + $(this).parent()[0].offsetParent.id;
-	var lang = this.value;
-	
-	if (!_.includes(lang, '.')) {
-		lang = '.' + this.value;
-	}	
-	
-	localStorage.setItem('language', lang);
+    var lang = this.value;
+    if (!_.includes(lang, '.')) {
+        lang = '.' + this.value;
+    }
+    
+    //console.log("switcher")
+    localStorage.setItem('language', lang);
     $(divID).find('.ger, .pmc, .ogd').hide();
     $(divID).find(lang).show();
 
 });
-
 
 
 
