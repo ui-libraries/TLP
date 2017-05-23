@@ -11,6 +11,8 @@ currentGrouping = [];
 // place holder list of subsections in the current page range. usually identical to currentGrouping
 var subPT = [];
 
+var mouseLoc;
+
 //calculates how many decimal points each section number has
 function findPrecision(a) {
     var precision;
@@ -335,7 +337,7 @@ function findSection(section, lang) {
         position: { 
                     my: "left top",
                     at: "left top",
-                    of: window.event,
+                    of: mouseLoc,
                     within: $("body")
                   },        
         height: 500,
@@ -495,5 +497,9 @@ $(document).on('change', ".selectChange", function () {
     $(divID).find('.ger, .pmc, .ogd').hide();
     $(divID).find(lang).show();
 
+});
+
+$( document ).on( "mousemove", function( event ) {
+  mouseLoc = event
 });
 

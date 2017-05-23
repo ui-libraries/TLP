@@ -3,6 +3,8 @@ var gap = 50;
 var lineGroup = [];
 var divCounter = 0; //append to div name to create unique ids every time
 
+var mouseLoc = 0;
+
 // load the language version from local storage
 var version = localStorage.getItem('language');
 
@@ -108,6 +110,8 @@ function findSection(section, lang) {
     }
     
     var div = "#dialog" + divCounter;
+	
+	console.log(window.event)
     
     $(div).dialog({
         modal: false,
@@ -117,7 +121,7 @@ function findSection(section, lang) {
         position: { 
                      my: "left top",
                      at: "left top" ,
-                     of: window.event,
+                     of: mouseLoc,
                      within: $("body")
                    },        
         height: 500,
@@ -267,6 +271,10 @@ $(document).on('change', ".selectChange", function () {
     $(divID).find('.ger, .pmc, .ogd').hide();
     $(divID).find(lang).show();
 
+});
+
+$( document ).on( "mousemove", function( event ) {
+  mouseLoc = event
 });
 
 
