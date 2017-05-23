@@ -45,7 +45,7 @@ _.forEach(sections, function(data) {
 var version = localStorage.getItem('language');
 
 // make german the default if no language is set
-if (version === null) { 
+if (version === null || version == ".ogd") { 
     version = '.ger';
     localStorage.setItem('language', version);
 }
@@ -400,6 +400,8 @@ function showSection(d) {
         "class": 'dialog',
     }).appendTo('#dialog');
     version = localStorage.getItem('language');
+	$('.selectChange').val(version);
+	
 	
 	//put it all in the callback, of course
     $('#'+div).append($('<div>').load('../pt/lang-version.html', function() {
