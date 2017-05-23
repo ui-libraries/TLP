@@ -227,7 +227,7 @@ function buildGroup(d) {
 	
 	$('#'+div).append($('<div>').load('lang-version.html', function() {
 		version = localStorage.getItem('language');
-		$('.selectChange').val(version);
+		$('.selectChange').val(version.substring(1));
 	}));
     
     //$('#'+div).append($('<div>').load('lang-version.html'));
