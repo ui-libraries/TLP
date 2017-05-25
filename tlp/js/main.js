@@ -34,11 +34,11 @@ function findPrecision(a) {
 //need to modify sections array from sections-two.js in place. probably bad idea to mutate this, but oh well
 _.forEach(sections, function(data) {
 	if (findPrecision(data.label) == 0) {
-		size = "64px"
+		size = "90px"
 	} else if (findPrecision(data.label) == 1) {
-		size = "48px"
+		size = "40px"
 	} else if (findPrecision(data.label) == 2) {
-		size = "32px"
+		size = "40px"
 	} else if (findPrecision(data.label) > 2) {
 		size = "18px"
 	}
@@ -110,8 +110,6 @@ function findSection(section, lang) {
     }
     
     var div = "#dialog" + divCounter;
-	
-	console.log(window.event)
     
     $(div).dialog({
         modal: false,
@@ -198,17 +196,27 @@ function closeFunction(e) {
 function buildGroup(d) {    
     var start = d.start,
         end = d.end,
-        precision = findPrecision(d.end),
+        precision,
         sectionList = [],
         range = [],
         i,
         j,
         n,
         preciseList = [];
+	
+	if (d.actualStart !== undefined) {
+		start = d.actualStart
+	}
+	
+	if (d.actualEnd !== undefined) {
+		end = d.actualEnd
+	}
+	
+	precision = findPrecision(end)
     
     //find all objects with label values between start value and end value
     sectionList.push(_.filter(sections, function (o) { return o.label <= end && o.label >= start; }));
-    _.forEach(sectionList, function (a) {
+    _.forEach(sectionList, function (a) {		
         _.forEach(a, function (b) {
             range.push(b.label);
         });
@@ -216,8 +224,7 @@ function buildGroup(d) {
     
     preciseList.push(start);
     
-    lineGroup = _.cloneDeep(preciseList);    
-    
+    lineGroup = _.cloneDeep(preciseList);      
     
     //add section to list if it has the same precision as end
     for (i = 0; i < range.length; i += 1) {

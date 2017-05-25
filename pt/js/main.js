@@ -29,11 +29,11 @@ function findPrecision(a) {
 //need to modify sections array from sections-two.js in place. probably bad idea to mutate this, but oh well
 _.forEach(sections, function(data) {
 	if (findPrecision(data.label) == 0) {
-		size = "64px"
+		size = "90px"
 	} else if (findPrecision(data.label) == 1) {
-		size = "48px"
+		size = "40px"
 	} else if (findPrecision(data.label) == 2) {
-		size = "32px"
+		size = "40px"
 	} else if (findPrecision(data.label) > 2) {
 		size = "18px"
 	}
@@ -165,12 +165,15 @@ function checkLineColor(sections, startValue, endValue, color) {
 	var endVal = Number(endValue);
 	var resultStart = _.includes(sections, startVal);
 	var resultEnd = _.includes(sections, endVal);
+	var finalColor
 	
-	if (resultStart === true && resultEnd === true) {		
-		return color;		
+	if (resultStart == true && resultEnd === true) {		
+		finalColor = color;		
 	} else {		
-		return '#E8E8EE';		
+		finalColor = '#E8E8EE';		
 	}
+	
+	return finalColor
 }
 
 // if the circle is in the current start and end range, use its original color. If not, make it grey
@@ -226,6 +229,7 @@ function findHighestEnd(lineObj) {
 	var last;
 	
 	points = computeLinePoints(lineObj.start, lineObj.end);
+	//console.log(points)
 	
 	_.forEach(points, function(v, k) {
 		num = Number(v.label);			
@@ -234,8 +238,7 @@ function findHighestEnd(lineObj) {
 
 	diff = _.intersection(pointLabels, currentGrouping);
 	last = _.last(diff);
-	last = last;
-	
+		
 	return _.toString(last);	
 }
 
@@ -250,15 +253,47 @@ function makePartials() {
 function partialLine(lineObj) {
 	var start = lineObj.start,
 		end = lineObj.end,
+		actualStart = lineObj.actualStart,
+		actualEnd = lineObj.actualEnd,
 		color = lineObj.color,
 		newLines = [],
 		line = {},
-		highEnd = findHighestEnd(lineObj);	
+		highend,
+		mergedLine = {};
 	
-	if (highEnd !== "") {
-		line.start = start;
+	//console.log("lineObj", lineObj)
+	
+	//need a "merged line" to handle the lines with bends
+	
+	if (actualStart !== undefined) {
+		mergedLine.start = actualStart		
+	} else {
+		mergedLine.start = start
+	}
+	
+	if (actualEnd !== undefined) {
+		mergedLine.end = actualEnd
+	} else {
+		mergedLine.end = end
+	}
+	
+	mergedLine.color = color
+	
+	//console.log("mergedLine", mergedLine)
+	
+	highEnd = findHighestEnd(lineObj);
+	
+	//console.log(highend)
+	
+	if (highEnd == undefined) {
+		line.start = mergedLine.start;
 		line.end = highEnd;
 		line.color = color;
+		line.actualStart = start;
+		line.actualEnd = end;
+		line.partial = true;
+		if (line.end == line.actualEnd) {line.partial = false}
+		//console.log(line)
 		lines.push(line);
 	}	
 }
@@ -419,10 +454,11 @@ function showSection(d) {
 }
 
 //creates an array of sections when a line is clicked then populates a dialog with each section text
+//partial lines are figued at this point
 function buildGroup(d) {    
     var start = d.start,
         end = d.end,
-        precision = findPrecision(d.end),
+        precision,
         sectionList = [],
         range = [],
         i,
@@ -431,7 +467,31 @@ function buildGroup(d) {
 		display,
 		textLavel,
 		returnVal,
+		div,
         preciseList = [];
+	
+	//console.log(start, end)
+	
+	
+	//console.log(d)
+	
+/////////////	
+	// if this block is commented out, then partial non-bent lines work
+	// if uncommented, bent lines work but shows full line instead of partial
+	
+	if (d.actualStart !== d.start && d.actualStart !== undefined) {
+		start = d.actualStart
+		console.log(start)
+	}
+	
+	if (d.actualEnd !== d.end && d.actualEnd !== undefined) {
+		end = d.actualEnd
+		console.log(end)
+	}
+	
+//////////////
+	
+	precision = findPrecision(end)
     
     //find all objects with label values between start value and end value
     sectionList.push(_.filter(sections, function (o) { return o.label <= end && o.label >= start; }));
@@ -443,7 +503,7 @@ function buildGroup(d) {
     
     preciseList.push(start);
     
-    lineGroup = _.cloneDeep(preciseList);    
+    //lineGroup = _.cloneDeep(preciseList);
     
     
     //add section to list if it has the same precision as end
@@ -460,7 +520,7 @@ function buildGroup(d) {
     
     //create a unique id for each new dialog div
     divCounter += 1;
-    var div = "dialog" + divCounter;    
+    div = "dialog" + divCounter;    
 
     //create a new div and append to dialog div
     $('<div>', {
