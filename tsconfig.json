@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "./src/",
+    "noImplicitAny": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": true,
+  "types": [
+    "d3",
+    "jquery",
+    "jqueryui",
+    "fs",
+    "lodash",
+    "bootstrap",
+    "diff",
+    "mathjax"
+  ]
+}
