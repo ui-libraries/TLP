@@ -1,1 +1,1 @@
-http://tractatus.lib.uiowa.edu/
+https://appdividend.com/2017/03/31/beginners-guide-to-setup-typescript-with-webpack/
