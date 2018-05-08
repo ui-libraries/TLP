@@ -1,6 +1,6 @@
 var red = "#bf4f4e";
 var orange = "#f6944c";
-var yellow = "#fffc30";
+var yellow = "#9b0058";
 var green = "#9cb95e";
 var pink = "#e5b8b7";
 var blue = "#4dadc5";
