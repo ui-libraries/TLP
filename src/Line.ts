@@ -1,5 +1,5 @@
 import {Point} from "./point";
-import {Section} from "./Section";
+import {Section} from "./section";
 import _ = require('lodash');
 
 declare var MathJax: any;
@@ -81,10 +81,13 @@ export class Line /*implements ILine*/ {
 
     findPoints(container: any): Point {
         var start = this._start,
-            end = this._end,
+            end = this._end,            
             startPoint = _.filter(container.sectionList.sections, {"label": start.toString()}),
             endPoint = _.filter(container.sectionList.sections, {"label": end.toString()});
+            //console.log(startPoint, endPoint)
+            //console.log(startPoint[0].x_axis, endPoint[0].x_axis, startPoint[0].y_axis, endPoint[0].y_axis)
         var point = new Point(startPoint[0].x_axis, endPoint[0].x_axis, startPoint[0].y_axis, endPoint[0].y_axis, this._color);
+        console.log(point)
         return point;
     }
 
