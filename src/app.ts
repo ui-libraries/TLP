@@ -16,14 +16,14 @@ linesJson.json must look like this example...
 
 import JsDiff = require('diff');
 import _ = require('lodash');
-import {Reference} from "./Reference";
+import {Reference} from "./reference";
 declare var MathJax:any;
 declare var d3:any;
 //break out separate classes for clarity
-import {Utility} from "./Util";
-import {Section} from "./section";
+import {Utility} from "./util";
+import {Section} from "./Section";
 import {Line} from "./Line";
-import {Point} from "./point";
+import {Point} from "./Point";
 
 var sectionsJson = require('./js/sectionsJson.json');
 var ptSectionsJson = require('./js/ptSectionsJson.json');

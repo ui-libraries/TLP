@@ -1,50 +1,19 @@
 var gap = 50;
-//var version = '.ger';
 var lineGroup = [];
 var divCounter = 0; //append to div name to create unique ids every time
-
 var mouseLoc = 0;
 
 // load the language version from local storage
 var version = localStorage.getItem('language');
 
 // make german the default if no language is set
-if (version === null) { 
+if (version === null) {
     version = 'ger';
     localStorage.setItem('language', version);
 }
 
 var width = $("#map").width();
-//var width = 1000;
 var height = $(window).height();
-//var height = 1000;
-
-function findPrecision(a) {
-    var precision;
-    //convert to string and count the length after the decimal point
-    if (a.indexOf('.') !== -1) {
-        precision = (a + "").split(".")[1].length;
-    } else {
-        precision = 0;
-    }
-    
-    return precision;
-}
-
-//need to modify sections array from sections-two.js in place. probably bad idea to mutate this, but oh well
-_.forEach(sections, function(data) {
-	if (findPrecision(data.label) == 0) {
-		size = "90px"
-	} else if (findPrecision(data.label) == 1) {
-		size = "40px"
-	} else if (findPrecision(data.label) == 2) {
-		size = "40px"
-	} else if (findPrecision(data.label) > 2) {
-		size = "18px"
-	}
-	
-	data.size = size
-})
 
 var svg = d3.select("#map").append("svg")
     .attr("width", width)
@@ -92,52 +61,46 @@ elemEnter.append("text")
     .attr("font-size", function (d) {return d.size})
     .text(function (d) {return d.label});
 
-
-function findSection(section, lang) {
+function findSection(section, version) {
     var sectionNum = '',
         sectionDiv,
         splitSection;
 
-    sectionNum = section;
-    
     //jquery doesn't want a period in the selector since it could be a class, so we have to escape it
     //find out if section has a decimal point
     if (sectionNum.indexOf('.') !== -1) {
-        splitSection = sectionNum.split('.');
+        splitSection = sectionLabel.split('.');
         sectionDiv = 'tractatus.html .sections:has("#p' + splitSection[0] + '\\.' + splitSection[1] + '")';
     } else {
         sectionDiv = 'tractatus.html .sections:has("#p' + sectionNum + '")';
     }
-    
+
     var div = "#dialog" + divCounter;
-    
+
     $(div).dialog({
         modal: false,
         draggable: true,
         resizable: true,
         close: closeFunction,
-        position: { 
-                     my: "left top",
-                     at: "left top" ,
-                     of: mouseLoc,
-                     within: $("body")
-                   },        
+        position: {
+            my: "left top",
+            at: "left top",
+            of: mouseLoc,
+            within: $("body")
+        },
         height: 500,
         width: 400,
         dialogClass: 'ui-dialog-osx',
     });
-    
-    //append each section to section-text list
-    $(div).append($('<li>').load(sectionDiv, function () {
-        $(div).find('.ger, .pmc, .ogd').hide();
-        $(div).find(version).show();
-        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-    }));
 
+    console.log("version1: " + version);
+    console.log("version: " + section.version);
+    //append each section to section-text list
+    $(div).append($('<li><div>' + section.version));
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub,div]);
 }
 
 function addDropdown(div) {
-    //console.log(div);
     $(div).append($('<div>').load('lang-version.html'));
 }
 
@@ -147,51 +110,50 @@ function findPoints(d) {
         end = d.end,
         startPoint = _.filter(sections, {"label": start}),
         endPoint = _.filter(sections, {"label": end});
-    
+
     points.x1 = startPoint[0].x_axis;
     points.x2 = endPoint[0].x_axis;
     points.y1 = startPoint[0].y_axis;
     points.y2 = endPoint[0].y_axis;
     points.color = d.color;
-    
+
     return points;
 }
 
-function showSection(d) {   
-    
-    var label = d.label;    
-    
+function showSection(d) {
+
+    var label = d.label;
+
     //create a unique id for each new dialog div
     divCounter += 1;
     var div = "dialog" + divCounter;
-    
+
     //create a new div and append to dialog div
     $('<div>', {
         "id": div,
-        "title": 'Tractatus Logico-Philosophicus',
+        "title": 'Oh Hello there!!!',
         "class": 'dialog',
     }).appendTo('#dialog');
-    
-    version = localStorage.getItem('language');  
-    
-    
+
+    version = localStorage.getItem('language');
+
     //put it all in the callback, of course
     $('#'+div).append($('<div>').load('lang-version.html', function() {
-        version = localStorage.getItem('language'); 
-        
+        version = localStorage.getItem('language');
         $('.selectChange').val(version.substring(1));
     }));
-    
+
     //$('#'+div).append($('<div>').load('lang-version.html'));  
 
-    findSection(label, version);    
+    console.log("the version: " + version);
+    findSection(d, version);
 }
 
 function closeFunction(e) {
     //console.log(e.target.id);
 }
 
-function buildGroup(d) {    
+function buildGroup(d) {
     var start = d.start,
         end = d.end,
         precision,
@@ -201,44 +163,44 @@ function buildGroup(d) {
         j,
         n,
         preciseList = [];
-	
-	if (d.actualStart !== undefined) {
-		start = d.actualStart
-	}
-	
-	if (d.actualEnd !== undefined) {
-		end = d.actualEnd
-	}
-	
-	precision = findPrecision(end)
-    
+
+    if (d.actualStart !== undefined) {
+        start = d.actualStart
+    }
+
+    if (d.actualEnd !== undefined) {
+        end = d.actualEnd
+    }
+
+    precision = d.precision;
+
     //find all objects with label values between start value and end value
     sectionList.push(_.filter(sections, function (o) { return o.label <= end && o.label >= start; }));
-    _.forEach(sectionList, function (a) {		
+    _.forEach(sectionList, function (a) {
         _.forEach(a, function (b) {
-            range.push(b.label);
+            range.push(b.precision);
         });
     });
-    
+
     preciseList.push(start);
-    
-    lineGroup = _.cloneDeep(preciseList);      
-    
+
+    lineGroup = _.cloneDeep(preciseList);
+
     //add section to list if it has the same precision as end
     for (i = 0; i < range.length; i += 1) {
-        if (findPrecision(range[i]) === precision) {
+        if (range[i] === precision) {
             preciseList.push(range[i]);
         }
     }
-    
+
     //remove the duplicate
     if (preciseList[0] == preciseList[1]) {
         preciseList.shift();
     }
-    
+
     //create a unique id for each new dialog div
     divCounter += 1;
-    var div = "dialog" + divCounter;    
+    var div = "dialog" + divCounter;
 
     //create a new div and append to dialog div
     $('<div>', {
@@ -246,21 +208,20 @@ function buildGroup(d) {
         "title": 'Tractatus Logico-Philosophicus',
         "class": 'dialog',
     }).appendTo('#dialog');
-    
+
     version = localStorage.getItem('language');
-    
+
     $('#'+div).append($('<div>').load('lang-version.html', function() {
         version = localStorage.getItem('language');
         $('.selectChange').val(version.substring(1));
     }));
-    
+
     //$('#'+div).append($('<div>').load('lang-version.html'));
-    
+
     //loop through final list and display each section text
     for (j = 0; j < preciseList.length; j += 1) {
         findSection(preciseList[j], version);
     }
-    
 }
 
 //switches the language when language dropdown is changed
@@ -270,7 +231,7 @@ $(document).on('change', ".selectChange", function () {
     if (!_.includes(lang, '.')) {
         lang = '.' + this.value;
     }
-    
+
     //console.log("switcher")
     localStorage.setItem('language', lang);
     $(divID).find('.ger, .pmc, .ogd').hide();
@@ -279,8 +240,5 @@ $(document).on('change', ".selectChange", function () {
 });
 
 $( document ).on( "mousemove", function( event ) {
-  mouseLoc = event
+    mouseLoc = event
 });
-
-
-
