@@ -469,7 +469,7 @@
         "start": "3.2",
         "end": "3.201",
         "precision": 3,
-        "color": "#f6944c"
+        "color": "#fcd4b5"
     },
     {
         "label": "3.201",
@@ -482,7 +482,7 @@
         "start": "3.201",
         "end": "3.203",
         "precision": 3,
-        "color": "#f6944c"
+        "color": "#fcd4b5"
     },
     {
         "label": "3.3",

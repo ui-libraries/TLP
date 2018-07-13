@@ -40,12 +40,12 @@ export class Section implements ISection{
     public displayText(showSelector: boolean, version:string, divCounter: number, template:string, util:Utils) {
         var div = "collapse" + divCounter;
 
-        //create a new div and append to accordion div
+        //create a new div and append to accordion div. Add 'Section ' + to line 48 for optional label
         var element: any = $('<div class="panel panel-default">' +
             '<div class="panel-heading" data-toggle="collapse" href="#' + div + '" class="accordion-toggle" >' +
             '<h4 class="panel-title">' +
             '<a class="accordion-header">' +
-            'Section ' + this.label + '<span class="glyphicon glyphicon-remove close-panel" style="float:right"></span></a>' +
+            this.label + '<span class="glyphicon glyphicon-remove close-panel" style="float:right"></span></a>' +
             '</h4>' +
             '</div>' +
             '<div id="' + div + '" class="panel-collapse collapse in"><div class="panel-body" value="' + this.label + '"></div>').appendTo('#accordion');
