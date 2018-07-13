@@ -425,7 +425,7 @@ nav a:hover {
  }
 
 #start-page, #end-page{
-    width: 50px;
+    width: 70px;
     display: inline;
 }
 
@@ -584,7 +584,10 @@ table {
     font-variant: small-caps;
 }
 .overlined {
-    text-decoration: overline;
+    /* text-decoration: overline; */
+    display: inline-block;
+    line-height: 95%;
+    border-top: 1px solid
 }
 .nop {
     font-style: normal;
