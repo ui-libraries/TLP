@@ -7,7 +7,7 @@
     "@types/diff": "^3.2.2",
     "diff": "^3.4.0",
     "jsdiff": "^1.1.1",
-    "mathjax": "^2.7.3",
+    "mathjax": "^2.7.4",
     "requirejs": "^2.3.5"
   },
   "devDependencies": {
@@ -16,7 +16,6 @@
     "@types/jquery": "^3.2.18",
     "@types/jqueryui": "^1.12.0",
     "@types/node": "^9.3.0",
-    "electron-builder": "^20.20.4",
     "ts-loader": "^2.0.3",
     "tslint": "^5.8.0",
     "typescript": "^2.2.2",
