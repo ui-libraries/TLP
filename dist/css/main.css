@@ -412,6 +412,7 @@ nav a:hover {
 
 .diff, .pnum{
     padding: 5px;
+    margin-left: 10px;
 }
 
 #scroll-to-top{
@@ -699,7 +700,7 @@ div.pnum {
    padding-top: 0px;
    padding-bottom: 0px;
    text-indent: 0px;
-   margin-left: 0em;
+   margin-left: 10px;
    font-weight: bold;
    font-family: tgbold;
 }
@@ -1045,4 +1046,8 @@ span.verlinks {
     margin: 0px;
     padding: 0px;
     text-indent: 0px;
+}
+
+.text-display-li {
+    list-style-type: none;
 }
