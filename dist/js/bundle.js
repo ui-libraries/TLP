@@ -17290,6 +17290,8 @@ var Utility;
                     var sec = new Section_1.Section(d.label, d.fontSize, d.precision, d.x_axis, d.y_axis, d.ger, d.ogd, d.pmc);
                     if (d.label == sectionNum[i]) {
                         var result = sec.getTextForSelectedVersion(lang);
+                        result = result.replace(/<\/?[^>]+(>|$)/g, "");
+                        sectionText = sectionText.replace(/<\/?[^>]+(>|$)/g, "");
                         diff = JsDiff.diffWords(result, sectionText);
                         diff.forEach(function (part) {
                             // blue for additions, red for deletions
@@ -19431,8 +19433,9 @@ var tractatus;
             });
             //show the page selector if PT is selected
             if (container.template == "pt") {
+                localStorage.setItem('version', "ger");
                 $("#pt-btn").html("Load Tractatus").val("Load Tractatus");
-                $("option[value='ogd']").hide();
+                $("option[value='ogd']").remove();
                 $("#page-select-form").show();
             }
             else {
