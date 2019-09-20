@@ -58,4 +58,3 @@ var Reference;
     }());
     Reference.Ref = Ref;
 })(Reference = exports.Reference || (exports.Reference = {}));
-//# sourceMappingURL=reference.js.map

@@ -215,8 +215,9 @@ var tractatus;
             });
             //show the page selector if PT is selected
             if (container.template == "pt") {
+                localStorage.setItem('version', "ger");
                 $("#pt-btn").html("Load Tractatus").val("Load Tractatus");
-                $("option[value='ogd']").hide();
+                $("option[value='ogd']").remove();
                 $("#page-select-form").show();
             }
             else {
@@ -453,4 +454,3 @@ container.lineList = container.template == "pt" ? ptLinesJson : linesJson;
 container.setupAccordionSidePanel();
 container.setupPTPaging();
 container.setupD3();
-//# sourceMappingURL=app.js.map

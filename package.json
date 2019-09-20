@@ -1,29 +1,39 @@
 {
-  "name": "typescript",
+  "name": "test_tlp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@types/diff": "^3.2.2",
-    "diff": "^3.4.0",
+    "@types/diff": "^3.5.3",
+    "@types/lodash-es": "^4.17.3",
+    "diff": "^3.5.0",
     "jsdiff": "^1.1.1",
-    "mathjax": "^2.7.4",
-    "requirejs": "^2.3.5"
+    "lodash": "^4.14.121",
+    "mathjax": "^2.7.6",
+    "path": "^0.12.7",
+    "requirejs": "^2.3.6"
   },
   "devDependencies": {
-    "@types/bootstrap": "^3.3.37",
-    "@types/d3": "^4.12.0",
-    "@types/jquery": "^3.2.18",
-    "@types/jqueryui": "^1.12.0",
-    "@types/node": "^9.3.0",
+    "@types/bootstrap": "^3.4.0",
+    "@types/d3": "^4.13.2",
+    "@types/jquery": "^3.3.31",
+    "@types/jqueryui": "^1.12.7",
+    "@types/lodash": "^4.14.108",
+    "@types/node": "^9.6.52",
     "ts-loader": "^2.0.3",
-    "tslint": "^5.8.0",
-    "typescript": "^2.2.2",
+    "tslint": "^5.20.0",
+    "typescript": "^2.9.2",
     "webpack": "^2.3.2",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^2.11.5"
   },
   "scripts": {
-    "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "prepublishOnly": "npm run build",
+    "watch": "webpack --watch",
+    "webpack": "webpack",
+    "start": "webpack --watch & webpack-dev-server --open-page 'webpack-dev-server/dist'",
+    "test": "mocha --require babel-core/register --require ./test/config.js --recursive",
+    "test:watch": "npm test -- --watch",
+    "document": "documentation build src/** -f html -o docs --shallow"
   }
 }
