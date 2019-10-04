@@ -8,4 +8,5 @@ export interface ISection {
     pmc: string;
     ger: string;
     ogd?: string;
+    str: string;
 }

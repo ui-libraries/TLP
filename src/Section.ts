@@ -13,8 +13,9 @@ export class Section implements ISection{
     ger: string;
     ogd: string;
     pmc: string;
+    str: string;
 
-    constructor(label: string, fontSize: string, precision: number, x_axis: number, y_axis: number, ger: string, ogd: string, pmc: string) {
+    constructor(label: string, fontSize: string, precision: number, x_axis: number, y_axis: number, ger: string, ogd: string, pmc: string, str: string) {
         this.label = label;
         this.fontSize = fontSize;
         this.precision = precision;
@@ -23,6 +24,7 @@ export class Section implements ISection{
         this.ger = ger;
         this.ogd = ogd;
         this.pmc = pmc;
+        this.str = str;
     }
 
     getTextForSelectedVersion(version: string) {
@@ -33,6 +35,8 @@ export class Section implements ISection{
             v = this.ogd;
         } else if (version == "pmc") {
             v = this.pmc;
+        } else if (version == "str") {
+            v = this.str;
         }
         return v;
     }
@@ -65,6 +69,7 @@ export class Section implements ISection{
         $('#' + div + ' .panel-body').attr('ger', this.getTextForSelectedVersion('ger'));
         $('#' + div + ' .panel-body').attr('ogd', this.getTextForSelectedVersion('ogd'));
         $('#' + div + ' .panel-body').attr('pmc', this.getTextForSelectedVersion('pmc'));
+        $('#' + div + ' .panel-body').attr('str', this.getTextForSelectedVersion('str'));
 
         $('#' + div + ' .panel-body').append($('<li class="text-display-li">' + text + '</li>').load(text, function () {
             MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);

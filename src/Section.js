@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var _ = require("lodash");
 var Section = /** @class */ (function () {
-    function Section(label, fontSize, precision, x_axis, y_axis, ger, ogd, pmc) {
+    function Section(label, fontSize, precision, x_axis, y_axis, ger, ogd, pmc, str) {
         this.label = label;
         this.fontSize = fontSize;
         this.precision = precision;
@@ -11,6 +11,7 @@ var Section = /** @class */ (function () {
         this.ger = ger;
         this.ogd = ogd;
         this.pmc = pmc;
+        this.str = str;
     }
     Section.prototype.getTextForSelectedVersion = function (version) {
         var v;
@@ -22,6 +23,9 @@ var Section = /** @class */ (function () {
         }
         else if (version == "pmc") {
             v = this.pmc;
+        }
+        else if (version == "str") {
+            v = this.str;
         }
         return v;
     };
@@ -49,6 +53,7 @@ var Section = /** @class */ (function () {
         $('#' + div + ' .panel-body').attr('ger', this.getTextForSelectedVersion('ger'));
         $('#' + div + ' .panel-body').attr('ogd', this.getTextForSelectedVersion('ogd'));
         $('#' + div + ' .panel-body').attr('pmc', this.getTextForSelectedVersion('pmc'));
+        $('#' + div + ' .panel-body').attr('str', this.getTextForSelectedVersion('str'));
         $('#' + div + ' .panel-body').append($('<li class="text-display-li">' + text + '</li>').load(text, function () {
             MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
         }));

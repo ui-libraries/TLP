@@ -83,7 +83,6 @@ var Line /*implements ILine*/ = /** @class */ (function () {
         configurable: true
     });
     Line.prototype.findPoints = function (container) {
-        console.log('fuck you');
         var start = this._start, end = this._end, startPoint = _.filter(container.sectionList.sections, { "label": start.toString() }), endPoint = _.filter(container.sectionList.sections, { "label": end.toString() });
         var point = new point_1.Point(startPoint[0].x_axis, endPoint[0].x_axis, startPoint[0].y_axis, endPoint[0].y_axis, this._color);
         return point;
@@ -97,7 +96,7 @@ var Line /*implements ILine*/ = /** @class */ (function () {
         $.each(sectionList.sections, function () {
             var o = $(this)[0];
             if (container.template == 'tlp' || color == '#E8E8EE' || (o.page >= container.startPage && o.page <= container.endPage) || o.stroke == '#E8E8EE') {
-                var section = new Section_1.Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc);
+                var section = new Section_1.Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
                 sectionAr.push(section);
             }
         });

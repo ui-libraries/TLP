@@ -1,12 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var PTSection = /** @class */ (function () {
-    function PTSection(label, page, tlp, pmc, ger) {
+    function PTSection(label, page, tlp, pmc, ger, str) {
         this.label = label;
         this.page = page;
         this.tlp = tlp;
         this.pmc = pmc;
         this.ger = ger;
+        this.str = str;
     }
     return PTSection;
 }());

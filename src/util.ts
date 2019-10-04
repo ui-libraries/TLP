@@ -16,7 +16,7 @@ export module Utility {
             var ptSectionAr: PTSection[] = [];
             $.each(this.container.ref.ptSectionsJson.sections, function () {
                 var o: any = $(this)[0];
-                var ptSection: PTSection = new PTSection(o.label, o.page, o.tlp, o.pmc, o.ger)
+                var ptSection: PTSection = new PTSection(o.label, o.page, o.tlp, o.pmc, o.ger, o.str)
                 ptSectionAr.push(ptSection);
             })
             this._ptSectionAr = ptSectionAr;
@@ -43,7 +43,7 @@ export module Utility {
 
             for (var i = 0; i < sectionNum.length; i++) {
                 this.container.ref.sectionsJson.sections.forEach(function (d: Section) {
-                    var sec: Section = new Section(d.label, d.fontSize, d.precision, d.x_axis, d.y_axis, d.ger, d.ogd, d.pmc);
+                    var sec: Section = new Section(d.label, d.fontSize, d.precision, d.x_axis, d.y_axis, d.ger, d.ogd, d.pmc, d.str);
                     if (d.label == sectionNum[i]) {
                         var result = sec.getTextForSelectedVersion(lang);
                         result = result.replace(/<\/?[^>]+(>|$)/g, "");
@@ -74,7 +74,8 @@ export module Utility {
 
             var html = `<div class="sections"><div class="pnum" id="p${ptsec.label}">${ptsec.label}</div>
             <div class="ger">${ptsec.ger}</div>
-            <div class="pmc">${ptsec.pmc}</div></div>`;
+            <div class="pmc">${ptsec.pmc}</div></div>;
+            <div class="str">${ptsec.str}</div></div>`;
             return html;
         }
 

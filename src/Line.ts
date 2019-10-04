@@ -98,7 +98,7 @@ export class Line /*implements ILine*/ {
         $.each(sectionList.sections, function () {
             var o: any = $(this)[0];
             if (container.template == 'tlp' || color == '#E8E8EE' || (o.page >= container.startPage && o.page <= container.endPage) || o.stroke == '#E8E8EE') {
-                var section: Section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc)
+                var section: Section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str)
                 sectionAr.push(section);
             }
         });

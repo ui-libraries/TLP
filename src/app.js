@@ -215,7 +215,7 @@ var tractatus;
             });
             //show the page selector if PT is selected
             if (container.template == "pt") {
-                localStorage.setItem('version', "ger");
+                //localStorage.setItem('version', "ger");
                 $("#pt-btn").html("Load Tractatus").val("Load Tractatus");
                 $("option[value='ogd']").remove();
                 $("#page-select-form").show();
@@ -338,7 +338,7 @@ var tractatus;
             $.each(sectionList.sections, function () {
                 var $this = $(this);
                 var o = $(this)[0];
-                var section = new Section_1.Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc);
+                var section = new Section_1.Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
                 sectionAr.push(section);
             });
             $.each(lineList.lines, function () {
