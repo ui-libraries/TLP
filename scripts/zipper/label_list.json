@@ -1,0 +1,3504 @@
+{
+    "sections": [
+        {
+            "label": "1.1",
+            "text": "The world is all that is the case."
+        },
+        {
+            "label": "1.2",
+            "text": "What is the case—a fact—is the obtaining of elementary facts."
+        },
+        {
+            "label": "1.3",
+            "text": "A thought is a logical picture of facts."
+        },
+        {
+            "label": "1.4",
+            "text": "A thought is a sentence with a sense."
+        },
+        {
+            "label": "1.5",
+            "text": "A proposition is a truth-function of elementary propositions."
+        },
+        {
+            "label": "1.6",
+            "text": "The general form of a truth-function is:pt"
+        },
+        {
+            "label": "1",
+            "text": "The world is all that is the case."
+        },
+        {
+            "label": "1.1",
+            "text": "The world is the totality of facts, not of things."
+        },
+        {
+            "label": "2",
+            "text": "What is the case—a fact—is the obtaining of elementary facts."
+        },
+        {
+            "label": "2.1",
+            "text": "We grasp facts by way of pictures."
+        },
+        {
+            "label": "2.2",
+            "text": "What a picture shares with what it depicts is the logical form of depiction."
+        },
+        {
+            "label": "3",
+            "text": "A thought is a logical picture of facts."
+        },
+        {
+            "label": "3.1",
+            "text": "A sentential sign is a perceptible expression of a thought."
+        },
+        {
+            "label": "3.2",
+            "text": "A proposition is a sentential sign plus its mode of depiction."
+        },
+        {
+            "label": "4",
+            "text": "A thought is a sentence with a sense."
+        },
+        {
+            "label": "4.1",
+            "text": "A proposition represents the obtaining or non-obtaining of elementary facts."
+        },
+        {
+            "label": "4.2",
+            "text": "The sense of a proposition is its agreement or disagreement with possibilities of obtaining and non-obtaining of elementary facts."
+        },
+        {
+            "label": "4.3",
+            "text": "Truth-possibilities of elementary propositions mean possibilities of obtaining or non-obtaining of elementary facts."
+        },
+        {
+            "label": "4.4",
+            "text": "A proposition is an expression of agreement or disagreement with truth-possibilities of elementary propositions."
+        },
+        {
+            "label": "5",
+            "text": "A proposition is a truth-function of elementary propositions."
+        },
+        {
+            "label": "6",
+            "text": "The general form of a truth-function is: |N(p̄0), ᾱ, N(ᾱ)|.pt\t "
+        },
+        {
+            "label": "1.11",
+            "text": "The world is determined by the facts, and by these being all the facts."
+        },
+        {
+            "label": "1.13",
+            "text": "The facts in logical space are the world."
+        },
+        {
+            "label": "2.01",
+            "text": "An elementary fact is a combination of objects (entities, things)."
+        },
+        {
+            "label": "2.02",
+            "text": "An object is simple."
+        },
+        {
+            "label": "2.12",
+            "text": "A picture is a model of reality."
+        },
+        {
+            "label": "2.13",
+            "text": "In a picture the elements of the picture correspond to the objects."
+        },
+        {
+            "label": "2.15",
+            "text": "A picture is a fact."
+        },
+        {
+            "label": "2.16",
+            "text": "A fact will count as a picture only if it has something in common with what it represents."
+        },
+        {
+            "label": "2.21",
+            "text": "A picture agrees with reality or fails to agree; it is correct or incorrect, true or false."
+        },
+        {
+            "label": "2.11",
+            "text": "A picture presents a situation in logical space, the obtaining or non-obtaining of elementary facts."
+        },
+        {
+            "label": "2.22",
+            "text": "A picture represents what it represents, independently of its truth or falsehood, by means of its form of depiction."
+        },
+        {
+            "label": "2.23",
+            "text": "[Sentence crossed out]pt"
+        },
+        {
+            "label": "3.01",
+            "text": "The totality of true thoughts is a picture of the world."
+        },
+        {
+            "label": "3.11",
+            "text": "A sentential sign is a projection of a thought."
+        },
+        {
+            "label": "3.12",
+            "text": "The way of applying the sentential sign is the method of projection."
+        },
+        {
+            "label": "3.13",
+            "text": "To apply the sentential sign is to think its sense."
+        },
+        {
+            "label": "3.21",
+            "text": "A proposition is a projection in accordance with its method of projection."
+        },
+        {
+            "label": "1.12",
+            "text": "For the totality of facts determines what is the case, and also whatever is not the case."
+        },
+        {
+            "label": "2.03",
+            "text": "In an elementary fact objects are interconnected, like the links of a chain."
+        },
+        {
+            "label": "2.04",
+            "text": "Die Gesamtheit der bestehenden Sachverhalte ist die Welt."
+        },
+        {
+            "label": "2.05",
+            "text": "The totality of obtaining elementary facts also determines which elementary facts do not obtain."
+        },
+        {
+            "label": "2.06",
+            "text": "The obtaining or non-obtaining of elementary facts is reality."
+        },
+        {
+            "label": "2.07",
+            "text": "The sum total of reality is the world."
+        },
+        {
+            "label": "2.031",
+            "text": "In an elementary fact objects are combined in a definite way."
+        },
+        {
+            "label": "2.14",
+            "text": "A picture consists in its elements being combined in a definite way."
+        },
+        {
+            "label": "2.161",
+            "text": "Only if a picture and what it depicts contain something identical can the former be a picture of the latter.pt"
+        },
+        {
+            "label": "2.17",
+            "text": "What a picture must have in common with reality, to be able to depict it - correctly or incorrectly - in the way it does, is its form of depiction."
+        },
+        {
+            "label": "2.171",
+            "text": "There are various forms of depiction."
+        },
+        {
+            "label": "2.18",
+            "text": "What any picture, of whatever form, must have in common with reality,  be able to depict it - correctly or incorrectly - in any way at all, is logical form, i.e. the structure of reality."
+        },
+        {
+            "label": "2.181",
+            "text": "A picture whose form of depiction is logical form is called a logical picture."
+        },
+        {
+            "label": "2.182",
+            "text": "Every picture is also a logical one. (On the other hand, not every picture is, for example, a spatial one.)"
+        },
+        {
+            "label": "2.201",
+            "text": "A picture depicts reality by representing a possibility of existence and non-existence of elementary facts."
+        },
+        {
+            "label": "2.202",
+            "text": "A picture represents a possible situation in logical space."
+        },
+        {
+            "label": "2.203",
+            "text": "A picture contains the possibility of the situation that it represents."
+        },
+        {
+            "label": "2.221",
+            "text": "What a picture represents is its sense."
+        },
+        {
+            "label": "2.222",
+            "text": "The agreement and disagreement of its sense with reality constitutes its truth or falsehood."
+        },
+        {
+            "label": "3.3",
+            "text": "A sentential sign, applied and thought out, is a thought."
+        },
+        {
+            "label": "4.41",
+            "text": "We can express agreement with truth-possibilities by correlating the mark “T” (“true”) with them in the schema."
+        },
+        {
+            "label": "4.42",
+            "text": "The absence of this mark means disagreement.pt"
+        },
+        {
+            "label": "4.43",
+            "text": "The sign that results from correlating that mark with truth-possibilities is a\rsentential sign."
+        },
+        {
+            "label": "4.431",
+            "text": "So for example, this\r\ris a sentential sign.\r"
+        },
+        {
+            "label": "4.432",
+            "text": "For the sake of clarity we now write this sign as follows:\rp\tq\rF\tF\tT\rT\tF\tT\rF\tT\tF\rT\tT\tT\rThe sentential signs which, according to §4.43, are constructed in this way, we call proposition signs of the first kind."
+        },
+        {
+            "label": "4.44",
+            "text": "If the order of the truth-possibilities in a schema is fixed once and for all by a combinatory rule, then the last column by itself will be an expression of the truth-conditions."
+        },
+        {
+            "label": "4.441",
+            "text": "If we now write this column as a row, the sign in 4.432 will become \r“(TTFT )(p, q)” or “(T, T,  , T)(p, q)”."
+        },
+        {
+            "label": "3.02",
+            "text": "A thought contains the possibility of the situation of which it is the thought. What is thinkable is possible too."
+        },
+        {
+            "label": "3.111",
+            "text": "It is a projection of the possibility of a situation."
+        },
+        {
+            "label": "3.14",
+            "text": "In a sentential sign the simple signs correspond to the objects of reality."
+        },
+        {
+            "label": "3.15",
+            "text": "What constitutes a sentential sign is that in it the simple signs stand in a\rdeterminate relation to one another.pt"
+        },
+        {
+            "label": "3.16",
+            "text": "A sentential sign is a fact."
+        },
+        {
+            "label": "4.01",
+            "text": "A proposition is a picture of reality."
+        },
+        {
+            "label": "4.08",
+            "text": "Reality is compared with propositions."
+        },
+        {
+            "label": "4.09",
+            "text": "A proposition can be true or false only by being a picture of reality."
+        },
+        {
+            "label": "4.02",
+            "text": "We can see this from the fact that we understand the sense of a \tsentential sign without its having been explained to us."
+        },
+        {
+            "label": "4.03",
+            "text": "The meanings of simple signs (words), must be explained to us if we are to\runderstand them."
+        },
+        {
+            "label": "4.04",
+            "text": "But we make ourselves understood with propositions."
+        },
+        {
+            "label": "4.05",
+            "text": "It is essential to a proposition that it be able to communicate \ra new sense to us."
+        },
+        {
+            "label": "4.06",
+            "text": "A proposition communicates a situation to us, and so it must be \t\tessentially connected with that situation."
+        },
+        {
+            "label": "4.07",
+            "text": "And the connection is precisely that it is its logical picture."
+        },
+        {
+            "label": "3.141",
+            "text": "A simple sign means an object. The object is its meaning."
+        },
+        {
+            "label": "3.201",
+            "text": "The simple signs employed in propositions are called names."
+        },
+        {
+            "label": "4.11",
+            "text": "A proposition asserts that the situation obtains whose possibility it represents."
+        },
+        {
+            "label": "4.111",
+            "text": "[Sentence crossed out]"
+        },
+        {
+            "label": "4.21",
+            "text": "An elementary proposition, the simplest proposition, asserts that an elementary fact obtains."
+        },
+        {
+            "label": "4.1001",
+            "text": "The totality of true propositions is a world description.pt"
+        },
+        {
+            "label": "4.231",
+            "text": "To give all true elementary propositions is to describe the world completely."
+        },
+        {
+            "label": "4.232",
+            "text": "The world is completely described by giving all elementary propositions, and adding which of them are true and which false."
+        },
+        {
+            "label": "4.22",
+            "text": "An elementary proposition consists of names. It is a connection, a concatenation, of names."
+        },
+        {
+            "label": "4.221",
+            "text": "A name occurs in a proposition only in the context of an elementary proposition."
+        },
+        {
+            "label": "4.222",
+            "text": "Expressions like “a=a”, or those derived from them, which seem to contradict the above, are neither elementary propositions, nor is there any other way in which they could make sense. (This will be shown later.)"
+        },
+        {
+            "label": "4.23",
+            "text": "If an elementary proposition is true, the elementary fact obtains; if it is false, the elementary fact does not obtain."
+        },
+        {
+            "label": "4.24",
+            "text": "For n elementary facts, there are K n = 0∑n v (n v ) possibilities of obtaining and non-obtaining."
+        },
+        {
+            "label": "4.25",
+            "text": "Any possible combination of n elementary facts can obtain, and the remainder not obtain."
+        },
+        {
+            "label": "4.26",
+            "text": "There correspond to these combinations the same number of possibilities of truth - and falsehood - for n elementary propositions."
+        },
+        {
+            "label": "4.31",
+            "text": "We can represent truth-possibilities by the following kind of schema: (“p”, “q”, and “r” are elementary propositions. “T” means “true”, “F” “false”. The rows of “T’s” and “F’s” under the row of elementary propositions set out their truth-possibilities in a symbolism that can easily be understood):\rp\tq\tr\t\tp\tq\t\tp\rT\tT\tT\t\tT\tT\t\tT\rF\tT\tT\t\tF\tT\t\tF\rT\tF\tT\t\tT\tF\t\rT\tT\tF\t\tF\tF\t\rF\tF\tT\t\rF\tT\tF\t\rT\tF\tF\t\rF\tF\tF\t\r\rWe call this Schema I.pt"
+        },
+        {
+            "label": "5.1",
+            "text": "If all propositions are truth-functions of elementary propositions, it follows that they are also truth-functions of one another."
+        },
+        {
+            "label": "5.11",
+            "text": "The schemas in 4.31 are meaningful even when “p”, “q”, “r”, etc. are not elementary propositions."
+        },
+        {
+            "label": "5.12",
+            "text": "And it is easy to see that a sentential sign of the first kind expresses a single truth-function of elementary propositions even when “p”, “q”, etc. are truth-functions of elementary propositions."
+        },
+        {
+            "label": "5.001",
+            "text": "Every proposition can be construed as the result of an operation which is performed on another proposition (the operation’s base) and turns the latter into the former."
+        },
+        {
+            "label": "5.0011",
+            "text": "Similarly we can speak of an operation with several bases. “(F)(p)” is the result of the operation “F( )” on the base p; (FTTF )(p, q) is the result of an operation on two bases."
+        },
+        {
+            "label": "5.0014",
+            "text": "If we construe (F)(p) as the result of an operation we write it as “(F)'p”; and in general an operation on “a”, “b”, “c”, etc. is written as O'(a, b, c, etc.)."
+        },
+        {
+            "label": "5.2",
+            "text": "Every truth-function of truth-functions is a truth-function of elementary propositions, a proposition.pt"
+        },
+        {
+            "label": "5.0016",
+            "text": "The repeated application of an operation to its own result or results is called its successive application. (O'(O'(O'a)) is the result of (three) successive applications of O'ξ to a.)"
+        },
+        {
+            "label": "5.3",
+            "text": "It can be shown that every truth-function is a result of successive applications of the operation (T    )'(ᾱ)."
+        },
+        {
+            "label": "5.0015",
+            "text": "“O'(a, b, c, etc.)” is the result of the operation. The operation itself I designate by “O'(ξ, η, ζ, etc.)”, in which the Greek letters indicate the argument-places."
+        },
+        {
+            "label": "3.202",
+            "text": "Only propositions make sense, only in the context of a proposition is a name meaningful."
+        },
+        {
+            "label": "5.003",
+            "text": "Any bracketed proposition whose terms are propositions we write in form “(ᾱ)”. “(ᾱ)” is a variable whose values are terms of the bracketed expression. The line over “α” means that all values of α stand between the brackets."
+        },
+        {
+            "label": "5.004",
+            "text": "The values of α are set by stipulation."
+        },
+        {
+            "label": "5.0013",
+            "text": "An operation which, from a number of propositions, produces a truth-function of those propositions we call a truth-operation (T-operation)."
+        },
+        {
+            "label": "5.02",
+            "text": "The truth-functions of a given number of elementary propositions can always be set out in a schema of the following kind: We call it Schema No. II."
+        },
+        {
+            "label": "5.01",
+            "text": "We can regard an elementary proposition as a truth-function of itself."
+        },
+        {
+            "label": "4.423",
+            "text": "Truth-possibilities of elementary propositions are the truth-conditions of\rpropositions.pt"
+        },
+        {
+            "label": "5.011",
+            "text": "Elementary propositions are the truth-arguments of propositions."
+        },
+        {
+            "label": "5.03",
+            "text": "I give the name “truth-grounds” to those truth-possibilities of a proposition’s truth-arguments that make it true."
+        },
+        {
+            "label": "5.04",
+            "text": "If the truth-grounds common to several propositions are also truth-grounds of a certain proposition, then we say that the truth of that proposition follows from the truth of the totality of those propositions."
+        },
+        {
+            "label": "5.",
+            "text": "In particular, the truth of a proposition p follows from the truth of another\rproposition q if all the truth-grounds of the former are truth-grounds of the latter."
+        },
+        {
+            "label": "5.04101",
+            "text": "We also say the truth-grounds of the one are contained in those of the other: p follows from q."
+        },
+        {
+            "label": "5.",
+            "text": "Every proposition follows from itself."
+        },
+        {
+            "label": "5.05",
+            "text": "If p follows from q and q follows from p, then they are one and the same proposition."
+        },
+        {
+            "label": "5.06",
+            "text": "If a proposition follows from another, then the latter says more than the former, and the former says less than the latter."
+        },
+        {
+            "label": "5.07",
+            "text": "A tautology follows from all propositions: it says nothing."
+        },
+        {
+            "label": "4.421",
+            "text": "The expression of agreement and disagreement with the truth-possibilities of elementary propositions expresses the truth-conditions of a proposition."
+        },
+        {
+            "label": "4.422",
+            "text": "A proposition is the expression of its truth conditions."
+        },
+        {
+            "label": "4.401",
+            "text": "There are Ln ways in which a proposition can agree or disagree with the truth-possibilities of n elementary propositions.pt"
+        },
+        {
+            "label": "4.442",
+            "text": "So TTFT are the truth-conditions of this proposition."
+        },
+        {
+            "label": "4.444",
+            "text": "The groups of truth-conditions that belong to the truth-possibilities of a given number of elementary propositions can be arranged in a series."
+        },
+        {
+            "label": "4.445",
+            "text": "Among the possible groups of truth-conditions there are two limiting cases."
+        },
+        {
+            "label": "4.446",
+            "text": "In one case the proposition is true for all the truth-possibilities of the elementary propositions. We say that the truth-conditions are tautological. "
+        },
+        {
+            "label": "13.5]",
+            "text": "In the second case the proposition is false for all truth-possibilities: the truth-conditions are contradictory."
+        },
+        {
+            "label": "4.443",
+            "text": "For n elementary propositions there are Ln possible groups of truth-conditions."
+        },
+        {
+            "label": "5.3001",
+            "text": "We call this operation the negation of the values of ᾱ and for brevity write N(ᾱ) instead of (T     )(α)."
+        },
+        {
+            "label": "5.3002",
+            "text": "N(ᾱ) negates all the values of α."
+        },
+        {
+            "label": "5.31",
+            "text": "If α has only one value, p, then N(ᾱ) is Russell's ~p; if it has two values, then N(ᾱ) is ~p.~q."
+        },
+        {
+            "label": "5.32",
+            "text": "If α has as its values all the values of a function ϕx , then “N(ᾱ)” means ~(∃x).ϕx.\ron 4.401"
+        },
+        {
+            "label": "4.4011",
+            "text": "Ln = 0∑Kn μ (Knμ)  [Equation editing needed]"
+        },
+        {
+            "label": "2.032",
+            "text": "The way in which objects are connected in an elementary fact is the structure of the elementary fact."
+        },
+        {
+            "label": "2.033",
+            "text": "The structure of a fact consists of the structures of its elementary facts.pt"
+        },
+        {
+            "label": "2.151",
+            "text": "The definite way in which the picture elements go together represents how things are related to one another."
+        },
+        {
+            "label": "2.1512",
+            "text": "In this way a picture makes contact with, or reaches out to, reality."
+        },
+        {
+            "label": "2.1513",
+            "text": "It is applied to reality like a ruler.  "
+        },
+        {
+            "label": "2.172",
+            "text": "A picture can depict any reality whose form it has. A spatial picture, anything spatial, etc."
+        },
+        {
+            "label": "2.19",
+            "text": "Logical pictures can depict the world."
+        },
+        {
+            "label": "2.15131",
+            "text": "Only the end points of the marks on the ruler touch the object being measured."
+        },
+        {
+            "label": "2.15101",
+            "text": "This connection of the elements of a picture is called its form of depiction."
+        },
+        {
+            "label": "2.1514",
+            "text": "A picture, conceived in this way, also includes the pictorial relationship which makes the picture a picture."
+        },
+        {
+            "label": "2.1515",
+            "text": "The pictorial relationship consists of the correlation of the picture's elements with things."
+        },
+        {
+            "label": "2.1516",
+            "text": "These correlations are, as it were, the antennae of the picture's elements, which put the picture in touch with reality."
+        },
+        {
+            "label": "2.223",
+            "text": "To see whether a picture is true or false we must compare it with reality."
+        },
+        {
+            "label": "2.224",
+            "text": "We cannot see whether the picture is true or false just by looking at it."
+        },
+        {
+            "label": "2.225",
+            "text": "There are no pictures that are true a priori."
+        },
+        {
+            "label": "2.131",
+            "text": "A picture’s elements stand, in the picture, for the objects.pt"
+        },
+        {
+            "label": "4.021",
+            "text": "A proposition is a picture of reality: for if I understand a proposition, I know the situation that it represents. And I understand the proposition without its sense having been explained to me."
+        },
+        {
+            "label": "4.023",
+            "text": "A proposition shows how things stand, if it is true."
+        },
+        {
+            "label": "4.024",
+            "text": "And it says that that is how they are."
+        },
+        {
+            "label": "4.022",
+            "text": "A proposition shows its sense."
+        },
+        {
+            "label": "4.2212",
+            "text": "Generally in what follows I indicate elementary propositions by the letters p, q, r, s, t, or (like Frege) as functions of their objects in the form “ϕ(x)”, “ϕ(x,y)”, etc. "
+        },
+        {
+            "label": "4.2211",
+            "text": "In what follows I indicate names of objects by the letters x, y, z, u, v, w.  "
+        },
+        {
+            "label": "4.2213",
+            "text": "When I use two names with one and the same meaning, or two sentential signs with a single sense, I express this by putting the sign “=” between them."
+        },
+        {
+            "label": "4.2214",
+            "text": "Expressions of the form a =b are, therefore, only expedient aids in representation. They state nothing about the meaning or the sense of the signs “a” and “b”."
+        },
+        {
+            "label": "4.433",
+            "text": "Clearly, a complex of the signs “F” and “T” has no corresponding object (or complex of objects), just as there is none corresponding to the horizontal and vertical lines or to the brackets. There are no “logical objects”."
+        },
+        {
+            "label": "4.4331",
+            "text": "Naturally, the same applies to all signs that express what the schemas of “T's” and “F 's” express."
+        },
+        {
+            "label": "2.061",
+            "text": "Elementary facts are independent of one another.pt"
+        },
+        {
+            "label": "2.062",
+            "text": "From the obtaining or non-obtaining of the one it is impossible to infer the obtaining or non-obtaining of the other."
+        },
+        {
+            "label": "5.0412",
+            "text": "If p follows from q, I can infer from q to p, deduce p from q."
+        },
+        {
+            "label": "5.043",
+            "text": "From an elementary proposition, no other can be deduced."
+        },
+        {
+            "label": "5.044",
+            "text": "In no way can an inference be made from the existence of one situation to the existence of another entirely different situation."
+        },
+        {
+            "label": "5.0441",
+            "text": "There is no causal nexus to justify any such inference."
+        },
+        {
+            "label": "3.04",
+            "text": "An a priori correct thought would be one whose possibility ensured its truth."
+        },
+        {
+            "label": "3.05",
+            "text": "One could know a priori that a thought is true only if its truth were recognizable from the thought itself (without any object of comparison)."
+        },
+        {
+            "label": "5.0411",
+            "text": "That one proposition follows from another we see from the structure of the propositions."
+        },
+        {
+            "label": "5.0415",
+            "text": "All deductions takes place a priori."
+        },
+        {
+            "label": "5.0442",
+            "text": "Future events cannot be known."
+        },
+        {
+            "label": "5.0443",
+            "text": "Superstition is belief in the causal nexus."
+        },
+        {
+            "label": "2.173",
+            "text": "A picture cannot, however, depict its form of depiction: it displays it."
+        },
+        {
+            "label": "4.101",
+            "text": "Propositions can represent the whole of reality, but they cannot represent what they must have in common with reality to be able to represent it—logical form.pt"
+        },
+        {
+            "label": "4.102",
+            "text": "Propositions cannot represent logical form: it is mirrored in them."
+        },
+        {
+            "label": "4.103",
+            "text": "Propositions do not represent logical form: they display it; they show it."
+        },
+        {
+            "label": "2.174",
+            "text": "A picture represents its subject from the outside. (Its point of view is its form of representation.) That is how it represents its subject correctly or incorrectly."
+        },
+        {
+            "label": "2.175",
+            "text": "A picture cannot, however, place itself outside its form of representation."
+        },
+        {
+            "label": "3.03",
+            "text": "We cannot think anything illogical, for otherwise we would have to think illogically."
+        },
+        {
+            "label": "4.104",
+            "text": "To be able to represent logical form, we would have to be able to put ourselves with propositions outside logic, that is, outside the world."
+        },
+        {
+            "label": "4.001",
+            "text": "The totality of propositions is language."
+        },
+        {
+            "label": "4.1021",
+            "text": "Language reflects what it cannot represent."
+        },
+        {
+            "label": "5.0413",
+            "text": "The method of inference can only be drawn from the two propositions."
+        },
+        {
+            "label": "5.0414",
+            "text": "Only they themselves can justify the inference."
+        },
+        {
+            "label": "5.04141",
+            "text": "“Laws of inference”, which—as in Frege and Russell—are supposed to justify inferences, are senseless and would be superfluous."
+        },
+        {
+            "label": "4.10011",
+            "text": "The totality of true propositions can also be called the whole of natural science (or the totality of the natural sciences).pt"
+        },
+        {
+            "label": "4.10012",
+            "text": "Philosophy is not one of the natural sciences."
+        },
+        {
+            "label": "4.10013",
+            "text": "The word “philosophy” must mean something that stands above or below the natural sciences, not alongside them."
+        },
+        {
+            "label": "4.10014",
+            "text": "The goal of philosophy is the logical clarification of thoughts."
+        },
+        {
+            "label": "4.10015",
+            "text": "Philosophy is not a theory but an activity."
+        },
+        {
+            "label": "4.10016",
+            "text": "Philosophy does not result in “philosophical propositions”, but rather in making propositions clear."
+        },
+        {
+            "label": "4.100161",
+            "text": "Philosophy should make clear and sharpen the boundaries of thoughts that are otherwise opaque and blurred."
+        },
+        {
+            "label": "4.10017",
+            "text": "It should mark off the thinkable and thereby the unthinkable."
+        },
+        {
+            "label": "4.100171",
+            "text": "It should mark off the unthinkable by working through the thinkable from within."
+        },
+        {
+            "label": "4.10018",
+            "text": "It will signify the unsayable, by clearly representing the sayable."
+        },
+        {
+            "label": "5.32",
+            "text": "Identity of object I express by identity of sign, and not by means of a sign of identity. Difference of objects I express by difference of signs."
+        },
+        {
+            "label": "5.331",
+            "text": "Thus I do not write “F (a, b).a =b”, but “F (a, a)” (or “F (b, b)”); and not “F (a, b).a≠b”, but “F (a, b)”."
+        },
+        {
+            "label": "5.332",
+            "text": "And analogously: not “(∃x, y).F(x, y).x=y”, but “(∃x).F(x, x)”; and not “(∃x, y).F(x, y).x≠y”, but “(∃x, y).F(x, y)”.\r(So instead of Russell's “(∃x, y).F(x, y)”: “(∃x, y).F(x, y) v (∃x).F(x, x)”.)"
+        },
+        {
+            "label": "5.3321",
+            "text": "Instead of “(x).Fx ⊃ x=a” we therefore write “Fa:~(∃xy).Fx.Fy”. And the proposition, “Only one x satisfies F(x̂ )”, will be “(∃x).Fx:~(∃x, y).Fx.Fy”.pt"
+        },
+        {
+            "label": "5.3.33",
+            "text": "Therefore the identity sign is not an essential component of conceptual notation."
+        },
+        {
+            "label": "5.334",
+            "text": "And now we see that pseudo-propositions like “a =a”, “a =b . b = c .⊃a =c”, “(x).x=x”, “(∃x ).x =a”, etc. cannot even be written down using correct conceptual notation."
+        },
+        {
+            "label": "5.3341",
+            "text": "This also clears up all the problems that were connected with such pseudo-propositions."
+        },
+        {
+            "label": "4.1022",
+            "text": "That which expresses itself in language, we cannot express by means of language."
+        },
+        {
+            "label": "4.10221",
+            "text": "So the logical structure of a situation is mirrored in a proposition - we cannot express it by means of language - the proposition shows it."
+        },
+        {
+            "label": "4.102211",
+            "text": "Thus the proposition “ϕ(a)” shows that the object a occurs in its sense //it is about a// and the propositions “ϕb” and “ψb” show that the same object occurs in their senses //they are about the same object//."
+        },
+        {
+            "label": "4.102212",
+            "text": "Two propositions which contradict one another show that they do so. Likewise, if one proposition follows from others, this is shown in the propositions themselves. And so on.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+        },
+        {
+            "label": "4.10222",
+            "text": "In a certain sense we can talk about structural properties of facts or about structural relations between them."
+        },
+        {
+            "label": "4.10223",
+            "text": "However it is impossible to assert by means of propositions that such properties and relations obtain: rather, this shows itself in the propositions that represent the structures."
+        },
+        {
+            "label": "4.10224",
+            "text": "The obtaining of an internal property of a possible situation is not expressed by means of a proposition: rather, it expresses itself in the proposition representing the situation, by means of an internal property of the proposition.pt"
+        },
+        {
+            "label": "4.10225",
+            "text": "That an internal relation obtains between possible situations expresses itself in language by means of an internal relation between the propositions representing them."
+        },
+        {
+            "label": "4.102231",
+            "text": "Instead of “structural property” we also say “internal property”; instead of “structural relation”, “internal relation”."
+        },
+        {
+            "label": "5.32041",
+            "text": "The certainty, possibility, or impossibility of a situation is not expressed by a proposition, but by whether what represents the situation is a tautology, a proposition with sense, or a contradiction."
+        },
+        {
+            "label": "5.3204",
+            "text": "It is wrong to render the proposition “(∃x).ϕx” in the words, “ϕx is possible”, as Russell does."
+        },
+        {
+            "label": "5.005",
+            "text": "Values for a sentential variable are stipulated by indicating the sentences which the variable represents."
+        },
+        {
+            "label": "5.00501",
+            "text": "The description of those sentences is the stipulation."
+        },
+        {
+            "label": "5.0051",
+            "text": "The stipulation will therefore be concerned only with signs, not with their meaning."
+        },
+        {
+            "label": "5.0052",
+            "text": "And all that is essential to the stipulation is that it merely describes the signs and states nothing about the signified."
+        },
+        {
+            "label": "5.0053",
+            "text": "The way in which the sentences are described is inessential."
+        },
+        {
+            "label": "5.0041",
+            "text": "The stipulation of values is the variable.pt"
+        },
+        {
+            "label": "5.00531",
+            "text": "We can distinguish three kinds of description: 1. Direct enumeration. 2. Giving a function F (x , y, … ) whose various values are the propositions to be described. 3. Giving features which characterize those propositions."
+        },
+        {
+            "label": "4.102233",
+            "text": "An internal property of a fact can also be called a feature of that fact (in the sense that we speak of facial features)."
+        },
+        {
+            "label": "4.102234",
+            "text": "A feature characterizes a class of facts, if they and only they possess it."
+        },
+        {
+            "label": "5.00532",
+            "text": "In the first case we can simply replace the variable with its (constant) values."
+        },
+        {
+            "label": "5.00533",
+            "text": "In the second case the variable is a generalized proposition."
+        },
+        {
+            "label": "5.00534",
+            "text": "In the third case the values of the variable are all propositions that possess certain formal properties."
+        },
+        {
+            "label": "5.005341",
+            "text": "This second kind of generalization, which can be called the formal kind, was\roverlooked by Russell and Frege."
+        },
+        {
+            "label": "5.005342",
+            "text": "For example, all propositions of the series: aRb, (∃x).aRx.xRb, \r(∃x, y).aRx.xRy.yRb, etc. are characterized by a formal property."
+        },
+        {
+            "label": "5.00535",
+            "text": "The general form of these propositions can be presented only by means of the form of a variable."
+        },
+        {
+            "label": "5.005351",
+            "text": "Russell’s presentation is incorrect: it contains a vicious circle."
+        },
+        {
+            "label": "4.1022501",
+            "text": "Now this settles the disputed question “whether all relations are internal or external”."
+        },
+        {
+            "label": "4.102253",
+            "text": "In the same sense that we can speak of formal properties, we can now talk of formal concepts.pt"
+        },
+        {
+            "label": "4.102254",
+            "text": "I introduce this expression to make clear the the confusion of formal concepts and proper concepts, which runs through all of the old logic."
+        },
+        {
+            "label": "4.102232",
+            "text": "I introduce these expressions to show the reason for the confusion between structural relations and proper (external) relations, so common among philosophers."
+        },
+        {
+            "label": "4.102261",
+            "text": "Unlike proper concepts, formal concepts cannot be represented by a function."
+        },
+        {
+            "label": "4.102262",
+            "text": "This is because their characteristic marks—formal properties—are not expressed by functions."
+        },
+        {
+            "label": "4.102263",
+            "text": "The expression of a formal property is a feature of a propositional structure."
+        },
+        {
+            "label": "4.102265",
+            "text": "And so the expression for a formal concept is a propositional variable in which this distinctive feature alone is constant."
+        },
+        {
+            "label": "4.102264",
+            "text": "So the sign for the characteristic mark of a formal concept is the distinctive feature of all propositions whose senses fall under the concept."
+        },
+        {
+            "label": "4.102271",
+            "text": "In a similar sense, each variable is the sign of a formal concept.pt"
+        },
+        {
+            "label": "4.1022721",
+            "text": "Thus the variable name x is the proper sign of the pseudo-concept “object”."
+        },
+        {
+            "label": "4.1022722",
+            "text": "Wherever the word, object (or thing, entity, etc.), is correctly used, it is expressed in conceptual notation by a variable name."
+        },
+        {
+            "label": "4.1022723",
+            "text": "For example, in the proposition “There are 2 objects such that…”, by “(∃x, y)…”."
+        },
+        {
+            "label": "4.1022724",
+            "text": "Wherever it is used otherwise, that is as a proper concept-word, nonsensical psuedo-propositions are the result."
+        },
+        {
+            "label": "4.1022725",
+            "text": "So for instance one cannot say “There are objects”, as one might say, “There are books”. And it is equally impossible to say, “There are 100 objects” or “There are א0 objects”."
+        },
+        {
+            "label": "4.1022726",
+            "text": "What applies to the word “object” also applies similarly to the words “complex”, “fact”, “function”, “number”, etc., etc. "
+        },
+        {
+            "label": "4.1022727",
+            "text": "All these words signify, in the wider sense, formal concepts, and they are all represented in conceptual notation by variables, not by functions or classes."
+        },
+        {
+            "label": "4.1022728",
+            "text": "“1 is a number”, “There is only one 0”, and all similar expressions are nonsensical."
+        },
+        {
+            "label": "4.10226",
+            "text": "Something’s being an instance of a formal concept cannot be expressed by a proposition. \rIt is shown by the sign for the object itself. \r(A name shows that it signifies an object, a numeral that it signifies a number.)pt"
+        },
+        {
+            "label": "4.10227",
+            "text": "So the sentential variable signifies the formal concept, and its values signify the objects that are its instances."
+        },
+        {
+            "label": "4.102272",
+            "text": "For every variable represents a constant form that all its values possess, and this can be regarded as a formal property of those values."
+        },
+        {
+            "label": "4.102273",
+            "text": "“Object”, “complex”, “fact”, “number”, etc. etc. are not names of concepts - as Russell believed - but variables."
+        },
+        {
+            "label": "4.22131",
+            "text": "For the sake of brevity I also express the interchangeability of any two parts of propositions in the same way."
+        },
+        {
+            "label": "4.102241",
+            "text": "It would be just as nonsensical to ascribe formal property a proposition as to deny it."
+        },
+        {
+            "label": "4.10227251",
+            "text": "And it is nonsense to speak of the “total number of objects”."
+        },
+        {
+            "label": "3.20121",
+            "text": "To put it concisely: I call a proposition as well as any part of a proposition a symbol."
+        },
+        {
+            "label": "3.20122",
+            "text": "Every symbol is a proposition or a part of a proposition: thus symbols are what propositions have in common with one another."
+        },
+        {
+            "label": "3.22",
+            "text": "A proposition has essential and accidental features."
+        },
+        {
+            "label": "3.23",
+            "text": "Accidental features are those that are due to the particular way the sentential sign is produced. Essential features are those without which the sense of the proposition would be lost.pt"
+        },
+        {
+            "label": "3.2016",
+            "text": "Every sign can be represented as a sentential variable."
+        },
+        {
+            "label": "3.24",
+            "text": "So what is essential about a proposition is what all sentences that can express the same sense have in common."
+        },
+        {
+            "label": "3.213",
+            "text": "And so a sentence does not yet contain its sense, but it does contain the possibility of expressing that sense."
+        },
+        {
+            "label": "3.214",
+            "text": "A sentence contains the form of its sense, but not its content."
+        },
+        {
+            "label": "3.211",
+            "text": "A sentence has everything the projection has, except what is projected."
+        },
+        {
+            "label": "3.212",
+            "text": "Therefore, the possibility of what is projected is in the sentence, but not the  projection itself."
+        },
+        {
+            "label": "3.241",
+            "text": "Likewise, generally, what is essential about a sign is what all signs that can serve the same purpose have in common."
+        },
+        {
+            "label": "3.2131",
+            "text": "“The content of a sentence” means the content of a sentence that makes sense."
+        },
+        {
+            "label": "4.011",
+            "text": "At first sight a sentence – say as it is set out on the printed page – does not seem to be a picture of the reality it is about."
+        },
+        {
+            "label": "4.0111",
+            "text": "But neither does musical notation at first sight seem to be a picture of music, nor our phonetic notation (the letters of the alphabet) to be a picture of our spoken language."
+        },
+        {
+            "label": "4.0112",
+            "text": "And yet these sign-languages turn out to be pictures, even in the ordinary sense, of what they represent."
+        },
+        {
+            "label": "4.0113",
+            "text": "And if we penetrate to the essence of this pictorial character, we see that it is not hindered by apparent irregularities (such as the use of ♯ and ♭ in musical notation).pt"
+        },
+        {
+            "label": "4.0114",
+            "text": "For even these irregularities depict what they are to express, only in a different way."
+        },
+        {
+            "label": "3.161",
+            "text": "That a sentential sign is a fact is concealed by the ordinary form of expression in writing or print."
+        },
+        {
+            "label": "3.162",
+            "text": "For in a printed sentence, for example, the sentential sign does not appear  essentially different from a word."
+        },
+        {
+            "label": "3.1621",
+            "text": "That is what made it possible for Frege to call a proposition a compound name."
+        },
+        {
+            "label": "3.163",
+            "text": "The essence of a sentential sign becomes very clear if we consider one made up not of written signs but of spatial objects (such as tables, chairs, books)."
+        },
+        {
+            "label": "3.164",
+            "text": "Then the spatial arrangement of these things expresses the sense of the proposition."
+        },
+        {
+            "label": "4.0115",
+            "text": "To understand the essence of a proposition, consider hieroglyphic writing, which admittedly depicts the facts it describes."
+        },
+        {
+            "label": "4.0116",
+            "text": "And from it came alphabetic writing, without losing what was essential to depiction."
+        },
+        {
+            "label": "2.021",
+            "text": "Objects make up the substance of the world. That is why they cannot be composite.pt"
+        },
+        {
+            "label": "2.0211",
+            "text": "If the world had no substance, then whether a proposition made sense would depend on whether another proposition was true."
+        },
+        {
+            "label": "2.0212",
+            "text": "In that case we could not form a picture of the world (true or false)."
+        },
+        {
+            "label": "2.022",
+            "text": "Obviously an imagined world, however different from the real world, must have something - a form - in common with it."
+        },
+        {
+            "label": "2.023",
+            "text": "This fixed form consists of objects."
+        },
+        {
+            "label": "2.0231",
+            "text": "The substance of the world can only determine a form, and not any material properties. Material properties can only be represented by means of propositions – they can only be produced by the configuration of objects."
+        },
+        {
+            "label": "2.0232",
+            "text": "Roughly speaking, objects are colourless."
+        },
+        {
+            "label": "2.024",
+            "text": "Substance is what persists independently of what is the case."
+        },
+        {
+            "label": "2.025",
+            "text": "It is form and content."
+        },
+        {
+            "label": "2.0251",
+            "text": "Space and time are forms of objects."
+        },
+        {
+            "label": "2.0252",
+            "text": "In the same way colour (being coloured) is a form of visual objects."
+        },
+        {
+            "label": "2.026",
+            "text": "Only if there are objects, can the world have a fixed form."
+        },
+        {
+            "label": "2.027",
+            "text": "Objects, the fixed, and the persistent are one."
+        },
+        {
+            "label": "2.0271",
+            "text": "Objects are what is fixed and persistent; their configuration is what is changing and variable."
+        },
+        {
+            "label": "2.0272",
+            "text": "The configuration of objects forms an elementary fact.\t\r 4.091\t28[3]\t 4.061 (1)\t\tAüL 194 (3)**\rIf one does not notice that propositions make sense independently of the facts, one can easily believe that true and false are relations of equal value between signs and what they signify."
+        },
+        {
+            "label": "4.0911",
+            "text": "(One could then say, for instance, that “p” truly signifies what “~p” falsely signifies, etc.)."
+        },
+        {
+            "label": "4.092",
+            "text": "“Can we not make ourselves understood with false propositions just as we have done up to now with true ones, so long as we know that they are meant to be false?”"
+        },
+        {
+            "label": "4.092",
+            "text": "No! For a proposition is true if what it asserts is the case; and if by “q” we mean ~q and that’s the case, then“q” is true on the new conception, and not false."
+        },
+        {
+            "label": "4.0921",
+            "text": "But it is important that the signs “p” and “~p” can say the same thing. For it shows that the sign “~” corresponds to nothing in reality."
+        },
+        {
+            "label": "4.0922",
+            "text": "That negation occurs in a proposition is not a characteristic mark of its sense (~~p = p)."
+        },
+        {
+            "label": "2.0601",
+            "text": "We also call the obtaining of elementary facts a positive fact, and their non-obtaining a negative fact.pt\r?\t29[1]\t—\t\tAüL 193 (7)**  MN 219 (4)+ \rWe can say that “~Socrates” means nothing because there is no property called ~(x)."
+        },
+        {
+            "label": "3.2012",
+            "text": "Signifying two objects by the same name but using two different modes of signification can never indicate a common characteristic. \rFor the name is of course arbitrary. So we could choose two different names instead, and then where would there be what was in common in the signifying?"
+        },
+        {
+            "label": "4.094",
+            "text": "An analogy to illustrate the concept of truth.  A black spot on white paper; the form of the spot can be described by saying for each point on the sheet whether it is black or white. To the fact that a point is black there corresponds a positive fact, and to the fact that a point is white (not black), a negative fact. If I designate a point on the sheet (a Fregean truth-value), then this corresponds to the supposition that is put forward for judgment, etc. etc.\rHowever, to be able to say that a point is black or white, I must first know when a point is called black, and when white: I cannot say “p” is true (or false) unless I have determined in what circumstances I call p true, and in so doing I determine the sense of the proposition.\rNow the point where the simile breaks down is this: we can pick a point on the paper even if we don’t know what black and white are, but if a sentence makes no sense, nothing at all corresponds to it, for it designates no thing (a truth-value) which might have properties called “false” or “true”. The verb of a proposition is not “is true” or “is false”, as Frege thought: rather, that which “is true” must already contain the verb."
+        },
+        {
+            "label": "5.222",
+            "text": "Even at first sight it seems scarcely credible that from one fact p infinitely many others should follow, namely, ~~p, ~~~~p, etc."
+        },
+        {
+            "label": "4.0011",
+            "text": "Human beings have the capacity to construct languages in which every sense can be expressed, without having any idea how and what each word means,  just as we speak without knowing how the individual sounds are produced."
+        },
+        {
+            "label": "2.0201",
+            "text": "Every statement about complexes can be broken down into a statement about their constituents and into the propositions that completely describe the complexes."
+        },
+        {
+            "label": "5.2201",
+            "text": "That ∨, ⊃, etc. are not relations in the sense in which right and left, etc. are relations, is obvious to an unprejudiced mind."
+        },
+        {
+            "label": "5.221",
+            "text": "The interdefinability of Frege's and Russell's “primitive signs” of logic shows by itself that they are not primitive, still less signs for relations."
+        },
+        {
+            "label": "5.2211",
+            "text": "And it is obvious that the “⊃” that we define by means of “.” and “∨” is identical with that by which we define “.” by means of “∨”; and that this second “.” is identical with the first, and so on."
+        },
+        {
+            "label": "4.102274",
+            "text": "If we turn a constituent of a proposition into a variable, the resulting variable proposition will have a class of propositions as its values. In general, this class still depends on what we, by arbitrary convention, mean by parts of that original proposition. But if we turn all the signs in it that have arbitrarily determined meanings into variables,there will still always be such a class. This one, however, is not dependent on any convention, but solely on the nature of the proposition. It corresponds to a logical prototype - a logical form."
+        },
+        {
+            "label": "4.1022631",
+            "text": "Forms cannot be distinguished from one another by saying that one has this property, the other that, for this presupposes that it makes sense to ascribe either property to either form."
+        },
+        {
+            "label": "3.2011",
+            "text": "Names are like points; propositions like arrows - they have sense."
+        },
+        {
+            "label": "3.201221",
+            "text": "“A” is the same letter as “A”. This is of great importance for our language."
+        },
+        {
+            "label": "5.041021",
+            "text": "If a god creates a world in which certain propositions are true, he thereby creates a world in which all the propositions that follow from them are true. And similarly he could not create a world in which proposition p was true without creating all its objects."
+        },
+        {
+            "label": "4.4461",
+            "text": "Tautologies lack sense. (For example, I know nothing about the weather when I know that it is either raining or not raining.)"
+        },
+        {
+            "label": "4.025",
+            "text": "To understand a proposition means to know what is the case if it is true."
+        },
+        {
+            "label": "4.025",
+            "text": "One can understand it, therefore, without knowing whether it is true."
+        },
+        {
+            "label": "4.026",
+            "text": "One understands it if one understands its constituents."
+        },
+        {
+            "label": "5.101",
+            "text": "The sense of a truth-function of p is a function of the sense of p."
+        },
+        {
+            "label": "5.231",
+            "text": "If, for instance, an affirmation can be produced by double negation, is the negation—in any sense—contained in the affirmation? Does ~~p negate ~p, or does it affirm p, or both?"
+        },
+        {
+            "label": "4.4311",
+            "text": "Frege's sign “⊢” is logically quite meaningless: in Frege (and Russell) it only indicates that these authors hold the sentences marked in this way to be true. Thus “⊢” is no more a component part of a proposition than is, for instance, the proposition's number. A proposition cannot possibly assert of itself that is true."
+        },
+        {
+            "label": "32.6]",
+            "text": "[Sentence crossed out]"
+        },
+        {
+            "label": "5.301",
+            "text": "If logic has primitive ideas, they must be independent of one another. If a primitive idea is introduced, it must be introduced for all the contexts in which it occurs at all. One cannot, therefore, introduce it first for one context and then again for one another. For instance, once negation is introduced, we must understand it both in propositions of the form ~p and in propositions like ~(p ∨q), (or (∃x).~ϕx), etc. We cannot introduce it first for one class of cases and then for the other, since it would then remain doubtful whether its meaning were the same in both cases, and there would be no reason for using the same kind of connective in both cases.\r(In short, what Frege said about introducing signs by means of definitions (in The Fundamental Laws of Arithmetic) also applies, mutatis mutandis, to the introduction of primitive signs.)"
+        },
+        {
+            "label": "4.4001",
+            "text": "It is likely that the introduction of elementary propositions provides the basis for understanding all other kinds of proposition. Indeed understanding general propositions obviously depends on understanding elementary propositions."
+        },
+        {
+            "label": "3.1622",
+            "text": "Don’t say “The complex sign \"aRb\" says that a stands to b in the relation R”, but instead: That “a” stands to “b” in a certain relation says that aRb."
+        },
+        {
+            "label": "4.00163",
+            "text": "Russell’s contribution is to have shown that the apparent logical form of a sentence need not be its real form."
+        },
+        {
+            "label": "4.100152",
+            "text": "Theory of knowledge is the philosophy of psychology."
+        },
+        {
+            "label": "4.100153",
+            "text": "Psychology is no more related to philosophy than is any other natural science."
+        },
+        {
+            "label": "4.100154",
+            "text": "Philosophy limits the much disputed domain of natural science."
+        },
+        {
+            "label": "5.04442",
+            "text": "If the truth of a proposition does not follow from the fact that it is obvious to us, then obviousness in no way justifies our belief in its truth."
+        },
+        {
+            "label": "34.2]",
+            "text": "[Sentence crossed out]"
+        },
+        {
+            "label": "3.20171",
+            "text": "No proposition can make a statement about itself, because a sentential sign cannot be contained in itself. (That is the whole of the “theory of types”.)"
+        },
+        {
+            "label": "5.321",
+            "text": "What is peculiar about  the generality sign is first, that it indicates a logical prototype, and second, that it draws attention to constants."
+        },
+        {
+            "label": "5.3301",
+            "text": "It is obvious that identity is not a relation between objects."
+        },
+        {
+            "label": "5.3302",
+            "text": "This becomes very clear if one considers, for example, the proposition (x):ϕx⊃x=a. What this proposition says is simply that only a satisfies function ϕ, not that only things that have a certain relation to a satisfy ϕ. Of course, one might then say that only a has this relation to a; but this would have to be expressed using the identity sign itself."
+        },
+        {
+            "label": "5.3303",
+            "text": "Russell's definition of “=“ won’t do, because it doesn’t let us say that two objects have all their properties in common. (Even if this proposition is never correct, it still makes sense.)\r+?35[1]\t—\t\tAL 206 (4)+\rA common form is not a common constituent."
+        },
+        {
+            "label": "5.3021",
+            "text": "All use of numbers in logic requires justification."
+        },
+        {
+            "label": "5.012",
+            "text": "It is quite natural to confuse the arguments of functions with the indexes of names. For I recognize equally well from the argument and the index what is meant by the signs containing them. In Russell’s “+c”, for instance, “c” is an index indicating that the whole  sign is the addition sign for cardinal numbers. But that is due to an arbitrary convention and we could have chosen a simple sign instead of “+c”; in “~p”, however, “p” is not an index but an argument; the sense of “~p” cannot be understood unless one already understands the sense of p. In the name “Julius Caesar” “Julius” is an index. (An index is always part of a description of the object to whose name we attach it. (The Caesar of the Julian gens.))"
+        },
+        {
+            "label": "4.10227252",
+            "text": "To ask whether a form exists is always nonsensical."
+        },
+        {
+            "label": "4.10227253",
+            "text": "For no proposition can be the answer to such a question."
+        },
+        {
+            "label": "4.10227254",
+            "text": "So, for example, one cannot ask: “Are there unanalyzable subject-predicate propositions?” (or “relations with two terms” or “relations between relations”, etc.)."
+        },
+        {
+            "label": "5.234",
+            "text": "If we are given a proposition, then with it we are also given all its truth-functions."
+        },
+        {
+            "label": "4.44602",
+            "text": "Analytic propositions are tautologies."
+        },
+        {
+            "label": "5.21",
+            "text": "It is here that it becomes clear that there are no such things as logical objects, logical constants."
+        },
+        {
+            "label": "5.22",
+            "text": "For all truth-functions of truth-functions are identical, whenever they are one and the same truth-function of elementary propositions."
+        },
+        {
+            "label": "3.2021",
+            "text": "Names are indefinable; they are primitive signs."
+        },
+        {
+            "label": "4.10018",
+            "text": "Everything that can be thought at all can be thought clearly. Everything that can be said can be said clearly."
+        },
+        {
+            "label": "4.0012",
+            "text": "Ordinary language is a part of the human organism and no less complicated than it."
+        },
+        {
+            "label": "4.0013",
+            "text": "It is not humanly possible to immediately extract the logic of language from it."
+        },
+        {
+            "label": "4.0014",
+            "text": "It disguises thought."
+        },
+        {
+            "label": "4.00141",
+            "text": "So much so, that from the external form of the clothes one cannot infer the form of the thought beneath, because the external form of the clothes is designed not to reveal the form of the body, but from an entirely different perspective."
+        },
+        {
+            "label": "4.0015",
+            "text": "Thus the external aspect of ordinary language makes every kind of illusion and confusion possible."
+        },
+        {
+            "label": "4.00151",
+            "text": "“Exist” appears as an intransitive verb like “go”; “you were” sounds like “you wear”; “identical” is an adjective; and “White” is a proper name."
+        },
+        {
+            "label": "4.0016",
+            "text": "Most of the statements and questions philosophers have written are not false but nonsensical. So we cannot answer such questions at all, but can only point out their nonsensicality. Most of the questions and statements of philosophers result from not understanding the logic of our language."
+        },
+        {
+            "label": "4.00161",
+            "text": "They are of the same kind as the question whether the Good is more or less identical than the Beautiful."
+        },
+        {
+            "label": "4.00162",
+            "text": "All philosophy is “critique of language” (though not at all in Mauthner's sense)."
+        },
+        {
+            "label": "5.224",
+            "text": "But all the propositions of logic say the same thing. Namely, nothing."
+        },
+        {
+            "label": "5.223",
+            "text": "And it seems even stranger that the infinite number of propositions of logic (mathematics) follow from half a dozen “primitive propositions”."
+        },
+        {
+            "label": "5.04102",
+            "text": "If p follows from q, the sense of p is contained in the sense of q."
+        },
+        {
+            "label": "4.0923",
+            "text": "The propositions “p” and “~p” have opposite senses, but one and the same reality corresponds to them."
+        },
+        {
+            "label": "5.08",
+            "text": "Contradiction is what propositions have in common that no proposition has in common with another. Tautology is what all propositions have in common that have nothing in common with one another."
+        },
+        {
+            "label": "5.081",
+            "text": "Contradiction vanishes so to speak outside all propositions, tautology inside them."
+        },
+        {
+            "label": "5.082",
+            "text": "Contradiction is the outer limit of propositions, tautology their substanceless centre."
+        },
+        {
+            "label": "4.4481",
+            "text": "Tautologies and contradictions are not nonsense (but lack sense). They belong to the symbolism, just like “0” in arithmetic."
+        },
+        {
+            "label": "4.44601",
+            "text": "In the first case we call the proposition a tautology; in the second, a contradiction."
+        },
+        {
+            "label": "3.1601",
+            "text": "Only facts can express a sense, a set of names cannot."
+        },
+        {
+            "label": "3.1602",
+            "text": "A proposition is not a jumble of words. (Just as a tune is not a jumble of notes.)"
+        },
+        {
+            "label": "3.1603",
+            "text": "A proposition is articulate."
+        },
+        {
+            "label": "5.23",
+            "text": "Truth-functions are not material functions."
+        },
+        {
+            "label": "5.232",
+            "text": "The proposition ~~p is not about negation as an object, but the possibility of negation is already presupposed in affirmation."
+        },
+        {
+            "label": "5.302",
+            "text": "If we introduced primitive signs of logic properly, then we would have introduced the sense of all their combinations at the same time; that is, not only “p∨q” but also “~(p∨~q)”, etc., etc. We should also have introduced at the same time the effect of all possible combinations of brackets. And we would have thereby made clear that the proper general primitive signs are not “p∨q”, (∃x).ϕx, etc. but the most general form of their combinations."
+        },
+        {
+            "label": "5.3024",
+            "text": "The use of brackets with these apparently primitive signs already indicates that they are not the real primitive signs. And surely no one could believe that brackets have an independent meaning."
+        },
+        {
+            "label": "5.3023",
+            "text": "If there is more than one primitive sign of logic, then any correct logic must clearly show their relative status and justify their existence. The construction of logic out of its primitive signs must be made clear."
+        },
+        {
+            "label": "5.30231",
+            "text": "The introduction of any new device into the symbolism of logic must always be a momentous event. In logic a new device should not be introduced in brackets or in a footnote with, so to speak, an entirely innocent expression. Thus in Principia Mathematica Russell and Whitehead’s definitions and primitive propositions are expressed in words. Why suddenly words here? It requires a long justification. But they don’t give any, and can’t, since the procedure is actually illegitimate."
+        },
+        {
+            "label": "5.013",
+            "text": "If I am not mistaken, Frege's theory about the meaning of propositions and functions is based on the confusion between an argument and an index. For Frege the propositions of logic are names and their arguments are the indexes for those names."
+        },
+        {
+            "label": "5.3342",
+            "text": "There are certain cases in which one is tempted to use expressions of the form a =a or p ⊃p and the like. For instance, this happens when one wants to talk about prototypes: proposition, thing, etc. So Russell in his Principles of Mathematics rendered nonsense such as “p is a proposition” symbolically as “p ⊃p”, and places it in front of certain propositions as an antecedent hypothesis in order to indicate their argument-places can only be filled by propositions."
+        },
+        {
+            "label": "5.3343",
+            "text": "It is nonsense to use p ⊃p as an antecedent hypothesis to ensure that its consequent arguments have the right form. For with a non-proposition as argument the antecedent hypothesis becomes not false but nonsensical, and because using the wrong sort of arguments makes the proposition itself nonsensical. So in this way it saves itself from the wrong arguments just as well, or as badly, as the senseless hypothesis attached for this purpose."
+        },
+        {
+            "label": "5.3022",
+            "text": "Or rather, it must become evident that there are no numbers in logic."
+        },
+        {
+            "label": "5.3304",
+            "text": "Roughly speaking, to say of two things that they are identical is nonsense, and to say of one thing that it is identical with itself is to say nothing at all."
+        },
+        {
+            "label": "4.0951",
+            "text": "One could say: the negation must be already related to the logical place determined by the negated proposition. The negating proposition determines a different logical place from the negated proposition."
+        },
+        {
+            "label": "4.0952",
+            "text": "The negating proposition determines its logical place using the logical place of the negated proposition by describing it as lying outside the latter's logical place."
+        },
+        {
+            "label": "4.0953",
+            "text": "That the negated proposition can be negated again shows that what is negated is already a proposition, and not just something preliminary to a proposition."
+        },
+        {
+            "label": "4.1031",
+            "text": "What can be shown, cannot be said."
+        },
+        {
+            "label": "4.1001531",
+            "text": "Does not my study of sign-language correspond to the study of thought-processes, which philosophers always used to consider so essential to the philosophy of logic? Only more often than not they got involved in inessential psychological investigations, and there is an analogous danger for my method."
+        },
+        {
+            "label": "4.4322",
+            "text": "A proposition, a picture, or a model is, in the negative sense, like a solid body which restricts the freedom of movement of another; in a positive sense, like a space bounded by solid substance in which there is room for a body."
+        },
+        {
+            "label": "4.0102",
+            "text": "The possibility of propositions is based on the principle that objects are  represented by their signs."
+        },
+        {
+            "label": "4.0103",
+            "text": "My fundamental thought is that the “logical constants” are not representatives; that the logic of facts cannot be represented."
+        },
+        {
+            "label": "3.20104",
+            "text": "A proposition about a complex stands in an internal relation to a proposition about a constituent part."
+        },
+        {
+            "label": "5.0444",
+            "text": "Freedom of the will consists in the impossibility of our knowing future events now. We could know them only if causality were an inner necessity like that of logical inference. - The connection between knowledge and the known is that of logical necessity."
+        },
+        {
+            "label": "4.4484",
+            "text": "Of course in a tautology an elementary proposition still depicts, but it is so loosely connected with reality as to leave it unlimited freedom. The bounds set by a contradiction are such that no reality can exist within them."
+        },
+        {
+            "label": "4.4485",
+            "text": "A tautology leaves the whole infinite logical space open to reality; a contradiction fills the whole of logical space, leaving no point to reality. Thus neither of them can determine reality in any way."
+        },
+        {
+            "label": "4.44861",
+            "text": "Certain, possible, impossible: here we have an indication of the scale needed in probability theory."
+        },
+        {
+            "label": "4.051",
+            "text": "A proposition must communicate a new sense with old words."
+        },
+        {
+            "label": "4.0101",
+            "text": "The possibility of all similes, of all the imagery of our language, rests on the logic of depiction."
+        },
+        {
+            "label": "3.001",
+            "text": "“A elementary proposition is thinkable (imaginable)” means: we can imagine it."
+        },
+        {
+            "label": "3.031",
+            "text": "As the old saying goes: God can create anything so long as it does not contradict the laws of logic. The reason being that we could not say what an “illogical” world would look like."
+        },
+        {
+            "label": "3.032",
+            "text": "It is as impossible to say something that “contradicts logic” as it is to draw “a figure that contradicts the laws of space”, or to give the co-ordinates of “a point that does not exist”."
+        },
+        {
+            "label": "3.0321",
+            "text": "An elementary fact contradicting the laws of physics can be presented spatially, but not one that contradicts the laws of geometry.\r+ 43[2]\t—\t\t20.11.14 (1)\rThe reality that corresponds to the sense of a proposition cannot be anything other than its constituent parts; since we are, surely, ignorant of everything else."
+        },
+        {
+            "label": "3.2101",
+            "text": "A proposition determines a place in logical space. The existence of this logical place is guaranteed by the mere existence of the constituent parts - by the existence of the sentence with a sense."
+        },
+        {
+            "label": "3.2102",
+            "text": "The sentential sign with logical co-ordinates - that is the logical place."
+        },
+        {
+            "label": "3.2103",
+            "text": "In both geometry and logic, a place is a possibility: something can exist in it."
+        },
+        {
+            "label": "3.2104",
+            "text": "Although a proposition may determine only one place in logical space, the whole logical space must already be given by it.\r(Otherwise negation, disjunction, etc., would introduce more and more new elements - in coordination.)"
+        },
+        {
+            "label": "3.2141",
+            "text": "The logical scaffolding around a picture determines logical space."
+        },
+        {
+            "label": "3.2142",
+            "text": "A proposition reaches through the whole of logical space."
+        },
+        {
+            "label": "5.3344",
+            "text": "Likewise, people have wanted to express “There are no things” by writing “~(∃x).x=x”. If this were actually a proposition, wouldn’t it be just as true if “there were things” but no thing was identical with itself?"
+        },
+        {
+            "label": "3.242",
+            "text": "In our notations there is indeed something arbitrary, but this is not arbitrary - that if we have determined anything arbitrarily, then something else must be the case. (This results from the essence of notation.)"
+        },
+        {
+            "label": "3.2421",
+            "text": "A particular mode of signifying may be unimportant but it is always important that it is a possible mode of signifying."
+        },
+        {
+            "label": "3.24211",
+            "text": "And that’s the way it is throughout philosophy: again and again the particular case turns out to be unimportant, but the possibility of each particular case discloses something essential about the world."
+        },
+        {
+            "label": "3.20101",
+            "text": "The demand for simple signs is the demand that sense be determinate."
+        },
+        {
+            "label": "3.20102",
+            "text": "The analysis of signs must come to an end at some point, because if signs are to express anything at all, meaning must belong to them in a way that is once and for all complete."
+        },
+        {
+            "label": "3.20108",
+            "text": "A proposition has one and only one complete analysis."
+        },
+        {
+            "label": "4.4483",
+            "text": "In a tautology the conditions of agreement with the world - the representing relations - cancel one another, so that it does not stand in any  representing relation to reality."
+        },
+        {
+            "label": "4.4462",
+            "text": "A proposition shows what it says: a tautology and a contradiction show that they say nothing."
+        },
+        {
+            "label": "4.447",
+            "text": "Because a tautology is unconditionally true, it has no truth-conditions; on no condition is a contradiction true."
+        },
+        {
+            "label": "4.448",
+            "text": "Tautologies and contradictions lack sense."
+        },
+        {
+            "label": "4.44801",
+            "text": "(Like a point with two arrows going out in opposite directions.)"
+        },
+        {
+            "label": "4.4482",
+            "text": "Tautologies and contradictions are not pictures of reality. They represent no possible situations. For tautologies admit all possible situations, and contradictions admit none."
+        },
+        {
+            "label": "4.449",
+            "text": "The logical product of a tautology and a proposition says the same thing as the proposition. This product, therefore, is identical with the proposition. For the essence of a sign cannot be altered without altering its sense."
+        },
+        {
+            "label": "4.4321",
+            "text": "The truth-conditions of a proposition determine the leeway left to the facts."
+        },
+        {
+            "label": "4.4486",
+            "text": "The truth of tautology is certain, of propositions possible, of contradiction impossible."
+        },
+        {
+            "label": "4.095",
+            "text": "Every proposition must already have sense; assertion cannot give it a sense, for its sense is just what is asserted. And the same goes for negation, etc."
+        },
+        {
+            "label": "4.2214",
+            "text": "Can we understand two names without knowing whether they signify the same thing or different things? – Can we understand a proposition containing two names without knowing whether their meaning is the same or different?"
+        },
+        {
+            "label": "4.22141",
+            "text": "If I know the meaning of an English word and of a German word that means the same then it is impossible for me not to know that they mean the same; it is impossible for me not to be able to translate them into the other."
+        },
+        {
+            "label": "4.4301",
+            "text": "Accordingly it now seems possible to give the most general propositional form: that is, to describe the sentential signs of any sign-language whatsoever so that every possible sense can be expressed by a sign that falls under the description, and every sign that falls under the description can express a sense, provided that the meanings of the simple signs are suitably chosen."
+        },
+        {
+            "label": "4.43011",
+            "text": "Clearly, only what is essential to the most general propositional form may be included in its description -  otherwise, it would not be the most general form."
+        },
+        {
+            "label": "5.304",
+            "text": "The sole logical constant is what all propositions, by their nature, have in common."
+        },
+        {
+            "label": "4.4303",
+            "text": "The most general propositional form is: such and such is the case. This form must be contained in all propositions in some way or other."
+        },
+        {
+            "label": "5.305",
+            "text": "But that is the general propositional form."
+        },
+        {
+            "label": "5.306",
+            "text": "The general propositional form is the essence of a proposition."
+        },
+        {
+            "label": "5.3061",
+            "text": "To give the essence of a proposition means to give the essence of all description, and thus the essence of the world."
+        },
+        {
+            "label": "5.303",
+            "text": "Clearly, whatever can be said from the start about the form of all propositions, must be sayable all at once."
+        },
+        {
+            "label": "4.0231",
+            "text": "A proposition must restrict reality to two alternatives: yes or no. To do that, it must describe reality completely."
+        },
+        {
+            "label": "4.0232",
+            "text": "A proposition is a description of an elementary fact."
+        },
+        {
+            "label": "4.02321",
+            "text": "Just as a description describes an object by its external properties, so a proposition describes reality by its internal properties."
+        },
+        {
+            "label": "4.02322",
+            "text": "A proposition constructs a world with the help of its logical scaffolding, so that one can actually see from the proposition all the logical features of reality, if it is true. One can draw inferences from a false proposition."
+        },
+        {
+            "label": "5.30201",
+            "text": "The apparently unimportant fact that logical pseudorelations like ∨ and ⊃, need brackets - unlike real relations - is deeply significant."
+        },
+        {
+            "label": "5.30221",
+            "text": "There are no preferred numbers."
+        },
+        {
+            "label": "4.0711",
+            "text": "In a proposition a situation is, as it were, put together as an experiment."
+        },
+        {
+            "label": "4.071",
+            "text": "A proposition asserts something only insofar as it is a picture."
+        },
+        {
+            "label": "4.0712",
+            "text": "Instead of “This proposition has such and such a sense”, one can say “This proposition represents such and such a situation”."
+        },
+        {
+            "label": "4.072",
+            "text": "A proposition is a picture of a situation only insofar as it is logically articulated."
+        },
+        {
+            "label": "4.073",
+            "text": "In a proposition there must be exactly as many distinguishable parts as in the situation that it represents."
+        },
+        {
+            "label": "4.074",
+            "text": "They must both possess the same logical (mathematical) multiplicity. (Compare Hertz's Mechanics.)"
+        },
+        {
+            "label": "2.012",
+            "text": "In logic nothing is accidental: if a thing can occur in an elementary fact, it must already contain the possibility of that elementary fact."
+        },
+        {
+            "label": "2.0121",
+            "text": "However independent things may be - and this means no more than that they can occur in all possible situations - still this form of independence is a form of connection with elementary facts, a form of dependence."
+        },
+        {
+            "label": "2.0122",
+            "text": "What this comes to is that if it were the case that names had meaning both when combined in propositions and outside them, it would, so to speak, be impossible to guarantee that in both cases they really had the same meaning, in the same sense of the word. It seems to be impossible for words to appear in two different roles: alone, and in propositions."
+        },
+        {
+            "label": "2.0123",
+            "text": "It would, so to speak, seem like an accident, if it turned out that a thing that could exist alone could be part of a situation."
+        },
+        {
+            "label": "2.013",
+            "text": "If I can imagine a thing in a situation, then I cannot imagine it out of the situation."
+        },
+        {
+            "label": "2.014",
+            "text": "Each thing is, as it were, in a space of possible elementary facts. I can imagine this space empty, but not the thing without the space."
+        },
+        {
+            "label": "2.011",
+            "text": "It is essential to a thing that it can be a constituent of an elementary fact."
+        },
+        {
+            "label": "4.0261",
+            "text": "Note that translating one language into another is not a matter of translating each proposition of the one into one of the other: rather, it is only the constituents that are translated."
+        },
+        {
+            "label": "5.30222",
+            "text": "In logic there is no juxtaposition, and no classification can be given."
+        },
+        {
+            "label": "4.100141",
+            "text": "A philosophical work consists essentially of elucidations."
+        },
+        {
+            "label": "6.51",
+            "text": "Skepticism is not irrefutable, but obviously nonsensical, insofar as it tries to raise doubts where no questions can be asked. For doubt can only exist provided there is a question, a question only provided there is an answer, and an answer only provided something can be said."
+        },
+        {
+            "label": "5.3101",
+            "text": "Must the sign of a negative proposition be constructed with that of the positive proposition? Why should it not be possible to express a negative proposition by means of a negative fact? (For instance, if “a” does not stand in a certain relation to “b” it could express that not-aRb is the case.)"
+        },
+        {
+            "label": "5.3102",
+            "text": "Yet even in this case the negative proposition is constructed by indirectly relying on the positive."
+        },
+        {
+            "label": "5.3103",
+            "text": "The positive proposition necessarily presupposes the existence of the negative proposition, and vice versa."
+        },
+        {
+            "label": "3.25",
+            "text": "Definitions are rules for translating from one language into another.\rAny correct sign-language must be translatable into any other according to such rules. This is what they all have in common."
+        },
+        {
+            "label": "3.2511",
+            "text": "We can express what is common to all notations for truth-functions in the following way: for instance, they have in common that they all can be replaced by a notation that uses ~ξ and ξ∨η."
+        },
+        {
+            "label": "3.2512",
+            "text": "This indicates the way in which a special possible notation can provide us with general information."
+        },
+        {
+            "label": "5.307",
+            "text": "The description of the most general propositional form is the description of the one and only general primitive sign in logic."
+        },
+        {
+            "label": "3.20211",
+            "text": "Every defined sign signifies via the signs by which it is defined; the definitions point the way. Two signs, one primitive and one defined, cannot signify in the same way. Names cannot be defined - nor in general, can any sign that has a meaning independently and on its own."
+        },
+        {
+            "label": "5.233",
+            "text": "And if there were an object called ~, then ~~p would have to say something different from what p says. For the one proposition would then be about ~ and the other would not."
+        },
+        {
+            "label": "5.2331",
+            "text": "This disappearance of apparent logical constants also happens with “~(∃x).~ϕx”, which is equivalent to “(x).ϕx”, and in the case of “(∃x).ϕx.x=a”, which is equivalent to “ϕa”."
+        },
+        {
+            "label": "5.3031",
+            "text": "An elementary proposition already contains all logical operations. For ϕa = (∃x).ϕx.x =a."
+        },
+        {
+            "label": "4.4491",
+            "text": "A definite logical combination of signs corresponds to a definite logical combination of their meanings. It is only to the uncombined signs that absolutely any combination corresponds. That is, propositions that are true for every situation cannot be combinations of signs at all, for otherwise, only definite combinations of objects would correspond to them. \r(And what isn’t a logical combination has no combination of objects corresponding to it.)"
+        },
+        {
+            "label": "5.04111",
+            "text": "If one proposition follows from others, this is expressed by certain relations in which the forms of those propositions stand to one another: nor need we to set up this relation between them, by combining them with one another in a single proposition. On the contrary, the relations are internal, and  exist simultaneously with, and through, the existence of the sentential signs."
+        },
+        {
+            "label": "5.04112",
+            "text": "When from p ∨q and ~p we infer q, the relation between the propositional forms of “p ∨q” and “~p” is concealed, by our mode of signifying. But if instead of “p ∨q” we write “p |q.|.p|q”, and instead of “~p”, “p|p” (p|q = neither p nor q), then the inner connection becomes obvious."
+        },
+        {
+            "label": "5.04113",
+            "text": "That we can infer from (x).ϕx to ϕa shows that the symbol “(x).ϕx” itself  already has generality in it."
+        },
+        {
+            "label": "5.3062",
+            "text": "Logic must take care of itself."
+        },
+        {
+            "label": "5.3063",
+            "text": "If a sign is possible, it is also capable of signifying. Whatever is possible in logic is also permitted. (“Socrates is Plato” is nonsense because we have not made an arbitrary determination, and not because the sign, in itself, would be illegitimate.) In a certain sense, we cannot go wrong in logic."
+        },
+        {
+            "label": "5.30631",
+            "text": "The self-evidence that Russell talked about so much, can be dispensed with in logic, only because language itself prevents every logical mistake. – That logic is a priori consists in this: one cannot think illogically."
+        },
+        {
+            "label": "5.3064",
+            "text": "Frege says: any legitimately constructed proposition must have a sense. And I say: any possible proposition is well-formed, and, if it doesn’t make sense, that can only be because we have failed to give a meaning to some of its constituents. Even if we think we have."
+        },
+        {
+            "label": "5.30641",
+            "text": "Thus the reason why “Socrates is identical” says nothing is that we have given no adjectival meaning to the word “identical”. For when it appears as a sign for identity, it symbolizes in an entirely different way - the signifying relation is different - therefore the signs  in the two cases are entirely different, too: the two signs have only their visible part in common by accident."
+        },
+        {
+            "label": "3.2013",
+            "text": "A sign is the perceptible part of a symbol. Two different symbols can therefore have one and the same sign (written or spoken etc.)  in common - in which case each will signify in a different way."
+        },
+        {
+            "label": "3.2014",
+            "text": "Now in ordinary language it very often happens that the same word signifies in different ways - and so belongs to different symbols - or that two words that signify in different ways are applied in sentences in what looks like the same way."
+        },
+        {
+            "label": "3.20141",
+            "text": "Thus the word “is” appears as a copula, as a sign for identity, and as an expression for existence; the word “Green” figures as an adjective and as the proper name of a person; “identical” is employed as an adjective, etc. etc. In the proposition “Green is green” (when “is” means the copula) not only do the first word and the last have different meanings, they are different symbols."
+        },
+        {
+            "label": "3.20142",
+            "text": "This is how the most fundamental confusions easily arise (all philosophy is full of them)."
+        },
+        {
+            "label": "3.2015",
+            "text": "To avoid such errors we must use a sign-language that excludes them by not using the same sign for different symbols and by not using signs that signify in different ways in what looks like the same way. That is to say, a sign-language governed by logical grammar - by logical syntax."
+        },
+        {
+            "label": "3.20151",
+            "text": "Frege’s and Russell’s conceptual notation is such a language that, howevever – as will be shown – still does not exclude all mistakes."
+        },
+        {
+            "label": "3.251",
+            "text": "A symbol signifies in virtue of what is common to all those symbols by which it can be replaced according to the rules of logical syntax."
+        },
+        {
+            "label": "3.252",
+            "text": "To recognize a symbol in its sign we must observe how it is used."
+        },
+        {
+            "label": "3.20152",
+            "text": "The meaning of a sign should never play a role in logical syntax. It must be possible to set up logical syntax without mentioning the meaning of a sign: only the description of symbols may be presupposed. From this observation we get a further perspective on Russell's “theory of types”.  Russell’s error is shown by the fact that in formulating his rules for signs, he had to mention his signs’ meanings."
+        },
+        {
+            "label": "4.4221",
+            "text": "So Frege was quite right to start with them in explaining the signs of his conceptual notation. But Frege’s explanation of the concept of truth is wrong: if “the true” and “the false” were real objects, and were the arguments in ~p, etc., then the sense of ~p would not in the least be determined by Frege's  “determination.”"
+        },
+        {
+            "label": "5.33411",
+            "text": "All the problems with Russell's axiom of infinity can now be solved here."
+        },
+        {
+            "label": "3.1604",
+            "text": "Facts cannot be named."
+        },
+        {
+            "label": "5.3032",
+            "text": "Wherever there is compositeness, there is argument and function, and where these are present, all the logical constants are already there."
+        },
+        {
+            "label": "4.1011",
+            "text": "Roughly speaking: A proposition can only say how a thing is, not what it is."
+        },
+        {
+            "label": "4.01121",
+            "text": "Obviously, a proposition the form aRb looks like a picture."
+        },
+        {
+            "label": "5.34",
+            "text": "The question about all the possible forms of elementary propositions must now be answered a priori."
+        },
+        {
+            "label": "5.341",
+            "text": "Our fundamental principle is this: whenever a question can be answered by using logic it must be possible to answer it just like that. (And if ever we have to look at the world for a solution to such a problem, that shows we are on a completely wrong track.)"
+        },
+        {
+            "label": "5.4",
+            "text": "Elementary propositions consist of names. Since, however, we are unable to show the number of names with different meanings, we also cannot show the composition of elementary propositions."
+        },
+        {
+            "label": "5.401",
+            "text": "Russell said that there were simple relations between different numbers of things (individuals). But between what numbers? And how is this supposed to be decided? - By experience?"
+        },
+        {
+            "label": "5.402",
+            "text": "It has to be possible to answer a priori the question whether I can get into a position in which I need a 27-termed relation to signify something."
+        },
+        {
+            "label": "5.403",
+            "text": "But can it even be legitimate to ask such a question? How can we set up a form of a sign without knowing whether anything can correspond to it?"
+        },
+        {
+            "label": "5.404",
+            "text": "Does it make sense to ask what there must be such that something can be the case?"
+        },
+        {
+            "label": "5.414",
+            "text": "All the propositions of our ordinary language are actually, just as they are, in perfect logical order. - That utterly simple thing, that we have to formulate here, is not a likeness of the truth, but the complete truth itself. (Our problems are not abstract, but on the contrary, as concrete as they can be.)"
+        },
+        {
+            "label": "5.42",
+            "text": "We can leave that question open: language itself will decide it."
+        },
+        {
+            "label": "5.405",
+            "text": "But when we have a system for creating signs, the system is what is important for logic and not the individual signs."
+        },
+        {
+            "label": "5.41",
+            "text": "However, whether a sign like F (a, b, c, …) is analyzable or not does not show itself in the sign. Rather, if it is analyzable, that shows itself in the signifying relation, and so in the sign's possessing a definition that analyzes it and that has sense."
+        },
+        {
+            "label": "5.422",
+            "text": "For elementary propositions we use the signs “p0”, “q0”, “r0”, etc. or “f0(a)”, “f0(a, b)”, etc. where it is left open whether or not a=b."
+        },
+        {
+            "label": "5.30632",
+            "text": "We cannot give a sign the wrong sense."
+        },
+        {
+            "label": "5.342",
+            "text": "The “experience” we need to understand logic is not that such and such is the case, but that something is. But that is not an experience."
+        },
+        {
+            "label": "5.343",
+            "text": "Logic is prior to every experience - that something is so."
+        },
+        {
+            "label": "5.3431",
+            "text": "It is before the How, not before the What."
+        },
+        {
+            "label": "5.3432",
+            "text": "And if this were not so, how could we apply logic? We could put it this way: if there would be a logic even if there were no world, how could there be a logic given that there is a world?"
+        },
+        {
+            "label": "4.4492",
+            "text": "Tautology is a limiting case of the combination of signs, namely their disintegration."
+        },
+        {
+            "label": "3.20105",
+            "text": "A complex can be given only by its description, which either will fit or not fit. A proposition that mentions a complex that does not exist will not be nonsensical, merely false."
+        },
+        {
+            "label": "3.253",
+            "text": "A sign marks the sharing of a single form and a single content. It determines a logical form only together with its use according to syntax."
+        },
+        {
+            "label": "3.20106",
+            "text": "When a simple symbol signifies a complex, this can be seen in an indeterminateness in the propositions in which it occurs. We then know that everything is not yet determined by the proposition. Indeed, the generality sign contains a prototype."
+        },
+        {
+            "label": "3.2531",
+            "text": "Analysis does not give an arbitrary resolution of the sign for a complex: for instance, it would not have a different resolution in every propositional structure."
+        },
+        {
+            "label": "3.20107",
+            "text": "The contraction of a symbol for a complex into a simple symbol can be expressed in a definition."
+        },
+        {
+            "label": "3.2411",
+            "text": "So one could say that the real name is what all symbols that could signify an object have in common. It would then follow, step by step, that no kind of composition was essential to a name."
+        },
+        {
+            "label": "3.20212",
+            "text": "The meanings of primitive signs can be explained by means of elucidations. Elucidations are propositions containing the primitive signs. So they can only be understood if the meanings of those signs are already known."
+        },
+        {
+            "label": "5.33412",
+            "text": "What the axiom of infinity is supposed to say would be expressed in language by there being infinitely many names with different meanings."
+        },
+        {
+            "label": "5.335",
+            "text": "The limits of my language mean the limits of my world."
+        },
+        {
+            "label": "5.3351",
+            "text": "This remark provides the key to the problem how much truth there is in solipsism."
+        },
+        {
+            "label": "5.3352",
+            "text": "Namely: what solipsism means is quite correct, only it cannot be said, but shows itself."
+        },
+        {
+            "label": "5.3353",
+            "text": "That the world is my world shows itself in the fact that the limits of language (the only language I understand) mean the limits of my world."
+        },
+        {
+            "label": "5.3354",
+            "text": "The subject that thinks, entertains ideas: there is no such thing."
+        },
+        {
+            "label": "5.30633",
+            "text": "Naturally, Occam's razor is no arbitrary rule, nor one that is justified by its practical success: its point is that unnecessary units in a sign language mean nothing."
+        },
+        {
+            "label": "5.30634",
+            "text": "Signs that serve one purpose are logically equivalent, and signs that serve none are logically meaningless."
+        },
+        {
+            "label": "3.2521",
+            "text": "An unused sign is meaningless. That is the point of Occam's razor."
+        },
+        {
+            "label": "5.30224",
+            "text": "The solutions to logical problems must be simple, since they set the standard of simplicity."
+        },
+        {
+            "label": "3.20103",
+            "text": "The requirement of determinacy could also be put as follows: if a proposition is to have sense, the syntactic role of each of its parts must have been settled beforehand. For instance, it cannot occur to one only later on that a certain proposition follows from it. Before a proposition can have a sense, it must be completely settled what propositions follow from it."
+        },
+        {
+            "label": "3.2513",
+            "text": "The rules of logical syntax must be self-evident, once we know how every single sign signifies."
+        },
+        {
+            "label": "4.1032",
+            "text": "Now too we understand why people have always felt that if only everything in our symbolism were all right, we would have the right logical conception."
+        },
+        {
+            "label": "5.04103",
+            "text": "A proposition affirms every proposition that follows from it."
+        },
+        {
+            "label": "5.04104",
+            "text": "Two propositions oppose each other if there is no meaningful proposition  that affirms both."
+        },
+        {
+            "label": "5.04105",
+            "text": "Every proposition that contradicts another negates it."
+        },
+        {
+            "label": "5.311",
+            "text": "How can an all-embracing world-reflecting logic use such contrived hooks and manipulations? Only because they are all connected together in an infinitely fine network, the great mirror."
+        },
+        {
+            "label": "5.312",
+            "text": "“~p” is true if “p” is false. Therefore, in the proposition “~p”, when true, “p” is false. How then can the hook “~” make it agree with reality?"
+        },
+        {
+            "label": "5.313",
+            "text": "What negates in “~p” is not the “~”: rather, the negating is done by what all the signs of this notation have in common. That is, the common rule governing the construction of ~p, ~~~p, ~p ∨~p, ~p .~p, etc., etc. (ad inf.). And this common factor mirrors negation."
+        },
+        {
+            "label": "5.041031",
+            "text": "“p.q” is one of the propositions that affirm “p” while also being one of the propositions that affirm “q”."
+        },
+        {
+            "label": "5.3131",
+            "text": "It could be said that the proposition “p.q” is what is common to all symbols that affirm both p and q. The proposition “p∨q” is what is common to all symbols that affirm either p or q."
+        },
+        {
+            "label": "5.3132",
+            "text": "And thus we can say: Two propositions are opposed to one another if they have nothing in common, and: every proposition has only one negative, since there is only one proposition that lies entirely outside it."
+        },
+        {
+            "label": "5.3133",
+            "text": "Thus in the new notation, too, that “q:p ∨~p” says the same as “q” shows itself, and that “p ∨~p” says nothing."
+        },
+        {
+            "label": "5.315",
+            "text": "It must show itself in our sentential signs that it can only be sentential signs that are connected by “∨”, “.”, etc.\rAnd this is indeed so, for the symbol in “p” and “q” itself presupposes “∨”, “.”, etc. If the sign “p” in “p∨q” does not stand for a complex sign, then it cannot make sense by itself: but then the signs “p∨p”, “p.p”, etc., which have the same sense as “p”, must also not make sense. However, if “p∨p” makes no sense, then “p∨q” cannot make sense either."
+        },
+        {
+            "label": "5.323",
+            "text": "The world can be completely described using fully generalized propositions, that is without first correlating any name with a particular object."
+        },
+        {
+            "label": "5.324",
+            "text": "To arrive at the ordinary mode of expression, then, we simply need to say  after an expression such as “There is one and only one x such that…”: and that x is A."
+        },
+        {
+            "label": "5.325",
+            "text": "A fully generalized proposition is composite, just like every other proposition. (This shows itself in our needing to mention “f ” and “x” separately “(∃x,f).fx”. Both symbols independently stand in signifying relations to the world, as in an ungeneralized proposition."
+        },
+        {
+            "label": "5.3251",
+            "text": "The mark of a composite symbol: it has something in common with other signs."
+        },
+        {
+            "label": "5.326",
+            "text": "The truth or falsity of every proposition alters something about the general structure of the world. And the play that is left open to it structure by the totality of elementary propositions leaves open for its construction is precisely what is delimited by the entirely general propositions. \r(For if an elementary proposition is true, then, at any rate, one more elementary proposition is true.)"
+        },
+        {
+            "label": "5.3221",
+            "text": "The generality sign appears as an argument."
+        },
+        {
+            "label": "5.0012",
+            "text": "Negation, disjunction, logical multiplication, etc., are operations."
+        },
+        {
+            "label": "5.002",
+            "text": "Of course the mere occurrence of an operation in a proposition cannot say anything."
+        },
+        {
+            "label": "5.0021",
+            "text": "Indeed, no statement is made by an operation, but only by its result, and this depends on its base."
+        },
+        {
+            "label": "5.0022",
+            "text": "Only operations can vanish (e.g. negation in ~~p)."
+        },
+        {
+            "label": "3.16021",
+            "text": "A theme in music is a proposition."
+        },
+        {
+            "label": "6.1",
+            "text": "The propositions of logic are the tautologies."
+        },
+        {
+            "label": "6.1001",
+            "text": "Therefore the propositions of logic say nothing. They are the analytic propositions."
+        },
+        {
+            "label": "6.11",
+            "text": "That they are tautologies shows the formal - logical - properties of language, of the world."
+        },
+        {
+            "label": "6.111",
+            "text": "The fact that a tautology is yielded by this way of connecting its constituents characterizes the logic of its constituents."
+        },
+        {
+            "label": "6.112",
+            "text": "If propositions are to yield a tautology when they are connected in a certain way, they must have certain structural properties. That they yield a tautology when combined in this way shows therefore that they possess these structural properties."
+        },
+        {
+            "label": "6.12",
+            "text": "It follows from this that logical propositions are not unconditionally necessary; for in a suitable notation we can in fact recognize the structural properties of the propositions merely by inspecting them."
+        },
+        {
+            "label": "6.121",
+            "text": "If, for example, two propositions p and q combine in p⊃q to yield a tautology, then clearly q follows from p. For instance, that “q” follows from “p⊃q.p” can be seen from the two propositions themselves, but we can also show it by combining them to form “p⊃q.p.⊃.q”, and then showing that this is a tautology."
+        },
+        {
+            "label": "6.1211",
+            "text": "Logical propositions demonstrate the logical properties of propositions, by combining them into propositions that say nothing."
+        },
+        {
+            "label": "6.1212",
+            "text": "This method could also be called a zero-method. In a logical proposition, propositions are brought into equilibrium with one another, and the state of equilibrium then shows how these propositions must be logically composed."
+        },
+        {
+            "label": "6.122",
+            "text": "Indeed in everyday life we never need logical propositions. Rather, we make se of logical propositions only to infer from propositions that are not part of logic to others that also are not logical."
+        },
+        {
+            "label": "6.1213",
+            "text": "A proposition that has sense says that something is the case, and its proof shows that it is so. In logic every proposition is the form of a proof."
+        },
+        {
+            "label": "6.101",
+            "text": "It is the characteristic mark of logical propositions that one can recognize that they are true from the symbol alone, and this fact contains in itself the whole philosophy of logic. And so too it is one of the most important facts that the truth or falsity of nonlogical propositions cannot be recognized from the propositions alone."
+        },
+        {
+            "label": "6.13",
+            "text": "Logic is not a theory, but a mirror image of the world."
+        },
+        {
+            "label": "6.131",
+            "text": "Logic is transcendental."
+        },
+        {
+            "label": "6.1214",
+            "text": "Every logical proposition is a modus ponens represented in signs. (And the modus ponens cannot be expressed by a proposition.)"
+        },
+        {
+            "label": "6.1003",
+            "text": "The correct explanation of logical propositions must give them a unique position among all propositions."
+        },
+        {
+            "label": "6.1002",
+            "text": "Theories that make a proposition of logic appear to have a large amount of content are always false. For example, the words “true” and “false” seem to signify two properties among other properties, and then it seems to be a remarkable fact that every proposition has one of these properties. This now seems to be no more obvious than the proposition “All roses are either yellow or red” would seem, even if it were true. Indeed, the logical proposition acquires all the characteristics of a proposition of natural science, and this is a sure sign that it has been wrongly construed."
+        },
+        {
+            "label": "6.1216",
+            "text": "Now it also becomes clear why logic was called the theory of forms and of inference."
+        },
+        {
+            "label": "6.1121",
+            "text": "For example, that p and ~p contradict one another shows itself in the tautology “~(p .~p)”."
+        },
+        {
+            "label": "6.11211",
+            "text": "It is now clear that there need not be, as Russell thought, a special \"law of contradiction\" for each “type”; rather, that one law is enough, since it need not be applied to itself."
+        },
+        {
+            "label": "6.113",
+            "text": "The logical propositions describe the scaffolding of the world, or rather, they represent it. They are not “about” anything. They presuppose that names  mean something and elementary propositions make sense: and this is their connection with the world. Clearly, that certain combinations of symbols, symbols with a necessarily determinate character, are tautologies indicates something about the world. That’s the decisive point. We have said that in the signs we use, some things are arbitary, some things are not. In logic it is only the latter that express: but that means that in logic it is not we who express what we want by means of of signs, but rather in logic the nature of the inevitably necessary signs speaks for itself. If we know the logical syntax of any sign language, then all the logical propositions are already given."
+        },
+        {
+            "label": "6.1004",
+            "text": "The investigation of logic means the investigation of all that is subject to law. And outside logic, all is accident."
+        },
+        {
+            "label": "6.102",
+            "text": "Or is it possible for the laws of logic in their turn to obey logical laws?"
+        },
+        {
+            "label": "6.114",
+            "text": "General validity is not the mark of logical propositions. To be general only means to be accidentally valid for all things."
+        },
+        {
+            "label": "6.1141",
+            "text": "An ungeneralized proposition can be a tautology just as well as a generalized one."
+        },
+        {
+            "label": "6.12111",
+            "text": "This throws light on the question why logical propositions can no more be confirmed by experience than they can be refuted by it. Not only must a proposition of logic be  incapable of being contradicted by any possible experience, it must likewise be unconfirmable by any possible experience."
+        },
+        {
+            "label": "6.1122",
+            "text": "Clearly we could have used for this purpose contradictions instead of tautologies."
+        },
+        {
+            "label": "6.1215",
+            "text": "Now it becomes clear why people have often felt as though “logical truths” must be “postulated” by us. Namely, we can postulate them in so far as we can postulate an adequate notation."
+        },
+        {
+            "label": "6.1131",
+            "text": "It is possible - indeed possible even in the old logic - to give from the start a description of all “true” logical propositions."
+        },
+        {
+            "label": "6.1132",
+            "text": "Hence there can never be suprises in logic."
+        },
+        {
+            "label": "6.1133",
+            "text": "By calculating the logical properties of the symbol, one can calculate whether a proposition belongs to logic."
+        },
+        {
+            "label": "6.1134",
+            "text": "And that’s what we do when we “prove” a logical proposition. For, without bothering about sense or meaning, we construct the logical proposition out of others using only rules for signs."
+        },
+        {
+            "label": "6.1136",
+            "text": "However, logic can always be conceived in such a way that every proposition is its own proof."
+        },
+        {
+            "label": "6.1142",
+            "text": "We could call the general validity of logic essential, as opposed to the accidental general validity of such propositions as “All people are mortal”. Propositions like Russell's axiom of reducibility are not logical propositions, and this explains our feeling that, if true, that could only be a lucky fluke."
+        },
+        {
+            "label": "6.1143",
+            "text": "We can imagine a world in which the axiom of reducibility is not valid. But clearly, logic has nothing to do with the question whether our world is really like that or not."
+        },
+        {
+            "label": "6.1221",
+            "text": "In philosophy the question, “How do we actually use this word or this proposition?” repeatedly leads to valuable insights."
+        },
+        {
+            "label": "6.11341",
+            "text": "Here is how we prove a logical proposition: we generate it from other logical propositions by successively applying certain operations that always produce further tautologies from the first. (And only tautologies follow from a tautology.)"
+        },
+        {
+            "label": "6.11342",
+            "text": "Naturally this way of showing that propositions are tautologies is quite inessential to logic. For the propositions from which the proof starts must show without any proof that they are tautologies."
+        },
+        {
+            "label": "6.1135",
+            "text": "All propositions in logic are of equal rank, rather than some being essentially primitive propositions from which others are derived. Every tautology itself shows that it is a tautology."
+        },
+        {
+            "label": "6.11351",
+            "text": "Proof in logic is merely a mechanical expedient enabling the recognition of a tautology in complicated cases."
+        },
+        {
+            "label": "6.11352",
+            "text": "Indeed, it would be quite incredible if a meaningful proposition could be proved logically from others just as a logical proposition can. Clearly, proving logically that a meaningful proposition is true is completely different from a proof in logic."
+        },
+        {
+            "label": "6.11343",
+            "text": "In logic process and result are equivalent. (Hence, no surprises.)"
+        },
+        {
+            "label": "6.01",
+            "text": "The general form of an operation is |σ̅ , α̅, N(α̅ )|'(σ)"
+        },
+        {
+            "label": "6.02",
+            "text": "The general form of an integer is |0, α, α +1|."
+        },
+        {
+            "label": "6.3",
+            "text": "[Sentence crossed out]"
+        },
+        {
+            "label": "6.4",
+            "text": "All propositions are of equal value."
+        },
+        {
+            "label": "7",
+            "text": "Of what we cannot speak we must be silent."
+        },
+        {
+            "label": "6.12112",
+            "text": "The so-called law of induction cannot possibly be a law of logic, for obviously it is a meaningful proposition. And so it cannot be an a priori law either."
+        },
+        {
+            "label": "6.3",
+            "text": "The law of causality is not a law but the form of a law."
+        },
+        {
+            "label": "6.31",
+            "text": "“Law of causality”  is a generic name. And just as in mechanics there are, for instance, minimum-laws, such as that of least action, so too in physics there is a law of causality, a law of the causal form."
+        },
+        {
+            "label": "6.311",
+            "text": "Indeed people had an idea that there must be a “law of least action” before they knew exactly what it was. (Here, as always, what is a priori turns out to be something purely logical.)"
+        },
+        {
+            "label": "6.32",
+            "text": "We do not believe a priori in a law of conservation, rather we know a priori the possibility of a logical form."
+        },
+        {
+            "label": "6.33",
+            "text": "All such propositions, including the principle of sufficient reason, the laws of continuity in nature and of least effort in nature, etc. etc. - all these are a priori insights about possible forms of scientific propositions."
+        },
+        {
+            "label": "6.331",
+            "text": "Newtonian mechanics, for instance, puts world description into a uniform form. Imagine a white surface with irregular black spots. We then say: whatever kind of picture these make, I can always get as near as I like to its description, provided I cover the surface with a sufficiently fine square mesh, and then say of every square whether it is white or black. In this way I put the description of the surface into a uniform form. The form is arbitrary, because I could have just as well applied a net with a triangular or hexagonal mesh. It might be that the description would then have been simpler, that is, we might well described the surface more accurately with a coarser triangular mesh than with a finer square mesh or vice versa, and so on. The different nets correspond to different systems of describing the world. Mechanics determines a form of world description by saying: all propositions used in the description of the world must be obtained in a given way from a given set of propositions - the mechanical axioms. In this way it supplies the bricks for building the edifice of science, and says: Whatever building that you want to erect, must somehow be constructed with these, and only these, bricks.\r(Just as within the number system we must be able to write down any arbitrary number, so within the system of mechanics we must be able to write down any arbitrary proposition ofphysics.)"
+        },
+        {
+            "label": "6.34",
+            "text": "And here we can see the position of logic in relation to mechanics. (We could also construct the net from different kinds of mesh.) That such a a picture can be described by a net of a given form tells us nothing about the picture. (For this holds of every picture of this kind.) But what does characterize a picture is that it can be described completely by a specific net of a specific fineness. \rLikewise, that the world can be described by Newtonian mechanics tells us nothing about the world: but what does tell us something about it is that the world can be described in precisely this way. We are also told something about the world by the fact that it can be described more simply in one system of mechanics than in another."
+        },
+        {
+            "label": "6.341",
+            "text": "Mechanics is an attempt to construct according to a single plan all true propositions we need for the description of the world."
+        },
+        {
+            "label": "6.35",
+            "text": "Although the spots in our picture are geometrical figures, geometry can obviously say nothing about their actual form and position. But the network is purely geometrical; all its properties can be given a priori."
+        },
+        {
+            "label": "6.36",
+            "text": "Laws like the principle of sufficient reason, etc. are about the net and not about what the net describes."
+        },
+        {
+            "label": "6.001",
+            "text": "In the general propositional form propositions occur in other propositions only as truth arguments."
+        },
+        {
+            "label": "6.002",
+            "text": "But at first sight it looks as if there were another way in which one proposition could occur in another."
+        },
+        {
+            "label": "6.003",
+            "text": "Especially in certain forms of proposition in psychology, such as “A believes that p” or “A thinks p”, etc. On the surface, it looks as if the proposition p stood in some kind of relation to an object A - and in modern theory of knowledge (Russell, Moore, etc.) these propositions have actually been construed in this way."
+        },
+        {
+            "label": "6.004",
+            "text": "Clearly, however, “A believes that p”, “A thinks p”, and “A says p” are of the form “‘p’ says p”; and clearly this is n0t a matter of a correlation of fact to objec,t but rather the correlation of facts by correlation of their objects."
+        },
+        {
+            "label": "6.0041",
+            "text": "This also shows too that there is no such thing as the soul - the subject, etc. - as it is conceived in contemporary superficial psychology."
+        },
+        {
+            "label": "6.0042",
+            "text": "For a composite soul would no longer be a soul."
+        },
+        {
+            "label": "6.0043",
+            "text": "The correct theory of judgment must show the impossibility of a judgment’s being a piece of nonsense. (Russell's theory does not satisfy this condition.)"
+        },
+        {
+            "label": "6.41",
+            "text": "The sense of the world must lie outside the world. In the world everything is as it is, and everything happens as it does happen: there is no value in it - and if there were any, it would have no value. \rIf there is any value that does have value, it must lie outside all happening and being this way or that. For all happening and being this way or that is accidental. \rWhat makes it non-accidental cannot lie within the world, since if it did it would itself be accidental. It must lie outside the world."
+        },
+        {
+            "label": "6.42",
+            "text": "Hence also there can be no ethical propositions. Propositions cannot express anything higher."
+        },
+        {
+            "label": "6.43",
+            "text": "The inexpressible does exist. It shows itself. It is what is mystical."
+        },
+        {
+            "label": "6.5",
+            "text": "If the answer cannot be put into words, the question, too, cannot be put into words. The riddle does not exist. \rIf a question can be framed at all, then it can also be answered."
+        },
+        {
+            "label": "6.52",
+            "text": "We feel that even if all possible scientific questions were answered, the problems of life would still not have been touched at all. To be sure, there would then be no question left, and just this is the answer."
+        },
+        {
+            "label": "5.33541",
+            "text": "If I were to write a book called The World as I Found It, I would also have to report in it about my body, and say which parts obey my will, etc. This then would be a method of isolating the subject, or rather of showing that in an important sense there is no subject; for it alone could not be mentioned in that book. –"
+        },
+        {
+            "label": "5.30225",
+            "text": "People have always thought that there must be a realm in which the answers to questions combine symmetrically - a priori - into a closed regular structure.\rA realm ruled by the law: Simplicity is the sign of truth."
+        },
+        {
+            "label": "5.3221",
+            "text": "The precedent to which one would always like to appeal must reside in the symbol itself."
+        },
+        {
+            "label": "4.0742",
+            "text": "If we wanted to express what is expressed by “(x).fx”, say by putting an index in front of “fx” such as “Gen.fx” - it would not work, for we would not know what was generalized.\rIf we tried to indicate it by adding an index to the “x” - for instance by writing “f(xg)” – it still would not work, for we would not know the scope of the generality sign.\rIf we tried to do it by introducing a mark into the argument places – such as “(G, G).F (G, G)” - it would not work: we could not determine the identity of the variables. And so on.\rAll these ways of signifying are inadequate because they do not have the necessary mathematical multiplicity."
+        },
+        {
+            "label": "4.0743",
+            "text": "Likewise, the idealist's explanation of the seeing of spatial relations through “spatial glasses” does not work, because it cannot explain the multiplicity of these relations."
+        },
+        {
+            "label": "5.021",
+            "text": "Truth-functions can be arranged in series."
+        },
+        {
+            "label": "5.022",
+            "text": "That is the foundation for the theory of probability."
+        },
+        {
+            "label": "5.023",
+            "text": "In a schema like II, let Tr be the number of “T's” in the column of the proposition r, and let Trs be the number of “T's” in the column of the proposition s that stand in rows in which the column of the proposition r has “T's”. Then the proposition “r” gives to the proposition s the probability Trs/Tr."
+        },
+        {
+            "label": "5.09",
+            "text": "If one proposition follows from another, then the latter gives the former the probability 1. If two propositions are independent of one another, then each gives the other the probability ½."
+        },
+        {
+            "label": "5.091",
+            "text": "Following from is a limiting case of being made probable."
+        },
+        {
+            "label": "5.092",
+            "text": "Thus probability is a generalization."
+        },
+        {
+            "label": "5.093",
+            "text": "It involves a general description of a propositional form."
+        },
+        {
+            "label": "5.0931",
+            "text": "We use probability only in place of certainty - if our knowledge of a fact is incomplete, but we do know something about its form."
+        },
+        {
+            "label": "5.0932",
+            "text": "There is no special logical constant unique to probability propositions."
+        },
+        {
+            "label": "5.0933",
+            "text": "A probability proposition is, as it were, an excerpt from elementary propositions."
+        },
+        {
+            "label": "5.0934",
+            "text": "Anything in propositions about probability that can be confirmed by experiment cannot be mathematical."
+        },
+        {
+            "label": "1.2",
+            "text": "The world breaks down into facts."
+        },
+        {
+            "label": "1.21",
+            "text": "Each one can either be the case or not be the case and all else remains the same."
+        },
+        {
+            "label": "4.43012",
+            "text": "That no proposition can be given whose form could not have been forseen (i.e. constructed) proves the existence of a general propositional form."
+        },
+        {
+            "label": "5.00",
+            "text": "The Theory of Types now becomes clear."
+        },
+        {
+            "label": "6.0201",
+            "text": "The theory of classes is entirely superfluous in mathematics. This is connected with the fact that the generality we need in mathematics is not an “accidental” one."
+        },
+        {
+            "label": "4.102252",
+            "text": "Thus the the number series is ordered not by an external relation, but by an internal relation. "
+        },
+        {
+            "label": "79.4]",
+            "text": "[Sentence crossed out]"
+        },
+        {
+            "label": "4.4302",
+            "text": "The general propositional form is a variable."
+        },
+        {
+            "label": "4.01122",
+            "text": "Here the mode of signification is obviously a likeness of the signified."
+        },
+        {
+            "label": "3.201411",
+            "text": "We speak of something but also of something's happening."
+        },
+        {
+            "label": "6.211",
+            "text": "Russell, Whitehead, and Frege did not understand the essence of the mathematical method of working with equations. It is a consequence of this method that every mathematical proposition must be self-evident or nonsensical."
+        },
+        {
+            "label": "6.212",
+            "text": "For we construct expressions by means of operations and assert that they have the same meaning."
+        },
+        {
+            "label": "6.23...",
+            "text": "If two expressions are combined by means of the “=” sign, that means that they can be substituted for one another. But whether this is the case must show itself in the two expressions themselves."
+        },
+        {
+            "label": "2.0141",
+            "text": "Suppose that things are point masses with infinite space around them. Clearly a point mass without infinite space is unthinkable."
+        },
+        {
+            "label": "2.0142",
+            "text": "A spot in the visual field need not be red but it must have some colour; it is, so to speak, surrounded by colour-space. Notes must have some pitch, tactile objects some degree of hardness, and so on."
+        },
+        {
+            "label": "2.01411",
+            "text": "On this conception, a point in space is an argument place."
+        },
+        {
+            "label": "5.3071",
+            "text": "The number of fundamental operations we need depends solely on our notation."
+        },
+        {
+            "label": "5.3072",
+            "text": "It is only a matter of constructing a system of signs with a particular number of dimensions - with a particular mathematical multiplicity."
+        },
+        {
+            "label": "5.3073",
+            "text": "Clearly, the issue here is not how many primitive concepts must be signified, but rather the expression of a rule."
+        },
+        {
+            "label": "5.411",
+            "text": "There can be no hierarchy of the forms of elementary propositions."
+        },
+        {
+            "label": "5.4103",
+            "text": "Even if the world were infinitely complex, so that every fact consisted of infinitely many elementary facts and every elementary fact were composed of infinitely many objects, there would still have to be objects and elementary facts."
+        },
+        {
+            "label": "5.4101",
+            "text": "Obviously, analysing propositions must lead us to elementary propositions consisting of names in immediate connection."
+        },
+        {
+            "label": "5.4102",
+            "text": "It is a sign of a proposition's being elementary that no elementary proposition can contradict it."
+        },
+        {
+            "label": "3.2522",
+            "text": "If everything behaves as if a sign had meaning, then it does have meaning."
+        },
+        {
+            "label": "5.412",
+            "text": "We can foresee only what we ourselves construct."
+        },
+        {
+            "label": "4.43013",
+            "text": "Suppose we were given all simple propositions. Then we can simply ask what propositions I can construct out of them. And these are all the propositions and that is how they are limited."
+        },
+        {
+            "label": "5.00162",
+            "text": "This is the only possible way of stepping from one type to another in the type hierarchy."
+        },
+        {
+            "label": "5.413",
+            "text": "Empirical reality is limited by the totality of objects. \rThe limit also shows itself in the totality of objects. \rHierarchies are and must be independent of reality."
+        },
+        {
+            "label": "6.371",
+            "text": "The whole modern world view is based on the illusion that the so-called laws of nature explain natural phenomena."
+        },
+        {
+            "label": "6.372",
+            "text": "So moderns stop at the laws of nature, treating them as sacrosanct, which is how the ancients treated God and Fate. And actually they are both right, and both wrong.  But the ancients were much clearer in that they recognised a clear terminus, while the moderns make it seem as if everything is explained."
+        },
+        {
+            "label": "6.373",
+            "text": "The world is independent of my will."
+        },
+        {
+            "label": "6.374",
+            "text": "Even if all we wish for were to happen, still this would only be a favour of fate, so to say, for there is no logical connection between the will and the world that could guarantee it, and the supposed physical connection itself is surely not something we could will."
+        },
+        {
+            "label": "6.44",
+            "text": "If good or bad willing changes the world, it can only change the limits of the world, not the facts; not what can be expressed in language, but only what language expresses."
+        },
+        {
+            "label": "6.441",
+            "text": "In short the world must thereby become another altogether. It must, so to speak, wax or wane as a whole."
+        },
+        {
+            "label": "6.442",
+            "text": "In death, too, the world does not change, but comes to an end."
+        },
+        {
+            "label": "6.521",
+            "text": "The solution of the problem of life is the vanishing of the problem."
+        },
+        {
+            "label": "6.5211",
+            "text": "Isn’t this why those to whom, after prolonged doubts, the meaning of life became clear have been unable to say what that meaning is?"
+        },
+        {
+            "label": "6.4421",
+            "text": "Death is not an event in life."
+        },
+        {
+            "label": "6.4422",
+            "text": "If we mean by eternity not infinite temporal duration but timelessness, then to live eternally is to live in the present."
+        },
+        {
+            "label": "5.3203",
+            "text": "If elementary propositions are given, then thereby all elementary propositions are given."
+        },
+        {
+            "label": "5.3003",
+            "text": "Obviously, it is easy to express how propositions may and may not be constructed using this operation. So there must be some way of expressing this exactly."
+        },
+        {
+            "label": "5.33531",
+            "text": "The world and life are one."
+        },
+        {
+            "label": "6.4221",
+            "text": "Ethics and aesthetics are one."
+        },
+        {
+            "label": "6.421",
+            "text": "Clearly, ethics cannot be put into words."
+        },
+        {
+            "label": "6.422",
+            "text": "Ethics is transcendental."
+        },
+        {
+            "label": "6.4411",
+            "text": "The world of the happy is another world from that of the unhappy."
+        },
+        {
+            "label": "6.4412",
+            "text": "When an ethical law of the form “Thou shalt…” is laid down, one's first thought is, “So then what if I don’t do it?” But clearly ethics has nothing to do with punishment and reward in the ordinary sense. So this question about the consequences of an action must be irrelevant. At least these consequences could not be events. For there must be something right about that question after all. There must be a kind of ethical reward and punishment, but these must be involved in the action itself. (And it is clear also that the reward must be something pleasant, the punishment something unpleasant.)"
+        },
+        {
+            "label": "84.2]",
+            "text": "How things stand, is God.\rGod is, how things stands."
+        },
+        {
+            "label": "5.33542",
+            "text": "The subject is not part of the world, but a limit of the world."
+        },
+        {
+            "label": "5.33543",
+            "text": "Where in the world is a metaphysical subject to be found?\rYou say this is just like the case of the eye and the visual field. But you do not actually see the eye. And nothing in the visual field would enable one to infer that it is seen by an eye."
+        },
+        {
+            "label": "5.335431",
+            "text": "The form of the visual field is surely not like this:\rEye"
+        },
+        {
+            "label": "5.33551",
+            "text": "So there really is a sense in which there can be talk of the I in a non-psychological way in philosophy. What brings the I into philosophy is that “the world is my world”."
+        },
+        {
+            "label": "5.33544a",
+            "text": "This is connected with no part of our experience being a priori."
+        },
+        {
+            "label": "5.33545",
+            "text": "All we see could also be otherwise.\rAll we can describe at all could also be otherwise."
+        },
+        {
+            "label": "5.3355",
+            "text": "Here one sees that solipsism, strictly worked out, coincides with pure realism. The I of solipsism shrinks to an extensionless point, and what remains is the reality co-ordinated with it."
+        },
+        {
+            "label": "5.33532",
+            "text": "I am my world (the microcosm)."
+        },
+        {
+            "label": "6.431",
+            "text": "To view the world under the form of eternity is to view it as a – limited – whole."
+        },
+        {
+            "label": "6.53",
+            "text": "The right method in philosophy would really be to say nothing except what can be said, i.e. propositions of natural science – i.e. something that has nothing to do with philosophy – and then, to prove to those wanting to say something metaphysical that they had failed to give a meaning to certain signs in their sentences."
+        },
+        {
+            "label": "6.531",
+            "text": "Although they wouldn’t be satisfied - they would feel we weren’t teaching them any philosophy – this method would be the only strictly right one."
+        },
+        {
+            "label": "6.54",
+            "text": "My sentences are elucidatory in the following way: to understand me you must recognize my sentences—once you have climbed out through them, on them, over them—as nonsense. (You must, so to speak, throw away the ladder after you have climbed up it.)"
+        },
+        {
+            "label": "6.55",
+            "text": "You must overcome these sentences, and then you will approach the world on the right level//in the right way//."
+        },
+        {
+            "label": "86.4]",
+            "text": "In the sense in which there is a hierarchy of propositions, we can no doubt also speak of a hierarchy of truths, negations, etc. But in the sense in which there are simply propositions, there is only one truth and one negation.\rThe lowest level and the operation can stand for the whole hierarchy."
+        },
+        {
+            "label": "6.432",
+            "text": "The feeling of the world as a limited whole is the mystical feeling."
+        },
+        {
+            "label": "5.3202",
+            "text": "Once objects are given, that itself gives us all objects."
+        },
+        {
+            "label": "5.3201",
+            "text": "I dissociate the concept all from truth-functions.\rFrege and Russell introduced generality together with logical product or logical sum. This made the propositions “(∃x).ϕx” and “(x).ϕx”, which involve both ideas, difficult to understand."
+        },
+        {
+            "label": "87.2]",
+            "text": "[Sentence crossed out]"
+        },
+        {
+            "label": "5.30223",
+            "text": "In logic, no distinction can be made between the general and the specific."
+        },
+        {
+            "label": "5.4051",
+            "text": "And in any case, how could logic demand that I must deal with forms that I can invent?  I must, rather, deal with that which makes it possible for me to invent forms."
+        },
+        {
+            "label": "5.314",
+            "text": "If a notation is established, there is in it a rule that governs how all propositions that negate p are constructed, a rule that governs the construction of all propositions that affirm p, a rule that governs the construction of all propositions that affirm p or q, and so on. These rules are equivalent to the symbols and in them their sense is mirrored."
+        },
+        {
+            "label": "2.0126",
+            "text": "If all objects are given, then thereby all possible elementary facts are also given."
+        },
+        {
+            "label": "6.3411",
+            "text": "The propositions of physics, despite all their logical apparatus, still speak  about the objects of the world."
+        },
+        {
+            "label": "6.375",
+            "text": "Just as there is only logical necessity, so too there is only logical impossibility."
+        },
+        {
+            "label": "6.3751",
+            "text": "For instance, for two colours to be at the same place in the visual field simultaneously is impossible, indeed logically impossible, for it is subject to the logical structure of colour. Let us look at how this contradiction appears in physics: roughly, that a particle cannot have two velocities at the same time; that is to say, particles in different places at the same time cannot be the same particle. "
+        },
+        {
+            "label": "3.20172",
+            "text": "A function cannot be its own argument because the function sign already contains the prototype of its argument, and so it cannot contain itself."
+        },
+        {
+            "label": "3.20173",
+            "text": "For let us suppose that the function F (fξ) could be its own argument: there would then be a proposition “F(F(ξ)”, in which case the outer function F and inner function F must have different meanings, since the inner one has the form Φ(fξ) and the outer one has the form ψ{Φ(fξ)}. The two functions have only the letter “F “ in common, which by itself signifies nothing."
+        },
+        {
+            "label": "89.0]",
+            "text": ""
+        },
+        {
+            "label": "3.202111",
+            "text": "Although every word has meaning via its definitions, this only means that these definitions are necessary to present in our sign language the full linguistic depiction of the thought to whose expression the word contributes. But the definitions can be left tacit and the word does not then lose its meaning, since it still stands in the same relation to the objects depicted by means of the definitions - only we do not specifically depict that relation. Naturally this often simplifies the sign language and makes understanding it much harder, for the decisive factor now lies outside the signs in the unstated relation to their objects."
+        },
+        {
+            "label": "3.201731",
+            "text": "This immediately becomes clear if instead of “F{F(fξ)}” we write “(∃ϕ).F{ϕη}.ϕη=Fη”."
+        },
+        {
+            "label": "5.40421",
+            "text": "We cannot think what we cannot think; so we cannot say what we cannot think."
+        },
+        {
+            "label": "4.0262",
+            "text": "And the dictionary translates not only substantives, but also verbs, adjectives, and conjunctions, etc.; and it treats them all alike."
+        },
+        {
+            "label": "2.01201",
+            "text": "If things can occur in facts, this possibility must already be within them."
+        },
+        {
+            "label": "5.4041",
+            "text": "Logic permeates the world: the limits of the world are also its limits."
+        },
+        {
+            "label": "5.4042",
+            "text": "So  in logic we cannot say: “The world has this in it, and this, but not that.”"
+        },
+        {
+            "label": "2.01202",
+            "text": "Something logical cannot be merely possible. Logic deals with every possibility, and all possibilities are its facts."
+        },
+        {
+            "label": "2.01203",
+            "text": "Just as we cannot think of spatial objects outside space nor temporal objects outside time, so we cannot think of any object outside the possibility of combining with others."
+        },
+        {
+            "label": "2.01204",
+            "text": "If I can think of an object as part of an elementary fact, I cannot think of it without the possibility of such connections."
+        },
+        {
+            "label": "5.4043",
+            "text": "For that would appear to presuppose that we have excluded certain possibilities, and this cannot be the case, since this would require that logic should go beyond the limits of the world, as if it could also have a view of those limits from the other side."
+        },
+        {
+            "label": "4.43014",
+            "text": "Propositions are all that follows from the totality of all elementary propositions (and, of course, from its being the totality of them all.)"
+        },
+        {
+            "label": "4.430141",
+            "text": "So one could say, in a certain sense, that all propositions are generalizations of elementary propositions."
+        },
+        {
+            "label": "5.33546",
+            "text": "There is no order of things a priori."
+        },
+        {
+            "label": "4.01141",
+            "text": "The gramophone record, the musical thought, the score, the sound waves, all stand to one another in that internal pictorial relation which holds between language and the world. They all have a common logical structure."
+        },
+        {
+            "label": "4.011411",
+            "text": "Like the two youths, their two horses, and their lilies in the fairy tale. In a certain sense, they are all one."
+        },
+        {
+            "label": "5.30202",
+            "text": "The logical operation signs are punctuation marks."
+        },
+        {
+            "label": "6.4423",
+            "text": "Not only is there no guarantee of the temporal immorality of the human soul, that is to say, its eternal survival after death; but, in any case, this assumption could never have the desired effect. Is a riddle solved by my surviving forever? Isn’t eternal life itself as much of a riddle as our present life? The solution of the riddle of life in space and time lies outside space and time. (It is certainly not problems of natural science that have to be solved.)"
+        },
+        {
+            "label": "6.44231",
+            "text": "How the world is, is here a matter of complete indifference. God does not reveal himself in the world."
+        },
+        {
+            "label": "6.44232",
+            "text": "It is not how the world is that is mystical, but that it is.\r+ 93[2]\t—\rJust as, in descriptive geometry, the rule enabling me to find the position of a point in space from the position of its projections is simply an expression of the law of projection."
+        },
+        {
+            "label": "5.005341",
+            "text": "A series is ordered by an internal relation equivalent to the operation by which one term is produced from another."
+        },
+        {
+            "label": "6.012",
+            "text": "The “concept of number” is simply what is common to all numerals, the general form of a number.\rAnd the concept of numerical equality is the general form of all particular cases of numerical equality."
+        },
+        {
+            "label": "4.0721",
+            "text": "Even the Latin proposition “Ambulo” is composite: for with another ending its stem yields a different sense, as does its ending with another stem."
+        },
+        {
+            "label": "93.6]",
+            "text": "[Sentence crossed out]"
+        },
+        {
+            "label": "6.005",
+            "text": "Perceiving a complex means perceiving the way that its constituents are related to one another."
+        },
+        {
+            "label": "6.0051",
+            "text": "This also explains the sort of phenomena illustrated by this figure, which can be seen as a cube in two different ways. For we really see two different facts.\r(If I look in the first place at the corner marked a and only glance at b, then a\rappears to be in front, and vice versa.)"
+        },
+        {
+            "label": "6.113501",
+            "text": "It is clear that the number of “basic laws of logic” is arbitrary, since we could derive logic from a single primitive proposition simply by constructing, for example, the logical product of Frege's basic laws.\r(Frege might say that this basic law would no longer be immediately self-evident. But what is amazing is that a thinker as precise as Frege appealed to the degree of self-evidence as a criterion of a logical proposition.)"
+        },
+        {
+            "label": "5.04441",
+            "text": "“A knows that p” is tautological, if p is a tautology."
+        },
+        {
+            "label": "5.41011",
+            "text": "The question here is: how does the propositional connection//combination//nexus// arise?"
+        },
+        {
+            "label": "5.09311",
+            "text": "A proposition may well be an incomplete picture of a certain situation, but it is always a complete picture."
+        },
+        {
+            "label": "5.33552",
+            "text": "The philosophical I is not the human being, not the human body, nor the human soul, with which psychology deals, but rather the metaphysical subject, the limit (not a part) of the world."
+        },
+        {
+            "label": "6.3752",
+            "text": "Clearly, the logical product of two elementary propositions can neither be a tautology nor a contradiction. (“A is green and A is red” is a contradiction.)"
+        },
+        {
+            "label": "2.0233",
+            "text": "Two objects with the same logical form - apart from their external properties -  are only distinct from one another in that they are different."
+        },
+        {
+            "label": "2.0124",
+            "text": "If I know an object I also know all the possibilities of its occurrence in elementary facts. Every such possibility must lie in the nature of the object."
+        },
+        {
+            "label": "2.0125",
+            "text": "A new possibility cannot be found later on."
+        },
+        {
+            "label": "4.1022331",
+            "text": "A property is internal if it is unthinkable for its object to not possess it.\r(This shade of blue and that one stand, eo ipso, in the internal relation of lighter to darker. It is unthinkable that these two objects should not stand in this relation.)"
+        },
+        {
+            "label": "3.201412",
+            "text": "The unspoken conventions involved in understanding our language are extremely complicated. Much is added in thought to each proposition and not put into words.\rIf “A” is used to mean a person, the proposition, “A is sitting”, is admissible, but not if “A” signifies this book. - But if a proposition is fully analyzed, everything that depends upon the understanding of its form must be unaffected by the meanings of its parts."
+        },
+        {
+            "label": "4.102251",
+            "text": "A series ordered by an internal relation I call a formal series."
+        },
+        {
+            "label": "6.37",
+            "text": "Nothing makes one thing happen because something else has happened. The only kind of necessity is logical necessity."
+        },
+        {
+            "label": "3.2017",
+            "text": "Like Frege and Russell I construe a proposition as a function of the symbols it contains."
+        },
+        {
+            "label": "5.4011",
+            "text": "There is no privileged number."
+        },
+        {
+            "label": "6.44221",
+            "text": "Our life has no end, just as our visual field has no limits."
+        },
+        {
+            "label": "4.0741",
+            "text": "Naturally, this mathematical multiplicity cannot itself be depicted because any picture of it must have that multiplicity itself. One cannot get away from it when depicting."
+        },
+        {
+            "label": "4.10227281",
+            "text": "It is just as nonsensical to say, “There is only one 1”, as it would be to say, “2+2 at 3 o'clock equals 4”."
+        },
+        {
+            "label": "4.1022729",
+            "text": "Logical forms are without number."
+        },
+        {
+            "label": "4.10227291",
+            "text": "Therefore there are no pre-eminent numbers in logic, and therefore there is no philosophical monism or dualism, etc."
+        },
+        {
+            "label": "2.01241",
+            "text": "To know an object, I need not know its external properties, but I must know all its internal properties."
+        },
+        {
+            "label": "2.02331",
+            "text": "In a manner of speaking: either a thing has unique properties, and then we can immediately use a description to distinguish it from others and refer to it; or, on the other hand, there are several things that have all their properties in common, in which case it is impossible to pick out one after all.\rFor if there is nothing to distinguish a thing, I cannot distinguish it, for otherwise it would be distinguished after all."
+        },
+        {
+            "label": "5.421",
+            "text": "The application of logic is what decides what elementary propositions there are."
+        },
+        {
+            "label": "5.4211",
+            "text": "Logic cannot forsee what belongs to its application."
+        },
+        {
+            "label": "5.4212",
+            "text": "Clearly, logic may not clash with its application."
+        },
+        {
+            "label": "5.4213",
+            "text": "But logic and its application must touch each other."
+        },
+        {
+            "label": "5.4214",
+            "text": "Therefore logic and its application may not overlap one another."
+        },
+        {
+            "label": "5.4012",
+            "text": "The specification of any special form would be completely arbitrary."
+        },
+        {
+            "label": "5.4221",
+            "text": "Clearly we have the concept of an elementary proposition apart from its particular logical form."
+        },
+        {
+            "label": "5.4222",
+            "text": "If I know on purely logical grounds - and I do - that there must be elementary propositions, this must be known by anyone who sees propositions in their unanalysed form."
+        },
+        {
+            "label": "5.4223",
+            "text": "Since I cannot specify a priori what elementary propositions there are, any attempt to do so must lead to obvious nonsense."
+        },
+        {
+            "label": "5.0017",
+            "text": "Operations can first arise when one proposition is generated out of another in a logically meaningful way; i.e. when and only when the logical construction of propositions begins."
+        },
+        {
+            "label": "6.3412",
+            "text": "Don’t forget that any description of the world by means of mechanics will always be completely general. For instance, it will never any mention particular point masses, but rather any point masses whatsoever."
+        },
+        {
+            "label": "5.054",
+            "text": "It must appear from the variable itself what it stands for. - There must be a quite definite similarity between it and its values."
+        },
+        {
+            "label": "6.361",
+            "text": "If there were a law of causality, it might go like this: “There are laws of nature.”"
+        },
+        {
+            "label": "6.362",
+            "text": "But of course that cannot be said: it shows itself."
+        },
+        {
+            "label": "6.363",
+            "text": "In Hertz's terminology, we might say: Only lawful connections are thinkable."
+        },
+        {
+            "label": "6.3631",
+            "text": "We cannot compare any process with “the passage of time” - there is no such thing - but only with another process (such as the movement of a chronometer).\rSo it is only possible to give a description of the lapse of time if we rely on some other process."
+        },
+        {
+            "label": "6.3632",
+            "text": "The same is true of space. When, for instance, we say that neither of two (mutually exclusive) events can occur, because there is no cause why one  rather than the other should occur, it is really a matter of our being unable describe one of the two events unless there is some sort of asymmetry. And if there is such an asymmetry, we can regard it as the cause of the occurrence of the one and the nonoccurrence of the other."
+        },
+        {
+            "label": "6.36321",
+            "text": "The Kantian problem of the right and left hands that cannot coincide already arises in two dimensions, and even in one-dimensional space where two congruent figures, a and b, cannot be made to coincide without \t\t\t                 a                      b      \r\t\r        moving them out of this space."
+        },
+        {
+            "label": "6.36322",
+            "text": "The right hand and left hands are in fact completely congruent. It is quite\rirrelevant that they cannot be made to coincide."
+        },
+        {
+            "label": "6.36323",
+            "text": "A right-hand glove could be put on the left hand, if it could be turned round in four-dimensional space."
+        },
+        {
+            "label": "6.364",
+            "text": "What can be described can also happen, and what the law of causality is meant to exclude cannot even be described."
+        },
+        {
+            "label": "6.231",
+            "text": "The answer to the question whether we need intuition to solve mathematical problems must be: here language itself affords the necessary intuition."
+        },
+        {
+            "label": "6.232",
+            "text": "A property of affirmation that it can be conceived as double negation."
+        },
+        {
+            "label": "100.5]",
+            "text": "A property of 1+1+1+1 is that it can be conceived as (1+1)+(1+1)."
+        },
+        {
+            "label": "6.013",
+            "text": "The concept of number is the variable number."
+        },
+        {
+            "label": "6.24",
+            "text": "The way mathematics arrives at its equations is the method of substitution.\rFor equations express the substitutability of two expressions and we procede from a number of equations to new ones, by substituting different expressions in accordance with the equations."
+        },
+        {
+            "label": "6.2",
+            "text": "Mathematics is a logical method."
+        },
+        {
+            "label": "6.21",
+            "text": "The logic of the world, which is shown in tautologies by logical propositions, is shown in equations by mathematics."
+        },
+        {
+            "label": "6.22",
+            "text": "Mathematics is a method of logic."
+        },
+        {
+            "label": "6.365",
+            "text": "The process of induction consists in our adopting the simplest law that can be reconciled with our experience."
+        },
+        {
+            "label": "6.3652",
+            "text": "Yet clearly there are no grounds for believing that the simplest outcome will really happen."
+        },
+        {
+            "label": "6.3651",
+            "text": "This, however, has no logical basis but only a psychological one."
+        },
+        {
+            "label": "6.36521",
+            "text": "That the sun will rise tomorrow is a hypothesis, and this means that we do not know whether it will rise.\r+ 101[8]\t—\rSuppose an urn contains an equal number of white and black balls. Then I can establish by experiment that the number of white balls drawn and the number of black balls drawn approach each other as the draw continues.\rSo this is not a mathematical truth."
+        },
+        {
+            "label": "4.1022511",
+            "text": "The terms of a series of forms are constructed in accordance with a formal law."
+        },
+        {
+            "label": "5.005351",
+            "text": "Let us write the general term of a series of forms as follows:\r|x̅0, x̅, O'(x̅)|\rThe x̅0's are the initial terms of the series, the x̅ 's are terms arbitrarily selected from it, and O'(x̅) is the term produced from the x̅ 's by means of the operation O'(α) as the series proceeds."
+        },
+        {
+            "label": "6.011",
+            "text": "I give the following definitions:\r    x = O0'x Def. \rand \t|x, ξ, O'ξ | = |O 0'x , Oν'ξ , Oν+1'ξ| \rand \t           0+1 = 1 Def.\rTherefore in place of “x, O'x, O'O'x, O'O'O'x etc.”, I write: “O0'x, O1'x, O1+1'x, O1+1+1'x, etc.” \r    1+1 = 2 Def.; "
+        },
+        {
+            "label": "11+1",
+            "text": ""
+        },
+        {
+            "label": "4.22121",
+            "text": "So “a =b” means the sign “b” can be substituted for the sign “a”."
+        },
+        {
+            "label": "4.22122",
+            "text": "If I use an equation to introduce a new sign α, saying that it will be a substitute for some already known sign β, then, like Russell, I write the definition of the equation in the form α = β Def."
+        },
+        {
+            "label": "5.00161",
+            "text": "A function cannot be its own argument, but the result of an operation can be its own basis."
+        },
+        {
+            "label": "5.00163",
+            "text": "Russell and Whitehead did not allow such steps, but they took them again and again."
+        },
+        {
+            "label": "2.014",
+            "text": "Objects contain the possibility of all situations."
+        },
+        {
+            "label": "2.0141",
+            "text": "The possibility of an object occuring in//being part of// an elementary fact is its form."
+        },
+        {
+            "label": "2.033",
+            "text": "Form is the possibility of structure."
+        },
+        {
+            "label": "2.151",
+            "text": "Pictorial form is the possibility that things are related to one another in the same way as the elements of the picture."
+        },
+        {
+            "label": "3.1",
+            "text": "A sentence is a perceptible expression of a thought.  \r//A sentence is an expression of a thought that can be perceived by the senses.//"
+        },
+        {
+            "label": "3.11",
+            "text": "We use the perceptible sign of a proposition (spoken or written, etc.) as a projection of a possible situation.\rThe method of projection is to think the proposition’s sense."
+        },
+        {
+            "label": "3.12",
+            "text": "A sign through which we express a thought, I call a sentential sign. - And a proposition is a sentential sign in its projective relation to the world."
+        },
+        {
+            "label": "3.203",
+            "text": "A name means an object. The object is its meaning. (“A” is the same sign as “A”.)"
+        },
+        {
+            "label": "3.2",
+            "text": "In a proposition a thought can be expressed such that elements of the sentential sign correspond to the objects of the thought."
+        },
+        {
+            "label": "103.11",
+            "text": "[+n meaning the numbers in the correction.]"
+        },
+        {
+            "label": "3.201",
+            "text": "I call such elements “simple signs”, and such a proposition “completely analyzed”."
+        },
+        {
+            "label": "3.21",
+            "text": "The configuration of objects in a situation corresponds to the configuration of simple signs in the sentential sign."
+        },
+        {
+            "label": "3.3",
+            "text": "Only propositions make sense, only in the context of a proposition is a name meaningful."
+        },
+        {
+            "label": "3.25",
+            "text": "A name cannot be further analysed by using definitions.  It is a primitive sign."
+        },
+        {
+            "label": "3.251",
+            "text": "Every defined sign signifies via the signs by which it is defined, and the definitions point the way. Two signs, one a primitive sign and one defined by primitive signs, cannot signify in the same way. Names cannot be broken down further by using definitions. (This can’t be done to any sign that has meaning independently and on its own.)"
+        },
+        {
+            "label": "3.31",
+            "text": "Any part of a proposition that characterizes its sense I call an expression (a symbol). (A proposition is itself an expression.) \rEverything that propositions can have in common with one another that is essential to their sense is an expression. (Every expression can its be signified by a variable proposition – in the limit case, as a proposition.)\rAn expression marks off//identifies// a form and a content."
+        },
+        {
+            "label": "3.32",
+            "text": "A sign is what can be perceived of a symbol."
+        },
+        {
+            "label": "3.321",
+            "text": "So one and the same sign (written or spoken, etc.) can be common to two different symbols - in which case they will signify in different ways."
+        },
+        {
+            "label": "3.323",
+            "text": "In ordinary language it very often happens that the same word signifies in different ways - and so belongs to different symbols - or that two words that signify in different ways are applied in sentences in what looks like the same way.\rThus the word “is” appears as a copula, as a sign for identity, and as an expression for existence; “exist” figures as an intransitive verb like “go”, and “identical” as an adjective; we speak of something, but also of something's happening. \r(In the proposition, “Green is green” - where the first word is a proper name  and the last an adjective – not only do these words have different meanings, they are different symbols.)"
+        },
+        {
+            "label": "3.322",
+            "text": "Signifying two objects by the same sign but using two different modes of signification can never indicate a common characteristic. For the sign is of course arbitrary. So we could choose two different signs instead, and then where would there be what was in common in the signifying?"
+        },
+        {
+            "label": "4.24",
+            "text": "Names are the simple symbols. I indicate them by single letters (“x”, “y”, “z”). An elementary proposition I write as a function of names, in the form “f(x)”, “g(x, y)”, etc. \rOr I indicate it by the letters “p”, “q”, “r”."
+        },
+        {
+            "label": "5.15",
+            "text": "If “Tr” is the number of truth-grounds of proposition “r”, and Trs the number of truth-grounds of proposition “s” that are at the same time truth-grounds of “r”, then let us call the ratio: Trs/Tr the measure of the probability given by  proposition “r” to proposition “s”."
+        },
+        {
+            "label": "5.152",
+            "text": "Propositions that have no truth-arguments in common with one other we call independent of one another. Two elementary propositions give one another the probability 1/2.\rIf p follows from q, then proposition “q” gives proposition “p” the probability 1. The certainty of logical inference is a limiting case of probability. (Application to tautology and contradiction.)"
+        },
+        {
+            "label": "5.153",
+            "text": "A proposition is in itself neither probable nor improbable. An event occurs or does not occur: there is no other alternative."
+        },
+        {
+            "label": "5.154",
+            "text": "Suppose that an urn contains an equal number of black and white balls (and no others). I draw one ball after another and put them back into the urn. Then by this experiment I can determine that the numbers of black and white balls drawn approach each other as the drawing continues.\rSo this is not a mathematical truth. \rNow, if I say, “It’s equally probable that I will draw a white ball as a black one”, this means: “All the circumstances known to me (including the laws of nature assumed as hypotheses) give no more probability to the occurrence of the one event than to that of the other.” That is, they give each event the probability 1/2, as can easily be seen from the above explanations. What I confirm by the experiment is that the occurrence of the two events is independent of the circumstances about which I have no closer knowledge."
+        },
+        {
+            "label": "5.155",
+            "text": "The unit for a probability proposition is this: The circumstances—of which I have no further knowledge—give a certain degree of probability to the occurrence of a particular event."
+        },
+        {
+            "label": "3.311",
+            "text": "An expression presupposes the forms of all the propositions in which it can occur. It is the common characteristic mark of a class of propositions."
+        },
+        {
+            "label": "3.312",
+            "text": "It is therefore presented by the general form of the propositions that it characterizes. \rAnd in this form the expression will be constant and all else variable."
+        },
+        {
+            "label": "3.313",
+            "text": "An expression is thus presented by a variable whose values are the propositions containing the expression. (In the limiting case the variable becomes a constant, the expression a proposition.)\rI call such a variable a “propositional variable”."
+        },
+        {
+            "label": "3.314",
+            "text": "An expression has meaning only in a proposition. All variables can be construed as propositional variables. \t\r(Including variable names.)\t"
+        },
+        {
+            "label": "5.21",
+            "text": "One can construe every proposition as the result of an operation that is performed on a number of propositions (the operation’s bases) and constructs that proposition out of them."
+        },
+        {
+            "label": "5.22",
+            "text": "An operation is the expression of a relation between the forms of its result and of its bases. The operation expresses this relationship, by showing what one has to do with the one proposition in order to get the other."
+        },
+        {
+            "label": "5.232",
+            "text": "A series is ordered by an internal relation equivalent to the operation by which one term is produced from another."
+        },
+        {
+            "label": "5.233",
+            "text": "An operation expresses the difference between the forms.\rAnd what is common to the bases and the result of an operation is just the bases themselves."
+        },
+        {
+            "label": "5.24",
+            "text": "An operation is therefore an expression. \rIt is represented by a variable. \rIts bases vary."
+        },
+        {
+            "label": "5.241",
+            "text": "I indicate an operation in general by a sign of the form “O'(p, q, ...)”. “p”, “q”, etc. are the bases of the operation, O'(ξ, η, ...), O'(p, q, ...) are its result."
+        },
+        {
+            "label": "5.2",
+            "text": "Truth-functions are the results of operations with elementary propositions."
+        },
+        {
+            "label": "5.2",
+            "text": "We see that the structures of propositions stand in internal relations to one another."
+        },
+        {
+            "label": "5.21",
+            "text": "We can highlight these internal relations by using a form of expression that represents a proposition as the result of an operation that produces it out of other propositions (the operation’s bases)."
+        },
+        {
+            "label": "5.22",
+            "text": "An operation is the expression of a relation between the structures of its result and of its bases."
+        },
+        {
+            "label": "5.23",
+            "text": "The operation is what has to be done to the one proposition to make the other out of it."
+        },
+        {
+            "label": "5.231",
+            "text": "And that will, of course, depend on their formal properties, the internal similarity of their forms."
+        },
+        {
+            "label": "5.24",
+            "text": "An operation shows itself in a variable; it shows how we can get from one form of proposition to another. It expresses the difference between the forms. \r(And what is common to the bases and the result of an operation is just the bases themselves.)"
+        },
+        {
+            "label": "5.241",
+            "text": "An operation does not characterize a form, but only the difference between forms."
+        },
+        {
+            "label": "5.25",
+            "text": "The occurrence of an operation does not characterize the sense of a proposition. Indeed, an operation states nothing, only its result does, and this depends on the operation’s bases. (Operations and functions must not be confused with each other.)"
+        },
+        {
+            "label": "5.233",
+            "text": "Operations can first arise when one proposition is generated out of another in a logically meaningful way; i.e. the point at which the logical construction of propositions begins."
+        },
+        {
+            "label": "5.251",
+            "text": "A function cannot be its own argument, but the result of an operation can be its own basis."
+        },
+        {
+            "label": "5.252",
+            "text": "Only in this way is the step from term to term in a formal series possible (from type to type in Russell and Whitehead’s hierarchies). (Russell and Whitehead did not allow such steps, but they took them again and again.)"
+        },
+        {
+            "label": "5.2521",
+            "text": "The repeated application of an operation to its own result I call its successive application. (“O'O'O'a” is the result of three successive applications of the operation “O'ξ” to “a”.)"
+        },
+        {
+            "label": "5.253",
+            "text": "One operation can reverse the effect of another. Operations can cancel each other out."
+        },
+        {
+            "label": "5.254",
+            "text": "Operations can vanish (e.g. negation in “~~p”: ~~p=p)."
+        },
+        {
+            "label": "5.234",
+            "text": "Truth-functions of elementary propositions are results of operations with elementary propositions as bases. (These operations I call truth-operations.)"
+        },
+        {
+            "label": "5.242",
+            "text": "The operation that produces “q” from “p” also produces “r” from “q”, and so on. This can only be expressed by “p”, “q”, “r”, etc. being variables that give general expression to certain formal relations."
+        },
+        {
+            "label": "5.▫3",
+            "text": "All propositions are the result of truth-operations on elementary propositions.\rA truth-operation is the way in which a truth-function is produced from elementary propositions.\rIt is essential to truth-operations that, just as elementary propositions yield a truth-function of themselves, so too truth-functions yield a further truth-function. Every truth-operation produces from truth-functions of elementary propositions another truth-function of elementary propositions, that is, another proposition. The result of every truth-operation on the results of truth-operations on elementary propositions is also the result of one truth-\roperation on elementary propositions. \rEvery proposition is the result of truth-operations on elementary propositions."
+        },
+        {
+            "label": "5.2341",
+            "text": "The sense of a truth-function of p is a function of the sense of p.\r(Negation reverses the sense of a proposition.) \rNegation, logical addition, logical multiplication, etc. etc. are operations.\r+zu 5.2521\t113[2]\t5.2521 (2)\rSimilarly, I speak of successive applications of multiple operations to a number of propositions."
+        },
+        {
+            "label": "5.32",
+            "text": "All truth-functions are results of the successive application of a finite number of truth-operations to elementary propositions.\r+Zu 5.452\t113[4]\t5.452 (3)\rBut if we need to introduce a new device at some point, we must first ask “Where will the use of this device now be unavoidable?” Its place in logic must be made clear."
+        },
+        {
+            "label": "5.501",
+            "text": "When the terms of a bracketed expression are propositions —and their order  inside the brackets is irrelevant—then I indicate this by a sign of the form “(ξ)”. “ξ” is a variable whose values are terms of the bracketed expression and the bar over it indicates that it represents all of its values in the brackets. \r(Thus if ξ has the three values P, Q, R, then (ξ)=(P, Q, R).) \rThe values of the variable are stipulated.\rThe stipulation is a description of the propositions which the variable  represents.\rThe way in which the terms of the bracketed expression are described is inessential.\rWe can distinguish three kinds of description: 1) Direct enumeration. In this case we can simply substitute for the variable the constants that are its values. 2) Giving a function f(x) whose values for all values of x are the propositions to be described. 3) Giving a formal law that governs the construction of the propositions. In this case the terms of the expression in brackets are all the terms of a formal series."
+        },
+        {
+            "label": "4.1273",
+            "text": "To express the general proposition “b is a successor of a” in conceptual notation, we need an expression for the general term of the formal series: aRb, (∃x):aRx.xRb, (∃x,y):aRx.xRy.yRb, … .\rTo express the general term of a formal series we must use a variable, for the concept “term of this formal series” is a formal concept. (This is what Frege and Russell overlooked. Their way of expressing general propositions like the one above is, therefore, wrong; it contains a vicious circle.)\rWe can determine the general term of a formal series by giving its first term and the general form of the operation that produces the next term out of the preceding proposition."
+        },
+        {
+            "label": "5.2522",
+            "text": "For the general term of the formal series a, O'a, O'O'a, … I use the sign “[a, x, O'x]”. This bracketed expression is a variable. The first term is the beginning of the formal series, the second is the form of a term x selected arbitrarily from the formal series, and the third is the form of the term immediately following x in the series."
+        },
+        {
+            "label": "5.5",
+            "text": "Every truth-function is a result of successive applications of the operation “(-----T )(ξ , . . . . .)” to elementary propositions.\rZu 4.442\t116[2]\t4.442 (4)\r(The number of terms in the right-hand pair of brackets determines the number of places in the left-hand pair.)\rZu 5.5\t116[3]\t5.5 (2)\rThis operation negates all the propositions in the right-hand pair of brackets, and I call it the negation of those propositions."
+        },
+        {
+            "label": "5.502",
+            "text": "So instead of “(-----T)(ξ, . . . . .)”, I write “N(ξ)”.\rN (ξ) is the negation of all the values of the propositional variable ξ."
+        },
+        {
+            "label": "5.503",
+            "text": "Obviously, it is easy to express how propositions may and may not be constructed using this operation. So it must be possible to find a way of expressing this exactly."
+        },
+        {
+            "label": "116.6]",
+            "text": "[Sentence crossed out]"
+        },
+        {
+            "label": "6.1201",
+            "text": "That for example the propositions “p” and “~p” in the conjunction “~(p.~p)” yield a tautology shows that they contradict each other. That the propositions “p⊃q”, “p”, and “q”, conjoined into “(p ⊃q).(p):⊃:(q)”, yield a tautology shows that q follows from p and p⊃q. That “(x).fx:⊃:fa” is a tautology shows that fa follows from (x).fx, etc. etc."
+        },
+        {
+            "label": "6.123",
+            "text": "Clearly the laws of logic cannot themselves obey further logical laws."
+        },
+        {
+            "label": "6.2331",
+            "text": "The process of calculating brings about just this intuition.\rCalculation is not an experiment."
+        },
+        {
+            "label": "117.3]",
+            "text": "[Sentence crossed out]\rzu 6.2\t117[4]\t6.2 (2)\rMathematical propositions are equations, and therefore pseudo-propositions."
+        },
+        {
+            "label": "6.21",
+            "text": "Mathematical propositions do not express thoughts.\rzu 6.23\t117[6]\t6.23 (2)\rThat two expressions can be substituted for one another characterizes their logical form."
+        },
+        {
+            "label": "6.232",
+            "text": "Frege says that the two expressions have the same meaning but different senses. \rBut the essential thing about an equation is that we do not need it to show that expressions connected by the sign of equality have the same meaning, for this can be seen from the two expressions themselves."
+        },
+        {
+            "label": "6.2321",
+            "text": "And that the propositions of mathematics can be proved means simply that their correctness can be perceived without our having to compare what they express with the facts to determine its correctness."
+        },
+        {
+            "label": "6.23▫322",
+            "text": "The identity of the meaning of two expressions cannot be asserted. For to be able to assert anything about their meaning, I must know their meaning, and if I know their meaning, I know whether they mean the same or something else."
+        },
+        {
+            "label": "6.2323",
+            "text": "An equation merely characterizes the point of view from which I consider the two expressions: that is, from the point of view of their equality of meaning."
+        },
+        {
+            "label": "6.241",
+            "text": "Thus the proof of the proposition 2 ⨉ 2 = 4 runs:pt"
+        },
+        {
+            "label": "118.5]",
+            "text": "The concept of an operation is equivalent to the concept “and so on”."
+        },
+        {
+            "label": "119.0",
+            "text": "Preface\rPerhaps this book will be understood only by those who have themselves already had the thoughts that are expressed in it—or similar thoughts.—So it is not a textbook.—Its purpose would be achieved if there were one person  who read it with understanding and to whom it gave pleasure. \rThe book deals with the problems of philosophy, and shows, as I believe, that the formulation of these problems rests on a misunderstanding of the logic of our language. The whole sense of the book might be summed up in the following words: what can be said at all can be said clearly, and what we cannot talk about we must be silent.\rThe book aims, therefore, to draw a limit to thought, or rather—not to thought, but to the expression of thought: for in order to be able to draw a limit to thought, we should have to be able to think both sides of this limit (we should therefore have to be able to think what cannot be thought).\rThe limit can therefore only be drawn in language, and what lies on the other side of the limit will be simply nonsense."
+        },
+        {
+            "label": "120.0",
+            "text": "I do not wish to judge how far my efforts agree with those of other philosophers. Indeed, what I have written here makes no claim to novelty in detail, and therefore I give no sources, becaues it is indifferent to me whether what I have thoughts has already been thought by another.\rI will only mention that I am indebted to Frege’s great works and to the writings of my friend Mr. Bertrand Russell I owe much of the stimulation of my thoughts.\rIf this work has a value it consists in two things. First that in it thoughts are expressed, and this value will be the greater the better the thoughts are expressed. The more the nail has been hit on the head, the greater will be its value.—Here I am conscious of having fallen far short of what is possible. Simply because my powers are insufficient to cope with the task.—May others come and do it better."
+        }
+    ]
+}

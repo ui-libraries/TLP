@@ -1,0 +1,1921 @@
+﻿1[1]
+The world is all that is the case.
+1[2]
+What is the case—a fact—is the obtaining of elementary facts.
+1[3]
+A thought is a logical picture of facts.
+1[4]
+A thought is a sentence with a sense.
+1[5]
+A proposition is a truth-function of elementary propositions.
+1[6]
+The general form of a truth-function is:
+[104:3]
+1	3[1]	1
+The world is all that is the case.
+1.1	3[2]	1.1
+The world is the totality of facts, not of things.
+2	3[3]	2
+What is the case—a fact—is the obtaining of elementary facts.
+2.1	3[4]	2.1+
+We grasp facts by way of pictures.
+2.2	3[5]	2.2
+What a picture shares with what it depicts is the logical form of depiction.
+3	3[6]	3		12.9.16+
+A thought is a logical picture of facts.
+3.1	3[7]	3.1+, 3.12a+
+A sentential sign is a perceptible expression of a thought.
+3.2	3[8]	3.12+
+A proposition is a sentential sign plus its mode of depiction.
+4	3[9]	4
+A thought is a sentence with a sense.
+4.1	3[10]	4.1
+A proposition represents the obtaining or non-obtaining of elementary facts.
+4.2	3[11]	4.2
+The sense of a proposition is its agreement or disagreement with possibilities of obtaining and non-obtaining of elementary facts.
+4.3	3[12]	4.3
+Truth-possibilities of elementary propositions mean possibilities of obtaining or non-obtaining of elementary facts.
+4.4	3[13]	4.4
+A proposition is an expression of agreement or disagreement with truth-possibilities of elementary propositions.
+5	3[14]	5 (1)
+A proposition is a truth-function of elementary propositions.
+6	3[15]	6 (1)**
+The general form of a truth-function is: |N(p̄0), ᾱ, N(ᾱ)|.
+[104:4]	 
+1.11	4[1]	1.11
+The world is determined by the facts, and by these being all the facts.
+1.13	4[2]	1.13
+The facts in logical space are the world.
+2.01	4[3]	2.01**
+An elementary fact is a combination of objects (entities, things).
+2.02	4[4]	2.02
+An object is simple.
+2.12	4[5]	2.12		(27.10.14 (7)+)
+A picture is a model of reality.
+2.13	4[6]	2.13
+In a picture the elements of the picture correspond to the objects.
+2.15	4[7]	2.141
+A picture is a fact.
+2.16	4[8]	2.16
+A fact will count as a picture only if it has something in common with what it represents.
+2.21	4[9]	2.21
+A picture agrees with reality or fails to agree; it is correct or incorrect, true or false.
+2.11	4[10]	2.11
+A picture presents a situation in logical space, the obtaining or non-obtaining of elementary facts.
+2.22	4[11]	2.22
+A picture represents what it represents, independently of its truth or falsehood, by means of its form of depiction.
+2.23	4[12]	2.181
+[Sentence crossed out]
+[104:5]
+3.01	5[1]	3.01
+The totality of true thoughts is a picture of the world.
+3.11	5[2]	3.12 b+
+A sentential sign is a projection of a thought.
+3.12	5[3]	3.11 (2)+
+The way of applying the sentential sign is the method of projection.
+3.13	5[4]	3.11 (2)+
+To apply the sentential sign is to think its sense.
+3.21	5[5]	3.12+
+A proposition is a projection in accordance with its method of projection.
+1.12	5[6]	1.12
+For the totality of facts determines what is the case, and also whatever is not the case.
+2.03	5[7]	2.03
+In an elementary fact objects are interconnected, like the links of a chain.
+2.04	5[8]	2.04
+Die Gesamtheit der bestehenden Sachverhalte ist die Welt.
+2.05	5[9]	2.05*
+The totality of obtaining elementary facts also determines which elementary facts do not obtain.
+2.06	5[10]	2.06 (1)
+The obtaining or non-obtaining of elementary facts is reality.
+2.07	5[11]	2.063
+The sum total of reality is the world.
+2.031	5[12]	2.031
+In an elementary fact objects are combined in a definite way.
+2.14	5[13]	2.14
+A picture consists in its elements being combined in a definite way.
+2.161	5[14]	2.161
+Only if a picture and what it depicts contain something identical can the former be a picture of the latter.
+[104:6]
+2.17 		6[1]	2.17
+What a picture must have in common with reality, to be able to depict it - correctly or incorrectly - in the way it does, is its form of depiction.
+2.171 		6[2]	—
+There are various forms of depiction.
+2.18 		6[3]	2.18**		20.10.14 (2,4)**
+What any picture, of whatever form, must have in common with reality,  be able to depict it - correctly or incorrectly - in any way at all, is logical form, i.e. the structure of reality.
+2.181 		6[4]	2.181
+A picture whose form of depiction is logical form is called a logical picture.
+2.182 		6[5]	2.182
+Every picture is also a logical one. (On the other hand, not every picture is, for example, a spatial one.)
+2.201 		6[6]	2.201
+A picture depicts reality by representing a possibility of existence and non-existence of elementary facts.
+2.202 		6[7]	2.202
+A picture represents a possible situation in logical space.
+2.203 		6[8]	2.203
+A picture contains the possibility of the situation that it represents.
+2.221 		6[9]	2.221		26.10.14 (3)+
+What a picture represents is its sense.
+2.222 		6[10]	2.222*
+The agreement and disagreement of its sense with reality constitutes its truth or falsehood.
+3.3 		6[11]	3.5
+A sentential sign, applied and thought out, is a thought.
+4.41 		6[12]	4.43 (1)*
+We can express agreement with truth-possibilities by correlating the mark “T” (“true”) with them in the schema.
+4.42		6[13]	4.43 (2)
+The absence of this mark means disagreement.
+[104:7]
+4.43	7[1]	4.44*
+The sign that results from correlating that mark with truth-possibilities is a
+sentential sign.
+4.431	7[2]	4.442 (1)*
+So for example, this
+
+is a sentential sign.
+
+4.432	7[3]	—
+For the sake of clarity we now write this sign as follows:
+p	q
+F	F	T
+T	F	T
+F	T	F
+T	T	T
+The sentential signs which, according to §4.43, are constructed in this way, we call proposition signs of the first kind.
+4.44	7[4]	4.442 (3a)
+If the order of the truth-possibilities in a schema is fixed once and for all by a combinatory rule, then the last column by itself will be an expression of the truth-conditions.
+4.441	7[5]	4.442 (3b)**
+If we now write this column as a row, the sign in 4.432 will become 
+“(TTFT )(p, q)” or “(T, T,  , T)(p, q)”.
+3.02	7[6]	3.02
+A thought contains the possibility of the situation of which it is the thought. What is thinkable is possible too.
+3.111	7[7]	3.11 (1)+
+It is a projection of the possibility of a situation.
+3.14	7[8]	3.2+
+In a sentential sign the simple signs correspond to the objects of reality.
+3.15	7[9]	3.14 (1)**
+What constitutes a sentential sign is that in it the simple signs stand in a
+determinate relation to one another.
+[104:8]
+3.16	8[1]	3.14 (2)		AüL 193 (3)+
+A sentential sign is a fact.
+4.01	8[2]	4.01 (1)		20.9.14 (1)+  27.9.14 (4)**  27.10.14 (7)**
+A proposition is a picture of reality.
+4.08	8[3]	4.05
+Reality is compared with propositions.
+4.09	8[4]	4.06*		2.10.14 (4)**
+A proposition can be true or false only by being a picture of reality.
+4.02	8[5]	4.02
+We can see this from the fact that we understand the sense of a 	sentential sign without its having been explained to us.
+4.03	8[6]	4.026 (1)*
+The meanings of simple signs (words), must be explained to us if we are to
+understand them.
+4.04	8[7]	4.026 (2)
+But we make ourselves understood with propositions.
+4.05	8[8]	4.027**
+It is essential to a proposition that it be able to communicate 
+a new sense to us.
+4.06	8[9]	4.03 (2)
+A proposition communicates a situation to us, and so it must be 		essentially connected with that situation.
+4.07	8[10]	4.03 (3)
+And the connection is precisely that it is its logical picture.
+3.141	8[11]	3.203 ab**
+A simple sign means an object. The object is its meaning.
+3.201	8[12]	3.202
+The simple signs employed in propositions are called names.
+4.11	8[13]	—
+A proposition asserts that the situation obtains whose possibility it represents.
+4.111	8[14]	—
+[Sentence crossed out]
+4.21	8[15]	4.21*
+An elementary proposition, the simplest proposition, asserts that an elementary fact obtains.
+4.1001	8[16]	—
+The totality of true propositions is a world description.
+[104:9]
+4.231	9[1]	4.26 a		AüL 202 (6)+
+To give all true elementary propositions is to describe the world completely.
+4.232	9[2]	4.26 b		AüL 202 (6)**
+The world is completely described by giving all elementary propositions, and adding which of them are true and which false.
+4.22	9[3]	4.22
+An elementary proposition consists of names. It is a connection, a concatenation, of names.
+4.221	9[4]	4.23
+A name occurs in a proposition only in the context of an elementary proposition.
+4.222	9[5]	4.243 (3)*
+Expressions like “a=a”, or those derived from them, which seem to contradict the above, are neither elementary propositions, nor is there any other way in which they could make sense. (This will be shown later.)
+4.23	9[6]	4.25
+If an elementary proposition is true, the elementary fact obtains; if it is false, the elementary fact does not obtain.
+4.24	9[7]	4.27 (1)*	
+For n elementary facts, there are K n = 0∑n v (n v ) possibilities of obtaining and non-obtaining.
+4.25	9[8]	4.27 (2)**
+Any possible combination of n elementary facts can obtain, and the remainder not obtain.
+4.26	9[9]	4.28
+There correspond to these combinations the same number of possibilities of truth - and falsehood - for n elementary propositions.
+4.31	9[10]	4.31**
+We can represent truth-possibilities by the following kind of schema: (“p”, “q”, and “r” are elementary propositions. “T” means “true”, “F” “false”. The rows of “T’s” and “F’s” under the row of elementary propositions set out their truth-possibilities in a symbolism that can easily be understood):
+p	q	r		p	q		p
+T	T	T		T	T		T
+F	T	T		F	T		F
+T	F	T		T	F	
+T	T	F		F	F	
+F	F	T	
+F	T	F	
+T	F	F	
+F	F	F	
+
+We call this Schema I.
+[104:10]
+5.1	10[1]	—
+If all propositions are truth-functions of elementary propositions, it follows that they are also truth-functions of one another.
+5.11	10[2]	5.31 (1)*
+The schemas in 4.31 are meaningful even when “p”, “q”, “r”, etc. are not elementary propositions.
+5.12	10[3]	5.32**
+And it is easy to see that a sentential sign of the first kind expresses a single truth-function of elementary propositions even when “p”, “q”, etc. are truth-functions of elementary propositions.
+5.001	10[4]	5.21+
+Every proposition can be construed as the result of an operation which is performed on another proposition (the operation’s base) and turns the latter into the former.
+5.0011	10[5]	— 
+Similarly we can speak of an operation with several bases. “(F)(p)” is the result of the operation “F( )” on the base p; (FTTF )(p, q) is the result of an operation on two bases.
+5.0014	10[6]	—
+If we construe (F)(p) as the result of an operation we write it as “(F)'p”; and in general an operation on “a”, “b”, “c”, etc. is written as O'(a, b, c, etc.).
+5.2	10[7]	5.3 (3b)+
+Every truth-function of truth-functions is a truth-function of elementary propositions, a proposition.
+[104:11]
+5.0016	11[1]	5.2521 (1)**
+The repeated application of an operation to its own result or results is called its successive application. (O'(O'(O'a)) is the result of (three) successive applications of O'ξ to a.)
+5.3	11[2]	5.5 (1)+, 5.32+
+It can be shown that every truth-function is a result of successive applications of the operation (T    )'(ᾱ).
+5.0015	11[3]	—
+“O'(a, b, c, etc.)” is the result of the operation. The operation itself I designate by “O'(ξ, η, ζ, etc.)”, in which the Greek letters indicate the argument-places.
+3.202	11[4]	3.3
+Only propositions make sense, only in the context of a proposition is a name meaningful.
+5.003	11[5]	5.501 (1)+
+Any bracketed proposition whose terms are propositions we write in form “(ᾱ)”. “(ᾱ)” is a variable whose values are terms of the bracketed expression. The line over “α” means that all values of α stand between the brackets.
+5.004	11[6]	3.316 (1)**,  5.501 (3)+
+The values of α are set by stipulation.
+5.0013	11[7]	5.234+
+An operation which, from a number of propositions, produces a truth-function of those propositions we call a truth-operation (T-operation).
+5.02	11[8]	5.101 (1)**
+The truth-functions of a given number of elementary propositions can always be set out in a schema of the following kind: We call it Schema No. II.
+5.01	11[9]	5 (2)+
+We can regard an elementary proposition as a truth-function of itself.
+4.423	11[10]	4.41
+Truth-possibilities of elementary propositions are the truth-conditions of
+propositions.
+[104:12]
+5.011	12[1]	5.01*
+Elementary propositions are the truth-arguments of propositions.
+5.03	12[2]	5.101 (3)+
+I give the name “truth-grounds” to those truth-possibilities of a proposition’s truth-arguments that make it true.
+5.04	12[3]	5.11**
+If the truth-grounds common to several propositions are also truth-grounds of a certain proposition, then we say that the truth of that proposition follows from the truth of the totality of those propositions.
+5. 041	12[4]	5.12**
+In particular, the truth of a proposition p follows from the truth of another
+proposition q if all the truth-grounds of the former are truth-grounds of the latter.
+5.04101	12[5]	5.121**
+We also say the truth-grounds of the one are contained in those of the other: p follows from q.
+5. 042	12[6]	—
+Every proposition follows from itself.
+5.05	12[7]	5.141
+If p follows from q and q follows from p, then they are one and the same proposition.
+5.06	12[8]	5.14		3.6.15 (1)+  11.6.15 (4,5)+
+If a proposition follows from another, then the latter says more than the former, and the former says less than the latter.
+5.07	12[9]	5.142		3.6.15 (4,6)+
+A tautology follows from all propositions: it says nothing.
+4.421	12[10]	4.431 (1)
+The expression of agreement and disagreement with the truth-possibilities of elementary propositions expresses the truth-conditions of a proposition.
+4.422	12[11]	4.431 (2)
+A proposition is the expression of its truth conditions.
+4.401	12[12]	4.42 (1)
+There are Ln ways in which a proposition can agree or disagree with the truth-possibilities of n elementary propositions.
+[104:13]
+4.442	13[1]	—
+So TTFT are the truth-conditions of this proposition.
+4.444	13[2]	4.45 (2)*
+The groups of truth-conditions that belong to the truth-possibilities of a given number of elementary propositions can be arranged in a series.
+4.445	13[3]	4.46 (1)
+Among the possible groups of truth-conditions there are two limiting cases.
+4.446	13[4]	4.46 (2-3)*
+In one case the proposition is true for all the truth-possibilities of the elementary propositions. We say that the truth-conditions are tautological. 
+13[5]	4.46 (3)
+In the second case the proposition is false for all truth-possibilities: the truth-conditions are contradictory.
+4.443	13[6]	4.45 (1)
+For n elementary propositions there are Ln possible groups of truth-conditions.
+5.3001	13[7]	5.5 (2)+, 5.502 (1)+
+We call this operation the negation of the values of ᾱ and for brevity write N(ᾱ) instead of (T     )(α).
+5.3002	13[8]	5.5 (2)+, 5.502 (2)+
+N(ᾱ) negates all the values of α.
+5.31	13[9]	5.51**
+If α has only one value, p, then N(ᾱ) is Russell's ~p; if it has two values, then N(ᾱ) is ~p.~q.
+5.32	13[10]	5.52**
+If α has as its values all the values of a function ϕx , then “N(ᾱ)” means ~(∃x).ϕx.
+on 4.401
+4.4011	13[11]	4.42 (2)
+Ln = 0∑Kn μ (Knμ)  [Equation editing needed]
+2.032	13[12]	2.032
+The way in which objects are connected in an elementary fact is the structure of the elementary fact.
+2.033	13[13]	2.034
+The structure of a fact consists of the structures of its elementary facts.
+[104:14]
+2.151	14[1]	2.15 (1)
+The definite way in which the picture elements go together represents how things are related to one another.
+2.1512	14[2]	2.1511*
+In this way a picture makes contact with, or reaches out to, reality.
+2.1513	14[3]	2.1512	24.11.14 (1,4)+
+It is applied to reality like a ruler.  
+2.172	14[4]	2.171*
+A picture can depict any reality whose form it has. A spatial picture, anything spatial, etc.
+2.19	14[5]	2.19
+Logical pictures can depict the world.
+2.15131	14[6]	2.15121
+Only the end points of the marks on the ruler touch the object being measured.
+2.15101	14[7]	2.15 (2)+
+This connection of the elements of a picture is called its form of depiction.
+2.1514	14[8]	2.1513
+A picture, conceived in this way, also includes the pictorial relationship which makes the picture a picture.
+2.1515	14[9]	2.1514
+The pictorial relationship consists of the correlation of the picture's elements with things.
+2.1516	14[10]	2.1515	15.10.14 (7)**
+These correlations are, as it were, the antennae of the picture's elements, which put the picture in touch with reality.
+2.223	14[11]	2.223
+To see whether a picture is true or false we must compare it with reality.
+2.224	14[12]	2.224
+We cannot see whether the picture is true or false just by looking at it.
+2.225	14[13]	2.225
+There are no pictures that are true a priori.
+2.131	14[14]	2.131
+A picture’s elements stand, in the picture, for the objects.
+[104:15]
+4.021	15[1]	4.021*
+A proposition is a picture of reality: for if I understand a proposition, I know the situation that it represents. And I understand the proposition without its sense having been explained to me.
+4.023	15[2]	4.022 (2a)
+A proposition shows how things stand, if it is true.
+4.024	15[3]	4.022 (2b)
+And it says that that is how they are.
+4.022	15[4]	4.022 (1)
+A proposition shows its sense.
+4.2212	15[5]	4.24 (2-3)+
+Generally in what follows I indicate elementary propositions by the letters p, q, r, s, t, or (like Frege) as functions of their objects in the form “ϕ(x)”, “ϕ(x,y)”, etc. 
+4.2211	15[6]	4.24 (1)+
+In what follows I indicate names of objects by the letters x, y, z, u, v, w.  
+4.2213	15[7]	4.241 (1)*
+When I use two names with one and the same meaning, or two sentential signs with a single sense, I express this by putting the sign “=” between them.
+4.2214	15[8]	4.24 (2)+
+Expressions of the form a =b are, therefore, only expedient aids in representation. They state nothing about the meaning or the sense of the signs “a” and “b”.
+4.433	15[9]	4.441 (1)*		AüL 207 (9)+
+Clearly, a complex of the signs “F” and “T” has no corresponding object (or complex of objects), just as there is none corresponding to the horizontal and vertical lines or to the brackets. There are no “logical objects”.
+4.4331	15[10]	4.441 (2)
+Naturally, the same applies to all signs that express what the schemas of “T's” and “F 's” express.
+2.061	15[11]	2.061
+Elementary facts are independent of one another.
+[104:16]
+2.062	16[1]	2.062*
+From the obtaining or non-obtaining of the one it is impossible to infer the obtaining or non-obtaining of the other.
+5.0412	16[2]	5.132 (1)
+If p follows from q, I can infer from q to p, deduce p from q.
+5.043	16[3]	5.134
+From an elementary proposition, no other can be deduced.
+5.044	16[4]	5.135	
+In no way can an inference be made from the existence of one situation to the existence of another entirely different situation.
+5.0441	16[5]	5.136		15.10.16 (10)+
+There is no causal nexus to justify any such inference.
+3.04	16[6]	3.04
+An a priori correct thought would be one whose possibility ensured its truth.
+3.05	16[7]	3.05
+One could know a priori that a thought is true only if its truth were recognizable from the thought itself (without any object of comparison).
+5.0411	16[8]	5.13**
+That one proposition follows from another we see from the structure of the propositions.
+5.0415	16[9]	5.133
+All deductions takes place a priori.
+5.0442	16[10]	5.1361 (1)**
+Future events cannot be known.
+5.0443	16[11]	5.1361 (2)*
+Superstition is belief in the causal nexus.
+2.173	16[12]	2.172
+A picture cannot, however, depict its form of depiction: it displays it.
+4.101	16[13]	4.12 (1)*		29.10.14 (4)+
+Propositions can represent the whole of reality, but they cannot represent what they must have in common with reality to be able to represent it—logical form.
+[104:17]
+4.102	17[1]	4.121 (1)		MN 210 (2)+
+Propositions cannot represent logical form: it is mirrored in them.
+4.103	17[2]	4.121+
+Propositions do not represent logical form: they display it; they show it.
+2.174	17[3]	2.173
+A picture represents its subject from the outside. (Its point of view is its form of representation.) That is how it represents its subject correctly or incorrectly.
+2.175	17[4]	2.174
+A picture cannot, however, place itself outside its form of representation.
+3.03	17[5]	3.03		15.10.14 (5)+
+We cannot think anything illogical, for otherwise we would have to think illogically.
+4.104	17[6]	4.12 (2)
+To be able to represent logical form, we would have to be able to put ourselves with propositions outside logic, that is, outside the world.
+4.001	17[7]	4.001		28.5.15 (2,3)+
+The totality of propositions is language.
+4.1021	17[8]	4.121 (2)		19.4.15**
+Language reflects what it cannot represent.
+5.0413	17[9]	5.132 (2)
+The method of inference can only be drawn from the two propositions.
+5.0414	17[10]	5.132 (3)
+Only they themselves can justify the inference.
+5.04141	17[11]	5.132 (4)		AüL 197 (3)+  AüL 188 (4)+
+“Laws of inference”, which—as in Frege and Russell—are supposed to justify inferences, are senseless and would be superfluous.
+4.10011	17[12]	4.11**
+The totality of true propositions can also be called the whole of natural science (or the totality of the natural sciences).
+[104:18]
+4.10012	18[1]	4.111 (1)
+Philosophy is not one of the natural sciences.
+4.10013	18[2]	4.111 (2)*		AüL 207 (3)**
+The word “philosophy” must mean something that stands above or below the natural sciences, not alongside them.
+4.10014	18[3]	4.112 (1)
+The goal of philosophy is the logical clarification of thoughts.
+4.10015	18[4]	4.112 (2)
+Philosophy is not a theory but an activity.
+4.10016	18[5]	4.112 (4)
+Philosophy does not result in “philosophical propositions”, but rather in making propositions clear.
+4.100161	18[6]	4.112 (5)
+Philosophy should make clear and sharpen the boundaries of thoughts that are otherwise opaque and blurred.
+4.10017	18[7]	4.114 (1)**
+It should mark off the thinkable and thereby the unthinkable.
+4.100171	18[8]	4.114 (2)**
+It should mark off the unthinkable by working through the thinkable from within.
+4.10018	18[9]	4.115
+It will signify the unsayable, by clearly representing the sayable.
+5.32	18[10]	5.53		29.11.14 (3)+
+Identity of object I express by identity of sign, and not by means of a sign of identity. Difference of objects I express by difference of signs.
+5.331	18[11]	5.531*
+Thus I do not write “F (a, b).a =b”, but “F (a, a)” (or “F (b, b)”); and not “F (a, b).a≠b”, but “F (a, b)”.
+5.332	18[12]	5.532**
+And analogously: not “(∃x, y).F(x, y).x=y”, but “(∃x).F(x, x)”; and not “(∃x, y).F(x, y).x≠y”, but “(∃x, y).F(x, y)”.
+(So instead of Russell's “(∃x, y).F(x, y)”: “(∃x, y).F(x, y) v (∃x).F(x, x)”.)
+5.3321	18[13]	5.5321**
+Instead of “(x).Fx ⊃ x=a” we therefore write “Fa:~(∃xy).Fx.Fy”. And the proposition, “Only one x satisfies F(x̂ )”, will be “(∃x).Fx:~(∃x, y).Fx.Fy”.
+[104:19]
+5.3.33	19[1]	5.533
+Therefore the identity sign is not an essential component of conceptual notation.
+5.334	19[2]	5.534		29.11.14 (4)+
+And now we see that pseudo-propositions like “a =a”, “a =b . b = c .⊃a =c”, “(x).x=x”, “(∃x ).x =a”, etc. cannot even be written down using correct conceptual notation.
+5.3341	19[3]	5.535 (1)
+This also clears up all the problems that were connected with such pseudo-propositions.
+4.1022	19[4]	4.121 (3)**
+That which expresses itself in language, we cannot express by means of language.
+4.10221	19[5]	—
+So the logical structure of a situation is mirrored in a proposition - we cannot express it by means of language - the proposition shows it.
+4.102211	19[6]	4.1211 (1)**
+Thus the proposition “ϕ(a)” shows that the object a occurs in its sense //it is about a// and the propositions “ϕb” and “ψb” show that the same object occurs in their senses //they are about the same object//.
+4.102212	19[7]	4.1211 (2)+
+Two propositions which contradict one another show that they do so. Likewise, if one proposition follows from others, this is shown in the propositions themselves. And so on.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+4.10222	19[8]	4.122 (1)+
+In a certain sense we can talk about structural properties of facts or about structural relations between them.
+4.10223	19[9]	4.122 (4)+
+However it is impossible to assert by means of propositions that such properties and relations obtain: rather, this shows itself in the propositions that represent the structures.
+4.10224	19[10]	4.124 (1)
+The obtaining of an internal property of a possible situation is not expressed by means of a proposition: rather, it expresses itself in the proposition representing the situation, by means of an internal property of the proposition.
+[104:20]
+4.10225	20[1]	4.125
+That an internal relation obtains between possible situations expresses itself in language by means of an internal relation between the propositions representing them.
+4.102231	20[2]	4.122 (2)*
+Instead of “structural property” we also say “internal property”; instead of “structural relation”, “internal relation”.
+5.32041	20[3]	5.525 (2)**
+The certainty, possibility, or impossibility of a situation is not expressed by a proposition, but by whether what represents the situation is a tautology, a proposition with sense, or a contradiction.
+5.3204	20[4]	5.525 (1)*
+It is wrong to render the proposition “(∃x).ϕx” in the words, “ϕx is possible”, as Russell does.
+5.005	20[5]	3.317 (1)**   5.501 (4)+
+Values for a sentential variable are stipulated by indicating the sentences which the variable represents.
+5.00501	20[6]	3.317 (2)
+The description of those sentences is the stipulation.
+5.0051	20[7]	3.317 (3)**
+The stipulation will therefore be concerned only with signs, not with their meaning.
+5.0052	20[8]	3.317 (4)**
+And all that is essential to the stipulation is that it merely describes the signs and states nothing about the signified.
+5.0053	20[9]	3.317 (5)   5.501 (5)+
+The way in which the sentences are described is inessential.
+5.0041	20[10]	3.316 (2) 
+The stipulation of values is the variable.
+[104:21]
+5.00531	21[1]	5.501 (6)+
+We can distinguish three kinds of description: 1. Direct enumeration. 2. Giving a function F (x , y, … ) whose various values are the propositions to be described. 3. Giving features which characterize those propositions.
+4.102233	21[2]	4.1221
+An internal property of a fact can also be called a feature of that fact (in the sense that we speak of facial features).
+4.102234	21[3]	—
+A feature characterizes a class of facts, if they and only they possess it.
+5.00532	21[4]	5.501 (6)+
+In the first case we can simply replace the variable with its (constant) values.
+5.00533	21[5]	5.501 (6)+
+In the second case the variable is a generalized proposition.
+5.00534	21[6]	5.501 (6)+
+In the third case the values of the variable are all propositions that possess certain formal properties.
+5.005341	21[7]	4.1273 (1)+
+This second kind of generalization, which can be called the formal kind, was
+overlooked by Russell and Frege.
+5.005342	21[8]	4.1273 (1)+
+For example, all propositions of the series: aRb, (∃x).aRx.xRb, 
+(∃x, y).aRx.xRy.yRb, etc. are characterized by a formal property.
+5.00535	21[9]	4.1273 (1)+
+The general form of these propositions can be presented only by means of the form of a variable.
+5.005351	21[10]	4.1273 (1)+
+Russell’s presentation is incorrect: it contains a vicious circle.
+4.1022501	21[11]	4.1251
+Now this settles the disputed question “whether all relations are internal or external”.
+4.102253	21[12]	4.126 (1) 
+In the same sense that we can speak of formal properties, we can now talk of formal concepts.
+[104:22]
+4.102254	22[1]	4.126 (2)*
+I introduce this expression to make clear the the confusion of formal concepts and proper concepts, which runs through all of the old logic.
+4.102232	22[2]	4.122 (3)*
+I introduce these expressions to show the reason for the confusion between structural relations and proper (external) relations, so common among philosophers.
+4.102261	22[3]	4.126 (4)
+Unlike proper concepts, formal concepts cannot be represented by a function.
+4.102262	22[4]	4.126 (5)*
+This is because their characteristic marks—formal properties—are not expressed by functions.
+4.102263	22[5]	4.126 (6)**
+The expression of a formal property is a feature of a propositional structure.
+4.102265	22[6]	4.126 (8)*
+And so the expression for a formal concept is a propositional variable in which this distinctive feature alone is constant.
+4.102264	22[7]	4.126 (7)*
+So the sign for the characteristic mark of a formal concept is the distinctive feature of all propositions whose senses fall under the concept.
+4.102271	22[8]	4.1271 (1)**
+In a similar sense, each variable is the sign of a formal concept.
+[104:23]
+4.1022721	23[1]	4.1272 (1)*
+Thus the variable name x is the proper sign of the pseudo-concept “object”.
+4.1022722	23[2]	4.1272 (2)*
+Wherever the word, object (or thing, entity, etc.), is correctly used, it is expressed in conceptual notation by a variable name.
+4.1022723	23[3]	4.1272 (3)*	MN 212 (7)+
+For example, in the proposition “There are 2 objects such that…”, by “(∃x, y)…”.
+4.1022724	23[4]	4.1272 (4)
+Wherever it is used otherwise, that is as a proper concept-word, nonsensical psuedo-propositions are the result.
+4.1022725	23[5]	4.1272 (5)
+So for instance one cannot say “There are objects”, as one might say, “There are books”. And it is equally impossible to say, “There are 100 objects” or “There are א0 objects”.
+4.1022726	23[6]	4.1272 (7)*
+What applies to the word “object” also applies similarly to the words “complex”, “fact”, “function”, “number”, etc., etc. 
+4.1022727	23[7]	4.1272 (8)**
+All these words signify, in the wider sense, formal concepts, and they are all represented in conceptual notation by variables, not by functions or classes.
+4.1022728	23[8]	4.1272 (9)*
+“1 is a number”, “There is only one 0”, and all similar expressions are nonsensical.
+4.10226	23[9]	4.126 (3)*		MN 211 (4)+
+Something’s being an instance of a formal concept cannot be expressed by a proposition. 
+It is shown by the sign for the object itself. 
+(A name shows that it signifies an object, a numeral that it signifies a number.)
+[104:24]
+4.10227	24[1]	4.127*
+So the sentential variable signifies the formal concept, and its values signify the objects that are its instances.
+4.102272	24[2]	4.1271 (2)*
+For every variable represents a constant form that all its values possess, and this can be regarded as a formal property of those values.
+4.102273	24[3]	4.1272 (8)**	(AüL207 (7)+)
+“Object”, “complex”, “fact”, “number”, etc. etc. are not names of concepts - as Russell believed - but variables.
+4.22131	24[4]	—
+For the sake of brevity I also express the interchangeability of any two parts of propositions in the same way.
+4.102241	24[5]	4.124 (2)
+It would be just as nonsensical to ascribe formal property a proposition as to deny it.
+4.10227251	24[6]	4.1272 (6)*
+And it is nonsense to speak of the “total number of objects”.
+3.20121	24[7]	3.31 (1-2)+
+To put it concisely: I call a proposition as well as any part of a proposition a symbol.
+3.20122	24[8]	3.31 (3)+
+Every symbol is a proposition or a part of a proposition: thus symbols are what propositions have in common with one another.
+3.22	24[9]	3.34 (1)
+A proposition has essential and accidental features.
+3.23	24[10]	3.34 (2)*		22.10.14 (1)+
+Accidental features are those that are due to the particular way the sentential sign is produced. Essential features are those without which the sense of the proposition would be lost.
+[104:25]
+3.2016	25[1]	3.314 (1b)+
+Every sign can be represented as a sentential variable.
+3.24	25[2]	3.341 (1)
+So what is essential about a proposition is what all sentences that can express the same sense have in common.
+3.213	25[3]	3.13 (3)
+And so a sentence does not yet contain its sense, but it does contain the possibility of expressing that sense.
+3.214	25[4]	3.13 (5)
+A sentence contains the form of its sense, but not its content.
+3.211	25[5]	3.13 (1)*
+A sentence has everything the projection has, except what is projected.
+3.212	25[6]	3.13 (2)
+Therefore, the possibility of what is projected is in the sentence, but not the  projection itself.
+3.241	25[7]	3.341 (2)**
+Likewise, generally, what is essential about a sign is what all signs that can serve the same purpose have in common.
+3.2131	25[8]	3.13 (4)*
+“The content of a sentence” means the content of a sentence that makes sense.
+4.011	25[9]	4.011 (1a)
+At first sight a sentence – say as it is set out on the printed page – does not seem to be a picture of the reality it is about.
+4.0111	25[10]	4.011 (1b)
+But neither does musical notation at first sight seem to be a picture of music, nor our phonetic notation (the letters of the alphabet) to be a picture of our spoken language.
+4.0112	25[11]	4.011 (2)
+And yet these sign-languages turn out to be pictures, even in the ordinary sense, of what they represent.
+4.0113	25[12]	4.013 (1)
+And if we penetrate to the essence of this pictorial character, we see that it is not hindered by apparent irregularities (such as the use of ♯ and ♭ in musical notation).
+[104:26]
+4.0114	26[1]	4.013 (2)
+For even these irregularities depict what they are to express, only in a different way.
+3.161	26[2]	3.143 (1)
+That a sentential sign is a fact is concealed by the ordinary form of expression in writing or print.
+3.162	26[3]	3.143 (2)
+For in a printed sentence, for example, the sentential sign does not appear  essentially different from a word.
+3.1621	26[4]	3.143 (3)*		AüL 193 (5)+
+That is what made it possible for Frege to call a proposition a compound name.
+3.163	26[5]	3.1431 (1)*
+The essence of a sentential sign becomes very clear if we consider one made up not of written signs but of spatial objects (such as tables, chairs, books).
+3.164	26[6]	3.1431 (2)
+Then the spatial arrangement of these things expresses the sense of the proposition.
+4.0115	26[7]	4.016 (1)*		29.9.14 (4)+
+To understand the essence of a proposition, consider hieroglyphic writing, which admittedly depicts the facts it describes.
+4.0116	26[8]	4.016 (2)
+And from it came alphabetic writing, without losing what was essential to depiction.
+2.021	26[9]	2.021
+Objects make up the substance of the world. That is why they cannot be composite.
+[104:27]
+2.0211	27[1]	2.0211		MN 221 (3)+
+If the world had no substance, then whether a proposition made sense would depend on whether another proposition was true.
+2.0212	27[2]	2.0212
+In that case we could not form a picture of the world (true or false).
+2.022	27[3]	2.022
+Obviously an imagined world, however different from the real world, must have something - a form - in common with it.
+2.023	27[4]	2.023
+This fixed form consists of objects.
+2.0231	27[5]	2.0231*
+The substance of the world can only determine a form, and not any material properties. Material properties can only be represented by means of propositions – they can only be produced by the configuration of objects.
+2.0232	27[6]	2.0232
+Roughly speaking, objects are colourless.
+2.024	27[7]	2.024
+Substance is what persists independently of what is the case.
+2.025	27[8]	2.025
+It is form and content.
+2.0251	27[9]	2.0251**
+Space and time are forms of objects.
+2.0252	27[10]	2.0251+
+In the same way colour (being coloured) is a form of visual objects.
+2.026	27[11]	2.026		17.6.15 (11)+
+Only if there are objects, can the world have a fixed form.
+2.027	27[12]	2.027
+Objects, the fixed, and the persistent are one.
+2.0271		28[1]	2.0271
+Objects are what is fixed and persistent; their configuration is what is changing and variable.
+2.0272		28[2]	2.0272
+The configuration of objects forms an elementary fact.	
+ 4.091	28[3]	 4.061 (1)		AüL 194 (3)**
+If one does not notice that propositions make sense independently of the facts, one can easily believe that true and false are relations of equal value between signs and what they signify.
+4.0911		28[4]	 4.061 (2)*	AüL 194 (3)*
+(One could then say, for instance, that “p” truly signifies what “~p” falsely signifies, etc.).
+4.092		28[5]	 4.062*		AüL 194 (3)*	1.11.14 (14)+
+“Can we not make ourselves understood with false propositions just as we have done up to now with true ones, so long as we know that they are meant to be false?”
+4.092		28[6]	 4.062*		AüL 194 (3)*
+No! For a proposition is true if what it asserts is the case; and if by “q” we mean ~q and that’s the case, then“q” is true on the new conception, and not false.
+4.0921		28[7]	4.0621 (1)*	AüL 194 (3)*
+But it is important that the signs “p” and “~p” can say the same thing. For it shows that the sign “~” corresponds to nothing in reality.
+4.0922		28[8]	4.0621 (2)
+That negation occurs in a proposition is not a characteristic mark of its sense (~~p = p).
+2.0601		28[9]	2.06 (2)*
+We also call the obtaining of elementary facts a positive fact, and their non-obtaining a negative fact.
+[104:29]
+?	29[1]	—		AüL 193 (7)**  MN 219 (4)+ 
+We can say that “~Socrates” means nothing because there is no property called ~(x).
+3.2012		29[2]	3.322**		AüL 193 (4)
+Signifying two objects by the same name but using two different modes of signification can never indicate a common characteristic. 
+For the name is of course arbitrary. So we could choose two different names instead, and then where would there be what was in common in the signifying?
+4.094		29[3]	4.063*		AüL 197 (1)*
+An analogy to illustrate the concept of truth.  A black spot on white paper; the form of the spot can be described by saying for each point on the sheet whether it is black or white. To the fact that a point is black there corresponds a positive fact, and to the fact that a point is white (not black), a negative fact. If I designate a point on the sheet (a Fregean truth-value), then this corresponds to the supposition that is put forward for judgment, etc. etc.
+However, to be able to say that a point is black or white, I must first know when a point is called black, and when white: I cannot say “p” is true (or false) unless I have determined in what circumstances I call p true, and in so doing I determine the sense of the proposition.
+Now the point where the simile breaks down is this: we can pick a point on the paper even if we don’t know what black and white are, but if a sentence makes no sense, nothing at all corresponds to it, for it designates no thing (a truth-value) which might have properties called “false” or “true”. The verb of a proposition is not “is true” or “is false”, as Frege thought: rather, that which “is true” must already contain the verb.
+5.222	30[1]	5.43 (1a)		AüL 188 (1)**  AüL 198 (4)*
+Even at first sight it seems scarcely credible that from one fact p infinitely many others should follow, namely, ~~p, ~~~~p, etc.
+4.0011	30[2]	4.002 (1)*	AüL 198 (4)**
+Human beings have the capacity to construct languages in which every sense can be expressed, without having any idea how and what each word means,  just as we speak without knowing how the individual sounds are produced.
+2.0201	30[3]	2.0201*		AüL 188 (6)**  AüL 199 (2)**  MN 214(2)+
+Every statement about complexes can be broken down into a statement about their constituents and into the propositions that completely describe the complexes.
+5.2201	30[4]	5.42 (1)*		AüL 199 (3)*
+That ∨, ⊃, etc. are not relations in the sense in which right and left, etc. are relations, is obvious to an unprejudiced mind.
+5.221	30[5]	5.42 (2)		AüL 199 (3)*
+The interdefinability of Frege's and Russell's “primitive signs” of logic shows by itself that they are not primitive, still less signs for relations.
+5.2211	30[6]	5.42 (3)*
+And it is obvious that the “⊃” that we define by means of “.” and “∨” is identical with that by which we define “.” by means of “∨”; and that this second “.” is identical with the first, and so on.
+4.102274	30[7]	3.315*		AüL 189 (1)+,  AüL 199 (4,5)*
+If we turn a constituent of a proposition into a variable, the resulting variable proposition will have a class of propositions as its values. In general, this class still depends on what we, by arbitrary convention, mean by parts of that original proposition. But if we turn all the signs in it that have arbitrarily determined meanings into variables,there will still always be such a class. This one, however, is not dependent on any convention, but solely on the nature of the proposition. It corresponds to a logical prototype - a logical form.
+4.1022631	31[1]	4.1241		AüL 195 (9)+  AüL 199 (6)*
+Forms cannot be distinguished from one another by saying that one has this property, the other that, for this presupposes that it makes sense to ascribe either property to either form.
+3.2011	31[2]	3.144 (2)*		AüL 200 (3)
+Names are like points; propositions like arrows - they have sense.
+3.201221	31[3]	3.203 c+		AüL 201 (3)*
+“A” is the same letter as “A”. This is of great importance for our language.
+5.041021	31[4]	5.123*		AL 203 (2)**
+If a god creates a world in which certain propositions are true, he thereby creates a world in which all the propositions that follow from them are true. And similarly he could not create a world in which proposition p was true without creating all its objects.
+4.4461	31[5]	4.461 (3, 5)*	AL 203 (3)**
+Tautologies lack sense. (For example, I know nothing about the weather when I know that it is either raining or not raining.)
+4.025	31[6]	4.024 (1-2)*	AL 195 (6)** AL 203 (4)
+To understand a proposition means to know what is the case if it is true.
+4.025	32[1]	4.024 (1-2)*	AL 195 (6) AL 202 (4)+  AL 203 (4)*
+One can understand it, therefore, without knowing whether it is true.
+4.026	32[2]	4.024(3)		AL 203 (4)*
+One understands it if one understands its constituents.
+5.101	32[3]	5.2341 (1)		AL 191 (3)  AL 204 (3)*		
+The sense of a truth-function of p is a function of the sense of p.
+5.231	32[4]	5.44 (2)*		AL 201 (7)*
+If, for instance, an affirmation can be produced by double negation, is the negation—in any sense—contained in the affirmation? Does ~~p negate ~p, or does it affirm p, or both?
+4.4311	32[5]	4.442 (2)*	AL 202 (2)*
+Frege's sign “⊢” is logically quite meaningless: in Frege (and Russell) it only indicates that these authors hold the sentences marked in this way to be true. Thus “⊢” is no more a component part of a proposition than is, for instance, the proposition's number. A proposition cannot possibly assert of itself that is true.
+32[6]	3.142*		AL 204 (5)* 
+[Sentence crossed out]
+5.301	32[7]	5.451*		AL 205 (2)*
+If logic has primitive ideas, they must be independent of one another. If a primitive idea is introduced, it must be introduced for all the contexts in which it occurs at all. One cannot, therefore, introduce it first for one context and then again for one another. For instance, once negation is introduced, we must understand it both in propositions of the form ~p and in propositions like ~(p ∨q), (or (∃x).~ϕx), etc. We cannot introduce it first for one class of cases and then for the other, since it would then remain doubtful whether its meaning were the same in both cases, and there would be no reason for using the same kind of connective in both cases.
+(In short, what Frege said about introducing signs by means of definitions (in The Fundamental Laws of Arithmetic) also applies, mutatis mutandis, to the introduction of primitive signs.)
+4.4001	33[1]	4.411*		AL 205 (3)**
+It is likely that the introduction of elementary propositions provides the basis for understanding all other kinds of proposition. Indeed understanding general propositions obviously depends on understanding elementary propositions.
+3.1622	33[2]	3.1432		AL 192 (3) + AL 195 (9) + AL 206 (3) MN 211 (5)+
+Don’t say “The complex sign "aRb" says that a stands to b in the relation R”, but instead: That “a” stands to “b” in a certain relation says that aRb.
+4.00163	33[3]	4.0031 c
+Russell’s contribution is to have shown that the apparent logical form of a sentence need not be its real form.
+4.100152	33[4]	4.1121 (2)		AL 206 (8)
+Theory of knowledge is the philosophy of psychology.
+4.100153	33[5]	4.1121 (1)
+Psychology is no more related to philosophy than is any other natural science.
+4.100154	33[6]	4.113		AL 207 (2)+
+Philosophy limits the much disputed domain of natural science.
+5.04442	34[1]	5.1363
+If the truth of a proposition does not follow from the fact that it is obvious to us, then obviousness in no way justifies our belief in its truth.
+34[2]	—		AL 208 (2)*
+[Sentence crossed out]
+3.20171	34[3]	3.332*		AL 192 (5)** AL 208 (3)**
+No proposition can make a statement about itself, because a sentential sign cannot be contained in itself. (That is the whole of the “theory of types”.)
+5.321	34[4]	5.522
+What is peculiar about  the generality sign is first, that it indicates a logical prototype, and second, that it draws attention to constants.
+5.3301	34[5]	5.5301 (1a)
+It is obvious that identity is not a relation between objects.
+5.3302	34[6]	5.5301 (1bc)
+This becomes very clear if one considers, for example, the proposition (x):ϕx⊃x=a. What this proposition says is simply that only a satisfies function ϕ, not that only things that have a certain relation to a satisfy ϕ. Of course, one might then say that only a has this relation to a; but this would have to be expressed using the identity sign itself.
+5.3303	34[7]	5.5302*
+Russell's definition of “=“ won’t do, because it doesn’t let us say that two objects have all their properties in common. (Even if this proposition is never correct, it still makes sense.)
++?35[1]	—		AL 206 (4)+
+A common form is not a common constituent.
+5.3021	35[2]	5.453 (1)
+All use of numbers in logic requires justification.
+5.012	35[3]	5.02 (1-2)
+It is quite natural to confuse the arguments of functions with the indexes of names. For I recognize equally well from the argument and the index what is meant by the signs containing them. In Russell’s “+c”, for instance, “c” is an index indicating that the whole  sign is the addition sign for cardinal numbers. But that is due to an arbitrary convention and we could have chosen a simple sign instead of “+c”; in “~p”, however, “p” is not an index but an argument; the sense of “~p” cannot be understood unless one already understands the sense of p. In the name “Julius Caesar” “Julius” is an index. (An index is always part of a description of the object to whose name we attach it. (The Caesar of the Julian gens.))
+4.10227252	35[4]	4.1274 (1a)**
+To ask whether a form exists is always nonsensical.
+4.10227253	35[5]	4.1274 (1b)
+For no proposition can be the answer to such a question.
+4.10227254	35[6]	4.1274 (2)**		3.9.14 (1)+
+So, for example, one cannot ask: “Are there unanalyzable subject-predicate propositions?” (or “relations with two terms” or “relations between relations”, etc.).
+5.234	36[1]	5.442**			 7.10.14**
+If we are given a proposition, then with it we are also given all its truth-functions.
+4.44602	36[2]	—
+Analytic propositions are tautologies.
+5.21	36[3]	5.4+
+It is here that it becomes clear that there are no such things as logical objects, logical constants.
+5.22	36[4]	5.41**
+For all truth-functions of truth-functions are identical, whenever they are one and the same truth-function of elementary propositions.
+3.2021	               36[5]	3.26*
+Names are indefinable; they are primitive signs.
+4.10018	36[6]	4.116
+Everything that can be thought at all can be thought clearly. Everything that can be said can be said clearly.
+4.0012	36[7]	4.002 (2)			14.5.15 (1)
+Ordinary language is a part of the human organism and no less complicated than it.
+4.0013	36[8]	4.002 (3)
+It is not humanly possible to immediately extract the logic of language from it.
+4.0014	36[9]	4.002 (4a)*
+It disguises thought.
+4.00141	36[10]	4.002 (4b)*
+So much so, that from the external form of the clothes one cannot infer the form of the thought beneath, because the external form of the clothes is designed not to reveal the form of the body, but from an entirely different perspective.
+4.0015	36[11]	—
+Thus the external aspect of ordinary language makes every kind of illusion and confusion possible.
+4.00151	36[12]	3.323 (2-3)**
+“Exist” appears as an intransitive verb like “go”; “you were” sounds like “you wear”; “identical” is an adjective; and “White” is a proper name.
+4.0016	37[1]	4.003 (1)
+Most of the statements and questions philosophers have written are not false but nonsensical. So we cannot answer such questions at all, but can only point out their nonsensicality. Most of the questions and statements of philosophers result from not understanding the logic of our language.
+4.00161	37[2]	4.003 (2)*
+They are of the same kind as the question whether the Good is more or less identical than the Beautiful.
+4.00162	37[3]	4.0031 (a-b)
+All philosophy is “critique of language” (though not at all in Mauthner's sense).
+5.224	37[4]	5.43 (2)		10.6.15 (5)**
+But all the propositions of logic say the same thing. Namely, nothing.
+5.223	37[5]	5.43 (1b)
+And it seems even stranger that the infinite number of propositions of logic (mathematics) follow from half a dozen “primitive propositions”.
+5.04102	37[6]	5.122*
+If p follows from q, the sense of p is contained in the sense of q.
+4.0923	37[7]	4.0621 (3)*	AüL 202 (7)+
+The propositions “p” and “~p” have opposite senses, but one and the same reality corresponds to them.
+5.08	37[8]	5.143 (1)		5.6.15 (6)+  3.6.15 (7)+
+Contradiction is what propositions have in common that no proposition has in common with another. Tautology is what all propositions have in common that have nothing in common with one another.
+5.081	37[9]	5.143 (2)		3.6.15 (9)
+Contradiction vanishes so to speak outside all propositions, tautology inside them.
+5.082	37[10]	5.143 (3)*		3.6.15 (11)
+Contradiction is the outer limit of propositions, tautology their substanceless centre.
+4.4481	38[1]	4.4611**		10.6.15 (7)**
+Tautologies and contradictions are not nonsense (but lack sense). They belong to the symbolism, just like “0” in arithmetic.
+4.44601	38[2]	4.46 (4)
+In the first case we call the proposition a tautology; in the second, a contradiction.
+3.1601	38[3]	3.142		AüL 193 (2)+  AüL 204 (5)
+Only facts can express a sense, a set of names cannot.
+3.1602	38[4]	3.141 (1)**	7.2.15+  5.4.15   11.4.15
+A proposition is not a jumble of words. (Just as a tune is not a jumble of notes.)
+3.1603	38[5]	3.141 (2)		29.1.15+
+A proposition is articulate.
+5.23	38[6]	5.44 (1)*		17.12.14**
+Truth-functions are not material functions.
+5.232	38[7]	5.44 (3)*
+The proposition ~~p is not about negation as an object, but the possibility of negation is already presupposed in affirmation.
+5.302	38[8]	5.46**
+If we introduced primitive signs of logic properly, then we would have introduced the sense of all their combinations at the same time; that is, not only “p∨q” but also “~(p∨~q)”, etc., etc. We should also have introduced at the same time the effect of all possible combinations of brackets. And we would have thereby made clear that the proper general primitive signs are not “p∨q”, (∃x).ϕx, etc. but the most general form of their combinations.
+5.3024	39[1]	5.461 (2)		MN 221 (3)**
+The use of brackets with these apparently primitive signs already indicates that they are not the real primitive signs. And surely no one could believe that brackets have an independent meaning.
+5.3023	39[2]	5.45**
+If there is more than one primitive sign of logic, then any correct logic must clearly show their relative status and justify their existence. The construction of logic out of its primitive signs must be made clear.
+5.30231	39[3]	5.452 (1-2)*
+The introduction of any new device into the symbolism of logic must always be a momentous event. In logic a new device should not be introduced in brackets or in a footnote with, so to speak, an entirely innocent expression. Thus in Principia Mathematica Russell and Whitehead’s definitions and primitive propositions are expressed in words. Why suddenly words here? It requires a long justification. But they don’t give any, and can’t, since the procedure is actually illegitimate.
+5.013	39[4]	5.02*
+If I am not mistaken, Frege's theory about the meaning of propositions and functions is based on the confusion between an argument and an index. For Frege the propositions of logic are names and their arguments are the indexes for those names.
+5.3342	39[5]	5.5351 (1)*
+There are certain cases in which one is tempted to use expressions of the form a =a or p ⊃p and the like. For instance, this happens when one wants to talk about prototypes: proposition, thing, etc. So Russell in his Principles of Mathematics rendered nonsense such as “p is a proposition” symbolically as “p ⊃p”, and places it in front of certain propositions as an antecedent hypothesis in order to indicate their argument-places can only be filled by propositions.
+5.3343	40[1]	5.5351 (2)*
+It is nonsense to use p ⊃p as an antecedent hypothesis to ensure that its consequent arguments have the right form. For with a non-proposition as argument the antecedent hypothesis becomes not false but nonsensical, and because using the wrong sort of arguments makes the proposition itself nonsensical. So in this way it saves itself from the wrong arguments just as well, or as badly, as the senseless hypothesis attached for this purpose.
+5.3022	40[2]	5.453 (2)
+Or rather, it must become evident that there are no numbers in logic.
+5.3304	40[3]	5.5303
+Roughly speaking, to say of two things that they are identical is nonsense, and to say of one thing that it is identical with itself is to say nothing at all.
+4.0951	40[4]	4.0641 (1-2)	3.11.14 (18)
+One could say: the negation must be already related to the logical place determined by the negated proposition. The negating proposition determines a different logical place from the negated proposition.
+4.0952	40[5]	4.0641 (3)*	3.11.14 (22)
+The negating proposition determines its logical place using the logical place of the negated proposition by describing it as lying outside the latter's logical place.
+4.0953	41[1]	4.0641 (4)**	6.11.14 (2)
+That the negated proposition can be negated again shows that what is negated is already a proposition, and not just something preliminary to a proposition.
+4.1031	41[2]	4.1212*		29.11.14 (2)
+What can be shown, cannot be said.
+4.1001531	41[3]	4.1121 (3)*	10.11.14 (2)
+Does not my study of sign-language correspond to the study of thought-processes, which philosophers always used to consider so essential to the philosophy of logic? Only more often than not they got involved in inessential psychological investigations, and there is an analogous danger for my method.
+4.4322	41[4]	4.463 (2)*	14.11.14 (1)
+A proposition, a picture, or a model is, in the negative sense, like a solid body which restricts the freedom of movement of another; in a positive sense, like a space bounded by solid substance in which there is room for a body.
+4.0102	41[5]	4.0312 (1)*	25.12.14 (2)*
+The possibility of propositions is based on the principle that objects are  represented by their signs.
+4.0103	41[6]	4.0312 (2)	25.12.14 (5)*
+My fundamental thought is that the “logical constants” are not representatives; that the logic of facts cannot be represented.
+3.20104	41[7]	3.24*		26.4.15 (3)*
+A proposition about a complex stands in an internal relation to a proposition about a constituent part.
+5.0444	41[8]	5.1362 (1)		27.4.15 (1)
+Freedom of the will consists in the impossibility of our knowing future events now. We could know them only if causality were an inner necessity like that of logical inference. - The connection between knowledge and the known is that of logical necessity.
+4.4484	42[1]	—		12.11.14 (3)
+Of course in a tautology an elementary proposition still depicts, but it is so loosely connected with reality as to leave it unlimited freedom. The bounds set by a contradiction are such that no reality can exist within them.
+4.4485	42[2]	4.463 (3)*
+A tautology leaves the whole infinite logical space open to reality; a contradiction fills the whole of logical space, leaving no point to reality. Thus neither of them can determine reality in any way.
+4.44861	42[3]	4.464 (2)*	12.11.14 (2)**
+Certain, possible, impossible: here we have an indication of the scale needed in probability theory.
+4.051	42[4]	4.03 (1)
+A proposition must communicate a new sense with old words.
+4.0101	42[5]	4.015		18.5.15 (1)
+The possibility of all similes, of all the imagery of our language, rests on the logic of depiction.
+3.001	42[6]	3.001**		1.11.14 (17)
+“A elementary proposition is thinkable (imaginable)” means: we can imagine it.
+3.031	42[7]	3.031*
+As the old saying goes: God can create anything so long as it does not contradict the laws of logic. The reason being that we could not say what an “illogical” world would look like.
+3.032	42[8]	3.032*		16.5.15 (2)
+It is as impossible to say something that “contradicts logic” as it is to draw “a figure that contradicts the laws of space”, or to give the co-ordinates of “a point that does not exist”.
+3.0321	43[1]	3.0321		21.5.15*
+An elementary fact contradicting the laws of physics can be presented spatially, but not one that contradicts the laws of geometry.
++ 43[2]	—		20.11.14 (1)
+The reality that corresponds to the sense of a proposition cannot be anything other than its constituent parts; since we are, surely, ignorant of everything else.
+3.2101	43[3]	3.4		1.11.14 (18, 19)*
+A proposition determines a place in logical space. The existence of this logical place is guaranteed by the mere existence of the constituent parts - by the existence of the sentence with a sense.
+3.2102	43[4]	3.41		19.11.14
+The sentential sign with logical co-ordinates - that is the logical place.
+3.2103	43[5]	3.411		7.11.14
+In both geometry and logic, a place is a possibility: something can exist in it.
+3.2104	43[6]	3.42 (1-2)		23.11.14
+Although a proposition may determine only one place in logical space, the whole logical space must already be given by it.
+(Otherwise negation, disjunction, etc., would introduce more and more new elements - in coordination.)
+3.2141	43[7]	3.42 (3a)*	15.12.14 (2)*
+The logical scaffolding around a picture determines logical space.
+3.2142	43[8]	3.42 (3b)*	16.12.14*
+A proposition reaches through the whole of logical space.
+5.3344	43[9]	5.5352*		11.11.14 (1)+
+Likewise, people have wanted to express “There are no things” by writing “~(∃x).x=x”. If this were actually a proposition, wouldn’t it be just as true if “there were things” but no thing was identical with itself?
+3.242	44[1]	3.342		MN 217 (2)**
+In our notations there is indeed something arbitrary, but this is not arbitrary - that if we have determined anything arbitrarily, then something else must be the case. (This results from the essence of notation.)
+3.2421	44[2]	3.33421 a*
+A particular mode of signifying may be unimportant but it is always important that it is a possible mode of signifying.
+3.24211	44[3]	3.3421 bc*
+And that’s the way it is throughout philosophy: again and again the particular case turns out to be unimportant, but the possibility of each particular case discloses something essential about the world.
+3.20101	44[4]	3.23**		18.6.15 (2)**
+The demand for simple signs is the demand that sense be determinate.
+3.20102	44[5]	—
+The analysis of signs must come to an end at some point, because if signs are to express anything at all, meaning must belong to them in a way that is once and for all complete.
+3.20108	44[6]	3.25
+A proposition has one and only one complete analysis.
+4.4483	44[7]	4.462 (2)		2.11.14 (1)*  MN 223 (3)**
+In a tautology the conditions of agreement with the world - the representing relations - cancel one another, so that it does not stand in any  representing relation to reality.
+4.4462	45[1]	4.461 (1)		5.6.15 (5)**
+A proposition shows what it says: a tautology and a contradiction show that they say nothing.
+4.447	45[2]	4.461 (2)
+Because a tautology is unconditionally true, it has no truth-conditions; on no condition is a contradiction true.
+4.448	45[3]	4.461 (3)		AüL 190 (3)+
+Tautologies and contradictions lack sense.
+4.44801	45[4]	4.461 (4)		AüL 190 (3)+
+(Like a point with two arrows going out in opposite directions.)
+4.4482	45[5]	4.462 (1)		3.10.14 (4)  6.6.15 (4)
+Tautologies and contradictions are not pictures of reality. They represent no possible situations. For tautologies admit all possible situations, and contradictions admit none.
+4.449	45[6]	4.465**		3.10.14 (4)  25.5.15 (4)
+The logical product of a tautology and a proposition says the same thing as the proposition. This product, therefore, is identical with the proposition. For the essence of a sign cannot be altered without altering its sense.
+4.4321	45[7]	4.463 (1)
+The truth-conditions of a proposition determine the leeway left to the facts.
+4.4486	45[8]	4.464 (1)
+The truth of tautology is certain, of propositions possible, of contradiction impossible.
+4.095	45[9]	4.064*		3.11.14 (15)+
+Every proposition must already have sense; assertion cannot give it a sense, for its sense is just what is asserted. And the same goes for negation, etc.
+4.2214	46[1]	4.243 (1)*
+Can we understand two names without knowing whether they signify the same thing or different things? – Can we understand a proposition containing two names without knowing whether their meaning is the same or different?
+4.22141	46[2]	4.243 (2)
+If I know the meaning of an English word and of a German word that means the same then it is impossible for me not to know that they mean the same; it is impossible for me not to be able to translate them into the other.
+4.4301	46[3]	4.5 (1)**
+Accordingly it now seems possible to give the most general propositional form: that is, to describe the sentential signs of any sign-language whatsoever so that every possible sense can be expressed by a sign that falls under the description, and every sign that falls under the description can express a sense, provided that the meanings of the simple signs are suitably chosen.
+4.43011	46[4]	4.5 (2)
+Clearly, only what is essential to the most general propositional form may be included in its description -  otherwise, it would not be the most general form.
+5.304	46[5]	5.47**		(5.5.15+)
+The sole logical constant is what all propositions, by their nature, have in common.
+4.4303	46[6]	4.5 (3)b**		16.4.16 (1)+  21.11.16 (1)+
+The most general propositional form is: such and such is the case. This form must be contained in all propositions in some way or other.
+5.305	47[1]	5.47 (5)
+But that is the general propositional form.
+5.306	47[2]	5.471
+The general propositional form is the essence of a proposition.
+5.3061	47[3]	5.4711
+To give the essence of a proposition means to give the essence of all description, and thus the essence of the world.
+5.303	47[4]	5.47 (1)
+Clearly, whatever can be said from the start about the form of all propositions, must be sayable all at once.
+4.0231	47[5]	4.023 (1-2)*	30.10.14 (8)  31.10.14 (3)*  (14.2.15 (2)+)
+A proposition must restrict reality to two alternatives: yes or no. To do that, it must describe reality completely.
+4.0232	47[6]	4.023 (3)		15.11.14(6)**  16.1.15 (3)*
+A proposition is a description of an elementary fact.
+4.02321	47[7]	4.023 (4)*	16.1.15 (4)*
+Just as a description describes an object by its external properties, so a proposition describes reality by its internal properties.
+4.02322	47[8]	4.023 (5)**	20.10.14 (8)
+A proposition constructs a world with the help of its logical scaffolding, so that one can actually see from the proposition all the logical features of reality, if it is true. One can draw inferences from a false proposition.
+5.30201	47[9]	5.461 (1)*		MN 220 (3)+
+The apparently unimportant fact that logical pseudorelations like ∨ and ⊃, need brackets - unlike real relations - is deeply significant.
+5.30221	48[1]	5.453 (3)**
+There are no preferred numbers.
+4.0711	48[2]	4.031 (1)		29.9.14 (2)**  15.10.14 (5)+
+In a proposition a situation is, as it were, put together as an experiment.
+4.071	48[3]	4.03 (4)		27.9.14 (1)**  3.10.14 (3)
+A proposition asserts something only insofar as it is a picture.
+4.0712	48[4]	4.031 (2)*		2.10.14 (2)
+Instead of “This proposition has such and such a sense”, one can say “This proposition represents such and such a situation”.
+4.072	48[5]	4.032 (1)		3.10.14 (1)
+A proposition is a picture of a situation only insofar as it is logically articulated.
+4.073	48[6]	4.04 (1)		18.12.14**
+In a proposition there must be exactly as many distinguishable parts as in the situation that it represents.
+4.074	48[7]	4.04 (2)
+They must both possess the same logical (mathematical) multiplicity. (Compare Hertz's Mechanics.)
+2.012	48[8]	2.012*
+In logic nothing is accidental: if a thing can occur in an elementary fact, it must already contain the possibility of that elementary fact.
+2.0121	48[9]	2.0122a**
+However independent things may be - and this means no more than that they can occur in all possible situations - still this form of independence is a form of connection with elementary facts, a form of dependence.
+2.0122	48[10]	2.0122b**
+What this comes to is that if it were the case that names had meaning both when combined in propositions and outside them, it would, so to speak, be impossible to guarantee that in both cases they really had the same meaning, in the same sense of the word. It seems to be impossible for words to appear in two different roles: alone, and in propositions.
+2.0123	49[1]	2.0121 (1)**
+It would, so to speak, seem like an accident, if it turned out that a thing that could exist alone could be part of a situation.
+2.013	49[2]	—
+If I can imagine a thing in a situation, then I cannot imagine it out of the situation.
+2.014	49[3]	2.013
+Each thing is, as it were, in a space of possible elementary facts. I can imagine this space empty, but not the thing without the space.
+2.011	49[4]	2.011
+It is essential to a thing that it can be a constituent of an elementary fact.
+4.0261	49[5]	4.025 (1)*
+Note that translating one language into another is not a matter of translating each proposition of the one into one of the other: rather, it is only the constituents that are translated.
+5.30222	49[6]	5.454 (1)		30.10.14 (10)
+In logic there is no juxtaposition, and no classification can be given.
+4.100141	49[7]	4.112 (3)
+A philosophical work consists essentially of elucidations.
+6.51	50[1]	6.51		1.5.15 (2,3)*
+Skepticism is not irrefutable, but obviously nonsensical, insofar as it tries to raise doubts where no questions can be asked. For doubt can only exist provided there is a question, a question only provided there is an answer, and an answer only provided something can be said.
+5.3101	50[2]	5.5151 (1)**	24.11.14 (6,7)
+Must the sign of a negative proposition be constructed with that of the positive proposition? Why should it not be possible to express a negative proposition by means of a negative fact? (For instance, if “a” does not stand in a certain relation to “b” it could express that not-aRb is the case.)
+5.3102	50[3]	5.5151 (2)
+Yet even in this case the negative proposition is constructed by indirectly relying on the positive.
+5.3103	50[4]	5.5151 (3)
+The positive proposition necessarily presupposes the existence of the negative proposition, and vice versa.
+3.25	50[5]	3.343
+Definitions are rules for translating from one language into another.
+Any correct sign-language must be translatable into any other according to such rules. This is what they all have in common.
+3.2511	50[6]	3.3441 (1)*
+We can express what is common to all notations for truth-functions in the following way: for instance, they have in common that they all can be replaced by a notation that uses ~ξ and ξ∨η.
+3.2512	51[1]	3.3441 (2)*
+This indicates the way in which a special possible notation can provide us with general information.
+5.307	51[2]	5.472
+The description of the most general propositional form is the description of the one and only general primitive sign in logic.
+3.20211	51[3]	3.261*		9.5.15 (4)+
+Every defined sign signifies via the signs by which it is defined; the definitions point the way. Two signs, one primitive and one defined, cannot signify in the same way. Names cannot be defined - nor in general, can any sign that has a meaning independently and on its own.
+5.233 SchonEnth 51[4]	5.44 (4)*
+And if there were an object called ~, then ~~p would have to say something different from what p says. For the one proposition would then be about ~ and the other would not.
+5.2331	51[5]	5.441*		5.11.14 (6)+
+This disappearance of apparent logical constants also happens with “~(∃x).~ϕx”, which is equivalent to “(x).ϕx”, and in the case of “(∃x).ϕx.x=a”, which is equivalent to “ϕa”.
+5.3031 SchonEnth. 51[6]	5.47 (2)*		5.11.14 (6)**  12.11.14 (5)+
+An elementary proposition already contains all logical operations. For ϕa = (∃x).ϕx.x =a.
+4.4491	51[7]	4.466 (1-3)*	MN 222 (6)**
+A definite logical combination of signs corresponds to a definite logical combination of their meanings. It is only to the uncombined signs that absolutely any combination corresponds. That is, propositions that are true for every situation cannot be combinations of signs at all, for otherwise, only definite combinations of objects would correspond to them. 
+(And what isn’t a logical combination has no combination of objects corresponding to it.)
+5.04111	52[1]	5.131**
+If one proposition follows from others, this is expressed by certain relations in which the forms of those propositions stand to one another: nor need we to set up this relation between them, by combining them with one another in a single proposition. On the contrary, the relations are internal, and  exist simultaneously with, and through, the existence of the sentential signs.
+5.04112	52[2]	5.1311 (1)
+When from p ∨q and ~p we infer q, the relation between the propositional forms of “p ∨q” and “~p” is concealed, by our mode of signifying. But if instead of “p ∨q” we write “p |q.|.p|q”, and instead of “~p”, “p|p” (p|q = neither p nor q), then the inner connection becomes obvious.
+5.04113	52[3]	5.1311 (2)**	24.11.14 (2)
+That we can infer from (x).ϕx to ϕa shows that the symbol “(x).ϕx” itself  already has generality in it.
+5.3062	52[4]	5.473 (1)		22.8.14 (1)  13.10.14 (1)
+Logic must take care of itself.
+5.3063	52[5]	5.473 (2-3)**	22.8.14 (2)*  2.9.14 (1)**
+If a sign is possible, it is also capable of signifying. Whatever is possible in logic is also permitted. (“Socrates is Plato” is nonsense because we have not made an arbitrary determination, and not because the sign, in itself, would be illegitimate.) In a certain sense, we cannot go wrong in logic.
+5.30631	53[1]	5.4731*		8.9.14
+The self-evidence that Russell talked about so much, can be dispensed with in logic, only because language itself prevents every logical mistake. – That logic is a priori consists in this: one cannot think illogically.
+5.3064	53[2]	5.4733 (1-2)*	2.9.14 (2)
+Frege says: any legitimately constructed proposition must have a sense. And I say: any possible proposition is well-formed, and, if it doesn’t make sense, that can only be because we have failed to give a meaning to some of its constituents. Even if we think we have.
+5.30641	53[3]	5.4733 (3)*
+Thus the reason why “Socrates is identical” says nothing is that we have given no adjectival meaning to the word “identical”. For when it appears as a sign for identity, it symbolizes in an entirely different way - the signifying relation is different - therefore the signs  in the two cases are entirely different, too: the two signs have only their visible part in common by accident.
+3.2013 Schonvorh 53[4]	3.32, 3.321
+A sign is the perceptible part of a symbol. Two different symbols can therefore have one and the same sign (written or spoken etc.)  in common - in which case each will signify in a different way.
+3.2014	54[1]	3.323 (1)*		AüL 207 (5)+
+Now in ordinary language it very often happens that the same word signifies in different ways - and so belongs to different symbols - or that two words that signify in different ways are applied in sentences in what looks like the same way.
+3.20141	54[2]	3.323 (2-3)**
+Thus the word “is” appears as a copula, as a sign for identity, and as an expression for existence; the word “Green” figures as an adjective and as the proper name of a person; “identical” is employed as an adjective, etc. etc. In the proposition “Green is green” (when “is” means the copula) not only do the first word and the last have different meanings, they are different symbols.
+3.20142	54[3]	3.324
+This is how the most fundamental confusions easily arise (all philosophy is full of them).
+3.2015	54[4]	3.325 (1)*
+To avoid such errors we must use a sign-language that excludes them by not using the same sign for different symbols and by not using signs that signify in different ways in what looks like the same way. That is to say, a sign-language governed by logical grammar - by logical syntax.
+3.20151	54[5]	3.325 (2)*
+Frege’s and Russell’s conceptual notation is such a language that, howevever – as will be shown – still does not exclude all mistakes.
+3.251	55[1]	3.344		MN 221 (2)**
+A symbol signifies in virtue of what is common to all those symbols by which it can be replaced according to the rules of logical syntax.
+3.252	55[2]	3.326**		23.10.14 (6)**
+To recognize a symbol in its sign we must observe how it is used.
+3.20152	55[3]	3.33**  3.331**
+The meaning of a sign should never play a role in logical syntax. It must be possible to set up logical syntax without mentioning the meaning of a sign: only the description of symbols may be presupposed. From this observation we get a further perspective on Russell's “theory of types”.  Russell’s error is shown by the fact that in formulating his rules for signs, he had to mention his signs’ meanings.
+4.4221	55[4]	4.431 (3)*
+So Frege was quite right to start with them in explaining the signs of his conceptual notation. But Frege’s explanation of the concept of truth is wrong: if “the true” and “the false” were real objects, and were the arguments in ~p, etc., then the sense of ~p would not in the least be determined by Frege's  “determination.”
+5.33411	55[5]	5.535 (2)*
+All the problems with Russell's axiom of infinity can now be solved here.
+3.1604	55[6]	3.144 (1)+		AüL 207 (6)**
+Facts cannot be named.
+5.3032	55[7]	5.47 (3)		15.4.16 (5)+
+Wherever there is compositeness, there is argument and function, and where these are present, all the logical constants are already there.
+4.1011	56[1]	3.221 d**
+Roughly speaking: A proposition can only say how a thing is, not what it is.
+4.01121	56[2]	4.012 a*		3.11.14 (5)+
+Obviously, a proposition the form aRb looks like a picture.
+5.34	56[3]	5.55 (1)
+The question about all the possible forms of elementary propositions must now be answered a priori.
+5.341	56[4]	5.551*
+Our fundamental principle is this: whenever a question can be answered by using logic it must be possible to answer it just like that. (And if ever we have to look at the world for a solution to such a problem, that shows we are on a completely wrong track.)
+5.4	56[5]	5.55 (2)
+Elementary propositions consist of names. Since, however, we are unable to show the number of names with different meanings, we also cannot show the composition of elementary propositions.
+5.401	56[6]	5.553 (1)
+Russell said that there were simple relations between different numbers of things (individuals). But between what numbers? And how is this supposed to be decided? - By experience?
+5.402	56[7]	5.5541**
+It has to be possible to answer a priori the question whether I can get into a position in which I need a 27-termed relation to signify something.
+5.403	57[1]	5.5542 (1)
+But can it even be legitimate to ask such a question? How can we set up a form of a sign without knowing whether anything can correspond to it?
+5.404	57[2]	5.5542 (2)
+Does it make sense to ask what there must be such that something can be the case?
+5.414	57[3]	5.5563
+All the propositions of our ordinary language are actually, just as they are, in perfect logical order. - That utterly simple thing, that we have to formulate here, is not a likeness of the truth, but the complete truth itself. (Our problems are not abstract, but on the contrary, as concrete as they can be.)
+5.42	57[4]	—
+We can leave that question open: language itself will decide it.
+5.405	57[5]	5.555 (2)**
+But when we have a system for creating signs, the system is what is important for logic and not the individual signs.
+5.41	57[6]	—
+However, whether a sign like F (a, b, c, …) is analyzable or not does not show itself in the sign. Rather, if it is analyzable, that shows itself in the signifying relation, and so in the sign's possessing a definition that analyzes it and that has sense.
+5.422	57[7]	—
+For elementary propositions we use the signs “p0”, “q0”, “r0”, etc. or “f0(a)”, “f0(a, b)”, etc. where it is left open whether or not a=b.
+5.30632	58[1]	5.4732 
+We cannot give a sign the wrong sense.
+5.342	58[2]	5.552 (1)*
+The “experience” we need to understand logic is not that such and such is the case, but that something is. But that is not an experience.
+5.343	58[3]	5.552 (2)*
+Logic is prior to every experience - that something is so.
+5.3431	58[4]	5.552 (3)
+It is before the How, not before the What.
+5.3432	58[5]	5.5521
+And if this were not so, how could we apply logic? We could put it this way: if there would be a logic even if there were no world, how could there be a logic given that there is a world?
+4.4492	58[6]	4.466 (4)**	3.6.15 (8)**
+Tautology is a limiting case of the combination of signs, namely their disintegration.
+3.20105	58[7]	3.24 (2)		15.5.15 (3)*
+A complex can be given only by its description, which either will fit or not fit. A proposition that mentions a complex that does not exist will not be nonsensical, merely false.
+3.253	58[8]	3.31 (4) 	3.327**  30.5.15 (7,13)**
+A sign marks the sharing of a single form and a single content. It determines a logical form only together with its use according to syntax.
+3.20106	58[9]	3.24 (3)*		21.6.15 (7,12)**
+When a simple symbol signifies a complex, this can be seen in an indeterminateness in the propositions in which it occurs. We then know that everything is not yet determined by the proposition. Indeed, the generality sign contains a prototype.
+3.2531	59[1]	3.3442		23.5.15 (6)*
+Analysis does not give an arbitrary resolution of the sign for a complex: for instance, it would not have a different resolution in every propositional structure.
+3.20107	59[2]	3.24 (4)		21.6.15 (11)+22.6.15 (14)+
+The contraction of a symbol for a complex into a simple symbol can be expressed in a definition.
+3.2411	59[3]	3.3411*
+So one could say that the real name is what all symbols that could signify an object have in common. It would then follow, step by step, that no kind of composition was essential to a name.
+3.20212	59[4]	3.263
+The meanings of primitive signs can be explained by means of elucidations. Elucidations are propositions containing the primitive signs. So they can only be understood if the meanings of those signs are already known.
+5.33412	59[5]	5.535 (3)		(9.10.14 (5)+)
+What the axiom of infinity is supposed to say would be expressed in language by there being infinitely many names with different meanings.
+5.335	59[6]	5.6		23.5.15 (1)
+The limits of my language mean the limits of my world.
+5.3351	59[7]	5.62 (1)*		23.5.15 (3)*
+This remark provides the key to the problem how much truth there is in solipsism.
+5.3352	60[1]	5.62 (2)
+Namely: what solipsism means is quite correct, only it cannot be said, but shows itself.
+5.3353	60[2]	5.62 (3)*		29.5.15 (1)+
+That the world is my world shows itself in the fact that the limits of language (the only language I understand) mean the limits of my world.
+5.3354	60[3]	5.631 (1)		5.8.16 (1)+20.10.16 (4)+
+The subject that thinks, entertains ideas: there is no such thing.
+5.30633	60[4]	5.47321 (1)	23.4.15 (3)
+Naturally, Occam's razor is no arbitrary rule, nor one that is justified by its practical success: its point is that unnecessary units in a sign language mean nothing.
+5.30634	60[5]	5.47321 (2)	23.4.15 (4)*
+Signs that serve one purpose are logically equivalent, and signs that serve none are logically meaningless.
+3.2521	60[6]	3.328
+An unused sign is meaningless. That is the point of Occam's razor.
+5.30224	60[7]	5.4541 (1)
+The solutions to logical problems must be simple, since they set the standard of simplicity.
+3.20103	60[8]	- (Cf. 3.23)
+The requirement of determinacy could also be put as follows: if a proposition is to have sense, the syntactic role of each of its parts must have been settled beforehand. For instance, it cannot occur to one only later on that a certain proposition follows from it. Before a proposition can have a sense, it must be completely settled what propositions follow from it.
+3.2513	60[9]	3.334
+The rules of logical syntax must be self-evident, once we know how every single sign signifies.
+4.1032	61[1]	4.1213*
+Now too we understand why people have always felt that if only everything in our symbolism were all right, we would have the right logical conception.
+5.04103	61[2]	5.124		28.4.15 (5)+   30.4.15 (2)+
+A proposition affirms every proposition that follows from it.
+5.04104	61[3]	5.1241 (2)		3.5.15 (2)+
+Two propositions oppose each other if there is no meaningful proposition  that affirms both.
+5.04105	61[4]	5.1241 (3)		30.4.15 (3)+
+Every proposition that contradicts another negates it.
+5.311	61[5]	5.511		24.1.15 (4)*  (6.3.15+)
+How can an all-embracing world-reflecting logic use such contrived hooks and manipulations? Only because they are all connected together in an infinitely fine network, the great mirror.
+5.312	61[6]	5.512 (1)*		27.11.14
+“~p” is true if “p” is false. Therefore, in the proposition “~p”, when true, “p” is false. How then can the hook “~” make it agree with reality?
+5.313	61[7]	5.512 (2-3)*	20.10.14 (5)*
+What negates in “~p” is not the “~”: rather, the negating is done by what all the signs of this notation have in common. That is, the common rule governing the construction of ~p, ~~~p, ~p ∨~p, ~p .~p, etc., etc. (ad inf.). And this common factor mirrors negation.
+5.041031	61[8]	5.1241 (1)		AL 204 (8)+
+“p.q” is one of the propositions that affirm “p” while also being one of the propositions that affirm “q”.
+5.3131	61[9]	5.513 (1)		2.5.15+
+It could be said that the proposition “p.q” is what is common to all symbols that affirm both p and q. The proposition “p∨q” is what is common to all symbols that affirm either p or q.
+5.3132	62[1]	5.513 (2)		3.5.15 (3)+   6.6.15 (13)*
+And thus we can say: Two propositions are opposed to one another if they have nothing in common, and: every proposition has only one negative, since there is only one proposition that lies entirely outside it.
+5.3133	62[2]	5.513 (3)*	
+Thus in the new notation, too, that “q:p ∨~p” says the same as “q” shows itself, and that “p ∨~p” says nothing.
+5.315	62[3]	5.515*		5.6.15 (7)+   4.6.15   
+It must show itself in our sentential signs that it can only be sentential signs that are connected by “∨”, “.”, etc.
+And this is indeed so, for the symbol in “p” and “q” itself presupposes “∨”, “.”, etc. If the sign “p” in “p∨q” does not stand for a complex sign, then it cannot make sense by itself: but then the signs “p∨p”, “p.p”, etc., which have the same sense as “p”, must also not make sense. However, if “p∨p” makes no sense, then “p∨q” cannot make sense either.
+5.323	62[4]	5.526 (1)		17.10.14 (3)* 19.10.14 (3)**   31.5.15 (1,4)+
+The world can be completely described using fully generalized propositions, that is without first correlating any name with a particular object.
+5.324	63[1]	5.526 (2)*	17.10.14 (3)*
+To arrive at the ordinary mode of expression, then, we simply need to say  after an expression such as “There is one and only one x such that…”: and that x is A.
+5.325	63[2]	5.5261 (1)*	31.10.14 (1)*
+A fully generalized proposition is composite, just like every other proposition. (This shows itself in our needing to mention “f ” and “x” separately “(∃x,f).fx”. Both symbols independently stand in signifying relations to the world, as in an ungeneralized proposition.
+5.3251	63[3]	5.5261 (2)**
+The mark of a composite symbol: it has something in common with other signs.
+5.326	63[4]	5.5262**		28.10.14 (2,3)* 29.10.14 (1)
+The truth or falsity of every proposition alters something about the general structure of the world. And the play that is left open to it structure by the totality of elementary propositions leaves open for its construction is precisely what is delimited by the entirely general propositions. 
+(For if an elementary proposition is true, then, at any rate, one more elementary proposition is true.)
+5.3221	63[5]	 5.523		3.11.14 (12)** 2.12.16 (1)+
+The generality sign appears as an argument.
+5.0012	63[6]	5.2341 (2)**	23.1.15 (1)
+Negation, disjunction, logical multiplication, etc., are operations.
+5.002	63[7]	5.25 (1)+		
+Of course the mere occurrence of an operation in a proposition cannot say anything.
+5.0021	64[1]	5.25 (2)** 	23.1.15 (4)
+Indeed, no statement is made by an operation, but only by its result, and this depends on its base.
+5.0022	64[2]	   5.254*		24.1.15 (2)
+Only operations can vanish (e.g. negation in ~~p).
+3.16021	64[3]	—		 7.2.15**
+A theme in music is a proposition.
+6.1	64[4]	6.1*
+The propositions of logic are the tautologies.
+6.1001	64[5]	6.11*		MN 209 (1)+
+Therefore the propositions of logic say nothing. They are the analytic propositions.
+6.11	64[6]	6.12 (1)*
+That they are tautologies shows the formal - logical - properties of language, of the world.
+6.111	64[7]	6.12 (2)
+The fact that a tautology is yielded by this way of connecting its constituents characterizes the logic of its constituents.
+6.112	64[8]	6.12 (3)
+If propositions are to yield a tautology when they are connected in a certain way, they must have certain structural properties. That they yield a tautology when combined in this way shows therefore that they possess these structural properties.
+6.12	64[9]	6.122**
+It follows from this that logical propositions are not unconditionally necessary; for in a suitable notation we can in fact recognize the structural properties of the propositions merely by inspecting them.
+6.121	65[1]	6.1221*                         MN  210(3)+
+If, for example, two propositions p and q combine in p⊃q to yield a tautology, then clearly q follows from p. For instance, that “q” follows from “p⊃q.p” can be seen from the two propositions themselves, but we can also show it by combining them to form “p⊃q.p.⊃.q”, and then showing that this is a tautology.
+6.1211	65[2]	6.121 (1)*
+Logical propositions demonstrate the logical properties of propositions, by combining them into propositions that say nothing.
+6.1212	65[3]	6.121 (2)
+This method could also be called a zero-method. In a logical proposition, propositions are brought into equilibrium with one another, and the state of equilibrium then shows how these propositions must be logically composed.
+6.122	65[4]	6.211 (1)**
+Indeed in everyday life we never need logical propositions. Rather, we make se of logical propositions only to infer from propositions that are not part of logic to others that also are not logical.
+6.1213	65[5]	6.1264 (1)                     MN  211 (2)+
+A proposition that has sense says that something is the case, and its proof shows that it is so. In logic every proposition is the form of a proof.
+6.101	65[6]	6.113                         	MN 209(2)**
+It is the characteristic mark of logical propositions that one can recognize that they are true from the symbol alone, and this fact contains in itself the whole philosophy of logic. And so too it is one of the most important facts that the truth or falsity of nonlogical propositions cannot be recognized from the propositions alone.
+6.13	66[1]	6.13 (1)                    	MN  209 (6)+
+Logic is not a theory, but a mirror image of the world.
+6.131	66[2]	 6.13 (2)
+Logic is transcendental.
+6.1214	66[3]	6.1264 (2)*                 8.6.15 (1)**
+Every logical proposition is a modus ponens represented in signs. (And the modus ponens cannot be expressed by a proposition.)
+6.1003	66[4]	6.112                   	AL 208(2)*
+The correct explanation of logical propositions must give them a unique position among all propositions.
+6.1002	66[5]	6.111**
+Theories that make a proposition of logic appear to have a large amount of content are always false. For example, the words “true” and “false” seem to signify two properties among other properties, and then it seems to be a remarkable fact that every proposition has one of these properties. This now seems to be no more obvious than the proposition “All roses are either yellow or red” would seem, even if it were true. Indeed, the logical proposition acquires all the characteristics of a proposition of natural science, and this is a sure sign that it has been wrongly construed.
+6.1216	66[6]	6.1224
+Now it also becomes clear why logic was called the theory of forms and of inference.
+6.1121	67[1]	6.1201a**
+For example, that p and ~p contradict one another shows itself in the tautology “~(p .~p)”.
+6.11211	67[2]	6.123 (2)**
+It is now clear that there need not be, as Russell thought, a special "law of contradiction" for each “type”; rather, that one law is enough, since it need not be applied to itself.
+6.113	67[3]	6.124**                             MN 213 (3)+
+The logical propositions describe the scaffolding of the world, or rather, they represent it. They are not “about” anything. They presuppose that names  mean something and elementary propositions make sense: and this is their connection with the world. Clearly, that certain combinations of symbols, symbols with a necessarily determinate character, are tautologies indicates something about the world. That’s the decisive point. We have said that in the signs we use, some things are arbitary, some things are not. In logic it is only the latter that express: but that means that in logic it is not we who express what we want by means of of signs, but rather in logic the nature of the inevitably necessary signs speaks for itself. If we know the logical syntax of any sign language, then all the logical propositions are already given.
+6.1004	67[4]	6.3
+The investigation of logic means the investigation of all that is subject to law. And outside logic, all is accident.
+6.102	68[1]	6.123+
+Or is it possible for the laws of logic in their turn to obey logical laws?
+6.114	68[2]	  6.1231 (l, 2a)
+General validity is not the mark of logical propositions. To be general only means to be accidentally valid for all things.
+6.1141	68[3]	  6.1231 (2b)
+An ungeneralized proposition can be a tautology just as well as a generalized one.
+6.12111	68[4]	6.1222
+This throws light on the question why logical propositions can no more be confirmed by experience than they can be refuted by it. Not only must a proposition of logic be  incapable of being contradicted by any possible experience, it must likewise be unconfirmable by any possible experience.
+6.1122	68[5]	6.1202                           MN  210(1)+
+Clearly we could have used for this purpose contradictions instead of tautologies.
+6.1215	68[6]	6.1223                           MN  222 (2)+
+Now it becomes clear why people have often felt as though “logical truths” must be “postulated” by us. Namely, we can postulate them in so far as we can postulate an adequate notation.
+6.1131	68[7]	6.125*
+It is possible - indeed possible even in the old logic - to give from the start a description of all “true” logical propositions.
+6.1132	68[8]	6.1251
+Hence there can never be suprises in logic.
+6.1133	68[9]	6.126 (1)
+By calculating the logical properties of the symbol, one can calculate whether a proposition belongs to logic.
+6.1134	69[1]	6.126 (2)**
+And that’s what we do when we “prove” a logical proposition. For, without bothering about sense or meaning, we construct the logical proposition out of others using only rules for signs.
+6.1136	69[2]	6.1265*
+However, logic can always be conceived in such a way that every proposition is its own proof.
+6.1142	69[3]	6.1232*
+We could call the general validity of logic essential, as opposed to the accidental general validity of such propositions as “All people are mortal”. Propositions like Russell's axiom of reducibility are not logical propositions, and this explains our feeling that, if true, that could only be a lucky fluke.
+6.1143	69[4]	6.1233		Brief an Russell 11/12.1913
+We can imagine a world in which the axiom of reducibility is not valid. But clearly, logic has nothing to do with the question whether our world is really like that or not.
+6.1221	69[5]	6.211 (2)*
+In philosophy the question, “How do we actually use this word or this proposition?” repeatedly leads to valuable insights.
+6.11341	69[6]	6.126 (3)*
+Here is how we prove a logical proposition: we generate it from other logical propositions by successively applying certain operations that always produce further tautologies from the first. (And only tautologies follow from a tautology.)
+6.11342	70[1]	6.126 (4)
+Naturally this way of showing that propositions are tautologies is quite inessential to logic. For the propositions from which the proof starts must show without any proof that they are tautologies.
+6.1135	70[2]	6.127
+All propositions in logic are of equal rank, rather than some being essentially primitive propositions from which others are derived. Every tautology itself shows that it is a tautology.
+6.11351	70[3]	6.1262                           MN  214 (3)+
+Proof in logic is merely a mechanical expedient enabling the recognition of a tautology in complicated cases.
+6.11352	70[4]	6.1263** 		MN  210 (7)+
+Indeed, it would be quite incredible if a meaningful proposition could be proved logically from others just as a logical proposition can. Clearly, proving logically that a meaningful proposition is true is completely different from a proof in logic.
+6.11343	70[5]	6.1261                   	24.4.15*
+In logic process and result are equivalent. (Hence, no surprises.)
+6.01	70[6]	6.01**
+The general form of an operation is |σ̅ , α̅, N(α̅ )|'(σ)
+6.02	70[7]	6.03*
+The general form of an integer is |0, α, α +1|.
+6.3	71[1]	—
+[Sentence crossed out]
+6.4	71[2]	6.4
+All propositions are of equal value.
+7	71[3]	7
+Of what we cannot speak we must be silent.
+6.12112	71[4]	6.31		4.5.15 (1)
+The so-called law of induction cannot possibly be a law of logic, for obviously it is a meaningful proposition. And so it cannot be an a priori law either.
+6.3	71[5]	6.32		29.3.15 (1)
+The law of causality is not a law but the form of a law.
+6.31	71[6]	6.321**		29.3.15 (2)
+“Law of causality”  is a generic name. And just as in mechanics there are, for instance, minimum-laws, such as that of least action, so too in physics there is a law of causality, a law of the causal form.
+6.311	71[7]	6.3211*		29.3.15 (3,4)*
+Indeed people had an idea that there must be a “law of least action” before they knew exactly what it was. (Here, as always, what is a priori turns out to be something purely logical.)
+6.32	71[8]	6.33*		23.4.15 (1)
+We do not believe a priori in a law of conservation, rather we know a priori the possibility of a logical form.
+6.33	71[9]	6.34**		23.4.15 (2)*
+All such propositions, including the principle of sufficient reason, the laws of continuity in nature and of least effort in nature, etc. etc. - all these are a priori insights about possible forms of scientific propositions.
+6.331	72[1]	6.341*		6.12.14 (1,2)
+Newtonian mechanics, for instance, puts world description into a uniform form. Imagine a white surface with irregular black spots. We then say: whatever kind of picture these make, I can always get as near as I like to its description, provided I cover the surface with a sufficiently fine square mesh, and then say of every square whether it is white or black. In this way I put the description of the surface into a uniform form. The form is arbitrary, because I could have just as well applied a net with a triangular or hexagonal mesh. It might be that the description would then have been simpler, that is, we might well described the surface more accurately with a coarser triangular mesh than with a finer square mesh or vice versa, and so on. The different nets correspond to different systems of describing the world. Mechanics determines a form of world description by saying: all propositions used in the description of the world must be obtained in a given way from a given set of propositions - the mechanical axioms. In this way it supplies the bricks for building the edifice of science, and says: Whatever building that you want to erect, must somehow be constructed with these, and only these, bricks.
+(Just as within the number system we must be able to write down any arbitrary number, so within the system of mechanics we must be able to write down any arbitrary proposition ofphysics.)
+6.34	73[1]	6.342*		6.12.14 (3,4,5)*
+And here we can see the position of logic in relation to mechanics. (We could also construct the net from different kinds of mesh.) That such a a picture can be described by a net of a given form tells us nothing about the picture. (For this holds of every picture of this kind.) But what does characterize a picture is that it can be described completely by a specific net of a specific fineness. 
+Likewise, that the world can be described by Newtonian mechanics tells us nothing about the world: but what does tell us something about it is that the world can be described in precisely this way. We are also told something about the world by the fact that it can be described more simply in one system of mechanics than in another.
+6.341	73[2]	6.343		6.12.14 (6)*
+Mechanics is an attempt to construct according to a single plan all true propositions we need for the description of the world.
+6.35	74[1]	6.35 (1)		17.1.15 (2)*
+Although the spots in our picture are geometrical figures, geometry can obviously say nothing about their actual form and position. But the network is purely geometrical; all its properties can be given a priori.
+6.36	74[2]	6.35 (2)		25.4.15 (6)
+Laws like the principle of sufficient reason, etc. are about the net and not about what the net describes.
+6.001	74[3]	5.54**
+In the general propositional form propositions occur in other propositions only as truth arguments.
+6.002	74[4]	5.541 (1)*
+But at first sight it looks as if there were another way in which one proposition could occur in another.
+6.003	74[5]	5.541 (2-3)*	AüL 205 (5)+
+Especially in certain forms of proposition in psychology, such as “A believes that p” or “A thinks p”, etc. On the surface, it looks as if the proposition p stood in some kind of relation to an object A - and in modern theory of knowledge (Russell, Moore, etc.) these propositions have actually been construed in this way.
+6.004	74[6]	5.542**		AüL 191 (4)+   MN 223 (3)+   1.11.14 (15)+
+Clearly, however, “A believes that p”, “A thinks p”, and “A says p” are of the form “‘p’ says p”; and clearly this is n0t a matter of a correlation of fact to objec,t but rather the correlation of facts by correlation of their objects.
+6.0041	75[1]	5.5421 (1)
+This also shows too that there is no such thing as the soul - the subject, etc. - as it is conceived in contemporary superficial psychology.
+6.0042	75[2]	5.5421 (2)
+For a composite soul would no longer be a soul.
+6.0043	75[3]	5.5422**		AüL 202 (3)**   AiiL 191 (2)*
+The correct theory of judgment must show the impossibility of a judgment’s being a piece of nonsense. (Russell's theory does not satisfy this condition.)
+6.41	75[4]	6.41*		11.6.16 (5)**
+The sense of the world must lie outside the world. In the world everything is as it is, and everything happens as it does happen: there is no value in it - and if there were any, it would have no value. 
+If there is any value that does have value, it must lie outside all happening and being this way or that. For all happening and being this way or that is accidental. 
+What makes it non-accidental cannot lie within the world, since if it did it would itself be accidental. It must lie outside the world.
+6.42	75[5]	6.42
+Hence also there can be no ethical propositions. Propositions cannot express anything higher.
+6.43	75[6]	6.522
+The inexpressible does exist. It shows itself. It is what is mystical.
+6.5	75[7]	6.5
+If the answer cannot be put into words, the question, too, cannot be put into words. The riddle does not exist. 
+If a question can be framed at all, then it can also be answered.
+6.52	76[1]	6.52		25.5.15 (2)*
+We feel that even if all possible scientific questions were answered, the problems of life would still not have been touched at all. To be sure, there would then be no question left, and just this is the answer.
+5.33541	76[2]	5.631 (2)* 	23.5.15 (4,11)*
+If I were to write a book called The World as I Found It, I would also have to report in it about my body, and say which parts obey my will, etc. This then would be a method of isolating the subject, or rather of showing that in an important sense there is no subject; for it alone could not be mentioned in that book. –
+5.30225	76[3]	5.4541 (2-3)* 	5.3.15 (1)  19.9.16 (1)+
+People have always thought that there must be a realm in which the answers to questions combine symmetrically - a priori - into a closed regular structure.
+A realm ruled by the law: Simplicity is the sign of truth.
+5.3221	76[4]	5.525 (3) 		1.11.14 (5)
+The precedent to which one would always like to appeal must reside in the symbol itself.
+4.0742	76[5]	4.0411* 		23.10.14 (7,8,9,10)*
+If we wanted to express what is expressed by “(x).fx”, say by putting an index in front of “fx” such as “Gen.fx” - it would not work, for we would not know what was generalized.
+If we tried to indicate it by adding an index to the “x” - for instance by writing “f(xg)” – it still would not work, for we would not know the scope of the generality sign.
+If we tried to do it by introducing a mark into the argument places – such as “(G, G).F (G, G)” - it would not work: we could not determine the identity of the variables. And so on.
+All these ways of signifying are inadequate because they do not have the necessary mathematical multiplicity.
+4.0743	77[1]	4.0412
+Likewise, the idealist's explanation of the seeing of spatial relations through “spatial glasses” does not work, because it cannot explain the multiplicity of these relations.
+5.021	77[2]	5.1 (1)
+Truth-functions can be arranged in series.
+5.022	77[3]	5.1 (2)
+That is the foundation for the theory of probability.
+5.023	77[4]	5.151+
+In a schema like II, let Tr be the number of “T's” in the column of the proposition r, and let Trs be the number of “T's” in the column of the proposition s that stand in rows in which the column of the proposition r has “T's”. Then the proposition “r” gives to the proposition s the probability Trs/Tr.
+5.09	78[1]	5.152+
+If one proposition follows from another, then the latter gives the former the probability 1. If two propositions are independent of one another, then each gives the other the probability ½.
+5.091	78[2]	5.152+
+Following from is a limiting case of being made probable.
+5.092	78[3]	5.156 (1) 		8.11.14 (3)+
+Thus probability is a generalization.
+5.093	78[4]	5.156(2) 
+It involves a general description of a propositional form.
+5.0931	78[5]	5.156 (3)* 	9.11.14 (1)+
+We use probability only in place of certainty - if our knowledge of a fact is incomplete, but we do know something about its form.
+5.0932	78[6]	5.1511**
+There is no special logical constant unique to probability propositions.
+5.0933	78[7]	5.156 (5)** 	8.11.14 (2) +
+A probability proposition is, as it were, an excerpt from elementary propositions.
+5.0934	78[8]	5.154 (1-2)+ 	8.11.14 (1)**
+Anything in propositions about probability that can be confirmed by experiment cannot be mathematical.
+1.2	78[9]	1.2
+The world breaks down into facts.
+1.21	78[10]	1.21		28.11.16+
+Each one can either be the case or not be the case and all else remains the same.
+4.43012	78[11]	4.5 (3a) 		16.4.16 (1)+   21.11.16 (1)+
+That no proposition can be given whose form could not have been forseen (i.e. constructed) proves the existence of a general propositional form.
+5.00	79[1]	—
+The Theory of Types now becomes clear.
+6.0201	79[2]	6.031*
+The theory of classes is entirely superfluous in mathematics. This is connected with the fact that the generality we need in mathematics is not an “accidental” one.
+4.102252	79[3]	4.1252 (2)*
+Thus the the number series is ordered not by an external relation, but by an internal relation. 
+79[4]	—
+[Sentence crossed out]
+4.4302	79[5]	4.53
+The general propositional form is a variable.
+4.01122	79[6]	4.012 b**
+Here the mode of signification is obviously a likeness of the signified.
+3.201411	79[7]	3.323 (2)*
+We speak of something but also of something's happening.
+6.211	79[8]	6.2341+
+Russell, Whitehead, and Frege did not understand the essence of the mathematical method of working with equations. It is a consequence of this method that every mathematical proposition must be self-evident or nonsensical.
+6.212	79[9]	6.2341+ (Geschkowski; no antecedent for P&McG)
+For we construct expressions by means of operations and assert that they have the same meaning.
+6.23...	79[10]	6.23 (1)
+If two expressions are combined by means of the “=” sign, that means that they can be substituted for one another. But whether this is the case must show itself in the two expressions themselves.
+2.0141	80[1]	2.0131 (1a) +
+Suppose that things are point masses with infinite space around them. Clearly a point mass without infinite space is unthinkable.
+2.0142	80[2]	2.0131 (2)*
+A spot in the visual field need not be red but it must have some colour; it is, so to speak, surrounded by colour-space. Notes must have some pitch, tactile objects some degree of hardness, and so on.
+2.01411	80[3]	2.0131 (1b)**
+On this conception, a point in space is an argument place.
+5.3071	80[4]	5.474 		29.8.16 (1)+
+The number of fundamental operations we need depends solely on our notation.
+5.3072	80[5]	5.475**
+It is only a matter of constructing a system of signs with a particular number of dimensions - with a particular mathematical multiplicity.
+5.3073	80[6]	5.476*
+Clearly, the issue here is not how many primitive concepts must be signified, but rather the expression of a rule.
+5.411	80[7]	5.556 a
+There can be no hierarchy of the forms of elementary propositions.
+5.4103	80[8]	4.2211** 		23.5.15 (8)+   17.6.15 (8)+
+Even if the world were infinitely complex, so that every fact consisted of infinitely many elementary facts and every elementary fact were composed of infinitely many objects, there would still have to be objects and elementary facts.
+5.4101	81[1]	4.221 (1) 		14.6.15 (6)+
+Obviously, analysing propositions must lead us to elementary propositions consisting of names in immediate connection.
+5.4102	81[2]	4.211
+It is a sign of a proposition's being elementary that no elementary proposition can contradict it.
+3.2522	81[3]	3.328 (2)*
+If everything behaves as if a sign had meaning, then it does have meaning.
+5.412	81[4]	5.556 b 1		15.4.16 (1)
+We can foresee only what we ourselves construct.
+4.43013	81[5]	4.51* 		16.4.16 (3)
+Suppose we were given all simple propositions. Then we can simply ask what propositions I can construct out of them. And these are all the propositions and that is how they are limited.
+5.00162	81[6]	5.252 a+ 		26.4.16 (1,2)**   17.8.16(1)+
+This is the only possible way of stepping from one type to another in the type hierarchy.
+5.413	81[7]	5.5561 		26.4.16 (4,5,6)**
+Empirical reality is limited by the totality of objects. 
+The limit also shows itself in the totality of objects. 
+Hierarchies are and must be independent of reality.
+6.371	81[8]	6.371 		6.5.16 (1)*
+The whole modern world view is based on the illusion that the so-called laws of nature explain natural phenomena.
+6.372	82[1]	6.372 		6.5.16 (2,3)*
+So moderns stop at the laws of nature, treating them as sacrosanct, which is how the ancients treated God and Fate. And actually they are both right, and both wrong.  But the ancients were much clearer in that they recognised a clear terminus, while the moderns make it seem as if everything is explained.
+6.373	82[2]	6.373 		5.7.16 (1)   8.7.16 (4)+
+The world is independent of my will.
+6.374	82[3]	6.374* 		5.7.16 (2)*
+Even if all we wish for were to happen, still this would only be a favour of fate, so to say, for there is no logical connection between the will and the world that could guarantee it, and the supposed physical connection itself is surely not something we could will.
+6.44	82[4]	6.43 (1)** 	5.7.16 (3)**
+If good or bad willing changes the world, it can only change the limits of the world, not the facts; not what can be expressed in language, but only what language expresses.
+6.441	82[5]	6.43 (2) 		5.7.16 (4,5)
+In short the world must thereby become another altogether. It must, so to speak, wax or wane as a whole.
+6.442	83[1]	6.431 		5.7.16 (6)*
+In death, too, the world does not change, but comes to an end.
+6.521	83[2]	6.521 (1) 		6.7.16 (3)
+The solution of the problem of life is the vanishing of the problem.
+6.5211	83[3]	6.521 (2)* 	(11.6.16 (10)+)   7.7.16 (1)
+Isn’t this why those to whom, after prolonged doubts, the meaning of life became clear have been unable to say what that meaning is?
+6.4421	83[4]	6.4311 (la) 	8.7.16 (15)
+Death is not an event in life.
+6.4422	83[5]	6.4311 (2) 	6.7.16 (4)+   8.7.16 (16)
+If we mean by eternity not infinite temporal duration but timelessness, then to live eternally is to live in the present.
+5.3203	83[6]	5.524 (2) 		11.7.16 (7)
+If elementary propositions are given, then thereby all elementary propositions are given.
+5.3003	83[7]	5.503+ 		13.7.16 (4)
+Obviously, it is easy to express how propositions may and may not be constructed using this operation. So there must be some way of expressing this exactly.
+5.33531	83[8]	5.621 		11.6.16 (6)+   24.7.16 (1)
+The world and life are one.
+6.4221	83[9]	6.6.421 (3)* 	24.7.16 (4)
+Ethics and aesthetics are one.
+6.421	83[10]	6.421 (1)		30.7.16 (5)
+Clearly, ethics cannot be put into words.
+6.422	83[11]	6.421 (2)		24.7.16 (3)+    30.7.16 (9)**
+Ethics is transcendental.
+6.4411	83[12]	6.43 (3)		29.7.16 (1, 13)
+The world of the happy is another world from that of the unhappy.
+6.4412	84[1]	6.422		30.7.16 (1,2,3)*
+When an ethical law of the form “Thou shalt…” is laid down, one's first thought is, “So then what if I don’t do it?” But clearly ethics has nothing to do with punishment and reward in the ordinary sense. So this question about the consequences of an action must be irrelevant. At least these consequences could not be events. For there must be something right about that question after all. There must be a kind of ethical reward and punishment, but these must be involved in the action itself. (And it is clear also that the reward must be something pleasant, the punishment something unpleasant.)
+84[2]	—		1.8.16 (1)   1.8.16 (2) 
+How things stand, is God.
+God is, how things stands.
+5.33542	84[3]	5.632		2.8.16 (7)
+The subject is not part of the world, but a limit of the world.
+5.33543	84[4]	5.633*		4.8.16 (2,3,4)*
+Where in the world is a metaphysical subject to be found?
+You say this is just like the case of the eye and the visual field. But you do not actually see the eye. And nothing in the visual field would enable one to infer that it is seen by an eye.
+5.335431	84[5]	5.6331**		12.8.16 (2)
+The form of the visual field is surely not like this:
+Eye
+5.33551	85[1]	5.641 (1-2)	11.8.16 (2)**   12.8.16 (1)*
+So there really is a sense in which there can be talk of the I in a non-psychological way in philosophy. What brings the I into philosophy is that “the world is my world”.
+5.33544a	85[2]	5.634 (1)		12.8.16 (3)*
+This is connected with no part of our experience being a priori.
+5.33545	85[3]	5.634 (2-3)	12.8.16 (4,5)
+All we see could also be otherwise.
+All we can describe at all could also be otherwise.
+5.3355	85[4]	5.64		2.9.16 (1,2)   15.10.16 (21)+
+Here one sees that solipsism, strictly worked out, coincides with pure realism. The I of solipsism shrinks to an extensionless point, and what remains is the reality co-ordinated with it.
+5.33532	85[5]	5.63*		12.10.16 (7,8)**
+I am my world (the microcosm).
+6.431	85[6]	6.45 (1)*		7.10.16 (2,3)+
+To view the world under the form of eternity is to view it as a – limited – whole.
+6.53	85[7]	6.53 a		2.12.16 (3)*
+The right method in philosophy would really be to say nothing except what can be said, i.e. propositions of natural science – i.e. something that has nothing to do with philosophy – and then, to prove to those wanting to say something metaphysical that they had failed to give a meaning to certain signs in their sentences.
+6.531	86[1]	6.53 b*		2.12.16 (4)*
+Although they wouldn’t be satisfied - they would feel we weren’t teaching them any philosophy – this method would be the only strictly right one.
+6.54	86[2]	6.54 (1)
+My sentences are elucidatory in the following way: to understand me you must recognize my sentences—once you have climbed out through them, on them, over them—as nonsense. (You must, so to speak, throw away the ladder after you have climbed up it.)
+6.55	86[3]	6.54 (2)**
+You must overcome these sentences, and then you will approach the world on the right level//in the right way//.
+86[4]	—		7.1.17 (1,2,4)**
+In the sense in which there is a hierarchy of propositions, we can no doubt also speak of a hierarchy of truths, negations, etc. But in the sense in which there are simply propositions, there is only one truth and one negation.
+The lowest level and the operation can stand for the whole hierarchy.
+6.432	86[5]	6.45 (2)
+The feeling of the world as a limited whole is the mystical feeling.
+5.3202	86[6]	5.524 (1)*		11.7.16 (4,5)**
+Once objects are given, that itself gives us all objects.
+5.3201	87[1]	5.521*
+I dissociate the concept all from truth-functions.
+Frege and Russell introduced generality together with logical product or logical sum. This made the propositions “(∃x).ϕx” and “(x).ϕx”, which involve both ideas, difficult to understand.
+87[2]	—
+[Sentence crossed out]
+5.30223	87[3]	5.454 (2)	
+In logic, no distinction can be made between the general and the specific.
+5.4051	87[4]	5.555 (3)
+And in any case, how could logic demand that I must deal with forms that I can invent?  I must, rather, deal with that which makes it possible for me to invent forms.
+5.314	87[5]	5.514
+If a notation is established, there is in it a rule that governs how all propositions that negate p are constructed, a rule that governs the construction of all propositions that affirm p, a rule that governs the construction of all propositions that affirm p or q, and so on. These rules are equivalent to the symbols and in them their sense is mirrored.
+2.0126	87[6]	2.0124
+If all objects are given, then thereby all possible elementary facts are also given.
+6.3411	87[7]	6.3431**		20.6.15 (5,10)+
+The propositions of physics, despite all their logical apparatus, still speak  about the objects of the world.
+6.375	87[8]	6.375
+Just as there is only logical necessity, so too there is only logical impossibility.
+6.3751	88[1]	6.3751 (1-2)**	16.8.16 (3,4)**
+For instance, for two colours to be at the same place in the visual field simultaneously is impossible, indeed logically impossible, for it is subject to the logical structure of colour. Let us look at how this contradiction appears in physics: roughly, that a particle cannot have two velocities at the same time; that is to say, particles in different places at the same time cannot be the same particle. 
+3.20172	88[2]	3.333 (1)*
+A function cannot be its own argument because the function sign already contains the prototype of its argument, and so it cannot contain itself.
+3.20173	88[3]	3.333 (2)*
+For let us suppose that the function F (fξ) could be its own argument: there would then be a proposition “F(F(ξ)”, in which case the outer function F and inner function F must have different meanings, since the inner one has the form Φ(fξ) and the outer one has the form ψ{Φ(fξ)}. The two functions have only the letter “F “ in common, which by itself signifies nothing.
+89[0] Die Seite 89 wurde bei der Paginierung von Wittgenstein (vermutlich versehentlich) ausgelassen.
+3.202111	90[1]	—
+Although every word has meaning via its definitions, this only means that these definitions are necessary to present in our sign language the full linguistic depiction of the thought to whose expression the word contributes. But the definitions can be left tacit and the word does not then lose its meaning, since it still stands in the same relation to the objects depicted by means of the definitions - only we do not specifically depict that relation. Naturally this often simplifies the sign language and makes understanding it much harder, for the decisive factor now lies outside the signs in the unstated relation to their objects.
+3.201731	90[2]	3.333 (3)*
+This immediately becomes clear if instead of “F{F(fξ)}” we write “(∃ϕ).F{ϕη}.ϕη=Fη”.
+5.40421	90[3]	5.61 (4)		15.10.16 (1)+
+We cannot think what we cannot think; so we cannot say what we cannot think.
+4.0262	90[4]	4.025 (2)*
+And the dictionary translates not only substantives, but also verbs, adjectives, and conjunctions, etc.; and it treats them all alike.
+2.01201	90[5]	2.0121 (2)**
+If things can occur in facts, this possibility must already be within them.
+5.4041	91[1]	5.61 (1)
+Logic permeates the world: the limits of the world are also its limits.
+5.4042	91[2]	5.61 (2)
+So  in logic we cannot say: “The world has this in it, and this, but not that.”
+2.01202	91[3]	2.0121 (3)*
+Something logical cannot be merely possible. Logic deals with every possibility, and all possibilities are its facts.
+2.01203	91[4]	2.0121 (4)*
+Just as we cannot think of spatial objects outside space nor temporal objects outside time, so we cannot think of any object outside the possibility of combining with others.
+2.01204	91[5]	2.0121 (5)*
+If I can think of an object as part of an elementary fact, I cannot think of it without the possibility of such connections.
+5.4043	91[6]	5.61 (3)
+For that would appear to presuppose that we have excluded certain possibilities, and this cannot be the case, since this would require that logic should go beyond the limits of the world, as if it could also have a view of those limits from the other side.
+4.43014	91[7]	4.52 a*
+Propositions are all that follows from the totality of all elementary propositions (and, of course, from its being the totality of them all.)
+4.430141	92[1]	4.52 b*
+So one could say, in a certain sense, that all propositions are generalizations of elementary propositions.
+5.33546	92[2]	5.634 (4)
+There is no order of things a priori.
+4.01141	92[3]	4.014 (1-2)
+The gramophone record, the musical thought, the score, the sound waves, all stand to one another in that internal pictorial relation which holds between language and the world. They all have a common logical structure.
+4.011411	92[4]	4.014 (3)*
+Like the two youths, their two horses, and their lilies in the fairy tale. In a certain sense, they are all one.
+5.30202	+ 92[5]	5.4611
+The logical operation signs are punctuation marks.
+6.4423	92[6]	6.4312
+Not only is there no guarantee of the temporal immorality of the human soul, that is to say, its eternal survival after death; but, in any case, this assumption could never have the desired effect. Is a riddle solved by my surviving forever? Isn’t eternal life itself as much of a riddle as our present life? The solution of the riddle of life in space and time lies outside space and time. (It is certainly not problems of natural science that have to be solved.)
+6.44231	92[7]	6.432**
+How the world is, is here a matter of complete indifference. God does not reveal himself in the world.
+6.44232	93[1]	6.44*
+It is not how the world is that is mystical, but that it is.
++ 93[2]	—
+Just as, in descriptive geometry, the rule enabling me to find the position of a point in space from the position of its projections is simply an expression of the law of projection.
+5.005341	93[3]	5.232* 		17.8.16 (1)+
+A series is ordered by an internal relation equivalent to the operation by which one term is produced from another.
+6.012	93[4]	6.022 (1,3)*
+The “concept of number” is simply what is common to all numerals, the general form of a number.
+And the concept of numerical equality is the general form of all particular cases of numerical equality.
+4.0721	93[5]	4.032 (2)* 	AüL 206(10)**
+Even the Latin proposition “Ambulo” is composite: for with another ending its stem yields a different sense, as does its ending with another stem.
+93[6]	—
+[Sentence crossed out]
+6.005	93[7]	5.5423 (1) 	19.6.15 (1)+
+Perceiving a complex means perceiving the way that its constituents are related to one another.
+6.0051	93[8]	5.5423 (2-3) 	9.11.14 (2)+
+This also explains the sort of phenomena illustrated by this figure, which can be seen as a cube in two different ways. For we really see two different facts.
+(If I look in the first place at the corner marked a and only glance at b, then a
+appears to be in front, and vice versa.)
+6.113501	94[1]	6.1271
+It is clear that the number of “basic laws of logic” is arbitrary, since we could derive logic from a single primitive proposition simply by constructing, for example, the logical product of Frege's basic laws.
+(Frege might say that this basic law would no longer be immediately self-evident. But what is amazing is that a thinker as precise as Frege appealed to the degree of self-evidence as a criterion of a logical proposition.)
+5.04441	94[2]	5.1362 (2)**
+“A knows that p” is tautological, if p is a tautology.
+5.41011	94[3]	4.221 (2) 		20.9.14 (8)**
+The question here is: how does the propositional connection//combination//nexus// arise?
+5.09311	94[4]	5.156 (4)* 	16.6.15 (13)*
+A proposition may well be an incomplete picture of a certain situation, but it is always a complete picture.
+5.33552	94[5]	5.641 (3)* 	2.9.16 (7)*
+The philosophical I is not the human being, not the human body, nor the human soul, with which psychology deals, but rather the metaphysical subject, the limit (not a part) of the world.
+6.3752	94[6]	6.3751 (3)** 	8.1.17 (1,2)**
+Clearly, the logical product of two elementary propositions can neither be a tautology nor a contradiction. (“A is green and A is red” is a contradiction.)
+2.0233	94[7]	2.0233
+Two objects with the same logical form - apart from their external properties -  are only distinct from one another in that they are different.
+2.0124	95[1]	2.0123 (1-2)*
+If I know an object I also know all the possibilities of its occurrence in elementary facts. Every such possibility must lie in the nature of the object.
+2.0125	95[2]	2.0123 (3)
+A new possibility cannot be found later on.
+4.1022331	95[3]	4.123 (1-2)	11.9.16 (2)+   MN 222 (7)**
+A property is internal if it is unthinkable for its object to not possess it.
+(This shade of blue and that one stand, eo ipso, in the internal relation of lighter to darker. It is unthinkable that these two objects should not stand in this relation.)
+3.201412	95[4]	4.002 (5)** 	22.6.15 (2)**
+The unspoken conventions involved in understanding our language are extremely complicated. Much is added in thought to each proposition and not put into words.
+If “A” is used to mean a person, the proposition, “A is sitting”, is admissible, but not if “A” signifies this book. - But if a proposition is fully analyzed, everything that depends upon the understanding of its form must be unaffected by the meanings of its parts.
+4.102251	95[5]	4.1252 (1)
+A series ordered by an internal relation I call a formal series.
+6.37	96[1]	6.37*
+Nothing makes one thing happen because something else has happened. The only kind of necessity is logical necessity.
+3.2017	96[2]	3.318**
+Like Frege and Russell I construe a proposition as a function of the symbols it contains.
+5.4011	96[3]	5.553 (2)*
+There is no privileged number.
+6.44221	96[4]	6.4311 (3)
+Our life has no end, just as our visual field has no limits.
+4.0741	96[5]	4.041**
+Naturally, this mathematical multiplicity cannot itself be depicted because any picture of it must have that multiplicity itself. One cannot get away from it when depicting.
+4.10227281	96[6]	4.1272 (10)
+It is just as nonsensical to say, “There is only one 1”, as it would be to say, “2+2 at 3 o'clock equals 4”.
+4.1022729	96[7]	4.128 (1)
+Logical forms are without number.
+4.10227291	96[8]	4.128 (2)
+Therefore there are no pre-eminent numbers in logic, and therefore there is no philosophical monism or dualism, etc.
+2.01241	96[9]	2.01231*
+To know an object, I need not know its external properties, but I must know all its internal properties.
+2.02331	96[10]	2.02331 **
+In a manner of speaking: either a thing has unique properties, and then we can immediately use a description to distinguish it from others and refer to it; or, on the other hand, there are several things that have all their properties in common, in which case it is impossible to pick out one after all.
+For if there is nothing to distinguish a thing, I cannot distinguish it, for otherwise it would be distinguished after all.
+5.421	97[1]	5.557 (1)
+The application of logic is what decides what elementary propositions there are.
+5.4211	97[2]	5.557 (2)
+Logic cannot forsee what belongs to its application.
+5.4212	97[3]	5.557 (3)
+Clearly, logic may not clash with its application.
+5.4213	97[4]	5.557 (4)
+But logic and its application must touch each other.
+5.4214	97[5]	5.557 (5)
+Therefore logic and its application may not overlap one another.
+5.4012	97[6]	5.554
+The specification of any special form would be completely arbitrary.
+5.4221	97[7]	5.555 (1)
+Clearly we have the concept of an elementary proposition apart from its particular logical form.
+5.4222	97[8]	5.5562**
+If I know on purely logical grounds - and I do - that there must be elementary propositions, this must be known by anyone who sees propositions in their unanalysed form.
+5.4223	97[9]	5.5571
+Since I cannot specify a priori what elementary propositions there are, any attempt to do so must lead to obvious nonsense.
+5.0017	98[1]	5.233**
+Operations can first arise when one proposition is generated out of another in a logically meaningful way; i.e. when and only when the logical construction of propositions begins.
+6.3412	98[2]	6.3432
+Don’t forget that any description of the world by means of mechanics will always be completely general. For instance, it will never any mention particular point masses, but rather any point masses whatsoever.
+5.054	98[3]	—
+It must appear from the variable itself what it stands for. - There must be a quite definite similarity between it and its values.
+6.361	98[4]	6.36 (1)
+If there were a law of causality, it might go like this: “There are laws of nature.”
+6.362	98[5]	6.36 (2)
+But of course that cannot be said: it shows itself.
+6.363	98[6]	6.361
+In Hertz's terminology, we might say: Only lawful connections are thinkable.
+6.3631	98[7]	6.3611 (1-2)
+We cannot compare any process with “the passage of time” - there is no such thing - but only with another process (such as the movement of a chronometer).
+So it is only possible to give a description of the lapse of time if we rely on some other process.
+6.3632	99[1]	6.3611 (3)		Brief an Russell: Jan.1914
+The same is true of space. When, for instance, we say that neither of two (mutually exclusive) events can occur, because there is no cause why one  rather than the other should occur, it is really a matter of our being unable describe one of the two events unless there is some sort of asymmetry. And if there is such an asymmetry, we can regard it as the cause of the occurrence of the one and the nonoccurrence of the other.
+6.36321	99[1]	6.36111 (1a)
+The Kantian problem of the right and left hands that cannot coincide already arises in two dimensions, and even in one-dimensional space where two congruent figures, a and b, cannot be made to coincide without 			                 a                      b      
+	
+        moving them out of this space.
+6.36322	            99[3]	6.36111 (1b)
+The right hand and left hands are in fact completely congruent. It is quite
+irrelevant that they cannot be made to coincide.
+6.36323	100[1]	6.36111 (2)
+A right-hand glove could be put on the left hand, if it could be turned round in four-dimensional space.
+6.364	100[2]	6.362
+What can be described can also happen, and what the law of causality is meant to exclude cannot even be described.
+6.231	100[3]	6.233
+The answer to the question whether we need intuition to solve mathematical problems must be: here language itself affords the necessary intuition.
+6.232	100[4]	6.231 (1)
+A property of affirmation that it can be conceived as double negation.
+100[5]	6.231 (2)
+A property of 1+1+1+1 is that it can be conceived as (1+1)+(1+1).
+6.013	100[6]	6.022 (2)
+The concept of number is the variable number.
+6.24	100[7]	6.24*
+The way mathematics arrives at its equations is the method of substitution.
+For equations express the substitutability of two expressions and we procede from a number of equations to new ones, by substituting different expressions in accordance with the equations.
+6.2	101[1]	6.2 (1)
+Mathematics is a logical method.
+6.21	101[2]	6.22*
+The logic of the world, which is shown in tautologies by logical propositions, is shown in equations by mathematics.
+6.22	101[3]	6.234
+Mathematics is a method of logic.
+6.365	101[4]	6.363
+The process of induction consists in our adopting the simplest law that can be reconciled with our experience.
+6.3652	101[5]	6.3631 (2)*
+Yet clearly there are no grounds for believing that the simplest outcome will really happen.
+6.3651	101[6]	6.3631 (1)**
+This, however, has no logical basis but only a psychological one.
+6.36521	101[7]	6.36311*
+That the sun will rise tomorrow is a hypothesis, and this means that we do not know whether it will rise.
++ 101[8]	—
+Suppose an urn contains an equal number of white and black balls. Then I can establish by experiment that the number of white balls drawn and the number of black balls drawn approach each other as the draw continues.
+So this is not a mathematical truth.
+4.1022511	101[9]	—
+The terms of a series of forms are constructed in accordance with a formal law.
+5.005351	102[1]	5.2522+
+Let us write the general term of a series of forms as follows:
+|x̅0, x̅, O'(x̅)|
+The x̅0's are the initial terms of the series, the x̅ 's are terms arbitrarily selected from it, and O'(x̅) is the term produced from the x̅ 's by means of the operation O'(α) as the series proceeds.
+6.011	102[2]	6.02**
+I give the following definitions:
+    x = O0'x Def. 
+and 	|x, ξ, O'ξ | = |O 0'x , Oν'ξ , Oν+1'ξ| 
+and 	           0+1 = 1 Def.
+Therefore in place of “x, O'x, O'O'x, O'O'O'x etc.”, I write: “O0'x, O1'x, O1+1'x, O1+1+1'x, etc.” 
+    1+1 = 2 Def.; 
+1+1+1 = 3 Def.; etc
+4.22121	102[3]	4.241 (2)*
+So “a =b” means the sign “b” can be substituted for the sign “a”.
+4.22122	102[4]	4.241 (3)**
+If I use an equation to introduce a new sign α, saying that it will be a substitute for some already known sign β, then, like Russell, I write the definition of the equation in the form α = β Def.
+5.00161	102[5]	5.251* 		23.4.16+
+A function cannot be its own argument, but the result of an operation can be its own basis.
+5.00163	103[1]	5.252 b*
+Russell and Whitehead did not allow such steps, but they took them again and again.
++2.014	103[2]	2.014
+Objects contain the possibility of all situations.
++2.0141	103[3]	2.0141
+The possibility of an object occuring in//being part of// an elementary fact is its form.
++2.033	               103[4]	2.033
+Form is the possibility of structure.
++2.151	103[5]	2.151
+Pictorial form is the possibility that things are related to one another in the same way as the elements of the picture.
++3.1	103[6]	3.1*
+A sentence is a perceptible expression of a thought.  
+//A sentence is an expression of a thought that can be perceived by the senses.//
++3.11	103[7]	3.11
+We use the perceptible sign of a proposition (spoken or written, etc.) as a projection of a possible situation.
+The method of projection is to think the proposition’s sense.
++3.12	103[8]	3.12
+A sign through which we express a thought, I call a sentential sign. - And a proposition is a sentential sign in its projective relation to the world.
++3.203	103[9]	3.203
+A name means an object. The object is its meaning. (“A” is the same sign as “A”.)
++3.2	103[10]	3.2
+In a proposition a thought can be expressed such that elements of the sentential sign correspond to the objects of the thought.
+103[11]
+[+n meaning the numbers in the correction.]
++3.201	104[1]	3.201
+I call such elements “simple signs”, and such a proposition “completely analyzed”.
++3.21	104[2]	3.21
+The configuration of objects in a situation corresponds to the configuration of simple signs in the sentential sign.
++3.3	104[3]	3.3
+Only propositions make sense, only in the context of a proposition is a name meaningful.
++3.25	104[4]	3.26
+A name cannot be further analysed by using definitions.  It is a primitive sign.
++3.251	104[5]	3.261
+Every defined sign signifies via the signs by which it is defined, and the definitions point the way. Two signs, one a primitive sign and one defined by primitive signs, cannot signify in the same way. Names cannot be broken down further by using definitions. (This can’t be done to any sign that has meaning independently and on its own.)
++3.31	104[6]	3.31, 3.313a-b**
+Any part of a proposition that characterizes its sense I call an expression (a symbol). (A proposition is itself an expression.) 
+Everything that propositions can have in common with one another that is essential to their sense is an expression. (Every expression can its be signified by a variable proposition – in the limit case, as a proposition.)
+An expression marks off//identifies// a form and a content.
++3.32	104[7]	3.32
+A sign is what can be perceived of a symbol.
++3.321	105[1]	3.321
+So one and the same sign (written or spoken, etc.) can be common to two different symbols - in which case they will signify in different ways.
++3.323	105[2]	3.323
+In ordinary language it very often happens that the same word signifies in different ways - and so belongs to different symbols - or that two words that signify in different ways are applied in sentences in what looks like the same way.
+Thus the word “is” appears as a copula, as a sign for identity, and as an expression for existence; “exist” figures as an intransitive verb like “go”, and “identical” as an adjective; we speak of something, but also of something's happening. 
+(In the proposition, “Green is green” - where the first word is a proper name  and the last an adjective – not only do these words have different meanings, they are different symbols.)
++3.322	105[3]	3.322*
+Signifying two objects by the same sign but using two different modes of signification can never indicate a common characteristic. For the sign is of course arbitrary. So we could choose two different signs instead, and then where would there be what was in common in the signifying?
++4.24	106[1]	4.24
+Names are the simple symbols. I indicate them by single letters (“x”, “y”, “z”). An elementary proposition I write as a function of names, in the form “f(x)”, “g(x, y)”, etc. 
+Or I indicate it by the letters “p”, “q”, “r”.
++5.15	106[2]	5.15
+If “Tr” is the number of truth-grounds of proposition “r”, and Trs the number of truth-grounds of proposition “s” that are at the same time truth-grounds of “r”, then let us call the ratio: Trs/Tr the measure of the probability given by  proposition “r” to proposition “s”.
++5.152	106[3]	5.152
+Propositions that have no truth-arguments in common with one other we call independent of one another. Two elementary propositions give one another the probability 1/2.
+If p follows from q, then proposition “q” gives proposition “p” the probability 1. The certainty of logical inference is a limiting case of probability. (Application to tautology and contradiction.)
++5.153	106[4]	5.153
+A proposition is in itself neither probable nor improbable. An event occurs or does not occur: there is no other alternative.
++5.154	107[1]	5.154		8.11.14 (4)+
+Suppose that an urn contains an equal number of black and white balls (and no others). I draw one ball after another and put them back into the urn. Then by this experiment I can determine that the numbers of black and white balls drawn approach each other as the drawing continues.
+So this is not a mathematical truth. 
+Now, if I say, “It’s equally probable that I will draw a white ball as a black one”, this means: “All the circumstances known to me (including the laws of nature assumed as hypotheses) give no more probability to the occurrence of the one event than to that of the other.” That is, they give each event the probability 1/2, as can easily be seen from the above explanations. What I confirm by the experiment is that the occurrence of the two events is independent of the circumstances about which I have no closer knowledge.
++5.155	107[2]	5.155
+The unit for a probability proposition is this: The circumstances—of which I have no further knowledge—give a certain degree of probability to the occurrence of a particular event.
+3.311	108[1]	3.311
+An expression presupposes the forms of all the propositions in which it can occur. It is the common characteristic mark of a class of propositions.
+3.312	108[2]	3.312
+It is therefore presented by the general form of the propositions that it characterizes. 
+And in this form the expression will be constant and all else variable.
+3.313	108[3]	3.313
+An expression is thus presented by a variable whose values are the propositions containing the expression. (In the limiting case the variable becomes a constant, the expression a proposition.)
+I call such a variable a “propositional variable”.
+3.314	108[4]	3.314
+An expression has meaning only in a proposition. All variables can be construed as propositional variables. 	
+(Including variable names.)	
+5.21	108[5]	5.21+
+One can construe every proposition as the result of an operation that is performed on a number of propositions (the operation’s bases) and constructs that proposition out of them.
+5.22	109[1]	5.22**
+An operation is the expression of a relation between the forms of its result and of its bases. The operation expresses this relationship, by showing what one has to do with the one proposition in order to get the other.
++5.232	109[2]	5.232
+A series is ordered by an internal relation equivalent to the operation by which one term is produced from another.
++5.233	109[3]	5.24 (2-3)*
+An operation expresses the difference between the forms.
+And what is common to the bases and the result of an operation is just the bases themselves.
+5.24	109[4]	??
+An operation is therefore an expression. 
+It is represented by a variable. 
+Its bases vary.
+5.241	109[5]	??
+I indicate an operation in general by a sign of the form “O'(p, q, ...)”. “p”, “q”, etc. are the bases of the operation, O'(ξ, η, ...), O'(p, q, ...) are its result.
+5.2	109[6]	5.234 a+
+Truth-functions are the results of operations with elementary propositions.
++5.2	110[1]	5.2**
+We see that the structures of propositions stand in internal relations to one another.
++5.21	110[2]	5.21
+We can highlight these internal relations by using a form of expression that represents a proposition as the result of an operation that produces it out of other propositions (the operation’s bases).
++5.22	110[3]	5.22
+An operation is the expression of a relation between the structures of its result and of its bases.
++5.23	110[4]	5.23
+The operation is what has to be done to the one proposition to make the other out of it.
++5.231	110[5]	5.231
+And that will, of course, depend on their formal properties, the internal similarity of their forms.
++5.24	110[6]	5.24
+An operation shows itself in a variable; it shows how we can get from one form of proposition to another. It expresses the difference between the forms. 
+(And what is common to the bases and the result of an operation is just the bases themselves.)
++5.241	110[7]	5.241
+An operation does not characterize a form, but only the difference between forms.
++5.25	110[8]	5.25
+The occurrence of an operation does not characterize the sense of a proposition. Indeed, an operation states nothing, only its result does, and this depends on the operation’s bases. (Operations and functions must not be confused with each other.)
++5.233	111[1]	5.233
+Operations can first arise when one proposition is generated out of another in a logically meaningful way; i.e. the point at which the logical construction of propositions begins.
++5.251	111[2]	5.251
+A function cannot be its own argument, but the result of an operation can be its own basis.
++5.252	111[3]	5.252
+Only in this way is the step from term to term in a formal series possible (from type to type in Russell and Whitehead’s hierarchies). (Russell and Whitehead did not allow such steps, but they took them again and again.)
++5.2521	111[4]	5.2521
+The repeated application of an operation to its own result I call its successive application. (“O'O'O'a” is the result of three successive applications of the operation “O'ξ” to “a”.)
++5.253	111[5]	5.253
+One operation can reverse the effect of another. Operations can cancel each other out.
++5.254	112[1]	5.254
+Operations can vanish (e.g. negation in “~~p”: ~~p=p).
++5.234	112[2]	5.234
+Truth-functions of elementary propositions are results of operations with elementary propositions as bases. (These operations I call truth-operations.)
++5.242	112[3]	5.242
+The operation that produces “q” from “p” also produces “r” from “q”, and so on. This can only be expressed by “p”, “q”, “r”, etc. being variables that give general expression to certain formal relations.
++5.▫3	112[4]	5.3
+All propositions are the result of truth-operations on elementary propositions.
+A truth-operation is the way in which a truth-function is produced from elementary propositions.
+It is essential to truth-operations that, just as elementary propositions yield a truth-function of themselves, so too truth-functions yield a further truth-function. Every truth-operation produces from truth-functions of elementary propositions another truth-function of elementary propositions, that is, another proposition. The result of every truth-operation on the results of truth-operations on elementary propositions is also the result of one truth-
+operation on elementary propositions. 
+Every proposition is the result of truth-operations on elementary propositions.
++5.2341	113[1]	5.2341*
+The sense of a truth-function of p is a function of the sense of p.
+(Negation reverses the sense of a proposition.) 
+Negation, logical addition, logical multiplication, etc. etc. are operations.
++zu 5.2521	113[2]	5.2521 (2)
+Similarly, I speak of successive applications of multiple operations to a number of propositions.
++5.32	113[3]	5.32
+All truth-functions are results of the successive application of a finite number of truth-operations to elementary propositions.
++Zu 5.452	113[4]	5.452 (3)
+But if we need to introduce a new device at some point, we must first ask “Where will the use of this device now be unavoidable?” Its place in logic must be made clear.
++5.501	114[1]	5.501
+When the terms of a bracketed expression are propositions —and their order  inside the brackets is irrelevant—then I indicate this by a sign of the form “(ξ)”. “ξ” is a variable whose values are terms of the bracketed expression and the bar over it indicates that it represents all of its values in the brackets. 
+(Thus if ξ has the three values P, Q, R, then (ξ)=(P, Q, R).) 
+The values of the variable are stipulated.
+The stipulation is a description of the propositions which the variable  represents.
+The way in which the terms of the bracketed expression are described is inessential.
+We can distinguish three kinds of description: 1) Direct enumeration. In this case we can simply substitute for the variable the constants that are its values. 2) Giving a function f(x) whose values for all values of x are the propositions to be described. 3) Giving a formal law that governs the construction of the propositions. In this case the terms of the expression in brackets are all the terms of a formal series.
+4.1273	115[1]	4.1273*
+To express the general proposition “b is a successor of a” in conceptual notation, we need an expression for the general term of the formal series: aRb, (∃x):aRx.xRb, (∃x,y):aRx.xRy.yRb, … .
+To express the general term of a formal series we must use a variable, for the concept “term of this formal series” is a formal concept. (This is what Frege and Russell overlooked. Their way of expressing general propositions like the one above is, therefore, wrong; it contains a vicious circle.)
+We can determine the general term of a formal series by giving its first term and the general form of the operation that produces the next term out of the preceding proposition.
+5.2522	115[2]	5.2522
+For the general term of the formal series a, O'a, O'O'a, … I use the sign “[a, x, O'x]”. This bracketed expression is a variable. The first term is the beginning of the formal series, the second is the form of a term x selected arbitrarily from the formal series, and the third is the form of the term immediately following x in the series.
+5.5	116[1]	5.5 (1)
+Every truth-function is a result of successive applications of the operation “(-----T )(ξ , . . . . .)” to elementary propositions.
+Zu 4.442	116[2]	4.442 (4)
+(The number of terms in the right-hand pair of brackets determines the number of places in the left-hand pair.)
+Zu 5.5	116[3]	5.5 (2)
+This operation negates all the propositions in the right-hand pair of brackets, and I call it the negation of those propositions.
+5.502	116[4]	5.502
+So instead of “(-----T)(ξ, . . . . .)”, I write “N(ξ)”.
+N (ξ) is the negation of all the values of the propositional variable ξ.
+5.503	116[5]	5.503* 		13.7.16 (4) [Vgl. 83[7]]
+Obviously, it is easy to express how propositions may and may not be constructed using this operation. So it must be possible to find a way of expressing this exactly.
+116[6]	—
+[Sentence crossed out]
+6.1201	116[7]	6.1201 		1.5.15 (1)**
+That for example the propositions “p” and “~p” in the conjunction “~(p.~p)” yield a tautology shows that they contradict each other. That the propositions “p⊃q”, “p”, and “q”, conjoined into “(p ⊃q).(p):⊃:(q)”, yield a tautology shows that q follows from p and p⊃q. That “(x).fx:⊃:fa” is a tautology shows that fa follows from (x).fx, etc. etc.
+6.123	117[1]	6.123 (1)
+Clearly the laws of logic cannot themselves obey further logical laws.
+6.2331	117[2]	6.2331
+The process of calculating brings about just this intuition.
+Calculation is not an experiment.
+117[3]	—
+[Sentence crossed out]
+zu 6.2	117[4]	6.2 (2)
+Mathematical propositions are equations, and therefore pseudo-propositions.
+6.21	117[5]	6.21
+Mathematical propositions do not express thoughts.
+zu 6.23	117[6]	6.23 (2)
+That two expressions can be substituted for one another characterizes their logical form.
+6.232	117[7]	6.232
+Frege says that the two expressions have the same meaning but different senses. 
+But the essential thing about an equation is that we do not need it to show that expressions connected by the sign of equality have the same meaning, for this can be seen from the two expressions themselves.
+6.2321	118[1]	6.2321
+And that the propositions of mathematics can be proved means simply that their correctness can be perceived without our having to compare what they express with the facts to determine its correctness.
+6.23▫322	118[2]	6.2322
+The identity of the meaning of two expressions cannot be asserted. For to be able to assert anything about their meaning, I must know their meaning, and if I know their meaning, I know whether they mean the same or something else.
+6.2323	118[3]	6.2323
+An equation merely characterizes the point of view from which I consider the two expressions: that is, from the point of view of their equality of meaning.
+6.241	118[4]	6.241
+Thus the proof of the proposition 2 ⨉ 2 = 4 runs:
+[6 lines left blank]
+118[5] 	             5.2523+	21.11.16 (12)*
+The concept of an operation is equivalent to the concept “and so on”.
+119[0]
+Preface
+Perhaps this book will be understood only by those who have themselves already had the thoughts that are expressed in it—or similar thoughts.—So it is not a textbook.—Its purpose would be achieved if there were one person  who read it with understanding and to whom it gave pleasure. 
+The book deals with the problems of philosophy, and shows, as I believe, that the formulation of these problems rests on a misunderstanding of the logic of our language. The whole sense of the book might be summed up in the following words: what can be said at all can be said clearly, and what we cannot talk about we must be silent.
+The book aims, therefore, to draw a limit to thought, or rather—not to thought, but to the expression of thought: for in order to be able to draw a limit to thought, we should have to be able to think both sides of this limit (we should therefore have to be able to think what cannot be thought).
+The limit can therefore only be drawn in language, and what lies on the other side of the limit will be simply nonsense.
+120[0]
+I do not wish to judge how far my efforts agree with those of other philosophers. Indeed, what I have written here makes no claim to novelty in detail, and therefore I give no sources, becaues it is indifferent to me whether what I have thoughts has already been thought by another.
+I will only mention that I am indebted to Frege’s great works and to the writings of my friend Mr. Bertrand Russell I owe much of the stimulation of my thoughts.
+If this work has a value it consists in two things. First that in it thoughts are expressed, and this value will be the greater the better the thoughts are expressed. The more the nail has been hit on the head, the greater will be its value.—Here I am conscious of having fallen far short of what is possible. Simply because my powers are insufficient to cope with the task.—May others come and do it better.
+121[0]
+On the other hand the truth of the thoughts communicated here seems to me unassailable and definitive. I therefore believe that the problems have in essentials, been finally solved. And if I am not mistaken in this, then the thing the value of this work secondly consists in showing how little has been achieved when these problems have been solved.
+I thank my uncle Mr. Paul Wittgenstein und my friend Mr. Bertrand Russell for the affectionate encouragement they have given me.
+L. W.
