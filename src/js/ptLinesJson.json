@@ -257,7 +257,7 @@
           2.027
       ],
       "start": "2.02",
-      "end": "2.0201",
+      "end": "2.021",
       "precision": 3,
       "color": "#fde9da"
   },
@@ -272,6 +272,17 @@
       "precision": 3,
       "color": "#fcd4b5"
   },
+  {
+    "label": "2.02",
+    "sections": [
+        2.02,
+        2.0201
+    ],
+    "start": "2.02",
+    "end": "2.0201",
+    "precision": 4,
+    "color": "#fde9da"
+},
   {
       "label": "2.021",
       "sections": [
