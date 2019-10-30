@@ -1600,7 +1600,7 @@
             "ger": "Man muß es der Variablen selber ansehen wofür sie steht. — Es muß eine ganz bestimmte Ähnlichkeit zwischen ihr und ihrem Wert bestehen. ",
             "pmc": "It must appear from the variable itself what it stands for. - There must be a quite definite resemblance between it and its values.",
             "ogd": "",
-            "str": "",
+            "str": "It must appear from the variable itself what it stands for. - There must be a quite definite similarity between it and its values.",
             "tlp": [
                 "None"
             ]
@@ -2695,7 +2695,7 @@
             "ger": "Beachtet man nicht daß der Satz einen von den Tatsachen unabhängigen Sinn hat, so kann man leicht glauben daß wahr und falsch gleichberechtigte Bezeichnungen von Zeichen und Bezeichnetem sind. ",
             "pmc": "It must not be overlooked that a proposition has a sense that is independent of the facts: otherwise one can easily suppose that true and false are relations of equal status between signs and what they signify.",
             "ogd": "",
-            "str": "",
+            "str": "If one does not notice that propositions make sense independently of the facts, one can easily believe that true and false are relations of equal value between signs and what they signify.",
             "tlp": [
                 4.061
             ]
@@ -3250,7 +3250,7 @@
             "ger": "Insbesondere folgt die Wahrheit eines Satzes p aus der Wahrheit eines anderen q wenn alle Wahrheitsgründe des ersten Wahrheitsgründe des zweiten sind. ",
             "pmc": "In particular, the truth of a proposition p follows from the truth of another proposition q if all the truth-grounds of the former are truth-grounds of the latter.",
             "ogd": "",
-            "str": "",
+            "str": "In particular, the truth of a proposition p follows from the truth of another proposition q if all the truth-grounds of the former are truth-grounds of the latter.",
             "tlp": [
                 5.12
             ]
@@ -3817,8 +3817,8 @@
             "y_axis": 25,
             "x_axis": 151,
             "page": 67,
-            "ger": "",
-            "pmc": "",
+            "ger": "Es ist jetzt klar daß es nicht, wie Russell meinte; für jede 〟Type\" ein eigenes 〟Gesetz des Widerspruchs\" geben muß, sondern daß eines genügt, da es auf sich selbst nicht angewendet werden braucht.",
+            "pmc": "It is now clear that there need not be, as Russell thought, a special \"law of contradiction\" for each 'type'; that one law is enough, since it need not be applied to itself.",
             "ogd": "",
             "str": "It is now clear that there need not be, as Russell thought, a special 'law of contradiction' for each 'type'; rather, that one law is enough, since it need not be applied to itself.",
             "tlp": [
@@ -4720,7 +4720,7 @@
             "ger": "Jeder Satz folgt aus sich selbst. ",
             "pmc": "Every proposition follows from itself.",
             "ogd": "",
-            "str": "",
+            "str": "Every proposition follows from itself.",
             "tlp": [
                 "None"
             ]
@@ -5650,7 +5650,7 @@
             "ger": "Ein philosophisches Werk besteht wesentlich aus Erläuterungen. ",
             "pmc": "A philosophical work consists essentially of elucidations.",
             "ogd": "",
-            "str": "",
+            "str": "A philosophical work consists essentially of elucidations.",
             "tlp": [
                 4.112
             ]
@@ -5830,7 +5830,7 @@
             "ger": "Wenn zwei Ausdrücke durch das 〟=\" Zeichen verbunden werden so heißt das, sie sind durch einander ersetzbar. Ob dies aber der Fall ist, muß sich an den beiden Ausdrücken selbst zeigen. ",
             "pmc": "If two expressions are combined by means of the '=' sign, that means that they can be substituted for one another. But it must be manifest in the two expressions themselves whether this is the case or not.",
             "ogd": "",
-            "str": "",
+            "str": "If two expressions are combined by means of the “=” sign, that means that they can be substituted for one another. But whether this is the case must show itself in the two expressions themselves.",
             "tlp": [
                 6.23
             ]
@@ -6355,7 +6355,7 @@
             "ger": "Alles was überhaupt gedacht werden kann, kann klar gedacht werden. Alles was sich aussprechen läßt, läßt sich klar aussprechen. ",
             "pmc": "Everything that can be thought at all can be thought clearly. Everything that can be put into words can be put clearly.",
             "ogd": "",
-            "str": "",
+            "str": "Everything that can be thought at all can be thought clearly. Everything that can be put into words can be put clearly.",
             "tlp": [
                 4.116
             ]
@@ -9115,7 +9115,7 @@
             "ger": "Können wir zwei Namen verstehen, ohne zu wissen ob sie dasselbe Ding oder verschiedene Dinge bezeichnen? — Können wir einen Satz, worin zwei Namen vorkommen verstehen ohne zu wissen, ob sie dasselbe oder verschiedenes bedeuten? ",
             "pmc": "Can we understand two names without knowing whether they signify the same thing or different things? Can we understand a proposition in which two names occur without knowing whether their meaning is the same or different?",
             "ogd": "",
-            "str": "",
+            "str": "Can we understand two names without knowing whether they signify the same thing or different things? – Can we understand a proposition containing two names without knowing whether their meaning is the same or different?",
             "tlp": [
                 4.243
             ]
@@ -9175,7 +9175,7 @@
             "ger": "Gleichheit des Gegenstandes drücke ich durch Gleichheit des Zeichens aus, und nicht mit Hilfe eines Gleichheitszeichen. Verschiedenheit der Gegenstände durch Verschiedenheit der Zeichen. ",
             "pmc": "Identity of object I express by identity of sign, and not by using a sign for identity. Difference of objects I express by difference of signs.",
             "ogd": "",
-            "str": "",
+            "str": "Identity of object I express by identity of sign, and not by means of a sign of identity. Difference of objects I express by difference of signs.",
             "tlp": [
                 5.53
             ]
@@ -9370,7 +9370,7 @@
             "ger": "Kenne ich etwa die Bedeutung eines englischen und eines gleichbedeutenden deutschen Wortes, so ist es unmöglich, daß ich nicht weiß, daß die beiden gleichbedeutend sind; es ist unmöglich daß ich sie nicht ineinander übersetzen kann. … ",
             "pmc": "Suppose I know the meaning of an English word and of a German word that means the same: then it is impossible for me to be unaware that they do mean the same; I must be capable of translating either into the other.",
             "ogd": "",
-            "str": "",
+            "str": "If I know the meaning of an English word and of a German word that means the same then it is impossible for me not to know that they mean the same; it is impossible for me not to be able to translate them into the other.",
             "tlp": [
                 4.243
             ]
@@ -9655,7 +9655,7 @@
             "ger": "Die Allgemeinheitsbezeichnung tritt als Argument auf. ",
             "pmc": "The generality-sign makes its appearance as an argument.",
             "ogd": "",
-            "str": "",
+            "str": "The generality sign appears as an argument.",
             "tlp": [
                 5.523
             ]
@@ -9895,7 +9895,7 @@
             "ger": "Das Gleichheitszeichen ist also kein wesentlicher Bestandteil der Begriffsschrift. ",
             "pmc": "The identity-sign, therefore, is not an essential constituent of conceptual notation.",
             "ogd": "",
-            "str": "",
+            "str": "Therefore the identity sign is not an essential component of conceptual notation.",
             "tlp": [
                 5.533
             ]
@@ -11290,7 +11290,7 @@
             "ger": "Das hängt damit zusammen daß kein Teil unserer Erfahrung auch a priori ist. ",
             "pmc": "This is connected with the fact that no part of our experience is at the same time a priori.",
             "ogd": "",
-            "str": "",
+            "str": "This is connected with no part of our experience being a priori.",
             "tlp": [
                 5.634
             ]
@@ -11317,8 +11317,8 @@
             "y_axis": 91,
             "x_axis": 91,
             "page": 45,
-            "ger": "",
-            "pmc": "",
+            "ger": "Die Tautologie hat keine Wahrheitsbedingungen denn sie ist bedingungslos wahr und die Kontradiktion ist unter keiner Bedingung wahr.",
+            "pmc": "A tautology has no truth-conditions, since it is unconditionally true: and a contradiction is true on no condition.",
             "ogd": "",
             "str": "Because a tautology is unconditionally true, it has no truth-conditions; on no condition is a contradiction true.",
             "tlp": [
