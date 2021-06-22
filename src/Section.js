@@ -15,14 +15,11 @@ export class Section {
         let v;
         if (version == "ger") {
             v = this.ger;
-        }
-        else if (version == "ogd") {
+        } else if (version == "ogd") {
             v = this.ogd;
-        }
-        else if (version == "pmc") {
+        } else if (version == "pmc") {
             v = this.pmc;
-        }
-        else if (version == "str") {
+        } else if (version == "str") {
             v = this.str;
         }
         return v;
@@ -43,7 +40,7 @@ export class Section {
         if (showSelector) {
             //append the language selector
             let langVersion = template == "pt" ? 'pt-lang-version.html' : 'lang-version.html';
-            $('#' + div + ' .panel-body').append($('<div>').load(langVersion, function () {
+            $('#' + div + ' .panel-body').append($('<div>').load(langVersion, function() {
                 $('.version-selector').val(version);
             }));
             element.addClass("individual-section");
@@ -52,7 +49,7 @@ export class Section {
         $('#' + div + ' .panel-body').attr('ogd', this.getTextForSelectedVersion('ogd'));
         $('#' + div + ' .panel-body').attr('pmc', this.getTextForSelectedVersion('pmc'));
         $('#' + div + ' .panel-body').attr('str', this.getTextForSelectedVersion('str'));
-        $('#' + div + ' .panel-body').append($('<li class="text-display-li">' + text + '</li>').load(text, function () {
+        $('#' + div + ' .panel-body').append($('<li class="text-display-li">' + text + '</li>').load(text, function() {
             MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
         }));
         $(".accordion-column").show();
@@ -74,8 +71,7 @@ export class Section {
         let resultStart = _.includes(sections, startVal);
         if (resultStart === true) {
             return color;
-        }
-        else {
+        } else {
             return '#E8E8EE';
         }
     }

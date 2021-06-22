@@ -15,17 +15,25 @@ linesJson.json must look like this example...
 */
 import * as JsDiff from 'diff';
 import * as _ from 'lodash';
-import { Reference } from "./reference";
+import {
+    Reference
+} from "./reference";
 //break out separate classes for clarity
-import { Utility } from "./util";
-import { Section } from "./Section";
-import { Line } from "./Line";
+import {
+    Utility
+} from "./util";
+import {
+    Section
+} from "./Section";
+import {
+    Line
+} from "./Line";
 let sectionsJson = require('./data/sections.json');
 let ptSectionsJson = require('./data/ptSections.json');
 let linesJson = require('./data/lines.json');
 let ptLinesJson = require('./data/ptLines.json');
 export var tractatus;
-(function (tractatus) {
+(function(tractatus) {
     class Container {
         constructor() {
             //version = ger, pmc, ogd
@@ -145,16 +153,15 @@ export var tractatus;
             $("#page-select-form").hide();
             $("#accordion").collapse().sortable();
             $('#version-selector-all').val(version);
-            $("#reset-btn").on('click', function () {
+            $("#reset-btn").on('click', function() {
                 window.location.reload();
             });
             //choose which template to use (PT or TLP)
-            $("#pt-btn").on('click', function () {
+            $("#pt-btn").on('click', function() {
                 if ($(this).val() == "Load Tractatus") {
                     localStorage.setItem('tlp-template', 'tlp');
                     container.template == "tlp";
-                }
-                else {
+                } else {
                     localStorage.setItem('tlp-template', 'pt');
                     container.template == "pt";
                 }
@@ -166,8 +173,7 @@ export var tractatus;
                 $("#pt-btn").html("Load Tractatus").val("Load Tractatus");
                 $("option[value='ogd']").remove();
                 $("#page-select-form").show();
-            }
-            else {
+            } else {
                 $("#pt-btn").html("Load Prototractatus").val("Load Prototractatus");
             }
             /*
@@ -176,21 +182,21 @@ export var tractatus;
                 window.scrollTo(0, 0);
             })*/
             //close panels.  if it's the last one, hide the panel column
-            $(".panel-group").on('click', '.close-panel', function () {
+            $(".panel-group").on('click', '.close-panel', function() {
                 $('.panel-group').find($(this).parents('.panel-default:first')).remove();
-                $.when($(this).parents('.panel-default:first').remove()).then(function () {
+                $.when($(this).parents('.panel-default:first').remove()).then(function() {
                     if ($(".panel-default").length <= 0) {
                         $(".accordion-column").hide();
                     }
                 });
             });
-            $("#collapse-all-btn").on('click', function () {
+            $("#collapse-all-btn").on('click', function() {
                 $(".panel-collapse").collapse('hide');
             });
-            $("#expand-all-btn").on('click', function () {
+            $("#expand-all-btn").on('click', function() {
                 $(".panel-collapse").collapse('show');
             });
-            $("#close-all-btn").on('click', function () {
+            $("#close-all-btn").on('click', function() {
                 $(".panel-default").remove();
                 $(".accordion-column").hide();
             });
@@ -198,11 +204,11 @@ export var tractatus;
                   If an individual circle/Section is clicked, a panel will display and will have it's own version selector.  This is so that you can
                   compare text for the same section.*/
             //change versions in the overall version selector (not the individual panel version selectors)
-            $(".accordion-column").on('change', "#version-selector-all", function () {
+            $(".accordion-column").on('change', "#version-selector-all", function() {
                 let selector = $(this);
                 let version = $("option:selected", selector).attr('value');
                 let u = container.util;
-                $('.panel-body').each(function () {
+                $('.panel-body').each(function() {
                     let panelBody = $(this);
                     let sectionNum = panelBody.attr("value");
                     if ($(".version-selector", panelBody).length <= 0) {
@@ -210,7 +216,7 @@ export var tractatus;
                         let text = panelBody.attr(version);
                         $(".text-display-li", panelBody).html(text);
                         $("li", panelBody).remove();
-                        panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function () {
+                        panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function() {
                             MathJax.Hub.Queue(["Typeset", MathJax.Hub, parentDivId]);
                         });
                         //check if page is pt
@@ -227,7 +233,7 @@ export var tractatus;
                 localStorage.setItem('tlp-version', version);
             });
             //change versions in the individual panel version selectors (not the overall panel version selector)
-            $('.accordion-column').on('change', ".version-selector", function () {
+            $('.accordion-column').on('change', ".version-selector", function() {
                 let $this = $(this);
                 let panelBody = $this.parents('.panel-body');
                 let sectionNum = panelBody.attr("value");
@@ -237,7 +243,7 @@ export var tractatus;
                 let u = container.util;
                 $this.closest($(".text-display-li")).html(text);
                 $("li", panelBody).remove();
-                panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function () {
+                panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function() {
                     MathJax.Hub.Queue(["Typeset", MathJax.Hub, parentDivId]);
                 });
                 //check if page is pt
@@ -260,16 +266,15 @@ export var tractatus;
             let sectionList = container.sectionList;
             let pageFilteredPTList = [];
             // when the page form submit button is clicked, set the start and end page values based on text box values
-            $('#page-submit').click(function () {
+            $('#page-submit').click(function() {
                 container.startPage = parseInt($('#start-page').val().toString());
                 container.endPage = parseInt($('#end-page').val().toString());
             });
             // add all object in the sectionList that fall between start and end page numbers.
-            _.forEach(sectionList.sections, function (value, key) {
+            _.forEach(sectionList.sections, function(value, key) {
                 if (value.page >= container.startPage && value.page <= container.endPage) {
                     pageFilteredPTList.push(parseFloat(value.label));
-                }
-                ;
+                };
             });
             container.pageFilteredPTList = pageFilteredPTList;
         }
@@ -282,17 +287,17 @@ export var tractatus;
             let lineAr = [];
             let sectionList = container.sectionList;
             let lineList = container.lineList;
-            $.each(sectionList.sections, function () {
+            $.each(sectionList.sections, function() {
                 let $this = $(this);
                 let o = $(this)[0];
                 let section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
                 sectionAr.push(section);
             });
-            $.each(lineList.lines, function () {
+            $.each(lineList.lines, function() {
                 let l = $(this)[0];
                 let i = 0;
                 let sections = l.sections;
-                $.each(sections, function () {
+                $.each(sections, function() {
                     if ((i + 1) != sections.length) {
                         let o = sections[i];
                         let o1 = sections[i + 1];
@@ -318,72 +323,84 @@ export var tractatus;
             let elemEnter = elem.enter()
                 .append("g");
             let line = elemLineEnter.append("line")
-                .attr("x1", function (d) {
-                let point = d.findPoints(container);
-                return point.x1 * gap;
-            }) //x_axis of 1st section + radius/2 ?
-                .attr("y1", function (d) {
-                let point = d.findPoints(container);
-                return point.y1 * gap;
-            }) //y_axis of 1st section
-                .attr("x2", function (d) {
-                let point = d.findPoints(container);
-                return point.x2 * gap;
-            }) //x_axis of 2nd section
-                .attr("y2", function (d) {
-                let point = d.findPoints(container);
-                return point.y2 * gap;
-            }) //y_axis of 2nd section
+                .attr("x1", function(d) {
+                    let point = d.findPoints(container);
+                    return point.x1 * gap;
+                }) //x_axis of 1st section + radius/2 ?
+                .attr("y1", function(d) {
+                    let point = d.findPoints(container);
+                    return point.y1 * gap;
+                }) //y_axis of 1st section
+                .attr("x2", function(d) {
+                    let point = d.findPoints(container);
+                    return point.x2 * gap;
+                }) //x_axis of 2nd section
+                .attr("y2", function(d) {
+                    let point = d.findPoints(container);
+                    return point.y2 * gap;
+                }) //y_axis of 2nd section
                 .attr("stroke-width", 20) //double radius?
-                .attr("stroke", function (d) {
-                if (container.template == "pt") {
-                    return d.checkLineColor(container.pageFilteredPTList, d.start, d.end, d.color);
-                }
-                return d.color;
-            })
+                .attr("stroke", function(d) {
+                    if (container.template == "pt") {
+                        return d.checkLineColor(container.pageFilteredPTList, d.start, d.end, d.color);
+                    }
+                    return d.color;
+                })
                 .style("cursor", "pointer")
-                .on("click", function (d) {
-                d.buildGroup(container);
-                //animate the border of the panels to show that something happened when you click on a section or line.  if appended to the bottom, it's
-                //difficult to tell that anything happened when you click on a line/section
-                $("#accordion").css({ border: '0 solid #86d0f3' }).animate({ borderWidth: 2 }, 500).animate({ borderWidth: 0 }, 500);
-            });
+                .on("click", function(d) {
+                    d.buildGroup(container);
+                    //animate the border of the panels to show that something happened when you click on a section or line.  if appended to the bottom, it's
+                    //difficult to tell that anything happened when you click on a line/section
+                    $("#accordion").css({
+                        border: '0 solid #86d0f3'
+                    }).animate({
+                        borderWidth: 2
+                    }, 500).animate({
+                        borderWidth: 0
+                    }, 500);
+                });
             /*Create the circle for each block */
             let circle = elemEnter.append("circle")
-                .attr("cx", function (d) {
-                return d.x_axis * gap;
-            })
-                .attr("cy", function (d) {
-                return d.y_axis * gap;
-            })
+                .attr("cx", function(d) {
+                    return d.x_axis * gap;
+                })
+                .attr("cy", function(d) {
+                    return d.y_axis * gap;
+                })
                 .attr("r", 15)
-                .attr("stroke", function (d) {
-                if (container.template == "pt") {
-                    return d.checkCircleColor(container._pageFilteredPTList, d.label, 'black');
-                }
-                return "black";
-            })
+                .attr("stroke", function(d) {
+                    if (container.template == "pt") {
+                        return d.checkCircleColor(container._pageFilteredPTList, d.label, 'black');
+                    }
+                    return "black";
+                })
                 .attr("fill", "white")
                 .attr("stroke-width", 4)
                 .style("cursor", "pointer")
-                .on("click", function (d) {
-                container.divCounter = d.displayText(true, container.version, container.divCounter, container.template, container.util);
-                $("#accordion").css({ border: '0 solid #86d0f3' }).animate({ borderWidth: 2 }, 500).animate({ borderWidth: 0 }, 500);
-            });
+                .on("click", function(d) {
+                    container.divCounter = d.displayText(true, container.version, container.divCounter, container.template, container.util);
+                    $("#accordion").css({
+                        border: '0 solid #86d0f3'
+                    }).animate({
+                        borderWidth: 2
+                    }, 500).animate({
+                        borderWidth: 0
+                    }, 500);
+                });
             /* Create the text for each block */
             elemEnter.append("text")
-                .attr("dx", function (d) {
-                return d.x_axis * gap + 15;
-            })
-                .attr("dy", function (d) {
-                return d.y_axis * gap - 15;
-            })
-                .attr("font-size", function (d) {
-                return d.fontSize;
-            })
-                .text(function (d) {
-                return d.label;
-            });
+                .attr("dx", function(d) {
+                    return d.x_axis * gap + 15;
+                })
+                .attr("dy", function(d) {
+                    return d.y_axis * gap - 15;
+                })
+                .attr("font-size", function(d) {
+                    return d.fontSize;
+                })
+                .text(function(d) {
+                    return d.label;
+                });
         }
     }
     tractatus.Container = Container;

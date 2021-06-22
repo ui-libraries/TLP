@@ -1,15 +1,19 @@
 import * as _ from 'lodash';
 import * as JsDiff from 'diff';
-import { Section } from "./Section";
-import { PTSection } from "./PTSection";
+import {
+    Section
+} from "./Section";
+import {
+    PTSection
+} from "./PTSection";
 export var Utility;
-(function (Utility) {
+(function(Utility) {
     class Utils {
-        constructor() { }
+        constructor() {}
         setup() {
             //populate the ptSectionAr array
             let ptSectionAr = [];
-            $.each(this.container.ref.ptSectionsJson.sections, function () {
+            $.each(this.container.ref.ptSectionsJson.sections, function() {
                 let o = $(this)[0];
                 let ptSection = new PTSection(o.label, o.page, o.tlp, o.pmc, o.ger, o.str);
                 ptSectionAr.push(ptSection);
@@ -19,7 +23,7 @@ export var Utility;
         //find the tlp sections that correspond to the pt label
         ptToTlp(textLabel) {
             let ptsec, sectionNum;
-            ptsec = _.find(this.container.ref.ptSectionsJson.sections, function (obj) {
+            ptsec = _.find(this.container.ref.ptSectionsJson.sections, function(obj) {
                 return obj.label == textLabel;
             });
             sectionNum = ptsec.tlp;
@@ -27,16 +31,19 @@ export var Utility;
         }
         // create an HTML fragment of color-coded text differences between a specified PT number and its corresponding TLP section
         findDiff(textLabel, lang) {
-            let sectionNum = this.ptToTlp(textLabel), sectionContent = this.createHTML(textLabel), sectionText = $(sectionContent).find("." + lang).text(), diff, fragment = $('<div class="diff"></div>');
+            let sectionNum = this.ptToTlp(textLabel),
+                sectionContent = this.createHTML(textLabel),
+                sectionText = $(sectionContent).find("." + lang).text(),
+                diff, fragment = $('<div class="diff"></div>');
             for (let i = 0; i < sectionNum.length; i++) {
-                this.container.ref.sectionsJson.sections.forEach(function (d) {
+                this.container.ref.sectionsJson.sections.forEach(function(d) {
                     let sec = new Section(d.label, d.fontSize, d.precision, d.x_axis, d.y_axis, d.ger, d.ogd, d.pmc, d.str);
                     if (d.label == sectionNum[i]) {
                         let result = sec.getTextForSelectedVersion(lang);
                         result = result.replace(/<\/?[^>]+(>|$)/g, "");
                         sectionText = sectionText.replace(/<\/?[^>]+(>|$)/g, "");
                         diff = JsDiff.diffWords(result, sectionText);
-                        diff.forEach(function (part) {
+                        diff.forEach(function(part) {
                             // blue for additions, red for deletions
                             // grey for common parts
                             let color = part.added ? 'red' :
@@ -54,7 +61,7 @@ export var Utility;
             return fragment;
         }
         createHTML(textLabel) {
-            let ptsec = _.find(this._ptSectionAr, function (obj) {
+            let ptsec = _.find(this._ptSectionAr, function(obj) {
                 return obj.label.toString() == textLabel;
             });
             let html = `<div class="sections"><div class="pnum" id="p${ptsec.label}">${ptsec.label}</div>

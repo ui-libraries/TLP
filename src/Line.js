@@ -1,7 +1,11 @@
-import { Point } from "./point";
-import { Section } from "./Section";
+import {
+    Point
+} from "./point";
+import {
+    Section
+} from "./Section";
 import * as _ from 'lodash';
-export class Line /*implements ILine*/ {
+export class Line {
     constructor(label, sections, start, end, precision, color) {
         this._label = label;
         this._sections = sections;
@@ -53,7 +57,14 @@ export class Line /*implements ILine*/ {
         this._sectionList = value;
     }
     findPoints(container) {
-        let start = this._start, end = this._end, startPoint = _.filter(container.sectionList.sections, { "label": start.toString() }), endPoint = _.filter(container.sectionList.sections, { "label": end.toString() });
+        let start = this._start,
+            end = this._end,
+            startPoint = _.filter(container.sectionList.sections, {
+                "label": start.toString()
+            }),
+            endPoint = _.filter(container.sectionList.sections, {
+                "label": end.toString()
+            });
         let point = new Point(startPoint[0].x_axis, endPoint[0].x_axis, startPoint[0].y_axis, endPoint[0].y_axis, this._color);
         return point;
     }
@@ -63,7 +74,7 @@ export class Line /*implements ILine*/ {
         let sections = this.sections;
         let line = this;
         let color = this.checkLineColor(container.pageFilteredPTList, line.start, line.end, line.color);
-        $.each(sectionList.sections, function () {
+        $.each(sectionList.sections, function() {
             let o = $(this)[0];
             if (container.template == 'tlp' || color == '#E8E8EE' || (o.page >= container.startPage && o.page <= container.endPage) || o.stroke == '#E8E8EE') {
                 let section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
@@ -88,8 +99,7 @@ export class Line /*implements ILine*/ {
         let finalColor;
         if (resultStart == true && resultEnd === true) {
             finalColor = color;
-        }
-        else {
+        } else {
             finalColor = '#E8E8EE';
         }
         return finalColor;
