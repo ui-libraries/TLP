@@ -1,4 +1,3 @@
-"use strict";
 /*
 this is the main entry point for the application
 relevant classes are broken out into other files such as Section.ts, PTSection.ts, ISection.ts, util.ts, etc
@@ -14,22 +13,21 @@ sectionsJson.json must look like this example...
 linesJson.json must look like this example...
     {"lines" : [{"label": "1.1", "sections": [1.1,1.11,1.12,1.13], "start": "1.1", "end": "1.13", "precision": 2, "color": "#f6944c"}, ... ]}
 */
-Object.defineProperty(exports, "__esModule", { value: true });
-var JsDiff = require("diff");
-var _ = require("lodash");
-var reference_1 = require("./reference");
+import * as JsDiff from 'diff';
+import * as _ from 'lodash';
+import { Reference } from "./reference";
 //break out separate classes for clarity
-var util_1 = require("./util");
-var Section_1 = require("./Section");
-var Line_1 = require("./Line");
-var sectionsJson = require('./js/sectionsJson.json');
-var ptSectionsJson = require('./js/ptSectionsJson.json');
-var linesJson = require('./js/linesJson.json');
-var ptLinesJson = require('./js/ptLinesJson.json');
-var tractatus;
+import { Utility } from "./util";
+import { Section } from "./Section";
+import { Line } from "./Line";
+let sectionsJson = require('./js/sectionsJson.json');
+let ptSectionsJson = require('./js/ptSectionsJson.json');
+let linesJson = require('./js/linesJson.json');
+let ptLinesJson = require('./js/ptLinesJson.json');
+export var tractatus;
 (function (tractatus) {
-    var Container = /** @class */ (function () {
-        function Container() {
+    class Container {
+        constructor() {
             //version = ger, pmc, ogd
             this._version = 'ger';
             this._gap = 50;
@@ -40,159 +38,107 @@ var tractatus;
             this._endPage = 0;
             //template = either pt or tlp.  introduced to avoid the need for maintaining separate code bases for each
             this._template = 'tlp';
-            this.diffWords = function (result, sectionText) {
+            this.diffWords = (result, sectionText) => {
                 return JsDiff.diffWords(result, sectionText);
             };
         }
-        Object.defineProperty(Container.prototype, "version", {
-            get: function () {
-                if (localStorage.getItem('version') != null) {
-                    return localStorage.getItem('version');
-                }
-                return this._version;
-            },
-            set: function (version) {
-                this._version = version;
-                localStorage.setItem("version", version);
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "gap", {
-            get: function () {
-                return this._gap;
-            },
-            set: function (gap) {
-                this._gap = gap;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "width", {
-            get: function () {
-                return this._width;
-            },
-            set: function (width) {
-                this._width = width;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "height", {
-            get: function () {
-                return this._height;
-            },
-            set: function (height) {
-                this._height = height;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "divCounter", {
-            get: function () {
-                return this._divCounter;
-            },
-            set: function (divCounter) {
-                this._divCounter = divCounter;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "startPage", {
-            get: function () {
-                if (localStorage.getItem('startPage') != null) {
-                    return parseInt(localStorage.getItem('startPage'));
-                }
-                return this._startPage;
-            },
-            set: function (startPage) {
-                this._startPage = startPage;
-                localStorage.setItem("startPage", startPage.toString());
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "endPage", {
-            get: function () {
-                if (localStorage.getItem('endPage') != null) {
-                    return parseInt(localStorage.getItem('endPage'));
-                }
-                return this._endPage;
-            },
-            set: function (endPage) {
-                this._endPage = endPage;
-                localStorage.setItem("endPage", endPage.toString());
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "template", {
-            get: function () {
-                if (localStorage.getItem('template') != null) {
-                    return localStorage.getItem('template');
-                }
-                return this._template;
-            },
-            set: function (template) {
-                this._template = template;
-                localStorage.setItem('template', template);
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "sectionList", {
-            get: function () {
-                return this._sectionList;
-            },
-            set: function (sectionList) {
-                this._sectionList = sectionList;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "lineList", {
-            get: function () {
-                return this._lineList;
-            },
-            set: function (lineList) {
-                this._lineList = lineList;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "pageFilteredPTList", {
-            get: function () {
-                return this._pageFilteredPTList;
-            },
-            set: function (value) {
-                this._pageFilteredPTList = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "util", {
-            get: function () {
-                return this._util;
-            },
-            set: function (value) {
-                this._util = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "ref", {
-            get: function () {
-                return this._ref;
-            },
-            set: function (value) {
-                this._ref = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Container.prototype.setupAccordionSidePanel = function () {
-            var container = this;
-            var version = container.version;
+        get version() {
+            if (localStorage.getItem('version') != null) {
+                return localStorage.getItem('version');
+            }
+            return this._version;
+        }
+        set version(version) {
+            this._version = version;
+            localStorage.setItem("version", version);
+        }
+        get gap() {
+            return this._gap;
+        }
+        set gap(gap) {
+            this._gap = gap;
+        }
+        get width() {
+            return this._width;
+        }
+        set width(width) {
+            this._width = width;
+        }
+        get height() {
+            return this._height;
+        }
+        set height(height) {
+            this._height = height;
+        }
+        get divCounter() {
+            return this._divCounter;
+        }
+        set divCounter(divCounter) {
+            this._divCounter = divCounter;
+        }
+        get startPage() {
+            if (localStorage.getItem('startPage') != null) {
+                return parseInt(localStorage.getItem('startPage'));
+            }
+            return this._startPage;
+        }
+        set startPage(startPage) {
+            this._startPage = startPage;
+            localStorage.setItem("startPage", startPage.toString());
+        }
+        get endPage() {
+            if (localStorage.getItem('endPage') != null) {
+                return parseInt(localStorage.getItem('endPage'));
+            }
+            return this._endPage;
+        }
+        set endPage(endPage) {
+            this._endPage = endPage;
+            localStorage.setItem("endPage", endPage.toString());
+        }
+        get template() {
+            if (localStorage.getItem('template') != null) {
+                return localStorage.getItem('template');
+            }
+            return this._template;
+        }
+        set template(template) {
+            this._template = template;
+            localStorage.setItem('template', template);
+        }
+        get sectionList() {
+            return this._sectionList;
+        }
+        set sectionList(sectionList) {
+            this._sectionList = sectionList;
+        }
+        get lineList() {
+            return this._lineList;
+        }
+        set lineList(lineList) {
+            this._lineList = lineList;
+        }
+        get pageFilteredPTList() {
+            return this._pageFilteredPTList;
+        }
+        set pageFilteredPTList(value) {
+            this._pageFilteredPTList = value;
+        }
+        get util() {
+            return this._util;
+        }
+        set util(value) {
+            this._util = value;
+        }
+        get ref() {
+            return this._ref;
+        }
+        set ref(value) {
+            this._ref = value;
+        }
+        setupAccordionSidePanel() {
+            let container = this;
+            let version = container.version;
             $(".accordion-column").hide();
             //hide the page selector unless PT is selected
             $("#page-select-form").hide();
@@ -252,15 +198,15 @@ var tractatus;
                   compare text for the same section.*/
             //change versions in the overall version selector (not the individual panel version selectors)
             $(".accordion-column").on('change', "#version-selector-all", function () {
-                var selector = $(this);
-                var version = $("option:selected", selector).attr('value');
-                var u = container.util;
+                let selector = $(this);
+                let version = $("option:selected", selector).attr('value');
+                let u = container.util;
                 $('.panel-body').each(function () {
-                    var panelBody = $(this);
-                    var sectionNum = panelBody.attr("value");
+                    let panelBody = $(this);
+                    let sectionNum = panelBody.attr("value");
                     if ($(".version-selector", panelBody).length <= 0) {
-                        var parentDivId = panelBody.parents('div:first').attr('id');
-                        var text = panelBody.attr(version);
+                        let parentDivId = panelBody.parents('div:first').attr('id');
+                        let text = panelBody.attr(version);
                         $(".text-display-li", panelBody).html(text);
                         $("li", panelBody).remove();
                         panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function () {
@@ -268,10 +214,10 @@ var tractatus;
                         });
                         //check if page is pt
                         if (container.template == 'pt') {
-                            var parent = panelBody.parents(".panel-collapse:first");
+                            let parent = panelBody.parents(".panel-collapse:first");
                             $(".pnum", parent).remove();
                             $(".diff", parent).remove();
-                            var returnVal = u.findDiff(sectionNum, version);
+                            let returnVal = u.findDiff(sectionNum, version);
                             parent.append('<div class="pnum">text difference when compared to TLP ' + u.ptToTlp(sectionNum) + '</div>');
                             parent.append(returnVal);
                         }
@@ -281,13 +227,13 @@ var tractatus;
             });
             //change versions in the individual panel version selectors (not the overall panel version selector)
             $('.accordion-column').on('change', ".version-selector", function () {
-                var $this = $(this);
-                var panelBody = $this.parents('.panel-body');
-                var sectionNum = panelBody.attr("value");
-                var parentDivId = panelBody.parents('div:first').attr('id');
-                var v = $("option:selected", $this).attr('value');
-                var text = panelBody.attr(v);
-                var u = container.util;
+                let $this = $(this);
+                let panelBody = $this.parents('.panel-body');
+                let sectionNum = panelBody.attr("value");
+                let parentDivId = panelBody.parents('div:first').attr('id');
+                let v = $("option:selected", $this).attr('value');
+                let text = panelBody.attr(v);
+                let u = container.util;
                 $this.closest($(".text-display-li")).html(text);
                 $("li", panelBody).remove();
                 panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function () {
@@ -295,23 +241,23 @@ var tractatus;
                 });
                 //check if page is pt
                 if (container.template == 'pt') {
-                    var parent = panelBody.parents(".panel-collapse:first");
+                    let parent = panelBody.parents(".panel-collapse:first");
                     $(".pnum", parent).remove();
                     $(".diff", parent).remove();
-                    var returnVal = u.findDiff(sectionNum, v);
+                    let returnVal = u.findDiff(sectionNum, v);
                     parent.append('<div class="pnum">text difference when compared to TLP ' + u.ptToTlp(sectionNum) + '</div>');
                     parent.append(returnVal);
                 }
                 localStorage.setItem('version', v);
             });
-        };
+        }
         //filter sections based on pages entered (PT only)
-        Container.prototype.setupPTPaging = function () {
-            var container = this;
+        setupPTPaging() {
+            let container = this;
             $('#start-page').val(container.startPage);
             $('#end-page').val(container.endPage);
-            var sectionList = container.sectionList;
-            var pageFilteredPTList = [];
+            let sectionList = container.sectionList;
+            let pageFilteredPTList = [];
             // when the page form submit button is clicked, set the start and end page values based on text box values
             $('#page-submit').click(function () {
                 container.startPage = parseInt($('#start-page').val().toString());
@@ -325,66 +271,66 @@ var tractatus;
                 ;
             });
             container.pageFilteredPTList = pageFilteredPTList;
-        };
-        Container.prototype.setupD3 = function () {
-            var container = this;
-            var gap = container.gap;
-            var width = $("#map").width();
-            var height = container.height;
-            var sectionAr = [];
-            var lineAr = [];
-            var sectionList = container.sectionList;
-            var lineList = container.lineList;
+        }
+        setupD3() {
+            let container = this;
+            let gap = container.gap;
+            let width = $("#map").width();
+            let height = container.height;
+            let sectionAr = [];
+            let lineAr = [];
+            let sectionList = container.sectionList;
+            let lineList = container.lineList;
             $.each(sectionList.sections, function () {
-                var $this = $(this);
-                var o = $(this)[0];
-                var section = new Section_1.Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
+                let $this = $(this);
+                let o = $(this)[0];
+                let section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
                 sectionAr.push(section);
             });
             $.each(lineList.lines, function () {
-                var l = $(this)[0];
-                var i = 0;
-                var sections = l.sections;
+                let l = $(this)[0];
+                let i = 0;
+                let sections = l.sections;
                 $.each(sections, function () {
                     if ((i + 1) != sections.length) {
-                        var o = sections[i];
-                        var o1 = sections[i + 1];
-                        var line = new Line_1.Line(o, l.sections, o, o1, l.precision, l.color);
+                        let o = sections[i];
+                        let o1 = sections[i + 1];
+                        let line = new Line(o, l.sections, o, o1, l.precision, l.color);
                         lineAr.push(line);
                         i++;
                     }
                 });
             });
-            var svg = d3.select("#map").append("svg")
+            let svg = d3.select("#map").append("svg")
                 .attr("width", width)
                 .attr("height", height)
                 .attr("id", "tractatus-map");
             /* Define the data for the circles */
-            var elem = svg.selectAll("g")
+            let elem = svg.selectAll("g")
                 .data(sectionAr);
             /* Define the data for the lines */
-            var elemLine = svg.selectAll("g")
+            let elemLine = svg.selectAll("g")
                 .data(lineAr);
-            var elemLineEnter = elemLine.enter()
+            let elemLineEnter = elemLine.enter()
                 .append("g");
             /*Create and place the "blocks" containing the circle and the text */
-            var elemEnter = elem.enter()
+            let elemEnter = elem.enter()
                 .append("g");
-            var line = elemLineEnter.append("line")
+            let line = elemLineEnter.append("line")
                 .attr("x1", function (d) {
-                var point = d.findPoints(container);
+                let point = d.findPoints(container);
                 return point.x1 * gap;
             }) //x_axis of 1st section + radius/2 ?
                 .attr("y1", function (d) {
-                var point = d.findPoints(container);
+                let point = d.findPoints(container);
                 return point.y1 * gap;
             }) //y_axis of 1st section
                 .attr("x2", function (d) {
-                var point = d.findPoints(container);
+                let point = d.findPoints(container);
                 return point.x2 * gap;
             }) //x_axis of 2nd section
                 .attr("y2", function (d) {
-                var point = d.findPoints(container);
+                let point = d.findPoints(container);
                 return point.y2 * gap;
             }) //y_axis of 2nd section
                 .attr("stroke-width", 20) //double radius?
@@ -402,7 +348,7 @@ var tractatus;
                 $("#accordion").css({ border: '0 solid #86d0f3' }).animate({ borderWidth: 2 }, 500).animate({ borderWidth: 0 }, 500);
             });
             /*Create the circle for each block */
-            var circle = elemEnter.append("circle")
+            let circle = elemEnter.append("circle")
                 .attr("cx", function (d) {
                 return d.x_axis * gap;
             })
@@ -437,15 +383,14 @@ var tractatus;
                 .text(function (d) {
                 return d.label;
             });
-        };
-        return Container;
-    }());
+        }
+    }
     tractatus.Container = Container;
-})(tractatus = exports.tractatus || (exports.tractatus = {}));
+})(tractatus || (tractatus = {}));
 //initialize everything
-var container = new tractatus.Container();
-container.ref = new reference_1.Reference.Ref();
-var util = new util_1.Utility.Utils();
+let container = new tractatus.Container();
+container.ref = new Reference.Ref();
+let util = new Utility.Utils();
 util.container = container;
 util.setup();
 container.util = util;

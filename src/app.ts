@@ -14,21 +14,21 @@ linesJson.json must look like this example...
     {"lines" : [{"label": "1.1", "sections": [1.1,1.11,1.12,1.13], "start": "1.1", "end": "1.13", "precision": 2, "color": "#f6944c"}, ... ]}
 */
 
-import JsDiff = require('diff');
-import _ = require('lodash');
+import * as JsDiff from 'diff';
+import * as _ from 'lodash';
 import {Reference} from "./reference";
-declare var MathJax:any;
-declare var d3:any;
+declare let MathJax:any;
+declare let d3:any;
 //break out separate classes for clarity
 import {Utility} from "./util";
 import {Section} from "./Section";
 import {Line} from "./Line";
 import {Point} from "./Point";
 
-var sectionsJson = require('./js/sectionsJson.json');
-var ptSectionsJson = require('./js/ptSectionsJson.json');
-var linesJson = require('./js/linesJson.json');
-var ptLinesJson = require('./js/ptLinesJson.json');
+let sectionsJson = require('./js/sectionsJson.json');
+let ptSectionsJson = require('./js/ptSectionsJson.json');
+let linesJson = require('./js/linesJson.json');
+let ptLinesJson = require('./js/ptLinesJson.json');
 
 export module tractatus {
     //get the Utils class from the Utility module
@@ -175,8 +175,8 @@ export module tractatus {
         }
 
         setupAccordionSidePanel() {
-            var container = this;
-            var version = container.version;
+            let container = this;
+            let version = container.version;
             $(".accordion-column").hide();
             //hide the page selector unless PT is selected
             $("#page-select-form").hide();
@@ -242,15 +242,15 @@ export module tractatus {
 
             //change versions in the overall version selector (not the individual panel version selectors)
             $(".accordion-column").on('change', "#version-selector-all", function () {
-                var selector = $(this);
-                var version = $("option:selected", selector).attr('value');
-                var u = container.util;
+                let selector = $(this);
+                let version = $("option:selected", selector).attr('value');
+                let u = container.util;
                 $('.panel-body').each(function () {
-                    var panelBody = $(this);
-                    var sectionNum = panelBody.attr("value");
+                    let panelBody = $(this);
+                    let sectionNum = panelBody.attr("value");
                     if ($(".version-selector", panelBody).length <= 0) {
-                        var parentDivId = panelBody.parents('div:first').attr('id');
-                        var text = panelBody.attr(version);
+                        let parentDivId = panelBody.parents('div:first').attr('id');
+                        let text = panelBody.attr(version);
                         $(".text-display-li", panelBody).html(text);
                         $("li", panelBody).remove();
                         panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function () {
@@ -258,10 +258,10 @@ export module tractatus {
                         });
                         //check if page is pt
                         if (container.template == 'pt') {
-                            var parent = panelBody.parents(".panel-collapse:first");
+                            let parent = panelBody.parents(".panel-collapse:first");
                             $(".pnum", parent).remove();
                             $(".diff", parent).remove();
-                            var returnVal = u.findDiff(sectionNum, version);
+                            let returnVal = u.findDiff(sectionNum, version);
                             parent.append('<div class="pnum">text difference when compared to TLP ' + u.ptToTlp(sectionNum) + '</div>');
                             parent.append(returnVal);
                         }
@@ -272,13 +272,13 @@ export module tractatus {
 
             //change versions in the individual panel version selectors (not the overall panel version selector)
             $('.accordion-column').on('change', ".version-selector", function () {
-                var $this = $(this);
-                var panelBody = $this.parents('.panel-body');
-                var sectionNum = panelBody.attr("value");
-                var parentDivId = panelBody.parents('div:first').attr('id');
-                var v = $("option:selected", $this).attr('value');
-                var text = panelBody.attr(v);
-                var u = container.util;
+                let $this = $(this);
+                let panelBody = $this.parents('.panel-body');
+                let sectionNum = panelBody.attr("value");
+                let parentDivId = panelBody.parents('div:first').attr('id');
+                let v = $("option:selected", $this).attr('value');
+                let text = panelBody.attr(v);
+                let u = container.util;
                 $this.closest($(".text-display-li")).html(text);
                 $("li", panelBody).remove();
                 panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function () {
@@ -286,10 +286,10 @@ export module tractatus {
                 });
                 //check if page is pt
                 if (container.template == 'pt') {
-                    var parent = panelBody.parents(".panel-collapse:first");
+                    let parent = panelBody.parents(".panel-collapse:first");
                     $(".pnum", parent).remove();
                     $(".diff", parent).remove();
-                    var returnVal = u.findDiff(sectionNum, v);
+                    let returnVal = u.findDiff(sectionNum, v);
                     parent.append('<div class="pnum">text difference when compared to TLP ' + u.ptToTlp(sectionNum) + '</div>');
                     parent.append(returnVal);
                 }
@@ -299,11 +299,11 @@ export module tractatus {
 
         //filter sections based on pages entered (PT only)
         setupPTPaging() {
-            var container = this;
+            let container = this;
             $('#start-page').val(container.startPage);
             $('#end-page').val(container.endPage);
-            var sectionList: any = container.sectionList;
-            var pageFilteredPTList: number[] = [];
+            let sectionList: any = container.sectionList;
+            let pageFilteredPTList: number[] = [];
 
             // when the page form submit button is clicked, set the start and end page values based on text box values
             $('#page-submit').click(function () {
@@ -322,72 +322,72 @@ export module tractatus {
         }
 
         setupD3() {
-            var container = this;
-            var gap = container.gap;
-            var width = $("#map").width();
-            var height = container.height;
-            var sectionAr: Section[] = [];
-            var lineAr: Line[] = [];
-            var sectionList: any = container.sectionList;
-            var lineList: any = container.lineList;
+            let container = this;
+            let gap = container.gap;
+            let width = $("#map").width();
+            let height = container.height;
+            let sectionAr: Section[] = [];
+            let lineAr: Line[] = [];
+            let sectionList: any = container.sectionList;
+            let lineList: any = container.lineList;
 
             $.each(sectionList.sections, function () {
-                var $this = $(this);
-                var o: any = $(this)[0];
-                var section: Section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str)
+                let $this = $(this);
+                let o: any = $(this)[0];
+                let section: Section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str)
                 sectionAr.push(section);
             })
 
             $.each(lineList.lines, function () {
-                var l: any = $(this)[0];
-                var i = 0;
-                var sections = l.sections;
+                let l: any = $(this)[0];
+                let i = 0;
+                let sections = l.sections;
                 $.each(sections, function () {
                     if ((i + 1) != sections.length) {
-                        var o: any = sections[i];
-                        var o1: any = sections[i + 1];
-                        var line: Line = new Line(o, l.sections, o, o1, l.precision, l.color)
+                        let o: any = sections[i];
+                        let o1: any = sections[i + 1];
+                        let line: Line = new Line(o, l.sections, o, o1, l.precision, l.color)
                         lineAr.push(line);
                         i++;
                     }
                 })
             })
 
-            var svg = d3.select("#map").append("svg")
+            let svg = d3.select("#map").append("svg")
                 .attr("width", width)
                 .attr("height", height)
                 .attr("id", "tractatus-map");
 
             /* Define the data for the circles */
-            var elem = svg.selectAll("g")
+            let elem = svg.selectAll("g")
                 .data(sectionAr);
 
             /* Define the data for the lines */
-            var elemLine = svg.selectAll("g")
+            let elemLine = svg.selectAll("g")
                 .data(lineAr);
 
-            var elemLineEnter = elemLine.enter()
+            let elemLineEnter = elemLine.enter()
                 .append("g");
 
             /*Create and place the "blocks" containing the circle and the text */
-            var elemEnter = elem.enter()
+            let elemEnter = elem.enter()
                 .append("g");
 
-            var line = elemLineEnter.append("line")
+            let line = elemLineEnter.append("line")
                 .attr("x1", function (d: Line) {
-                    var point: Point = d.findPoints(container);
+                    let point: Point = d.findPoints(container);
                     return point.x1 * gap;
                 }) //x_axis of 1st section + radius/2 ?
                 .attr("y1", function (d: Line) {
-                    var point = d.findPoints(container);
+                    let point = d.findPoints(container);
                     return point.y1 * gap;
                 }) //y_axis of 1st section
                 .attr("x2", function (d: Line) {
-                    var point = d.findPoints(container);
+                    let point = d.findPoints(container);
                     return point.x2 * gap;
                 }) //x_axis of 2nd section
                 .attr("y2", function (d: Line) {
-                    var point = d.findPoints(container);
+                    let point = d.findPoints(container);
                     return point.y2 * gap;
                 }) //y_axis of 2nd section
                 .attr("stroke-width", 20)   //double radius?
@@ -406,7 +406,7 @@ export module tractatus {
                 });
 
             /*Create the circle for each block */
-            var circle = elemEnter.append("circle")
+            let circle = elemEnter.append("circle")
                 .attr("cx", function (d: Section) {
                     return d.x_axis * gap;
                 })
@@ -451,9 +451,9 @@ export module tractatus {
 }
 
 //initialize everything
-var container = new tractatus.Container();
+let container = new tractatus.Container();
 container.ref = new Reference.Ref();
-var util = new Utility.Utils();
+let util = new Utility.Utils();
 util.container = container;
 util.setup();
 container.util = util;

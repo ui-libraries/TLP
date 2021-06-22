@@ -17285,14 +17285,14 @@
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
 
-Object.defineProperty(exports, "__esModule", { value: true });
-var _ = __webpack_require__(0);
-var Section = /** @class */ (function () {
-    function Section(label, fontSize, precision, x_axis, y_axis, ger, ogd, pmc, str) {
+class Section {
+    constructor(label, fontSize, precision, x_axis, y_axis, ger, ogd, pmc, str) {
         this.label = label;
         this.fontSize = fontSize;
         this.precision = precision;
@@ -17303,8 +17303,8 @@ var Section = /** @class */ (function () {
         this.pmc = pmc;
         this.str = str;
     }
-    Section.prototype.getTextForSelectedVersion = function (version) {
-        var v;
+    getTextForSelectedVersion(version) {
+        let v;
         if (version == "ger") {
             v = this.ger;
         }
@@ -17318,11 +17318,11 @@ var Section = /** @class */ (function () {
             v = this.str;
         }
         return v;
-    };
-    Section.prototype.displayText = function (showSelector, version, divCounter, template, util) {
-        var div = "collapse" + divCounter;
+    }
+    displayText(showSelector, version, divCounter, template, util) {
+        let div = "collapse" + divCounter;
         //create a new div and append to accordion div. Add 'Section ' + to line 48 for optional label
-        var element = $('<div class="panel panel-default">' +
+        let element = $('<div class="panel panel-default">' +
             '<div class="panel-heading" data-toggle="collapse" href="#' + div + '" class="accordion-toggle" >' +
             '<h4 class="panel-title">' +
             '<a class="accordion-header">' +
@@ -17330,11 +17330,11 @@ var Section = /** @class */ (function () {
             '</h4>' +
             '</div>' +
             '<div id="' + div + '" class="panel-collapse collapse in"><div class="panel-body" value="' + this.label + '"></div>').appendTo('#accordion');
-        var text = this.getTextForSelectedVersion(version);
+        let text = this.getTextForSelectedVersion(version);
         //showSelector will be true when an individual Section/Circle is clicked.  Will be false when a line is clicked.
         if (showSelector) {
             //append the language selector
-            var langVersion = template == "pt" ? 'pt-lang-version.html' : 'lang-version.html';
+            let langVersion = template == "pt" ? 'pt-lang-version.html' : 'lang-version.html';
             $('#' + div + ' .panel-body').append($('<div>').load(langVersion, function () {
                 $('.version-selector').val(version);
             }));
@@ -17352,28 +17352,28 @@ var Section = /** @class */ (function () {
         $(".map-column").removeClass('col-md-12').addClass('col-md-9');
         //check if page is pt
         if (template == 'pt') {
-            var label = this.label;
-            var textLabel = label.toString();
-            var returnVal = util.findDiff(textLabel, version);
+            let label = this.label;
+            let textLabel = label.toString();
+            let returnVal = util.findDiff(textLabel, version);
             $('#' + div).append('<br /><div class="pnum">text difference when compared to TLP ' + util.ptToTlp(textLabel) + '</div>');
             $('#' + div).append(returnVal);
         }
         return divCounter + 1;
-    };
+    }
     // if the circle is in the current start and end range, use its original color. If not, make it grey
-    Section.prototype.checkCircleColor = function (sections, startValue, color) {
-        var startVal = Number(startValue);
-        var resultStart = _.includes(sections, startVal);
+    checkCircleColor(sections, startValue, color) {
+        let startVal = Number(startValue);
+        let resultStart = __WEBPACK_IMPORTED_MODULE_0_lodash__["includes"](sections, startVal);
         if (resultStart === true) {
             return color;
         }
         else {
             return '#E8E8EE';
         }
-    };
-    return Section;
-}());
-exports.Section = Section;
+    }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Section;
+
 
 
 /***/ }),
@@ -19250,10 +19250,19 @@ module.exports = {"sections":[{"label":"1","precision":0,"fontSize":"90px","y_ax
 
 /***/ }),
 /* 7 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tractatus", function() { return tractatus; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_diff__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_diff___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_diff__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reference__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Section__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Line__ = __webpack_require__(10);
 /*
 this is the main entry point for the application
 relevant classes are broken out into other files such as Section.ts, PTSection.ts, ISection.ts, util.ts, etc
@@ -19269,22 +19278,21 @@ sectionsJson.json must look like this example...
 linesJson.json must look like this example...
     {"lines" : [{"label": "1.1", "sections": [1.1,1.11,1.12,1.13], "start": "1.1", "end": "1.13", "precision": 2, "color": "#f6944c"}, ... ]}
 */
-Object.defineProperty(exports, "__esModule", { value: true });
-var JsDiff = __webpack_require__(2);
-var _ = __webpack_require__(0);
-var reference_1 = __webpack_require__(13);
+
+
+
 //break out separate classes for clarity
-var util_1 = __webpack_require__(14);
-var Section_1 = __webpack_require__(1);
-var Line_1 = __webpack_require__(10);
-var sectionsJson = __webpack_require__(6);
-var ptSectionsJson = __webpack_require__(5);
-var linesJson = __webpack_require__(3);
-var ptLinesJson = __webpack_require__(4);
+
+
+
+let sectionsJson = __webpack_require__(6);
+let ptSectionsJson = __webpack_require__(5);
+let linesJson = __webpack_require__(3);
+let ptLinesJson = __webpack_require__(4);
 var tractatus;
 (function (tractatus) {
-    var Container = /** @class */ (function () {
-        function Container() {
+    class Container {
+        constructor() {
             //version = ger, pmc, ogd
             this._version = 'ger';
             this._gap = 50;
@@ -19295,159 +19303,107 @@ var tractatus;
             this._endPage = 0;
             //template = either pt or tlp.  introduced to avoid the need for maintaining separate code bases for each
             this._template = 'tlp';
-            this.diffWords = function (result, sectionText) {
-                return JsDiff.diffWords(result, sectionText);
+            this.diffWords = (result, sectionText) => {
+                return __WEBPACK_IMPORTED_MODULE_0_diff__["diffWords"](result, sectionText);
             };
         }
-        Object.defineProperty(Container.prototype, "version", {
-            get: function () {
-                if (localStorage.getItem('version') != null) {
-                    return localStorage.getItem('version');
-                }
-                return this._version;
-            },
-            set: function (version) {
-                this._version = version;
-                localStorage.setItem("version", version);
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "gap", {
-            get: function () {
-                return this._gap;
-            },
-            set: function (gap) {
-                this._gap = gap;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "width", {
-            get: function () {
-                return this._width;
-            },
-            set: function (width) {
-                this._width = width;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "height", {
-            get: function () {
-                return this._height;
-            },
-            set: function (height) {
-                this._height = height;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "divCounter", {
-            get: function () {
-                return this._divCounter;
-            },
-            set: function (divCounter) {
-                this._divCounter = divCounter;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "startPage", {
-            get: function () {
-                if (localStorage.getItem('startPage') != null) {
-                    return parseInt(localStorage.getItem('startPage'));
-                }
-                return this._startPage;
-            },
-            set: function (startPage) {
-                this._startPage = startPage;
-                localStorage.setItem("startPage", startPage.toString());
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "endPage", {
-            get: function () {
-                if (localStorage.getItem('endPage') != null) {
-                    return parseInt(localStorage.getItem('endPage'));
-                }
-                return this._endPage;
-            },
-            set: function (endPage) {
-                this._endPage = endPage;
-                localStorage.setItem("endPage", endPage.toString());
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "template", {
-            get: function () {
-                if (localStorage.getItem('template') != null) {
-                    return localStorage.getItem('template');
-                }
-                return this._template;
-            },
-            set: function (template) {
-                this._template = template;
-                localStorage.setItem('template', template);
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "sectionList", {
-            get: function () {
-                return this._sectionList;
-            },
-            set: function (sectionList) {
-                this._sectionList = sectionList;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "lineList", {
-            get: function () {
-                return this._lineList;
-            },
-            set: function (lineList) {
-                this._lineList = lineList;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "pageFilteredPTList", {
-            get: function () {
-                return this._pageFilteredPTList;
-            },
-            set: function (value) {
-                this._pageFilteredPTList = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "util", {
-            get: function () {
-                return this._util;
-            },
-            set: function (value) {
-                this._util = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Container.prototype, "ref", {
-            get: function () {
-                return this._ref;
-            },
-            set: function (value) {
-                this._ref = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Container.prototype.setupAccordionSidePanel = function () {
-            var container = this;
-            var version = container.version;
+        get version() {
+            if (localStorage.getItem('version') != null) {
+                return localStorage.getItem('version');
+            }
+            return this._version;
+        }
+        set version(version) {
+            this._version = version;
+            localStorage.setItem("version", version);
+        }
+        get gap() {
+            return this._gap;
+        }
+        set gap(gap) {
+            this._gap = gap;
+        }
+        get width() {
+            return this._width;
+        }
+        set width(width) {
+            this._width = width;
+        }
+        get height() {
+            return this._height;
+        }
+        set height(height) {
+            this._height = height;
+        }
+        get divCounter() {
+            return this._divCounter;
+        }
+        set divCounter(divCounter) {
+            this._divCounter = divCounter;
+        }
+        get startPage() {
+            if (localStorage.getItem('startPage') != null) {
+                return parseInt(localStorage.getItem('startPage'));
+            }
+            return this._startPage;
+        }
+        set startPage(startPage) {
+            this._startPage = startPage;
+            localStorage.setItem("startPage", startPage.toString());
+        }
+        get endPage() {
+            if (localStorage.getItem('endPage') != null) {
+                return parseInt(localStorage.getItem('endPage'));
+            }
+            return this._endPage;
+        }
+        set endPage(endPage) {
+            this._endPage = endPage;
+            localStorage.setItem("endPage", endPage.toString());
+        }
+        get template() {
+            if (localStorage.getItem('template') != null) {
+                return localStorage.getItem('template');
+            }
+            return this._template;
+        }
+        set template(template) {
+            this._template = template;
+            localStorage.setItem('template', template);
+        }
+        get sectionList() {
+            return this._sectionList;
+        }
+        set sectionList(sectionList) {
+            this._sectionList = sectionList;
+        }
+        get lineList() {
+            return this._lineList;
+        }
+        set lineList(lineList) {
+            this._lineList = lineList;
+        }
+        get pageFilteredPTList() {
+            return this._pageFilteredPTList;
+        }
+        set pageFilteredPTList(value) {
+            this._pageFilteredPTList = value;
+        }
+        get util() {
+            return this._util;
+        }
+        set util(value) {
+            this._util = value;
+        }
+        get ref() {
+            return this._ref;
+        }
+        set ref(value) {
+            this._ref = value;
+        }
+        setupAccordionSidePanel() {
+            let container = this;
+            let version = container.version;
             $(".accordion-column").hide();
             //hide the page selector unless PT is selected
             $("#page-select-form").hide();
@@ -19507,15 +19463,15 @@ var tractatus;
                   compare text for the same section.*/
             //change versions in the overall version selector (not the individual panel version selectors)
             $(".accordion-column").on('change', "#version-selector-all", function () {
-                var selector = $(this);
-                var version = $("option:selected", selector).attr('value');
-                var u = container.util;
+                let selector = $(this);
+                let version = $("option:selected", selector).attr('value');
+                let u = container.util;
                 $('.panel-body').each(function () {
-                    var panelBody = $(this);
-                    var sectionNum = panelBody.attr("value");
+                    let panelBody = $(this);
+                    let sectionNum = panelBody.attr("value");
                     if ($(".version-selector", panelBody).length <= 0) {
-                        var parentDivId = panelBody.parents('div:first').attr('id');
-                        var text = panelBody.attr(version);
+                        let parentDivId = panelBody.parents('div:first').attr('id');
+                        let text = panelBody.attr(version);
                         $(".text-display-li", panelBody).html(text);
                         $("li", panelBody).remove();
                         panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function () {
@@ -19523,10 +19479,10 @@ var tractatus;
                         });
                         //check if page is pt
                         if (container.template == 'pt') {
-                            var parent = panelBody.parents(".panel-collapse:first");
+                            let parent = panelBody.parents(".panel-collapse:first");
                             $(".pnum", parent).remove();
                             $(".diff", parent).remove();
-                            var returnVal = u.findDiff(sectionNum, version);
+                            let returnVal = u.findDiff(sectionNum, version);
                             parent.append('<div class="pnum">text difference when compared to TLP ' + u.ptToTlp(sectionNum) + '</div>');
                             parent.append(returnVal);
                         }
@@ -19536,13 +19492,13 @@ var tractatus;
             });
             //change versions in the individual panel version selectors (not the overall panel version selector)
             $('.accordion-column').on('change', ".version-selector", function () {
-                var $this = $(this);
-                var panelBody = $this.parents('.panel-body');
-                var sectionNum = panelBody.attr("value");
-                var parentDivId = panelBody.parents('div:first').attr('id');
-                var v = $("option:selected", $this).attr('value');
-                var text = panelBody.attr(v);
-                var u = container.util;
+                let $this = $(this);
+                let panelBody = $this.parents('.panel-body');
+                let sectionNum = panelBody.attr("value");
+                let parentDivId = panelBody.parents('div:first').attr('id');
+                let v = $("option:selected", $this).attr('value');
+                let text = panelBody.attr(v);
+                let u = container.util;
                 $this.closest($(".text-display-li")).html(text);
                 $("li", panelBody).remove();
                 panelBody.append($('<li class="text-display-li">' + text + '</li>')).load(text, function () {
@@ -19550,96 +19506,96 @@ var tractatus;
                 });
                 //check if page is pt
                 if (container.template == 'pt') {
-                    var parent = panelBody.parents(".panel-collapse:first");
+                    let parent = panelBody.parents(".panel-collapse:first");
                     $(".pnum", parent).remove();
                     $(".diff", parent).remove();
-                    var returnVal = u.findDiff(sectionNum, v);
+                    let returnVal = u.findDiff(sectionNum, v);
                     parent.append('<div class="pnum">text difference when compared to TLP ' + u.ptToTlp(sectionNum) + '</div>');
                     parent.append(returnVal);
                 }
                 localStorage.setItem('version', v);
             });
-        };
+        }
         //filter sections based on pages entered (PT only)
-        Container.prototype.setupPTPaging = function () {
-            var container = this;
+        setupPTPaging() {
+            let container = this;
             $('#start-page').val(container.startPage);
             $('#end-page').val(container.endPage);
-            var sectionList = container.sectionList;
-            var pageFilteredPTList = [];
+            let sectionList = container.sectionList;
+            let pageFilteredPTList = [];
             // when the page form submit button is clicked, set the start and end page values based on text box values
             $('#page-submit').click(function () {
                 container.startPage = parseInt($('#start-page').val().toString());
                 container.endPage = parseInt($('#end-page').val().toString());
             });
             // add all object in the sectionList that fall between start and end page numbers.
-            _.forEach(sectionList.sections, function (value, key) {
+            __WEBPACK_IMPORTED_MODULE_1_lodash__["forEach"](sectionList.sections, function (value, key) {
                 if (value.page >= container.startPage && value.page <= container.endPage) {
                     pageFilteredPTList.push(parseFloat(value.label));
                 }
                 ;
             });
             container.pageFilteredPTList = pageFilteredPTList;
-        };
-        Container.prototype.setupD3 = function () {
-            var container = this;
-            var gap = container.gap;
-            var width = $("#map").width();
-            var height = container.height;
-            var sectionAr = [];
-            var lineAr = [];
-            var sectionList = container.sectionList;
-            var lineList = container.lineList;
+        }
+        setupD3() {
+            let container = this;
+            let gap = container.gap;
+            let width = $("#map").width();
+            let height = container.height;
+            let sectionAr = [];
+            let lineAr = [];
+            let sectionList = container.sectionList;
+            let lineList = container.lineList;
             $.each(sectionList.sections, function () {
-                var $this = $(this);
-                var o = $(this)[0];
-                var section = new Section_1.Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
+                let $this = $(this);
+                let o = $(this)[0];
+                let section = new __WEBPACK_IMPORTED_MODULE_4__Section__["a" /* Section */](o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
                 sectionAr.push(section);
             });
             $.each(lineList.lines, function () {
-                var l = $(this)[0];
-                var i = 0;
-                var sections = l.sections;
+                let l = $(this)[0];
+                let i = 0;
+                let sections = l.sections;
                 $.each(sections, function () {
                     if ((i + 1) != sections.length) {
-                        var o = sections[i];
-                        var o1 = sections[i + 1];
-                        var line = new Line_1.Line(o, l.sections, o, o1, l.precision, l.color);
+                        let o = sections[i];
+                        let o1 = sections[i + 1];
+                        let line = new __WEBPACK_IMPORTED_MODULE_5__Line__["a" /* Line */](o, l.sections, o, o1, l.precision, l.color);
                         lineAr.push(line);
                         i++;
                     }
                 });
             });
-            var svg = d3.select("#map").append("svg")
+            let svg = d3.select("#map").append("svg")
                 .attr("width", width)
                 .attr("height", height)
                 .attr("id", "tractatus-map");
             /* Define the data for the circles */
-            var elem = svg.selectAll("g")
+            let elem = svg.selectAll("g")
                 .data(sectionAr);
             /* Define the data for the lines */
-            var elemLine = svg.selectAll("g")
+            let elemLine = svg.selectAll("g")
                 .data(lineAr);
-            var elemLineEnter = elemLine.enter()
+            let elemLineEnter = elemLine.enter()
                 .append("g");
             /*Create and place the "blocks" containing the circle and the text */
-            var elemEnter = elem.enter()
+            let elemEnter = elem.enter()
                 .append("g");
-            var line = elemLineEnter.append("line")
+            let line = elemLineEnter.append("line")
                 .attr("x1", function (d) {
-                var point = d.findPoints(container);
+                let point = d.findPoints(container);
                 return point.x1 * gap;
             }) //x_axis of 1st section + radius/2 ?
                 .attr("y1", function (d) {
-                var point = d.findPoints(container);
+                let point = d.findPoints(container);
                 return point.y1 * gap;
             }) //y_axis of 1st section
                 .attr("x2", function (d) {
-                var point = d.findPoints(container);
+                let point = d.findPoints(container);
                 return point.x2 * gap;
             }) //x_axis of 2nd section
                 .attr("y2", function (d) {
-                var point = d.findPoints(container);
+                let point = d.findPoints(container);
                 return point.y2 * gap;
             }) //y_axis of 2nd section
                 .attr("stroke-width", 20) //double radius?
@@ -19657,7 +19613,7 @@ var tractatus;
                 $("#accordion").css({ border: '0 solid #86d0f3' }).animate({ borderWidth: 2 }, 500).animate({ borderWidth: 0 }, 500);
             });
             /*Create the circle for each block */
-            var circle = elemEnter.append("circle")
+            let circle = elemEnter.append("circle")
                 .attr("cx", function (d) {
                 return d.x_axis * gap;
             })
@@ -19692,15 +19648,14 @@ var tractatus;
                 .text(function (d) {
                 return d.label;
             });
-        };
-        return Container;
-    }());
+        }
+    }
     tractatus.Container = Container;
-})(tractatus = exports.tractatus || (exports.tractatus = {}));
+})(tractatus || (tractatus = {}));
 //initialize everything
-var container = new tractatus.Container();
-container.ref = new reference_1.Reference.Ref();
-var util = new util_1.Utility.Utils();
+let container = new tractatus.Container();
+container.ref = new __WEBPACK_IMPORTED_MODULE_2__reference__["a" /* Reference */].Ref();
+let util = new __WEBPACK_IMPORTED_MODULE_3__util__["a" /* Utility */].Utils();
 util.container = container;
 util.setup();
 container.util = util;
@@ -19768,16 +19723,18 @@ module.exports = function(module) {
 
 /***/ }),
 /* 10 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__point__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Section__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 
-Object.defineProperty(exports, "__esModule", { value: true });
-var point_1 = __webpack_require__(12);
-var Section_1 = __webpack_require__(1);
-var _ = __webpack_require__(0);
-var Line /*implements ILine*/ = /** @class */ (function () {
-    function Line(label, sections, start, end, precision, color) {
+
+
+class Line /*implements ILine*/ {
+    constructor(label, sections, start, end, precision, color) {
         this._label = label;
         this._sections = sections;
         this._start = start;
@@ -19785,110 +19742,82 @@ var Line /*implements ILine*/ = /** @class */ (function () {
         this._precision = precision;
         this._color = color;
     }
-    Object.defineProperty(Line.prototype, "label", {
-        get: function () {
-            return this._label;
-        },
-        set: function (value) {
-            this._label = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Line.prototype, "sections", {
-        get: function () {
-            return this._sections;
-        },
-        set: function (value) {
-            this._sections = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Line.prototype, "start", {
-        get: function () {
-            return this._start;
-        },
-        set: function (value) {
-            this._start = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Line.prototype, "end", {
-        get: function () {
-            return this._end;
-        },
-        set: function (value) {
-            this._end = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Line.prototype, "precision", {
-        get: function () {
-            return this._precision;
-        },
-        set: function (value) {
-            this._precision = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Line.prototype, "color", {
-        get: function () {
-            return this._color;
-        },
-        set: function (value) {
-            this._color = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Line.prototype, "sectionList", {
-        get: function () {
-            return this._sectionList;
-        },
-        set: function (value) {
-            this._sectionList = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Line.prototype.findPoints = function (container) {
-        var start = this._start, end = this._end, startPoint = _.filter(container.sectionList.sections, { "label": start.toString() }), endPoint = _.filter(container.sectionList.sections, { "label": end.toString() });
-        var point = new point_1.Point(startPoint[0].x_axis, endPoint[0].x_axis, startPoint[0].y_axis, endPoint[0].y_axis, this._color);
+    get label() {
+        return this._label;
+    }
+    set label(value) {
+        this._label = value;
+    }
+    get sections() {
+        return this._sections;
+    }
+    set sections(value) {
+        this._sections = value;
+    }
+    get start() {
+        return this._start;
+    }
+    set start(value) {
+        this._start = value;
+    }
+    get end() {
+        return this._end;
+    }
+    set end(value) {
+        this._end = value;
+    }
+    get precision() {
+        return this._precision;
+    }
+    set precision(value) {
+        this._precision = value;
+    }
+    get color() {
+        return this._color;
+    }
+    set color(value) {
+        this._color = value;
+    }
+    get sectionList() {
+        return this._sectionList;
+    }
+    set sectionList(value) {
+        this._sectionList = value;
+    }
+    findPoints(container) {
+        let start = this._start, end = this._end, startPoint = __WEBPACK_IMPORTED_MODULE_2_lodash__["filter"](container.sectionList.sections, { "label": start.toString() }), endPoint = __WEBPACK_IMPORTED_MODULE_2_lodash__["filter"](container.sectionList.sections, { "label": end.toString() });
+        let point = new __WEBPACK_IMPORTED_MODULE_0__point__["a" /* Point */](startPoint[0].x_axis, endPoint[0].x_axis, startPoint[0].y_axis, endPoint[0].y_axis, this._color);
         return point;
-    };
-    Line.prototype.buildGroup = function (container) {
-        var sectionList = container.sectionList;
-        var sectionAr = [];
-        var sections = this.sections;
-        var line = this;
-        var color = this.checkLineColor(container.pageFilteredPTList, line.start, line.end, line.color);
+    }
+    buildGroup(container) {
+        let sectionList = container.sectionList;
+        let sectionAr = [];
+        let sections = this.sections;
+        let line = this;
+        let color = this.checkLineColor(container.pageFilteredPTList, line.start, line.end, line.color);
         $.each(sectionList.sections, function () {
-            var o = $(this)[0];
+            let o = $(this)[0];
             if (container.template == 'tlp' || color == '#E8E8EE' || (o.page >= container.startPage && o.page <= container.endPage) || o.stroke == '#E8E8EE') {
-                var section = new Section_1.Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
+                let section = new __WEBPACK_IMPORTED_MODULE_1__Section__["a" /* Section */](o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str);
                 sectionAr.push(section);
             }
         });
         //loop through list of line section array, as well as all sections and if the labels match, display the text
-        for (var j = 0; j < sections.length; j++) {
-            for (var k = 0; k < sectionAr.length; k++) {
+        for (let j = 0; j < sections.length; j++) {
+            for (let k = 0; k < sectionAr.length; k++) {
                 if (sections[j].toString() == sectionAr[k].label) {
                     container.divCounter = sectionAr[k].displayText(false, container.version, container.divCounter, container.template, container.util);
                 }
             }
         }
-    };
+    }
     // if the line is in the current start and end range, use its original color. If not, make it grey
-    Line.prototype.checkLineColor = function (sections, startValue, endValue, color) {
-        var startVal = startValue;
-        var endVal = endValue;
-        var resultStart = _.includes(sections, parseFloat(startVal));
-        var resultEnd = _.includes(sections, parseFloat(endVal));
-        var finalColor;
+    checkLineColor(sections, startValue, endValue, color) {
+        let startVal = startValue;
+        let endVal = endValue;
+        let resultStart = __WEBPACK_IMPORTED_MODULE_2_lodash__["includes"](sections, parseFloat(startVal));
+        let resultEnd = __WEBPACK_IMPORTED_MODULE_2_lodash__["includes"](sections, parseFloat(endVal));
+        let finalColor;
         if (resultStart == true && resultEnd === true) {
             finalColor = color;
         }
@@ -19896,21 +19825,19 @@ var Line /*implements ILine*/ = /** @class */ (function () {
             finalColor = '#E8E8EE';
         }
         return finalColor;
-    };
-    return Line;
-}());
-exports.Line = Line;
+    }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Line;
+
 
 
 /***/ }),
 /* 11 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var PTSection = /** @class */ (function () {
-    function PTSection(label, page, tlp, pmc, ger, str) {
+class PTSection {
+    constructor(label, page, tlp, pmc, ger, str) {
         this.label = label;
         this.page = page;
         this.tlp = tlp;
@@ -19918,201 +19845,165 @@ var PTSection = /** @class */ (function () {
         this.ger = ger;
         this.str = str;
     }
-    return PTSection;
-}());
-exports.PTSection = PTSection;
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = PTSection;
+
 
 
 /***/ }),
 /* 12 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var Point = /** @class */ (function () {
-    function Point(x1, x2, y1, y2, color) {
+class Point {
+    constructor(x1, x2, y1, y2, color) {
         this._x1 = x1;
         this._x2 = x2;
         this._y1 = y1;
         this._y2 = y2;
         this._color = color;
     }
-    Object.defineProperty(Point.prototype, "x1", {
-        get: function () {
-            return this._x1;
-        },
-        set: function (value) {
-            this._x1 = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Point.prototype, "x2", {
-        get: function () {
-            return this._x2;
-        },
-        set: function (value) {
-            this._x2 = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Point.prototype, "y1", {
-        get: function () {
-            return this._y1;
-        },
-        set: function (value) {
-            this._y1 = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Point.prototype, "y2", {
-        get: function () {
-            return this._y2;
-        },
-        set: function (value) {
-            this._y2 = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Point.prototype, "color", {
-        get: function () {
-            return this._color;
-        },
-        set: function (value) {
-            this._color = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    return Point;
-}());
-exports.Point = Point;
+    get x1() {
+        return this._x1;
+    }
+    set x1(value) {
+        this._x1 = value;
+    }
+    get x2() {
+        return this._x2;
+    }
+    set x2(value) {
+        this._x2 = value;
+    }
+    get y1() {
+        return this._y1;
+    }
+    set y1(value) {
+        this._y1 = value;
+    }
+    get y2() {
+        return this._y2;
+    }
+    set y2(value) {
+        this._y2 = value;
+    }
+    get color() {
+        return this._color;
+    }
+    set color(value) {
+        this._color = value;
+    }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Point;
+
 
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var sectionsJson = __webpack_require__(6);
-var ptSectionsJson = __webpack_require__(5);
-var linesJson = __webpack_require__(3);
-var ptLinesJson = __webpack_require__(4);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Reference; });
+let sectionsJson = __webpack_require__(6);
+let ptSectionsJson = __webpack_require__(5);
+let linesJson = __webpack_require__(3);
+let ptLinesJson = __webpack_require__(4);
 //todo - add more references here that are imported on each page
 var Reference;
 (function (Reference) {
-    var Ref = /** @class */ (function () {
-        function Ref() {
+    class Ref {
+        constructor() {
             this._sectionsJson = sectionsJson;
             this._ptSectionsJson = ptSectionsJson;
             this._linesJson = linesJson;
             this._ptLinesJson = ptLinesJson;
         }
-        Object.defineProperty(Ref.prototype, "sectionsJson", {
-            get: function () {
-                return this._sectionsJson;
-            },
-            set: function (value) {
-                this._sectionsJson = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Ref.prototype, "ptSectionsJson", {
-            get: function () {
-                return this._ptSectionsJson;
-            },
-            set: function (value) {
-                this._ptSectionsJson = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Ref.prototype, "linesJson", {
-            get: function () {
-                return this._linesJson;
-            },
-            set: function (value) {
-                this._linesJson = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Ref.prototype, "ptLinesJson", {
-            get: function () {
-                return this._ptLinesJson;
-            },
-            set: function (value) {
-                this._ptLinesJson = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        return Ref;
-    }());
+        get sectionsJson() {
+            return this._sectionsJson;
+        }
+        set sectionsJson(value) {
+            this._sectionsJson = value;
+        }
+        get ptSectionsJson() {
+            return this._ptSectionsJson;
+        }
+        set ptSectionsJson(value) {
+            this._ptSectionsJson = value;
+        }
+        get linesJson() {
+            return this._linesJson;
+        }
+        set linesJson(value) {
+            this._linesJson = value;
+        }
+        get ptLinesJson() {
+            return this._ptLinesJson;
+        }
+        set ptLinesJson(value) {
+            this._ptLinesJson = value;
+        }
+    }
     Reference.Ref = Ref;
-})(Reference = exports.Reference || (exports.Reference = {}));
+})(Reference || (Reference = {}));
 
 
 /***/ }),
 /* 14 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Utility; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_diff__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_diff___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_diff__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Section__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PTSection__ = __webpack_require__(11);
 ///<reference path="reference.ts"/>
-var _ = __webpack_require__(0);
-var JsDiff = __webpack_require__(2);
-var Section_1 = __webpack_require__(1);
-var PTSection_1 = __webpack_require__(11);
+
+
+
+
 var Utility;
 (function (Utility) {
-    var Utils = /** @class */ (function () {
-        function Utils() {
-        }
-        Utils.prototype.setup = function () {
+    class Utils {
+        constructor() { }
+        setup() {
             //populate the ptSectionAr array
-            var ptSectionAr = [];
+            let ptSectionAr = [];
             $.each(this.container.ref.ptSectionsJson.sections, function () {
-                var o = $(this)[0];
-                var ptSection = new PTSection_1.PTSection(o.label, o.page, o.tlp, o.pmc, o.ger, o.str);
+                let o = $(this)[0];
+                let ptSection = new __WEBPACK_IMPORTED_MODULE_3__PTSection__["a" /* PTSection */](o.label, o.page, o.tlp, o.pmc, o.ger, o.str);
                 ptSectionAr.push(ptSection);
             });
             this._ptSectionAr = ptSectionAr;
-        };
+        }
         //find the tlp sections that correspond to the pt label
-        Utils.prototype.ptToTlp = function (textLabel) {
-            var ptsec, sectionNum;
-            ptsec = _.find(this.container.ref.ptSectionsJson.sections, function (obj) {
+        ptToTlp(textLabel) {
+            let ptsec, sectionNum;
+            ptsec = __WEBPACK_IMPORTED_MODULE_0_lodash__["find"](this.container.ref.ptSectionsJson.sections, function (obj) {
                 return obj.label == textLabel;
             });
             sectionNum = ptsec.tlp;
             return sectionNum;
-        };
+        }
         // create an HTML fragment of color-coded text differences between a specified PT number and its corresponding TLP section
-        Utils.prototype.findDiff = function (textLabel, lang) {
-            var sectionNum = this.ptToTlp(textLabel), sectionContent = this.createHTML(textLabel), sectionText = $(sectionContent).find("." + lang).text(), diff, fragment = $('<div class="diff"></div>');
-            for (var i = 0; i < sectionNum.length; i++) {
+        findDiff(textLabel, lang) {
+            let sectionNum = this.ptToTlp(textLabel), sectionContent = this.createHTML(textLabel), sectionText = $(sectionContent).find("." + lang).text(), diff, fragment = $('<div class="diff"></div>');
+            for (let i = 0; i < sectionNum.length; i++) {
                 this.container.ref.sectionsJson.sections.forEach(function (d) {
-                    var sec = new Section_1.Section(d.label, d.fontSize, d.precision, d.x_axis, d.y_axis, d.ger, d.ogd, d.pmc, d.str);
+                    let sec = new __WEBPACK_IMPORTED_MODULE_2__Section__["a" /* Section */](d.label, d.fontSize, d.precision, d.x_axis, d.y_axis, d.ger, d.ogd, d.pmc, d.str);
                     if (d.label == sectionNum[i]) {
-                        var result = sec.getTextForSelectedVersion(lang);
+                        let result = sec.getTextForSelectedVersion(lang);
                         result = result.replace(/<\/?[^>]+(>|$)/g, "");
                         sectionText = sectionText.replace(/<\/?[^>]+(>|$)/g, "");
-                        diff = JsDiff.diffWords(result, sectionText);
+                        diff = __WEBPACK_IMPORTED_MODULE_1_diff__["diffWords"](result, sectionText);
                         diff.forEach(function (part) {
                             // blue for additions, red for deletions
                             // grey for common parts
-                            var color = part.added ? 'red' :
+                            let color = part.added ? 'red' :
                                 part.removed ? 'blue' : 'grey';
-                            var span = document.createElement('span');
+                            let span = document.createElement('span');
                             span.style.color = color;
                             span.appendChild(document
                                 .createTextNode(part.value));
@@ -20123,38 +20014,32 @@ var Utility;
                 });
             }
             return fragment;
-        };
-        Utils.prototype.createHTML = function (textLabel) {
-            var ptsec = _.find(this._ptSectionAr, function (obj) {
+        }
+        createHTML(textLabel) {
+            let ptsec = __WEBPACK_IMPORTED_MODULE_0_lodash__["find"](this._ptSectionAr, function (obj) {
                 return obj.label.toString() == textLabel;
             });
-            var html = "<div class=\"sections\"><div class=\"pnum\" id=\"p" + ptsec.label + "\">" + ptsec.label + "</div>\n            <div class=\"ger\">" + ptsec.ger + "</div>\n            <div class=\"pmc\">" + ptsec.pmc + "</div></div>;\n            <div class=\"str\">" + ptsec.str + "</div></div>";
+            let html = `<div class="sections"><div class="pnum" id="p${ptsec.label}">${ptsec.label}</div>
+            <div class="ger">${ptsec.ger}</div>
+            <div class="pmc">${ptsec.pmc}</div></div>;
+            <div class="str">${ptsec.str}</div></div>`;
             return html;
-        };
-        Object.defineProperty(Utils.prototype, "ptSectionAr", {
-            get: function () {
-                return this._ptSectionAr;
-            },
-            set: function (value) {
-                this._ptSectionAr = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        Object.defineProperty(Utils.prototype, "container", {
-            get: function () {
-                return this._container;
-            },
-            set: function (value) {
-                this._container = value;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        return Utils;
-    }());
+        }
+        get ptSectionAr() {
+            return this._ptSectionAr;
+        }
+        set ptSectionAr(value) {
+            this._ptSectionAr = value;
+        }
+        get container() {
+            return this._container;
+        }
+        set container(value) {
+            this._container = value;
+        }
+    }
     Utility.Utils = Utils;
-})(Utility = exports.Utility || (exports.Utility = {}));
+})(Utility || (Utility = {}));
 
 
 /***/ }),

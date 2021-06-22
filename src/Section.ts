@@ -1,8 +1,8 @@
 import {Utility} from "./util";
 import Utils = Utility.Utils;
 import {ISection} from "./ISection";
-import _ = require('lodash');
-declare var MathJax:any;
+import * as _ from 'lodash';
+declare let MathJax:any;
 
 export class Section implements ISection{
     label: string;
@@ -28,7 +28,7 @@ export class Section implements ISection{
     }
 
     getTextForSelectedVersion(version: string) {
-        var v;
+        let v;
         if (version == "ger") {
             v = this.ger;
         } else if (version == "ogd") {
@@ -42,10 +42,10 @@ export class Section implements ISection{
     }
 
     public displayText(showSelector: boolean, version:string, divCounter: number, template:string, util:Utils) {
-        var div = "collapse" + divCounter;
+        let div = "collapse" + divCounter;
 
         //create a new div and append to accordion div. Add 'Section ' + to line 48 for optional label
-        var element: any = $('<div class="panel panel-default">' +
+        let element: any = $('<div class="panel panel-default">' +
             '<div class="panel-heading" data-toggle="collapse" href="#' + div + '" class="accordion-toggle" >' +
             '<h4 class="panel-title">' +
             '<a class="accordion-header">' +
@@ -54,12 +54,12 @@ export class Section implements ISection{
             '</div>' +
             '<div id="' + div + '" class="panel-collapse collapse in"><div class="panel-body" value="' + this.label + '"></div>').appendTo('#accordion');
 
-        var text = this.getTextForSelectedVersion(version);
+        let text = this.getTextForSelectedVersion(version);
 
         //showSelector will be true when an individual Section/Circle is clicked.  Will be false when a line is clicked.
         if (showSelector) {
             //append the language selector
-            var langVersion = template == "pt" ? 'pt-lang-version.html' : 'lang-version.html';
+            let langVersion = template == "pt" ? 'pt-lang-version.html' : 'lang-version.html';
             $('#' + div + ' .panel-body').append($('<div>').load(langVersion, function () {
                 $('.version-selector').val(version);
             }));
@@ -81,9 +81,9 @@ export class Section implements ISection{
 
         //check if page is pt
         if (template == 'pt') {
-            var label = this.label;
-            var textLabel = label.toString();
-            var returnVal = util.findDiff(textLabel, version);
+            let label = this.label;
+            let textLabel = label.toString();
+            let returnVal = util.findDiff(textLabel, version);
             $('#' + div).append('<br /><div class="pnum">text difference when compared to TLP ' + util.ptToTlp(textLabel) + '</div>');
             $('#' + div).append(returnVal);
         }
@@ -93,8 +93,8 @@ export class Section implements ISection{
 
     // if the circle is in the current start and end range, use its original color. If not, make it grey
     public checkCircleColor(sections: number[], startValue: any, color: any) {
-        var startVal = Number(startValue);
-        var resultStart = _.includes(sections, startVal);
+        let startVal = Number(startValue);
+        let resultStart = _.includes(sections, startVal);
 
         if (resultStart === true) {
             return color;

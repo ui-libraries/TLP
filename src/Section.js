@@ -1,8 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var _ = require("lodash");
-var Section = /** @class */ (function () {
-    function Section(label, fontSize, precision, x_axis, y_axis, ger, ogd, pmc, str) {
+import * as _ from 'lodash';
+export class Section {
+    constructor(label, fontSize, precision, x_axis, y_axis, ger, ogd, pmc, str) {
         this.label = label;
         this.fontSize = fontSize;
         this.precision = precision;
@@ -13,8 +11,8 @@ var Section = /** @class */ (function () {
         this.pmc = pmc;
         this.str = str;
     }
-    Section.prototype.getTextForSelectedVersion = function (version) {
-        var v;
+    getTextForSelectedVersion(version) {
+        let v;
         if (version == "ger") {
             v = this.ger;
         }
@@ -28,11 +26,11 @@ var Section = /** @class */ (function () {
             v = this.str;
         }
         return v;
-    };
-    Section.prototype.displayText = function (showSelector, version, divCounter, template, util) {
-        var div = "collapse" + divCounter;
+    }
+    displayText(showSelector, version, divCounter, template, util) {
+        let div = "collapse" + divCounter;
         //create a new div and append to accordion div. Add 'Section ' + to line 48 for optional label
-        var element = $('<div class="panel panel-default">' +
+        let element = $('<div class="panel panel-default">' +
             '<div class="panel-heading" data-toggle="collapse" href="#' + div + '" class="accordion-toggle" >' +
             '<h4 class="panel-title">' +
             '<a class="accordion-header">' +
@@ -40,11 +38,11 @@ var Section = /** @class */ (function () {
             '</h4>' +
             '</div>' +
             '<div id="' + div + '" class="panel-collapse collapse in"><div class="panel-body" value="' + this.label + '"></div>').appendTo('#accordion');
-        var text = this.getTextForSelectedVersion(version);
+        let text = this.getTextForSelectedVersion(version);
         //showSelector will be true when an individual Section/Circle is clicked.  Will be false when a line is clicked.
         if (showSelector) {
             //append the language selector
-            var langVersion = template == "pt" ? 'pt-lang-version.html' : 'lang-version.html';
+            let langVersion = template == "pt" ? 'pt-lang-version.html' : 'lang-version.html';
             $('#' + div + ' .panel-body').append($('<div>').load(langVersion, function () {
                 $('.version-selector').val(version);
             }));
@@ -62,25 +60,23 @@ var Section = /** @class */ (function () {
         $(".map-column").removeClass('col-md-12').addClass('col-md-9');
         //check if page is pt
         if (template == 'pt') {
-            var label = this.label;
-            var textLabel = label.toString();
-            var returnVal = util.findDiff(textLabel, version);
+            let label = this.label;
+            let textLabel = label.toString();
+            let returnVal = util.findDiff(textLabel, version);
             $('#' + div).append('<br /><div class="pnum">text difference when compared to TLP ' + util.ptToTlp(textLabel) + '</div>');
             $('#' + div).append(returnVal);
         }
         return divCounter + 1;
-    };
+    }
     // if the circle is in the current start and end range, use its original color. If not, make it grey
-    Section.prototype.checkCircleColor = function (sections, startValue, color) {
-        var startVal = Number(startValue);
-        var resultStart = _.includes(sections, startVal);
+    checkCircleColor(sections, startValue, color) {
+        let startVal = Number(startValue);
+        let resultStart = _.includes(sections, startVal);
         if (resultStart === true) {
             return color;
         }
         else {
             return '#E8E8EE';
         }
-    };
-    return Section;
-}());
-exports.Section = Section;
+    }
+}

@@ -1,7 +1,7 @@
-var sectionsJson = require('./js/sectionsJson.json');
-var ptSectionsJson = require('./js/ptSectionsJson.json');
-var linesJson = require('./js/linesJson.json');
-var ptLinesJson = require('./js/ptLinesJson.json');
+let sectionsJson = require('./js/sectionsJson.json');
+let ptSectionsJson = require('./js/ptSectionsJson.json');
+let linesJson = require('./js/linesJson.json');
+let ptLinesJson = require('./js/ptLinesJson.json');
 
 //todo - add more references here that are imported on each page
 export module Reference {

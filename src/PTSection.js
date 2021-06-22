@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var PTSection = /** @class */ (function () {
-    function PTSection(label, page, tlp, pmc, ger, str) {
+export class PTSection {
+    constructor(label, page, tlp, pmc, ger, str) {
         this.label = label;
         this.page = page;
         this.tlp = tlp;
@@ -9,6 +7,4 @@ var PTSection = /** @class */ (function () {
         this.ger = ger;
         this.str = str;
     }
-    return PTSection;
-}());
-exports.PTSection = PTSection;
+}

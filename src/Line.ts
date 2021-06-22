@@ -1,8 +1,8 @@
 import {Point} from "./point";
 import {Section} from "./Section";
-import _ = require('lodash');
+import * as _ from 'lodash';
 
-declare var MathJax: any;
+declare let MathJax: any;
 
 export class Line /*implements ILine*/ {
     private _label: string;
@@ -80,32 +80,32 @@ export class Line /*implements ILine*/ {
     }
 
     findPoints(container: any): Point {
-        var start = this._start,
+        let start = this._start,
             end = this._end,
             startPoint = _.filter(container.sectionList.sections, {"label": start.toString()}),
             endPoint = _.filter(container.sectionList.sections, {"label": end.toString()});
-        var point = new Point(startPoint[0].x_axis, endPoint[0].x_axis, startPoint[0].y_axis, endPoint[0].y_axis, this._color);
+        let point = new Point(startPoint[0].x_axis, endPoint[0].x_axis, startPoint[0].y_axis, endPoint[0].y_axis, this._color);
         return point;
     }
 
     buildGroup(container: any) {
-        var sectionList: any = container.sectionList;
-        var sectionAr: Section[] = [];
-        var sections = this.sections;
-        var line = this;
-        var color = this.checkLineColor(container.pageFilteredPTList, line.start, line.end, line.color);
+        let sectionList: any = container.sectionList;
+        let sectionAr: Section[] = [];
+        let sections = this.sections;
+        let line = this;
+        let color = this.checkLineColor(container.pageFilteredPTList, line.start, line.end, line.color);
 
         $.each(sectionList.sections, function () {
-            var o: any = $(this)[0];
+            let o: any = $(this)[0];
             if (container.template == 'tlp' || color == '#E8E8EE' || (o.page >= container.startPage && o.page <= container.endPage) || o.stroke == '#E8E8EE') {
-                var section: Section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str)
+                let section: Section = new Section(o.label, o.fontSize, o.precision, o.x_axis, o.y_axis, o.ger, o.ogd, o.pmc, o.str)
                 sectionAr.push(section);
             }
         });
 
         //loop through list of line section array, as well as all sections and if the labels match, display the text
-        for (var j = 0; j < sections.length; j++) {
-            for (var k = 0; k < sectionAr.length; k++) {
+        for (let j = 0; j < sections.length; j++) {
+            for (let k = 0; k < sectionAr.length; k++) {
                 if (sections[j].toString() == sectionAr[k].label) {
                     container.divCounter = sectionAr[k].displayText(false, container.version, container.divCounter, container.template, container.util);
                 }
@@ -115,11 +115,11 @@ export class Line /*implements ILine*/ {
 
     // if the line is in the current start and end range, use its original color. If not, make it grey
     public checkLineColor(sections: number[], startValue: string, endValue: string, color: string) {
-        var startVal = startValue;
-        var endVal = endValue;
-        var resultStart = _.includes(sections, parseFloat(startVal));
-        var resultEnd = _.includes(sections, parseFloat(endVal));
-        var finalColor;
+        let startVal = startValue;
+        let endVal = endValue;
+        let resultStart = _.includes(sections, parseFloat(startVal));
+        let resultEnd = _.includes(sections, parseFloat(endVal));
+        let finalColor;
 
         if (resultStart == true && resultEnd === true) {
             finalColor = color;

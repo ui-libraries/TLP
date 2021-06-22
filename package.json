@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/bootstrap": "^3.4.0",
     "@types/d3": "^4.13.2",
-    "@types/jquery": "^3.3.31",
+    "@types/jquery": "^3.5.5",
     "@types/jqueryui": "^1.12.7",
     "@types/lodash": "^4.14.108",
     "@types/node": "^9.6.52",
