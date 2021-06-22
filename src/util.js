@@ -2,10 +2,10 @@ import * as _ from 'lodash';
 import * as JsDiff from 'diff';
 import {
     Section
-} from "./Section";
+} from "./section";
 import {
     PTSection
-} from "./PTSection";
+} from "./pt-section";
 export var Utility;
 (function(Utility) {
     class Utils {

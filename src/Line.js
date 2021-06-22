@@ -3,7 +3,7 @@ import {
 } from "./point";
 import {
     Section
-} from "./Section";
+} from "./section";
 import * as _ from 'lodash';
 export class Line {
     constructor(label, sections, start, end, precision, color) {

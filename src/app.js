@@ -24,10 +24,10 @@ import {
 } from "./util";
 import {
     Section
-} from "./Section";
+} from "./section";
 import {
     Line
-} from "./Line";
+} from "./line";
 let sectionsJson = require('./data/sections.json');
 let ptSectionsJson = require('./data/ptSections.json');
 let linesJson = require('./data/lines.json');
@@ -37,7 +37,6 @@ export var tractatus;
     class Container {
         constructor() {
             //version = ger, pmc, ogd
-            localStorage.clear();
             this._version = 'ger';
             this._gap = 50;
             this._width = $("#map").width(); //doesn't work yet
