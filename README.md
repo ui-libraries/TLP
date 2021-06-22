@@ -1,14 +1,10 @@
-maybe:
-Typescript 4.3.4
-npm config set python /usr/bin/python2.7
+# skeleton
+A barebones starter project for modern javascript development
 
-npm install @types/lodash
-npm install @types/d3
-npm install @types/jquery
-npm install @types/lodash-es
-npm install -g typescript@2.2.2
+babel + webpack + mocha + chai + documentationjs
 
-tsc --target es2017 app.ts
+`npm start` - compile source and run dev server
 
-sudo npm run build
+`npm test` - run unit tests
 
+`npm run-script document` - generate docs for all comments in valid JSDoc format

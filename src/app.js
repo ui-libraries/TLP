@@ -20,15 +20,16 @@ import { Reference } from "./reference";
 import { Utility } from "./util";
 import { Section } from "./Section";
 import { Line } from "./Line";
-let sectionsJson = require('./js/sectionsJson.json');
-let ptSectionsJson = require('./js/ptSectionsJson.json');
-let linesJson = require('./js/linesJson.json');
-let ptLinesJson = require('./js/ptLinesJson.json');
+let sectionsJson = require('./data/sections.json');
+let ptSectionsJson = require('./data/ptSections.json');
+let linesJson = require('./data/lines.json');
+let ptLinesJson = require('./data/ptLines.json');
 export var tractatus;
 (function (tractatus) {
     class Container {
         constructor() {
             //version = ger, pmc, ogd
+            localStorage.clear();
             this._version = 'ger';
             this._gap = 50;
             this._width = $("#map").width(); //doesn't work yet
@@ -43,14 +44,14 @@ export var tractatus;
             };
         }
         get version() {
-            if (localStorage.getItem('version') != null) {
-                return localStorage.getItem('version');
+            if (localStorage.getItem('tlp-version') != null) {
+                return localStorage.getItem('tlp-version');
             }
             return this._version;
         }
         set version(version) {
             this._version = version;
-            localStorage.setItem("version", version);
+            localStorage.setItem("tlp-version", version);
         }
         get gap() {
             return this._gap;
@@ -77,34 +78,34 @@ export var tractatus;
             this._divCounter = divCounter;
         }
         get startPage() {
-            if (localStorage.getItem('startPage') != null) {
-                return parseInt(localStorage.getItem('startPage'));
+            if (localStorage.getItem('tlp-startPage') != null) {
+                return parseInt(localStorage.getItem('tlp-startPage'));
             }
             return this._startPage;
         }
         set startPage(startPage) {
             this._startPage = startPage;
-            localStorage.setItem("startPage", startPage.toString());
+            localStorage.setItem("tlp-startPage", startPage.toString());
         }
         get endPage() {
-            if (localStorage.getItem('endPage') != null) {
-                return parseInt(localStorage.getItem('endPage'));
+            if (localStorage.getItem('tlp-endPage') != null) {
+                return parseInt(localStorage.getItem('tlp-endPage'));
             }
             return this._endPage;
         }
         set endPage(endPage) {
             this._endPage = endPage;
-            localStorage.setItem("endPage", endPage.toString());
+            localStorage.setItem("tlp-endPage", endPage.toString());
         }
         get template() {
-            if (localStorage.getItem('template') != null) {
-                return localStorage.getItem('template');
+            if (localStorage.getItem('tlp-template') != null) {
+                return localStorage.getItem('tlp-template');
             }
             return this._template;
         }
         set template(template) {
             this._template = template;
-            localStorage.setItem('template', template);
+            localStorage.setItem('tlp-template', template);
         }
         get sectionList() {
             return this._sectionList;
@@ -150,18 +151,18 @@ export var tractatus;
             //choose which template to use (PT or TLP)
             $("#pt-btn").on('click', function () {
                 if ($(this).val() == "Load Tractatus") {
-                    localStorage.setItem('template', 'tlp');
+                    localStorage.setItem('tlp-template', 'tlp');
                     container.template == "tlp";
                 }
                 else {
-                    localStorage.setItem('template', 'pt');
+                    localStorage.setItem('tlp-template', 'pt');
                     container.template == "pt";
                 }
                 window.location.reload();
             });
             //show the page selector if PT is selected
             if (container.template == "pt") {
-                //localStorage.setItem('version', "ger");
+                //localStorage.setItem('tlp-version', "ger");
                 $("#pt-btn").html("Load Tractatus").val("Load Tractatus");
                 $("option[value='ogd']").remove();
                 $("#page-select-form").show();
@@ -223,7 +224,7 @@ export var tractatus;
                         }
                     }
                 });
-                localStorage.setItem('version', version);
+                localStorage.setItem('tlp-version', version);
             });
             //change versions in the individual panel version selectors (not the overall panel version selector)
             $('.accordion-column').on('change', ".version-selector", function () {
@@ -248,7 +249,7 @@ export var tractatus;
                     parent.append('<div class="pnum">text difference when compared to TLP ' + u.ptToTlp(sectionNum) + '</div>');
                     parent.append(returnVal);
                 }
-                localStorage.setItem('version', v);
+                localStorage.setItem('tlp-version', v);
             });
         }
         //filter sections based on pages entered (PT only)

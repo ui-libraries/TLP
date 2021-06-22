@@ -1,4 +1,3 @@
-///<reference path="reference.ts"/>
 import * as _ from 'lodash';
 import * as JsDiff from 'diff';
 import { Section } from "./Section";
