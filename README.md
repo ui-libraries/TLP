@@ -1,6 +1,6 @@
 # tractatus
 
-An interactive subway-style map of Ludwig Wittgenstein's Tractatus Logico-Philosophicus
+An interactive subway-style map of Ludwig Wittgenstein's Tractatus Logico-Philosophicus. Link directly to sections by adding a query parameter (e.g ?tlp=4.23)
 
 `npm start` - compile source and run dev server
 
