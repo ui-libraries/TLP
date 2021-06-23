@@ -50,6 +50,14 @@ export var tractatus;
                 return JsDiff.diffWords(result, sectionText);
             };
         }
+        getParameterByName(name, url = window.location.href) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            let regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
         get version() {
             if (localStorage.getItem('tlp-version') != null) {
                 return localStorage.getItem('tlp-version');
@@ -159,10 +167,10 @@ export var tractatus;
             $("#pt-btn").on('click', function() {
                 if ($(this).val() == "Load Tractatus") {
                     localStorage.setItem('tlp-template', 'tlp');
-                    container.template == "tlp";
+                    container.template = "tlp";
                 } else {
                     localStorage.setItem('tlp-template', 'pt');
-                    container.template == "pt";
+                    container.template = "pt";
                 }
                 window.location.reload();
             });
@@ -277,6 +285,26 @@ export var tractatus;
             });
             container.pageFilteredPTList = pageFilteredPTList;
         }
+        getSectionByLabel() {
+            let label
+            let tlpSection = container.getParameterByName("tlp")
+            let ptSection = container.getParameterByName("pt")
+            if (tlpSection !== null) {
+                label = tlpSection
+                localStorage.setItem('tlp-template', 'tlp');
+                container.template = "tlp";
+            }
+            if (ptSection !== null) {
+                label = ptSection
+                localStorage.setItem('tlp-template', 'pt');
+                container.template = "pt";
+            }
+            let sectionList = container.sectionList
+            let sections = _.filter(sectionList.sections, {"label": label})
+            let section = sections[0]
+            let node = new Section(section.label, section.fontSize, section.precision, section.x_axis, section.y_axis, section.ger, section.ogd, section.pmc, section.str)
+            container.divCounter = node.displayText(true, container.version, container.divCounter, container.template, container.util)            
+        }
         setupD3() {
             let container = this;
             let gap = container.gap;
@@ -377,6 +405,7 @@ export var tractatus;
                 .attr("stroke-width", 4)
                 .style("cursor", "pointer")
                 .on("click", function(d) {
+                    console.log("d", d)
                     container.divCounter = d.displayText(true, container.version, container.divCounter, container.template, container.util);
                     $("#accordion").css({
                         border: '0 solid #86d0f3'
@@ -406,6 +435,16 @@ export var tractatus;
 })(tractatus || (tractatus = {}));
 //initialize everything
 let container = new tractatus.Container();
+let tlpSection = container.getParameterByName("tlp")
+let ptSection = container.getParameterByName("pt")
+if (tlpSection !== null) {
+    localStorage.setItem('tlp-template', 'tlp');
+    container.template = "tlp";
+}
+if (ptSection !== null) {
+    localStorage.setItem('tlp-template', 'pt');
+    container.template = "pt";
+}
 container.ref = new Reference.Ref();
 let util = new Utility.Utils();
 util.container = container;
@@ -416,3 +455,4 @@ container.lineList = container.template == "pt" ? ptLinesJson : linesJson;
 container.setupAccordionSidePanel();
 container.setupPTPaging();
 container.setupD3();
+container.getSectionByLabel()
