@@ -1,7 +1,7 @@
 {
-  "name": "skeleton",
-  "version": "0.1.0",
-  "description": "A barebones starter project for modern javascript development",
+  "name": "tractatus",
+  "version": "2.1.0",
+  "description": "An interactive subway-style map of Ludwig Wittgenstein's Tractatus Logico-Philosophicus",
   "main": "src/app.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
