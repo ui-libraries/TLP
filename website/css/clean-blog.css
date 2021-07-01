@@ -399,3 +399,7 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+
+.panel-body a {
+  color:#0085A1;
+}

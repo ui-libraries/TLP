@@ -153,7 +153,9 @@ export var tractatus
             $("#accordion").collapse().sortable()
             $("#version-selector-all").val(version)
             $("#reset-btn").on("click", function () {
-                window.location.reload()
+                let url = window.location.href
+                url = url.split("?")[0]
+                window.location.replace(url)
             })
             //choose which template to use (PT or TLP)
             $("#pt-btn").on("click", function () {
@@ -164,7 +166,9 @@ export var tractatus
                     localStorage.setItem("tlp-template", "pt")
                     container.template = "pt"
                 }
-                window.location.reload()
+                let url = window.location.href
+                url = url.split("?")[0]
+                window.location.replace(url)
             })
             //show the page selector if PT is selected
             if (container.template == "pt") {
