@@ -1353,6 +1353,17 @@
         "color": "#9cb95e"
     },
     {
+        "label": "5.131",
+        "sections": [
+            5.131,
+            5.1311
+        ],
+        "start": "5.131",
+        "end": "5.1311",
+        "precision": 4,
+        "color": "#4dadc5"
+    },
+    {
         "label": "5.14",
         "sections": [
             5.14,
