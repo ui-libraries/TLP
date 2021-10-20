@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="https://unpkg.com/d3-milestones/build/d3-milestones.css">
+    <script src="https://cdn.jsdelivr.net/npm/d3-time@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-time-format@4"></script>
+    <script src="https://unpkg.com/d3-milestones/build/d3-milestones.min.js"></script>
+
+    <div id="timeline"></div>
+
+    <script>
+    const strictIsoParse = d3.utcParse("%d.%m.%y.")
+    console.log(strictIsoParse('8.5.1916'))
+    milestones('#timeline')
+        .mapping({
+        'timestamp': 'year',
+        'text': 'title'
+        })
+        .parseTime('%Y')
+        .aggregateBy('year')
+        .orientation('vertical')
+        .render([
+        { year: 789, title: 'Vikings begin attacks on England.' },
+        { year: 840, title: 'Vikings found Dublin in Ireland.' },
+        { year: 1050, title: 'The city of Oslo is founded in Norway.' },
+        { year: 1066, title: 'Battle of Hastings.' }
+        ]);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
