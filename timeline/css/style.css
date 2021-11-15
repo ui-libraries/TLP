@@ -1,0 +1,108 @@
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color:#272424;
+    background-color: #f1f1f6;
+}
+
+.container {
+    padding: 20px 0;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.timeline ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.point {
+    min-width: 20px;
+    height: 20px;
+    background-color: #f1f1f6;
+    border-radius: 100%;
+    z-index: 2;
+    border: 3px #333333 solid;
+    position: relative;
+    left: 1px;
+}
+
+@media (max-width: 800px) {
+    .point {
+        min-width: 15px;
+        height: 15px;
+    }
+
+    html, body {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    html, body {
+        font-size: 10px;
+    }
+    
+    .point {
+        min-width: 12px;
+        height: 12px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    html, body {
+        font-size: 14px;
+    }
+
+    p {
+        padding: 10px !important;
+    }
+}
+
+.timeline ul li .entry {
+    width: 50%;
+    padding: 0 20px;
+    font-weight: normal;
+}
+
+.timeline ul li .entry h4 {
+    width: 50%;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+
+.september h4 {
+    background-color: salmon;
+}
+
+.timeline ul li .right h4 {
+    float: left;
+}
+
+.timeline ul li .left h4 {
+    float: right;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 50%;
+    background-color: #333333;
+}
