@@ -86,8 +86,52 @@ html, body, ul, li {
     border-radius: 10px;
 }
 
-.september h4 {
-    background-color: salmon;
+.jan h4 {
+    background-color: red;
+}
+
+.feb h4 {
+    background-color: orange;
+}
+
+.mar h4 {
+    background-color: yellow;
+}
+
+.apr h4 {
+    background-color: chartreuse;
+}
+
+.may h4 {
+    background-color: green;
+}
+
+.jun h4 {
+    background-color: springgreen;
+}
+
+.jul h4 {
+    background-color: cyan;
+}
+
+.aug h4 {
+    background-color: azure;
+}
+
+.sep h4 {
+    background-color: blue;
+}
+
+.oct h4 {
+    background-color: violet;
+}
+
+.nov h4 {
+    background-color: magenta;
+}
+
+.dec h4 {
+    background-color: rosybrown;
 }
 
 .timeline ul li .right h4 {
