@@ -10,7 +10,7 @@
   "author": "Matthew Butler",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^2.0.0",
+    "electron": "^11.5.0",
     "electron-builder": "^20.20.4"
   }
 }
