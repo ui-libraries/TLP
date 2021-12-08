@@ -94,12 +94,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,8r[4] (1914--0822) (NB)",
-      "pt-number": "5•3062",
+      "pt-number": "5.3062",
       "pt-page": "52[4]",
-      "tlp-number": "5•473 (1)",
-      "cross-reference": "\t22.8.14 (1)  13.10.14 (1)\n",
+      "tlp-number": "5.473",
+      "cross-reference": "\t22.8.14  13.10.14\n",
       "date": "1914-08-22",
-      "eng": "Logic must take care of itself. [5.473 (1)]\n\n\n",
+      "eng": "Logic must take care of itself. [5.473]\n\n\n",
       "ger": "Die Logik muß für sich selber sorgen.\n"
     },
     {
@@ -133,10 +133,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,12r[2] et 13r[1] (1914--0902) (NB)",
-      "pt-number": "5•3063",
+      "pt-number": "5.3063",
       "pt-page": "52[5]",
-      "tlp-number": "5•473 (2-3)**",
-      "cross-reference": "\t22.8.14 (2)*  2.9.14 (1)**\n",
+      "tlp-number": "5.473 (2-3)",
+      "cross-reference": "\t22.8.14  2.9.14\n",
       "date": "1914-09-02",
       "eng": "It must, in a certain sense be impossible for us to go wrong in logic. This is already partly expressed by saying: Logic must take care for itself. This is an extremely profound & important insight. [<i>Cf. 5.473 (2-3).]\n\n\t\t \n",
       "ger": "Wir müssen in einem gewissen Sinne uns nicht in der Logik irren können. Dies ist schon teilweise / darin ausgedrückt: Die Logik muß für sich selbst sorgen. Dies ist eine ungemein tiefe & wichtige Erkenntnis.\n"
@@ -151,12 +151,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,13r[3] et 14r[1] (1914--0903) (NB)",
-      "pt-number": "4•10227254",
+      "pt-number": "4.10227254",
       "pt-page": "35[6]",
-      "tlp-number": "4•1274 (2)**",
-      "cross-reference": "\t3.9.14 (1)+\n",
+      "tlp-number": "4.1274",
+      "cross-reference": "\t3.9.14+\n",
       "date": "1914-09-03",
-      "eng": "How can the task of philosophy be reconciled with logic’s having to look after itself? For example, if we ask: Is such and such a fact of the subject-predicate form? / then we must know what we mean by the \"subject-predicate form\". We must know <u>whether there is such a form at all. How can we know this? \"From the signs!\" But how? For we haven’t got any <u>signs of this form. To be sure, we can say: We have signs that behave like those of the subject-predicate form, but does that prove that there really must be facts of this form? Namely: if those signs are completely analyzed. And here the question is again: Is there such a complete analysis? <u>And <u>if <u>not: what is the task of philosophy then?!!? [<i>Cf. 4.1274 (2)] (~NB)\n\n\t\t \n",
+      "eng": "How can the task of philosophy be reconciled with logic’s having to look after itself? For example, if we ask: Is such and such a fact of the subject-predicate form? / then we must know what we mean by the \"subject-predicate form\". We must know <u>whether there is such a form at all. How can we know this? \"From the signs!\" But how? For we haven’t got any <u>signs of this form. To be sure, we can say: We have signs that behave like those of the subject-predicate form, but does that prove that there really must be facts of this form? Namely: if those signs are completely analyzed. And here the question is again: Is there such a complete analysis? <u>And <u>if <u>not: what is the task of philosophy then?!!? [<i>Cf. 4.1274] (~NB)\n\n\t\t \n",
       "ger": "     Wie ist es mit der Aufgabe der Philosophie vereinbar daß die Logik für sich selbst sorgen soll? Wenn wir z.B. fragen: ist die & die Tatsache von der Subjekt-Prädikat Form / dann müssen wir doch wissen was wir unter der „Subjekt-Prädikat Form” verstehen. Wir müssen wissen <u>ob es so eine Form überhaupt gibt. Wie können wir dies wissen? „Aus den Zeichen!” Aber wie? Wir haben ja gar keine <u>Zeichen von dieser Form. Wir können zwar sagen: Wir haben Zeichen die sich so benehmen wie solche von der Subjekt-Prädikat Form, aber beweist das daß es wirklich Tatsachen dieser Form geben muß? Nämlich: wenn diese vollständig analysiert sind. Und hier frägt es sich wieder: gibt es so eine vollständige Analyse? <u>Und <u>wenn <u>nicht: Was ist denn dann die Aufgabe der Philosophie?!!?\n"
     },
     {
@@ -216,9 +216,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,21r[2] (1914--0908) (NB)",
-      "pt-number": "5•30631",
+      "pt-number": "5.30631",
       "pt-page": "53[1]",
-      "tlp-number": "5•4731*",
+      "tlp-number": "5.4731",
       "cross-reference": "",
       "date": "1914-09-08",
       "eng": "There is only one way in which “self-evidence”, which Russell mentioned so often, can become dispensable in logic: language itself is to forestall every logical mistake. And it is clear that that “self-evidence” is and always was completely deceptive. [<i>Cf. 5.4731]\n\n \t\t \n",
@@ -308,9 +308,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,22r[1] (1914--0920) (NB)",
-      "pt-number": "4•01",
+      "pt-number": "4.01",
       "pt-page": "8[2]",
-      "tlp-number": "4•01 (1)",
+      "tlp-number": "4.01",
       "cross-reference": "",
       "date": "1914-09-20",
       "eng": "That a sentence is a logical depiction of its meaning is obvious to the unbiased eye.\n \t\t \n",
@@ -398,10 +398,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,27r[2] (1914--0927) (NB)",
-      "pt-number": "4•071",
+      "pt-number": "4.071",
       "pt-page": "48[3]",
-      "tlp-number": "4•03 (4)",
-      "cross-reference": "\t27.9.14 (1)**  3.10.14 (3)\n",
+      "tlp-number": "4.03 (4)",
+      "cross-reference": "\t27.9.14  3.10.14 (3)\n",
       "date": "1914-09-27",
       "eng": "A proposition can express its sense <u>only by being its logical depiction.\n\n \t\t \n",
       "ger": "Ein Satz kann seinen Sinn ja nur dadurch ausdrücken daß er dessen logisches Abbild ist!\n"
@@ -491,12 +491,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,31r[3] (1914--1003) (NB)",
-      "pt-number": "4•072",
+      "pt-number": "4.072",
       "pt-page": "48[5]",
-      "tlp-number": "4•032 (1)",
-      "cross-reference": "\t3.10.14 (1)\n",
+      "tlp-number": "4.032",
+      "cross-reference": "\t3.10.14\n",
       "date": "1914-10-03",
-      "eng": "A proposition is a picture of a state of things only in <u>so <u>far as it is logically articulated. (A simple – non-articulated – sign can be neither true nor false). [<i>See 4.032 (1).]\n\n \t\t \n",
+      "eng": "A proposition is a picture of a state of things only in <u>so <u>far as it is logically articulated. (A simple – non-articulated – sign can be neither true nor false). [<i>See 4.032.]\n\n \t\t \n",
       "ger": "Nur in <u>soweit ist der Satz ein Bild eines Sachverhalts als er logisch gegliedert ist! (Ein einfaches – ungegliedertes – Zeichen kann weder wahr noch falsch sein.)\n"
     },
     {
@@ -563,9 +563,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,34r[4] (1914--1007) (NB)",
-      "pt-number": "5•234",
+      "pt-number": "5.234",
       "pt-page": "36[1]",
-      "tlp-number": "5•442**",
+      "tlp-number": "5.442",
       "cross-reference": "",
       "date": "1914-10-07",
       "eng": "If a proposition φa is given, then <u>at <u>the <u>same <u>time all its logical functions (~φa, etc.) are given. [<i>Cf. 5.442.]\n \t\t \n",
@@ -660,10 +660,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,39r[4] (1914--1013) (NB)",
-      "pt-number": "5•3062",
+      "pt-number": "5.3062",
       "pt-page": "52[4]",
-      "tlp-number": "5•473 (1)",
-      "cross-reference": "\t22.8.14 (1)  13.10.14 (1)\n",
+      "tlp-number": "5.473",
+      "cross-reference": "\t22.8.14  13.10.14\n",
       "date": "1914-10-13",
       "eng": "Logic takes care of itself; all we have to do is to look and see how it does it. [<i>Cf. 5 .473.]\n\n \t\t \n",
       "ger": "Die Logik sorgt für sich selbst; wir müssen ihr nur zusehen wie sie es macht.\n"
@@ -811,12 +811,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,56r[4] et 57r[1] et 58r[1] (1914--1022) (NB)",
-      "pt-number": "3•23",
+      "pt-number": "3.23",
       "pt-page": "24[10]",
-      "tlp-number": "3•34 (2)*",
+      "tlp-number": "3.34",
       "cross-reference": "",
       "date": "1914-10-22",
-      "eng": "In a proposition something must be identical with its meaning, but a proposition cannot be identical with its meaning, and so something in it must <u>not be identical with its meaning. (A proposition is a formation with the logical features of what it represents and with other features as well, which will be arbitrary and different in different sign-languages). So there must be different formations with the same logical features; what is represented will be one of them, and the representation will need to distinguish it from other formations with the same logical features. (Since otherwise the representation would be ambiguous). Now this part of the representation (the naming) must happen by means of arbitrary assignations. Thus, every proposition must contain features with arbitrarily assigned meanings. [<i>Cf. 3.34 (2).]\n\n \t\t \n",
+      "eng": "In a proposition something must be identical with its meaning, but a proposition cannot be identical with its meaning, and so something in it must <u>not be identical with its meaning. (A proposition is a formation with the logical features of what it represents and with other features as well, which will be arbitrary and different in different sign-languages). So there must be different formations with the same logical features; what is represented will be one of them, and the representation will need to distinguish it from other formations with the same logical features. (Since otherwise the representation would be ambiguous). Now this part of the representation (the naming) must happen by means of arbitrary assignations. Thus, every proposition must contain features with arbitrarily assigned meanings. [<i>Cf. 3.34.]\n\n \t\t \n",
       "ger": "Im Satz muß etwas mit seiner / Bedeutung identisch sein, der Satz darf aber nicht mit seiner Bedeutung identisch sein, also muß etwas in ihm mit seiner Bedeutung <u>nicht identisch sein. (Der Satz ist ein Gebilde mit den logischen Zügen des Dargestellten und mit noch anderen Zügen, diese nun werden willkürlich sein und in verschiedenen Zeichensprachen verschieden.) Es muß also verschiedene Gebilde mit denselben logischen Zügen geben; das Dargestellte wird eines von diesen sein und es wird sich bei der Darstellung darum handeln dieses von anderen Gebilden mit denselben logischen Zügen zu unterscheiden (da ja sonst die Darstellung nicht eindeutig wäre). Dieser Teil der Darstellung (die Namengebung) muß nun durch willkürliche Bestimmungen geschehen. Es muß darnach also jeder Satz Züge mit willkürlich bestimmten / Bedeutungen enthalten.\n"
     },
     {
@@ -937,10 +937,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-101,66r[3] et 67r[1] (1914--1029) (NB)",
-      "pt-number": "5•326",
+      "pt-number": "5.326",
       "pt-page": "63[4]",
-      "tlp-number": "5•5262**",
-      "cross-reference": "\t28.10.14 (2,3)* 29.10.14 (1)\n",
+      "tlp-number": "5.5262",
+      "cross-reference": "\t28.10.14 (2,3) 29.10.14\n",
       "date": "1914-10-29",
       "eng": "For, if an elementary proposition is true, then, at any rate, <i>yet <i>another elementary proposition is true, and conversely. [<i>See 5.5262.]\n\n \t\t \n",
       "ger": "Denn, wenn ein Elementarsatz wahr ist so ist doch jedenfalls / ein Elementarsatz <u>mehr, wahr, u. u.\n"
@@ -973,10 +973,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,1r[4] et 2r[1] (1914--1031) (NB)",
-      "pt-number": "5•325",
+      "pt-number": "5.325",
       "pt-page": "63[2]",
-      "tlp-number": "5•5261 (1)*",
-      "cross-reference": "\t31.10.14 (1)*\n",
+      "tlp-number": "5.5261",
+      "cross-reference": "\t31.10.14\n",
       "date": "1914-10-31",
       "eng": "A proposition like \"(∃x,φ).φx\" is just as composite as an elementary one. This shows itself in our needing to mention \"φ\" & \"x\" <u>explicitly in the brackets. Both symbols independently stand in signifying relations to the world, just as in the case of an elementary proposition \"ψ(a)\". [<i>Cf 5.5261.]\n\n  \t\t \n",
       "ger": "Ein Satz wie „(∃x,φ).φx” ist gerade so gut zusammengesetzt wie ein elementarer; / dies zeigt sich darin daß wir in der Klammer „φ” & „x” <u>extra erwähnen müssen. Beide stehen – unabhängig – in bezeichnenden Beziehungen zur Welt, gerade wie im Falle eines Elementarsatzes „ψ(a)”.\n"
@@ -1016,9 +1016,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,9r[2] (1914--1102) (NB)",
-      "pt-number": "4•4483",
+      "pt-number": "4.4483",
       "pt-page": "44[7]",
-      "tlp-number": "4•462 (2)",
+      "tlp-number": "4.462",
       "cross-reference": "",
       "date": "1914-11-02",
       "eng": "In a tautology, the conditions of agreement with the world (the truth conditions) - the representing relations - cancel one another out, so that it does not stand in any representing relation to reality (says nothing). [<i>Cf. 4.462.]\n\n  \t\t \n",
@@ -1095,9 +1095,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,22r[4] (1914--1107) (NB)",
-      "pt-number": "3•2103",
+      "pt-number": "3.2103",
       "pt-page": "43[5]",
-      "tlp-number": "3•411",
+      "tlp-number": "3.411",
       "cross-reference": "",
       "date": "1914-11-07",
       "eng": "A spatial and a logical locus agree to this extent: that each is the source of something’s existence. [3.411.]\n\n\t \n",
@@ -1113,10 +1113,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,23r[1] (1914--1108) (NB)",
-      "pt-number": "5•0934",
+      "pt-number": "5.0934",
       "pt-page": "78[8]",
       "tlp-number": "",
-      "cross-reference": "\t8.11.14 (1)**\n",
+      "cross-reference": "\t8.11.14\n",
       "date": "1914-11-08",
       "eng": "What can be confirmed by experiment, in propositions about probability, cannot possibly be mathematics. [<i>Cf. 5.154 (1-2).]\n\n  \t\t \n",
       "ger": "Was sich in den Sätzen über Wahrscheinlichkeit durch das Experiment bestätigen läßt kann unmöglich Mathematik sein! \n"
@@ -1131,10 +1131,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,24r[2] (1914--1109) (NB)",
-      "pt-number": "5•0931",
+      "pt-number": "5.0931",
       "pt-page": "78[5]",
-      "tlp-number": "5•156 (3)* ",
-      "cross-reference": "\t9.11.14 (1)+\n",
+      "tlp-number": "5.156 (3) ",
+      "cross-reference": "\t9.11.14+\n",
       "date": "1914-11-09",
       "eng": "Now what I know now in probability statements are certain general properties of ungeneralized scientific propositions such as, for example, their symmetry in certain respects, their asymmetry in others, etc. [<i>Cf. 5.156 (3).]\n\n  \t\t \n",
       "ger": "Was ich nun in den Wahrscheinlichkeitssätzen kenne, sind gewisse allgemeine Eigenschaften der unverallgemeinerten naturwissenschaftlichen Sätze wie z.B. ihre Symmetrie in gewissen Beziehungen ihre Asymmetrie in anderen etc. \n"
@@ -1199,12 +1199,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,31r[4] et 32r[1] (1914--1113) (NB)",
-      "pt-number": "4•4322",
+      "pt-number": "4.4322",
       "pt-page": "41[4]",
-      "tlp-number": "4•463 (2)*",
+      "tlp-number": "4.463",
       "cross-reference": "",
       "date": "1914-11-14",
-      "eng": "Think of the representation of <u>negative facts by means of models. For example: Two railway trains must not stand on the tracks in such and such a way. A proposition, a picture, or a model is, in the negative sense, like a solid body restricting the freedom of movement of another; in the positive sense, like a space bounded by solid substance in which there is room for a body. [<i>Cf. 4.463  (2).]\n \t\t\nThis idea is <u>very clear and should lead to the solution. \n\n  \t\t \n",
+      "eng": "Think of the representation of <u>negative facts by means of models. For example: Two railway trains must not stand on the tracks in such and such a way. A proposition, a picture, or a model is, in the negative sense, like a solid body restricting the freedom of movement of another; in the positive sense, like a space bounded by solid substance in which there is room for a body. [<i>Cf. 4.463 .]\n \t\t\nThis idea is <u>very clear and should lead to the solution. \n\n  \t\t \n",
       "ger": "/\tDenke an die Darstellung <u>negativer Tatsachen durch Modelle. Etwa: So & so dürfen  / zwei Eisenbahnzüge nicht auf den Gleisen stehen. Der Satz, das Bild, das Modell sind – im negativen Sinn – wie ein fester Körper der die Bewegungsfreiheit der anderen beschränkt, im positiven Sinne wie der von fester Substanz begrenzte Raum worin ein Körper Platz hat. \n\t\n\n \nDiese Vorstellung ist <u>sehr deutlich und müßte zur Lösung führen. \n"
     },
     {
@@ -1282,9 +1282,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,34r[5] et 35r[1] (1914--1119) (NB)",
-      "pt-number": "3•2102",
+      "pt-number": "3.2102",
       "pt-page": "43[4]",
-      "tlp-number": "3•41",
+      "tlp-number": "3.41",
       "cross-reference": "",
       "date": "1914-11-19",
       "eng": "A proposition with its logical coordinates: this gives us a logical location. [<i>Cf. 3.41.]\n//A sentence plus its logical coordinates: this gives us a logical location. [<i>Cf. 3.41.]//\n\n  \t\t \n",
@@ -1343,9 +1343,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,36r[4] et 37r[1] (1914--1123) (NB)",
-      "pt-number": "3•2104",
+      "pt-number": "3.2104",
       "pt-page": "43[6]",
-      "tlp-number": "3•42 (1-2)",
+      "tlp-number": "3.42 (1-2)",
       "cross-reference": "",
       "date": "1914-11-23",
       "eng": "Although a proposition may specify only one location in logical space, still the entire logical space must <u>already be given by it. - Otherwise negation, disjunction etc. would introduce more and more <u>new elements - and in coordination – which, of course, must not happen. [<i>Cf. 3.42.]\n\n  \t\t \n",
@@ -1361,7 +1361,7 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,37r[2] (1914--1124) (NB)",
-      "pt-number": "2•1513",
+      "pt-number": "2.1513",
       "pt-page": "14[3]",
       "tlp-number": "",
       "cross-reference": "\t24.11.14 (1,4)+\n",
@@ -1415,9 +1415,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,45r[2] et 46r[1] (1914--1127) (NB)",
-      "pt-number": "5•312",
+      "pt-number": "5.312",
       "pt-page": "61[6]",
-      "tlp-number": "5•512**",
+      "tlp-number": "5.512",
       "cross-reference": "",
       "date": "1914-11-27",
       "eng": "\"~p\" is true if p is false. Therefore, part of the proposition \"~p\", when true, is false. How then can the hook \"~\" make it agree with reality? Of course, we have already said that it is not the hook \"~\" alone but what all the different negation signs have in common. And what is common to all of them must obviously follow from the meaning of negation itself. And so the negation sign must surely mirror its own meaning. [<i>Cf 5.512.]\n\n  \t\t \n",
@@ -1555,18 +1555,18 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,48r[5] et 49r[1] et 50r[1] et 51r[1] et 52r[1] et 53r[1] (1914--1206) (NB)",
-      "pt-number1": "6•331",
-      "pt-number2": "6•34",
-      "pt-number3": "6•341",
+      "pt-number1": "6.331",
+      "pt-number2": "6.34",
+      "pt-number3": "6.341",
       "pt-page1": "72[1]",
       "pt-page2": "73[1]",
       "pt-page3": "73[2]",
-      "tlp-number1": "6•341*",
-      "tlp-number2": "6•342*",
-      "tlp-number3": "6•343",
+      "tlp-number1": "6.341",
+      "tlp-number2": "6.342",
+      "tlp-number3": "6.343",
       "cross-reference1": "\t6.12.14 (1,2)\n",
-      "cross-reference2": "\t6.12.14 (3,4,5)*\n",
-      "cross-reference3": "\t6.12.14 (6)*\n",
+      "cross-reference2": "\t6.12.14 (3,4,5)\n",
+      "cross-reference3": "\t6.12.14 (6)\n",
       "date": "1914-12-06",
       "eng": "Newtonian mechanics introduces uniformity into world description. \nImagine a white surface with irregular black spots. We then say: whatever kind of picture develops from these, I could always get as near as I like to its description, by covering the surface with a sufficiently fine square mesh and going on to say of every square that it is white or black. In this way I will have managed to introduce uniformity into my description of the surface. The form is arbitrary, because I could have just as well applied a triangular or hexagonal net. It may be that the description using a triangular net would have been simpler, that is, we might be able to describe the surface more accurately with a coarser triangular mesh than with a finer square mesh or vice versa, etc. Different systems of describing the world correspond to different nets. \nMechanics specifies a form of world description by saying: all propositions used in a description of the world must be obtainable in a given way from a number of given propositions - the mechanical axioms. In this way it supplies the building blocks for constructing the edifice of science, and says: Whatever building you want to erect, it must somehow be assembled from these, and only these, building blocks.\nJust as I must be able to write down any arbitrary number by means of the number system, so I must be able to write down any arbitrary proposition of physics by means of the system of mechanics. [<i>See. 6.341.]\nAnd now we can see the position in which logic and mechanics stand to each other.\n(One might also arrange for the net to consist of different kinds of mesh.) \nThat a picture of the above-mentioned kind can be described by a net of a given form tells us nothing about the picture (for this holds of every such picture.) But what does characterize a picture is that it can be described by a specific net of a <u>specific fineness. Likewise, that the world can be described by Newtonian mechanics tells us nothing about the world; but what does tell us something about it is that the world can be described in precisely this way. (I have felt this for a <u>long time.) – We are also told something about the world by the fact that it can be described more simply by means of one system of mechanics than by means of another. [<i>Cf. 6.342.]\nMechanics is <u>one attempt to construct according to a <u>single plan all propositions we need for a description of the world.  Hertz’s invisible masses.) [<i>Cf. 6.343.]\nHertz’s invisible masses are admittedly pseudo-objects.\n\n  \t\t \n",
       "ger": "Die Newtonsche Mechanik bringt die Weltbeschreibung / auf eine einheitliche Form. \nDenken wir uns eine weiße Fläche auf der unregelmäßige schwarze Flecken wären. Wir sagen nun: Was immer für ein Bild hierdurch entsteht immer werde ich seiner Beschreibung beliebig nahe kommen können indem ich die Fläche mit einem entsprechend feinen quadratischen Netzwerk bedecke und nun von jedem Quadrat sage daß es weiß oder schwarz ist. Ich werde auf diese Weise die Beschreibung dieser Fläche auf eine einheitliche Form gebracht haben. Diese Form ist beliebig denn ich hätte mit dem  / gleichen Erfolge ein dreieckiges oder sechseckiges Netz verwenden können. Es kann sein daß die Beschreibung mit Hilfe eines dreieckigen Netzes einfacher geworden wäre d.h. daß wir die Fläche mit einem gröberen Dreiecksnetz genauer beschreiben könnten als mit einem feineren quadratischen (oder umgekehrt) etc. Den verschiedenen Netzen entsprechen verschiedene Systeme der Weltbeschreibung. \nDie Mechanik bestimmt die Form der Weltbeschreibung indem sie sagt: Alle Sätze der Weltbeschreibung  / müssen aus einer Anzahl gegebener Sätze – den mechanischen Axiomen – auf eine gegebene Art & Weise erhalten werden können. Hierdurch liefert sie die Bausteine zum Bau des wissenschaftlichen Gebäudes und sagt: Welches Gebäude Du immer aufführen willst jedes mußt Du irgendwie mit diesen & nur diesen Bausteinen zusammenbringen. \n     Wie man mit dem Zahlensystem jede beliebige Anzahl muß hinschreiben können so muß man mit dem System der Mechanik jeden beliebigen Satz der Physik / hinschreiben können. \nUnd hier sehen wir nun die gegenseitige Stellung von Logik & Mechanik. \n(Man könnte das Netz auch aus verschiedenartigen Figuren bestehen lassen.) \nDaß sich ein Bild wie das vorhin erwähnte durch ein Netz von gegebener Form beschreiben läßt, sagt über das Bild nichts aus (denn dies gilt für jedes solche Bild). Das aber charakterisiert das Bild daß es sich durch ein bestimmtes Netz, von <u>bestimmter Feinheit, beschreiben läßt. So auch sagt es nichts über die Welt aus daß sie sich durch die Newtonsche Mechanik  / beschreiben läßt; aber wohl daß sie sich so durch jene beschreiben läßt wie dies eben der Fall ist. (Dies habe ich schon seit <u>langer Zeit gefühlt.) – Auch das sagt etwas von der Welt daß sie sich durch die eine Mechanik einfacher beschreiben läßt als durch die andere. \nDie Mechanik ist <u>ein Versuch alle Sätze welche wir zur Weltbeschreibung benötigen nach <u>einem Plan zu konstruieren. (Die unsichtbaren Massen Hertz's.) \nDie unsichtbaren Massen Hertz's sind <u>eingestandenermaßen Scheingegenstände.\n"
@@ -1688,9 +1688,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,55r[4] (1914--1216) (NB)",
-      "pt-number": "3•2142",
+      "pt-number": "3.2142",
       "pt-page": "43[8]",
-      "tlp-number": "3•42 (3b)*",
+      "tlp-number": "3.42 (3b)",
       "cross-reference": "",
       "date": "1914-12-16",
       "eng": "Propositions must probe the whole of logical space. [<i>Cf. 3.42.]\n\n\t\t \n",
@@ -1706,9 +1706,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,56r[1] (1914--1217) (NB)",
-      "pt-number": "5•23",
+      "pt-number": "5.23",
       "pt-page": "38[6]",
-      "tlp-number": "5•44 (1)*",
+      "tlp-number": "5.44",
       "cross-reference": "",
       "date": "1914-12-17",
       "eng": "The ab-function signs are not material, otherwise they could not disappear. [<i>Cf. 5.44 and 5.441.]\n\n  \t\t \n",
@@ -1724,9 +1724,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,56r[2] (1914--1218) (NB)",
-      "pt-number": "4•073",
+      "pt-number": "4.073",
       "pt-page": "48[6]",
-      "tlp-number": "4•04 (1)",
+      "tlp-number": "4.04",
       "cross-reference": "",
       "date": "1914-12-18",
       "eng": "In a proper propositional sign there must be exactly as many distinguishable features as can be distinguished in the state of things. That is what their identity consists in.    [<i>Cf. 4.04.]\n\n  \t\t \n",
@@ -2063,12 +2063,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,64r[4] (1915--0123) (NB)",
-      "pt-number": "5•0012",
+      "pt-number": "5.0012",
       "pt-page": "63[6]",
-      "tlp-number": "5•2341 (2)**",
-      "cross-reference": "\t23.1.15 (1)\n",
+      "tlp-number": "5.2341",
+      "cross-reference": "\t23.1.15\n",
       "date": "1915-01-23",
-      "eng": "Negation is an operation. [<i>Cf. 5.2341 (2).]\n\n  \t\t \n",
+      "eng": "Negation is an operation. [<i>Cf. 5.2341.]\n\n  \t\t \n",
       "ger": "Die Verneinung ist eine Operation. \n"
     },
     {
@@ -2081,12 +2081,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,64r[7] et 65r[1] (1915--0123) (NB)",
-      "pt-number": "5•0021",
+      "pt-number": "5.0021",
       "pt-page": "64[1]",
-      "tlp-number": "5•25 (2)** ",
+      "tlp-number": "5.25 ",
       "cross-reference": "\t23.1.15 (4)\n",
       "date": "1915-01-24",
-      "eng": "Indeed, an operation says nothing, only its result does; and this depends on its object. [<i>Cf. 5.25 (2).]\n\n24.1.15.\nDie logischen Scheinfunktionen <u>sind Operationen. \n\nLogical pseudo-functions <u>are operations.\n\n  \t\t \n",
+      "eng": "Indeed, an operation says nothing, only its result does; and this depends on its object. [<i>Cf. 5.25.]\n\n24.1.15.\nDie logischen Scheinfunktionen <u>sind Operationen. \n\nLogical pseudo-functions <u>are operations.\n\n  \t\t \n",
       "ger": "Eine Operation sagt natürlich nichts aus, nur ihr Resultat, und dies hängt von ihrem  / Gegenstand ab. \n"
     },
     {
@@ -2131,13 +2131,13 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,65r[6] et 66r[1] (1915--0129) (NB)",
-      "pt-number": "3•1603",
+      "pt-number": "3.1603",
       "pt-page": "38[5]",
-      "tlp-number": "3•141 (2)",
+      "tlp-number": "3.141",
       "cross-reference": "",
       "date": "1915-01-29",
       "eng": "",
-      "ger": "/ Die Sprache ist artikuliert. \n\nLanguage is articulate. [<i>Cf. 3.141 (2).]\n\n  \t\t \n"
+      "ger": "/ Die Sprache ist artikuliert. \n\nLanguage is articulate. [<i>Cf. 3.141.]\n\n  \t\t \n"
     },
     {
       "type": "verso",
@@ -2205,12 +2205,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,66r[2] (1915--0207) (NB)",
-      "pt-number": "3•1602",
+      "pt-number": "3.1602",
       "pt-page": "38[4]",
-      "tlp-number": "3•141 (1)**",
+      "tlp-number": "3.141",
       "cross-reference": "",
       "date": "1915-02-07",
-      "eng": "Musical themes are in a certain sense propositions. So knowledge of the nature of logic will lead to knowledge of the nature of music. [<i>Cf. 3.141 (1).]\n\n  \t\t \n",
+      "eng": "Musical themes are in a certain sense propositions. So knowledge of the nature of logic will lead to knowledge of the nature of music. [<i>Cf. 3.141.]\n\n  \t\t \n",
       "ger": "Die musikalischen Themen sind in gewissem Sinne Sätze. Die Kenntnis des Wesens der Logik wird deshalb zur Kenntnis des Wesens der Musik führen. \n"
     },
     {
@@ -2251,9 +2251,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,66r[3] (1915--0214) (NB)",
-      "pt-number": "4•0231",
+      "pt-number": "4.0231",
       "pt-page": "47[5]",
-      "tlp-number": "4•023 (1-2)*",
+      "tlp-number": "4.023 (1-2)",
       "cross-reference": "",
       "date": "1915-02-14",
       "eng": "If there were mathematical objects – logical constants – the proposition \"I am eating five plums\" would be a proposition of mathematics. And it is not even a proposition of applied mathematics.\n\n  \t\t \n",
@@ -2360,10 +2360,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,67r[3] (1915--0305) (NB)",
-      "pt-number": "5•30225",
+      "pt-number": "5.30225",
       "pt-page": "76[3]",
-      "tlp-number": "5•4541 (2-3)* ",
-      "cross-reference": "\t5.3.15 (1)  19.9.16 (1)+\n",
+      "tlp-number": "5.4541 (2-3) ",
+      "cross-reference": "\t5.3.15  19.9.16+\n",
       "date": "1915-03-05",
       "eng": "People have always had an inkling that there must be a realm in which the answers to questions combine symmetrically - <i>a <i>priori - into a self-contained regular formation. [<i>See 5.4541 (2-3).]\n\n  \t\t \n",
       "ger": "Die Menschheit hat immer geahnt, daß es ein Gebiet von Fragen geben muß worin die Antworten – a priori – symmetrisch, und zu einem abgeschlossenen regelmäßigen Gebilde vereint – liegen. \n"
@@ -2378,9 +2378,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,67r[5] et 68r[1] (1915--0306) (NB)",
-      "pt-number": "5•311",
+      "pt-number": "5.311",
       "pt-page": "61[5]",
-      "tlp-number": "5•511",
+      "tlp-number": "5.511",
       "cross-reference": "",
       "date": "1915-03-06",
       "eng": "The problems of negation, of disjunction, of true and false, are only reflections of the one great problem in the variously placed great and small mirrors of philosophy. [<i>Cf. 5.511.]\n\n  \t\t \n",
@@ -2515,10 +2515,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,69r[2] (1915--0329) (NB)",
-      "pt-number": "6•3",
+      "pt-number": "6.3",
       "pt-page": "71[5]",
-      "tlp-number": "6•32",
-      "cross-reference": "\t29.3.15 (1)\n",
+      "tlp-number": "6.32",
+      "cross-reference": "\t29.3.15\n",
       "date": "1915-03-29",
       "eng": "The law of causality is not a law but the form of <u>a law. [<i>See 6.32.]\n\n\n  \t\t \n",
       "ger": "Das Kausalitätsgesetz ist kein Gesetz sondern die Form <u>eines Gesetzes. \n"
@@ -2551,9 +2551,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,71r[2] (1915--0405) (NB)",
-      "pt-number": "3•1602",
+      "pt-number": "3.1602",
       "pt-page": "38[4]",
-      "tlp-number": "3•141 (1)**",
+      "tlp-number": "3.141",
       "cross-reference": "",
       "date": "1915-04-05",
       "eng": "A sentence is not a mixture of words. [<i>See 3.141.]\n\n  \t\t \n",
@@ -2562,9 +2562,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,71r[3] (1915--0410) (NB)",
-      "pt-number": "3•1602",
+      "pt-number": "3.1602",
       "pt-page": "38[4]",
-      "tlp-number": "3•141 (1)**",
+      "tlp-number": "3.141",
       "cross-reference": "",
       "date": "1915-04-11",
       "eng": "Nor is a tune a mixture of notes, as all unmusical people think. [<i>Cf. 3.141.]\n\n  \t\t \n",
@@ -2656,12 +2656,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,73r[3] (1915--0419) (NB)",
-      "pt-number": "4•1021",
+      "pt-number": "4.1021",
       "pt-page": "17[8]",
-      "tlp-number": "4•121 (2)",
+      "tlp-number": "4.121",
       "cross-reference": "",
       "date": "1915-04-19",
-      "eng": "Whatever is mirrored in language I cannot use language to express. [<i>Cf. 4.121 (2).]\n\n\n  \t\t \n",
+      "eng": "Whatever is mirrored in language I cannot use language to express. [<i>Cf. 4.121.]\n\n\n  \t\t \n",
       "ger": "Was sich in der Sprache spiegelt, kann ich nicht mit ihr ausdrücken. \n"
     },
     {
@@ -2674,10 +2674,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,73r[4] et 74r[1] (1915--0423) (NB)",
-      "pt-number": "6•32",
+      "pt-number": "6.32",
       "pt-page": "71[8]",
-      "tlp-number": "6•33*",
-      "cross-reference": "\t23.4.15 (1)\n",
+      "tlp-number": "6.33",
+      "cross-reference": "\t23.4.15\n",
       "date": "1915-04-23",
       "eng": "We do not believe <i>a <i>priori in a law of conservation, rather we <u>know <i>a <i>priori the possibility of its logical form. [<i>See 6.33.]\n\n\n\n  \t\t \n",
       "ger": "Wir glauben nicht a priori an ein Erhaltungsgesetz  / sondern wir <u>wissen a priori die Möglichkeit seiner logischen Form. \n"
@@ -2692,9 +2692,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,75r[3] (1915--0424) (NB)",
-      "pt-number": "6•11343",
+      "pt-number": "6.11343",
       "pt-page": "70[5]",
-      "tlp-number": "6•1261                   ",
+      "tlp-number": "6.1261                   ",
       "cross-reference": "",
       "date": "1915-04-24",
       "eng": "In logic (mathematics) process and result are equivalent. (Hence, no surprises.) [<i>See 6.1261.]\n\n  \t\t \n",
@@ -2728,10 +2728,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,78r[2] (1915--0427) (NB)",
-      "pt-number": "5•0444",
+      "pt-number": "5.0444",
       "pt-page": "41[8]",
-      "tlp-number": "5•1362 (1)",
-      "cross-reference": "\t27.4.15 (1)\n",
+      "tlp-number": "5.1362",
+      "cross-reference": "\t27.4.15\n",
       "date": "1915-04-27",
       "eng": "Freedom of the will consists in the <u>impossibility of our knowing future events now. We could know them only if causality were an inner necessity like, say, that of logical inference. - The connection between knowing and the known is that of logical necessity.\n\n  \t\t \n",
       "ger": "Die Willensfreiheit besteht darin daß zukünftige Ereignisse jetzt nicht gewußt werden <u>können. Nur dann könnten wir sie wissen, wenn die Kausalität eine innere Notwendigkeit wäre – wie etwa die des logischen Schlusses. – Der Zusammenhang von Wissen & Gewußtem ist <u>der der logischen Notwendigkeit. \n"
@@ -2800,10 +2800,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,81r[3] (1915--0501) (NB)",
-      "pt-number": "6•1201",
+      "pt-number": "6.1201",
       "pt-page": "116[7]",
-      "tlp-number": "6•1201 ",
-      "cross-reference": "\t1.5.15 (1)**\n",
+      "tlp-number": "6.1201 ",
+      "cross-reference": "\t1.5.15\n",
       "date": "1915-05-01",
       "eng": "That p.~p is a contradiction shows that ~p contradicts p. [<i>Cf. 6.1201.]\n\n  \t\t \n",
       "ger": "Daß p.~p eine Kontradiktion ist zeigt daß ~p p widerspricht. \n"
@@ -2811,12 +2811,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,83r[2] (1915--0502) (NB)",
-      "pt-number": "5•3131",
+      "pt-number": "5.3131",
       "pt-page": "61[9]",
-      "tlp-number": "5•513 (1)",
+      "tlp-number": "5.513",
       "cross-reference": "",
       "date": "1915-05-02",
-      "eng": "The class of all signs that affirm both p and q is the class of signs for p.q. The class of all signs that affirm either p or q is the proposition \"p ⌵ q\". [<i>Cf 5.513 (1).]\n\n  \t\t \n",
+      "eng": "The class of all signs that affirm both p and q is the class of signs for p.q. The class of all signs that affirm either p or q is the proposition \"p ⌵ q\". [<i>Cf 5.513.]\n\n  \t\t \n",
       "ger": "Die Klasse aller Zeichen die sowohl p als auch q bejahen ist das Zeichen für p.q. Die Klasse aller Zeichen die entweder p oder q bejahen ist der Satz „p ⌵ q”. \n"
     },
     {
@@ -2833,10 +2833,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,84r[3] (1915--0504) (NB)",
-      "pt-number": "6•12112",
+      "pt-number": "6.12112",
       "pt-page": "71[4]",
-      "tlp-number": "6•31",
-      "cross-reference": "\t4.5.15 (1)\n",
+      "tlp-number": "6.31",
+      "cross-reference": "\t4.5.15\n",
       "date": "1915-05-04",
       "eng": "At any rate, what has been styled the law of induction cannot be a law of logic, for it is obviously a proposition. [<i>See 6.31.]\n  \t\t \n",
       "ger": "Das sogenannte Gesetz der Induktion kann jedenfalls kein logisches Gesetz sein, denn es ist offenbar ein Satz. \n"
@@ -2851,9 +2851,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,85r[2] (1915--0505) (NB)",
-      "pt-number": "5•305",
+      "pt-number": "5.305",
       "pt-page": "47[1]",
-      "tlp-number": "5•47 (5)",
+      "tlp-number": "5.47 (5)",
       "cross-reference": "",
       "date": "1915-05-05",
       "eng": "Does the general propositional form exist? \nYes, if by that is understood the sole \"logical constant\".  [<i>Cf. 5.47 (4-5).]\n\n  \t\t \n",
@@ -2964,10 +2964,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,95r[4] (1915--0514) (NB)",
-      "pt-number": "4•0012",
+      "pt-number": "4.0012",
       "pt-page": "36[7]",
-      "tlp-number": "4•002 (2)",
-      "cross-reference": "\t14.5.15 (1)\n",
+      "tlp-number": "4.002",
+      "cross-reference": "\t14.5.15\n",
       "date": "1915-05-14",
       "eng": "Language is a part of our organism and no less complicated than it. [<i>Cf. 4.002.]\n\n\t\t \n",
       "ger": "Die Sprache ist ein Teil unseres Organismus, und nicht weniger kompliziert als dieser. \n"
@@ -2997,10 +2997,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,99r[2] (1915--0517? --0518?) (NB)",
-      "pt-number": "4•0101",
+      "pt-number": "4.0101",
       "pt-page": "42[5]",
-      "tlp-number": "4•015",
-      "cross-reference": "\t18.5.15 (1)\n",
+      "tlp-number": "4.015",
+      "cross-reference": "\t18.5.15\n",
       "date": "1915-05-17",
       "eng": "The possibility of all similes, of all the pictoriality of our language, reposes in the logic of depiction. [4.015.]\n\n  \t\t \n",
       "ger": "Die Möglichkeit aller Gleichnisse, der ganzen Bildhaftigkeit unserer Ausdrucksweise, ruht in der Logik der Abbildung. \n"
@@ -3037,10 +3037,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,101r[4] (1915--0523) (NB)",
-      "pt-number": "5•335",
+      "pt-number": "5.335",
       "pt-page": "59[6]",
-      "tlp-number": "5•6",
-      "cross-reference": "\t23.5.15 (1)\n",
+      "tlp-number": "5.6",
+      "cross-reference": "\t23.5.15\n",
       "date": "1915-05-23",
       "eng": "<u>The <u>limits <u>of <u>my <u>language mean the limits of my world. [5.6]\n\n\n  \t\t \n",
       "ger": "<u>Die <u>Grenzen <u>meiner <u>Sprache bedeuten die Grenzen meiner Welt. \n"
@@ -3106,9 +3106,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,111r[5] et 112r[1] (1915--0529) (NB)",
-      "pt-number": "5•3353",
+      "pt-number": "5.3353",
       "pt-page": "60[2]",
-      "tlp-number": "5•62 (3)*",
+      "tlp-number": "5.62 (3)",
       "cross-reference": "\t29.5.15 (1, 5)+\n",
       "date": "1915-05-29",
       "eng": "But is <u>language the <u>only language? \n     Why shouldn’t there be a form of expression in which I can speak <u>about language in such a way that it can appear to me in coordination with something else?\n\n  \t\t \n",
@@ -3128,9 +3128,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,116r[3] (1915--0531) (NB)",
-      "pt-number": "5•323",
+      "pt-number": "5.323",
       "pt-page": "62[4]",
-      "tlp-number": "5•526 (1)",
+      "tlp-number": "5.526",
       "cross-reference": "",
       "date": "1915-05-31",
       "eng": "Using names in a description of the world one cannot achieve more than one can with a general world description!!!\n\n  \t\t \n",
@@ -3161,10 +3161,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,119r[4] (1915--0603) (NB)",
-      "pt-number": "5•06",
+      "pt-number": "5.06",
       "pt-page": "12[8]",
-      "tlp-number": "5•14",
-      "cross-reference": "\t3.6.15 (1)+  11.6.15 (4,5)+\n",
+      "tlp-number": "5.14",
+      "cross-reference": "\t3.6.15+  11.6.15 (4,5)+\n",
       "date": "1915-06-03",
       "eng": "One could surely say: <u>That proposition from which the most follows says the most. [<i>Cf. 5.14.]\n\n  \t\t \n",
       "ger": "Man könnte wohl sagen: <u>Der Satz sagt am meisten, aus welchem am meisten folgt. \n"
@@ -3172,9 +3172,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,123r[5] et 124r[1] (1915--0604) (NB)",
-      "pt-number": "5•315",
+      "pt-number": "5.315",
       "pt-page": "62[3]",
-      "tlp-number": "5•515**",
+      "tlp-number": "5.515",
       "cross-reference": "",
       "date": "1915-06-04",
       "eng": "\"p.q\" only makes sense if \"p ⌵ q\" makes sense.\n\n  \t\t \n",
@@ -3183,12 +3183,12 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,131r[3] et 132r[1] (1915--0608) (NB)",
-      "pt-number": "6•1214",
+      "pt-number": "6.1214",
       "pt-page": "66[3]",
-      "tlp-number": "6•1264 (2)*                 8.6.15 (1)**\n \n8.6.15.\nJeder „mathematische Satz” ist ein in Zeichen dargestellter  / Modus ponens. (Und es ist klar, daß man den Modus ponens nicht in einem Satz ausdrücken kann.) \n\nEvery \"mathematical proposition\" is a <i>modus <i>ponens set out in signs. (And clearly <i>modus <i>ponens cannot be expressed in a proposition). [<i>Cf. 6.1264 (2).]\n\n  ",
+      "tlp-number": "6.1264                 8.6.15\n \n8.6.15.\nJeder „mathematische Satz” ist ein in Zeichen dargestellter  / Modus ponens. (Und es ist klar, daß man den Modus ponens nicht in einem Satz ausdrücken kann.) \n\nEvery \"mathematical proposition\" is a <i>modus <i>ponens set out in signs. (And clearly <i>modus <i>ponens cannot be expressed in a proposition). [<i>Cf. 6.1264.]\n\n  ",
       "cross-reference": "",
       "date": "1915-06-08",
-      "eng": "Every \"mathematical proposition\" is a <i>modus <i>ponens set out in signs. (And clearly <i>modus <i>ponens cannot be expressed in a proposition). [<i>Cf. 6.1264 (2).]\n\n  \t\t \n",
+      "eng": "Every \"mathematical proposition\" is a <i>modus <i>ponens set out in signs. (And clearly <i>modus <i>ponens cannot be expressed in a proposition). [<i>Cf. 6.1264.]\n\n  \t\t \n",
       "ger": "Jeder „mathematische Satz” ist ein in Zeichen dargestellter  / Modus ponens. (Und es ist klar, daß man den Modus ponens nicht in einem Satz ausdrücken kann.) \n"
     },
     {
@@ -3282,10 +3282,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-102,168r[3] (1915--0619) (NB)",
-      "pt-number": "6•005",
+      "pt-number": "6.005",
       "pt-page": "93[7]",
-      "tlp-number": "5•5423 (1) ",
-      "cross-reference": "\t19.6.15 (1)+\n",
+      "tlp-number": "5.5423 ",
+      "cross-reference": "\t19.6.15+\n",
       "date": "1915-06-19",
       "eng": "When we see that our visual field is complex, we also see that it consists of <u>simpler parts.\n\n  \t\t \n",
       "ger": "Wenn wir sehen daß unser Gesichtsbild komplex ist so sehen wir aber auch daß es aus <u>einfacheren Teilen besteht. \n"
@@ -3382,10 +3382,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,1r[1] (1916--040? --0415?) (NB)",
-      "pt-number": "5•412",
+      "pt-number": "5.412",
       "pt-page": "81[4]",
-      "tlp-number": "5•556 b 1",
-      "cross-reference": "\t15.4.16 (1)\n",
+      "tlp-number": "5.556 b 1",
+      "cross-reference": "\t15.4.16\n",
       "date": "1916-04-15",
       "eng": "We can anticipate only what we ourselves construct. [<i>See 5.556.]\n\n  \t\t \n",
       "ger": "Nur was wir selbst konstruieren, können wir voraussehen! \n"
@@ -3432,9 +3432,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,4r[1] (1916--0423) (NB)",
-      "pt-number": "5•00161",
+      "pt-number": "5.00161",
       "pt-page": "102[5]",
-      "tlp-number": "5•251* ",
+      "tlp-number": "5.251 ",
       "cross-reference": "",
       "date": "1916-04-23",
       "eng": "",
@@ -3612,20 +3612,20 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,8r[7] et 9r[1] et 10r[1] (1916--0525? --0611?) (NB)",
-      "pt-number1": "6•41",
-      "pt-number2": "5•33531",
-      "pt-number3": "6•5211",
+      "pt-number1": "6.41",
+      "pt-number2": "5.33531",
+      "pt-number3": "6.5211",
       "pt-page1": "75[4]",
       "pt-page2": "83[8]",
       "pt-page3": "83[3]",
-      "tlp-number1": "6•41*",
-      "tlp-number2": "5•621 ",
-      "tlp-number3": "6•521 (2)* ",
-      "cross-reference1": "\t11.6.16 (5)**\n",
-      "cross-reference2": "\t11.6.16 (6)+   24.7.16 (1)\n",
+      "tlp-number1": "6.41",
+      "tlp-number2": "5.621 ",
+      "tlp-number3": "6.521 ",
+      "cross-reference1": "\t11.6.16 (5)\n",
+      "cross-reference2": "\t11.6.16 (6)+   24.7.16\n",
       "date": "1916-06-11",
-      "eng": "That this sense does not reside in it but outside it. [<i>Cf. 6.41.]\n5•33531\t83[8]\t5•621 \t\t11.6.16 (6)+   24.7.16 (1)\n\n     Daß das Leben die Welt ist. \n\nThat life is the world. [<i>Cf. 5.621.]\n\n     Daß mein Wille die Welt durchdringt. \n     Daß mein Wille gut oder böse ist. \n     Daß also Gut und Böse mit dem Sinn der Welt  / irgendwie zusammenhängt. \n6•5211\t83[3]\t6•521 (2)* \t(11.6.16 (10)+)   7.7.16 (1)  ???\n\n     Den Sinn des Lebens, d.i. den Sinn der Welt, können wir Gott nennen. \n     Und das Gleichnis von Gott als einem Vater daran knüpfen. \nDas Gebet ist der Gedanke an den Sinn des Lebens. \nIch kann die Geschehnisse der Welt nicht nach meinem Willen lenken sondern bin vollkommen machtlos. \nNur so kann ich mich unabhängig von der Welt machen – und sie also doch in gewissem Sinne beherrschen – indem ich auf einen Einfluß auf die Geschehnisse verzichte. \n\n\t\t \n",
-      "ger": "Was weiß ich über Gott und  / den Zweck des Lebens? \n     Ich weiß daß diese Welt ist. \n     Daß ich in ihr stehe wie mein Auge in seinem Gesichtsfeld. \n     Daß etwas an ihr problematisch ist was wir ihren Sinn nennen. \n6•41\t75[4]\t6•41*\t\t11.6.16 (5)**\n\n     Daß dieser Sinn nicht in ihr liegt sondern außer ihr. \n"
+      "eng": "That this sense does not reside in it but outside it. [<i>Cf. 6.41.]\n5.33531\t83[8]\t5.621 \t\t11.6.16 (6)+   24.7.16\n\n     Daß das Leben die Welt ist. \n\nThat life is the world. [<i>Cf. 5.621.]\n\n     Daß mein Wille die Welt durchdringt. \n     Daß mein Wille gut oder böse ist. \n     Daß also Gut und Böse mit dem Sinn der Welt  / irgendwie zusammenhängt. \n6.5211\t83[3]\t6.521 \t(11.6.16 (10)+)   7.7.16  ???\n\n     Den Sinn des Lebens, d.i. den Sinn der Welt, können wir Gott nennen. \n     Und das Gleichnis von Gott als einem Vater daran knüpfen. \nDas Gebet ist der Gedanke an den Sinn des Lebens. \nIch kann die Geschehnisse der Welt nicht nach meinem Willen lenken sondern bin vollkommen machtlos. \nNur so kann ich mich unabhängig von der Welt machen – und sie also doch in gewissem Sinne beherrschen – indem ich auf einen Einfluß auf die Geschehnisse verzichte. \n\n\t\t \n",
+      "ger": "Was weiß ich über Gott und  / den Zweck des Lebens? \n     Ich weiß daß diese Welt ist. \n     Daß ich in ihr stehe wie mein Auge in seinem Gesichtsfeld. \n     Daß etwas an ihr problematisch ist was wir ihren Sinn nennen. \n6.41\t75[4]\t6.41\t\t11.6.16 (5)\n\n     Daß dieser Sinn nicht in ihr liegt sondern außer ihr. \n"
     },
     {
       "type": "verso",
@@ -3802,9 +3802,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,41r[4] (1916--0805) (NB)",
-      "pt-number": "5•3354",
+      "pt-number": "5.3354",
       "pt-page": "60[3]",
-      "tlp-number": "5•631 (1)",
+      "tlp-number": "5.631",
       "cross-reference": "",
       "date": "1916-08-05",
       "eng": "",
@@ -3881,10 +3881,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,47r[4] et 48r[1] (1916--0819? --0829?) (NB)",
-      "pt-number": "5•3071",
+      "pt-number": "5.3071",
       "pt-page": "80[4]",
-      "tlp-number": "5•474 ",
-      "cross-reference": "\t29.8.16 (1)+\n",
+      "tlp-number": "5.474 ",
+      "cross-reference": "\t29.8.16+\n",
       "date": "1916-08-19",
       "eng": "",
       "ger": "Die Frage ist, ob die gewöhnliche kleine Anzahl von Grundoperationen genügt um alle möglichen Operationen herzustellen. \n\n  \t\t \n"
@@ -3903,9 +3903,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,54r[4] (1916--1007) (NB)",
-      "pt-number": "6•431",
+      "pt-number": "6.431",
       "pt-page": "85[6]",
-      "tlp-number": "6•45 (1)*",
+      "tlp-number": "6.45",
       "cross-reference": "\t7.10.16 (2,3)+\n",
       "date": "1916-10-07",
       "eng": "",
@@ -3936,10 +3936,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,59r[3] (1916--1015) (NB)",
-      "pt-number": "5•40421",
+      "pt-number": "5.40421",
       "pt-page": "90[3]",
-      "tlp-number": "5•61 (4)",
-      "cross-reference": "\t15.10.16 (1)+\n",
+      "tlp-number": "5.61 (4)",
+      "cross-reference": "\t15.10.16+\n",
       "date": "1916-10-15",
       "eng": "",
       "ger": "     Was man sich nicht denken kann, darüber kann man auch nicht reden. \n\n  \t\t \n"
@@ -4024,14 +4024,14 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,79r[6] et 80r[1] (1916--1121) (NB)",
-      "pt-number1": "4•4303",
-      "pt-number2": "4•43012",
+      "pt-number1": "4.4303",
+      "pt-number2": "4.43012",
       "pt-page1": "46[6]",
       "pt-page2": "78[11]",
-      "tlp-number1": "4•5 (3)b**",
-      "tlp-number2": "4•5 (3a) ",
-      "cross-reference1": "\t16.4.16 (1)+  21.11.16 (1)+\n",
-      "cross-reference2": "\t16.4.16 (1)+   21.11.16 (1)+\n",
+      "tlp-number1": "4.5 (3)b",
+      "tlp-number2": "4.5 (3a) ",
+      "cross-reference1": "\t16.4.16+  21.11.16+\n",
+      "cross-reference2": "\t16.4.16+   21.11.16+\n",
       "date": "1916-11-21",
       "eng": "",
       "ger": "Daß es möglich ist die allgemeine Satzform aufzustellen sagt nichts anderes als: Jede mögliche Satzform  / muß sich <u>voraussehen lassen. \n\n  \t\t \n"
@@ -4083,9 +4083,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,87r[2] (1916--1127? --1128?) (NB)",
-      "pt-number": "1•21",
+      "pt-number": "1.21",
       "pt-page": "78[10]",
-      "tlp-number": "1•21",
+      "tlp-number": "1.21",
       "cross-reference": "",
       "date": "1916-11-27",
       "eng": "",
@@ -4094,9 +4094,9 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,87r[3] (1916--1202) (NB)",
-      "pt-number": "5•322",
+      "pt-number": "5.322",
       "pt-page": "63[5]",
-      "tlp-number": "5•523",
+      "tlp-number": "5.523",
       "cross-reference": "",
       "date": "1916-12-02",
       "eng": "",
@@ -4105,10 +4105,10 @@ export const combined = [
     {
       "type": "recto",
       "manuscript": "Ms-103,90r[3] (1917--0108) (NB)",
-      "pt-number": "6•3752",
+      "pt-number": "6.3752",
       "pt-page": "94[6]",
-      "tlp-number": "6•3751 (3)** ",
-      "cross-reference": "\t8.1.17 (1,2)**\n",
+      "tlp-number": "6.3751 (3) ",
+      "cross-reference": "\t8.1.17 (1,2)\n",
       "date": "1917-01-08",
       "eng": "",
       "ger": "Es ist klar daß das logische Produkt zweier Elementarsätze nie eine Tautologie sein kann. \n\n\t \n"

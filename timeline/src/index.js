@@ -16,11 +16,16 @@ combined.forEach((item, index) => {
     dateStyle = getDateStyle(item.date)
 
     if (item.type === "recto") {
+        let num
+
+        let title = item.manuscript
         if (getVersoMatch(item.date) === "") {
             versoDateStyle = ""
         } else {
             versoDateStyle = dateStyle
         }
+
+
         template = `
     <li>
         <div class="entry left ${_.toLower(versoDateStyle)}">
@@ -28,7 +33,7 @@ combined.forEach((item, index) => {
         </div>
         <div class="point"></div>
         <div class="entry right ${_.toLower(dateStyle)}">
-            <h4>${item.manuscript}</h4>
+            <h4><strong>${item.date}</strong></p>${getUrl(item)}</h4>
         </div>
     </li>
     `
@@ -43,7 +48,7 @@ combined.forEach((item, index) => {
         template = `
     <li>
         <div class="entry left ${_.toLower(dateStyle)}">
-            <h4>${item.manuscript}</h4>
+            <h4><strong>${item.date}</strong></p>${item.manuscript}</h4>
         </div>
         <div class="point"></div>
         <div class="entry right ${_.toLower(rectoDateStyle)}">
@@ -85,10 +90,29 @@ function getRectoMatch(versoDate) {
     }
 }
 
+function getUrl(item) {
+    let num = item['tlp-number']
+    let url
+    if (typeof num !== undefined && num !== "" && item.type === "recto") {
+        url = `<a href='http://tractatus.lib.uiowa.edu/map/?tlp=${num}'>${item.manuscript}</a>`
+    } else {
+        url = item.manuscript
+    }
+    return url
+}
+
 
 
 
 /*
+
+        if (item['pt-number'] != "") {
+            let num = item['pt-number']
+            console.log(num)
+            title = `<a href='http://tractatus.lib.uiowa.edu/map/?pt=${num}>${item.manuscript}</a>}`
+        }
+
+
 <li>
     <div class="entry left sep">
         <h4>1914-09-02 <br /> Ms-101,20r[2]</h4>
