@@ -4,7 +4,6 @@ import _ from 'lodash'
 import {
     combined
 } from './combined'
-let used = []
 
 combined.forEach((item, index) => {
     /*
@@ -17,41 +16,50 @@ combined.forEach((item, index) => {
     let versoDateStyle, rectoDateStyle
     dateStyle = getDateStyle(item.date)
 
-    
+    if (item.type === "recto") {
+        let num
 
-        if (item.type === "recto") {
-            used.push(item)
-            let num
-    
-            let title = item.manuscript
-            if (getVersoMatch(item.date) === "") {
-                versoDateStyle = ""
-            } else {
-                versoDateStyle = dateStyle
-            }
-    
-    
-            template = `
-        <li>
-            <div class="entry left ${_.toLower(versoDateStyle)}">
-                ${getVersoMatch(item.date)}
-            </div>
-            <div class="point"></div>
-            <div class="entry right ${_.toLower(dateStyle)}">
-                <h4><strong>${item.date}</strong></p>${getUrl(item)}</h4>
-            </div>
-        </li>
-        `
+        let title = item.manuscript
+        if (getVersoMatch(item.date) === "") {
+            versoDateStyle = ""
+        } else {
+            versoDateStyle = dateStyle
         }
-        
 
 
-        
-        $('#list').append(template)
-    
+        template = `
+    <li>
+        <div class="entry left ${_.toLower(versoDateStyle)}">
+            <h4>${getVersoMatch(item.date)}</h4>
+        </div>
+        <div class="point"></div>
+        <div class="entry right ${_.toLower(dateStyle)}">
+            <h4><strong>${item.date}</strong></p>${getUrl(item)}</h4>
+        </div>
+    </li>
+    `
+    }
+
+    if (item.type === "verso") {
+        if (getRectoMatch(item.date) === "") {
+            rectoDateStyle = ""
+        } else {
+            rectoDateStyle = dateStyle
+        }
+        template = `
+    <li>
+        <div class="entry left ${_.toLower(dateStyle)}">
+            <h4><strong>${item.date}</strong></p>${item.manuscript}</h4>
+        </div>
+        <div class="point"></div>
+        <div class="entry right ${_.toLower(rectoDateStyle)}">
+            <h4>${getRectoMatch(item.date)}</h4>
+        </div>
+    </li>
+    `
+    }
+    $('#list').append(template)
 })
-
-console.log(used)
 
 function getDateStyle(date) {
     let dateObj = new Date(date)
@@ -67,7 +75,7 @@ function getVersoMatch(rectoDate) {
         "type": "verso"
     })
     if (matched) { 
-        return `<h4><strong>${rectoDate}</strong></p>${matched.manuscript}</h4>` 
+        return matched.manuscript 
     } else {
         return ""
     }
