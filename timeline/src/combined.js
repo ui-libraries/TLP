@@ -1,27 +1,5 @@
 export const combined = [
     {
-      "type": "recto",
-      "manuscript": "Ms-102,68r[2] (1915--0307) (NB)",
-      "pt-number": "",
-      "pt-page": "",
-      "tlp-number": "",
-      "cross-reference": "",
-      "date": "1914-03-07",
-      "eng": "Just as ~ξ, ~ξ . ⌵ . ~ξ etc. are the same function, so too are ~η ⌵ η, η⊃η, etc. the same – that is, the tautological – function. Like the others, it can be investigated – and perhaps advantageously.\n\n\n  \t\t \n",
-      "ger": "Wie ~ξ, ~ξ . ⌵ . ~ξ etc. dieselbe Funktion ist so ist auch ~η ⌵ η, η⊃η etc. dieselbe – nämlich die tautologische – Funktion. Wie die anderen so kann auch sie – und vielleicht mit Vorteil – untersucht werden. \n"
-    },
-    {
-      "type": "recto",
-      "manuscript": "Ms-102,68r[4] (1915--0318) (NB)",
-      "pt-number": "",
-      "pt-page": "",
-      "tlp-number": "",
-      "cross-reference": "",
-      "date": "1914-03-18",
-      "eng": "lt is clear that the closest examination of the propositional sign cannot yield what it asserts – but what it can yield is what it is <u>capable of asserting.\n\n\t \n",
-      "ger": "Es ist klar daß die genaueste Untersuchung des Satzzeichens nicht ergeben kann was es aussagt – wohl aber was es aussagen <u>kann. \n"
-    },
-    {
       "type": "verso",
       "date": "1914-08-09",
       "eng": "The day before yesterday was accepted after the medical examination for military service and assigned to the 2nd Fortress Artillery Regiment in Kraków. Left Vienna yesterday morning. Arriving in Kraków this morning. Good mood. Gave my large notebook to Trenkler for safekeeping. Will I be able to get work done now??? Very curious about my future life! The military authorities in Vienna were incredibly friendly. People who were asked thousands of questions every day gave friendly and exhaustive answers. Such things are tremendously encouraging. It reminded me of the English way of doing things.",
@@ -2387,6 +2365,17 @@ export const combined = [
       "ger": "Die Probleme der Verneinung, der Disjunktion, von Wahr & Falsch – sind nur Spiegelbilder des einen, großen Problems, in  / den verschieden gestellten großen und kleinen Spiegeln der Philosophie. \n"
     },
     {
+      "type": "recto",
+      "manuscript": "Ms-102,68r[2] (1915--0307) (NB)",
+      "pt-number": "",
+      "pt-page": "",
+      "tlp-number": "",
+      "cross-reference": "",
+      "date": "1915-03-07",
+      "eng": "Just as ~ξ, ~ξ . ⌵ . ~ξ etc. are the same function, so too are ~η ⌵ η, η⊃η, etc. the same – that is, the tautological – function. Like the others, it can be investigated – and perhaps advantageously.\n\n\n  \t\t \n",
+      "ger": "Wie ~ξ, ~ξ . ⌵ . ~ξ etc. dieselbe Funktion ist so ist auch ~η ⌵ η, η⊃η etc. dieselbe – nämlich die tautologische – Funktion. Wie die anderen so kann auch sie – und vielleicht mit Vorteil – untersucht werden. \n"
+    },
+    {
       "type": "verso",
       "date": "1915-03-07",
       "eng": "=. Situation unchanged; uneasy. I'm still in the dark about an appropriate change. Heavy frost has returned again! Very much out of season! I don't feel at all well. I'm mentally weary, so to speak, very weary. On the other hand, what is to be done about it?? I am exhausted by loathesome circumstances. The whole of outer life, with all its viciousness, assaults me. And I’m filled with hatred inside and can’t let the spirit in me. God is love. — I'm like a burned-out furnace full of slag and garbage. ——",
@@ -2455,6 +2444,17 @@ export const combined = [
       "eng": "",
       "ger": "",
       "manuscript": "Ms-102,68v[1]"
+    },
+    {
+      "type": "recto",
+      "manuscript": "Ms-102,68r[4] (1915--0318) (NB)",
+      "pt-number": "",
+      "pt-page": "",
+      "tlp-number": "",
+      "cross-reference": "",
+      "date": "1915-03-18",
+      "eng": "lt is clear that the closest examination of the propositional sign cannot yield what it asserts – but what it can yield is what it is <u>capable of asserting.\n\n\t \n",
+      "ger": "Es ist klar daß die genaueste Untersuchung des Satzzeichens nicht ergeben kann was es aussagt – wohl aber was es aussagen <u>kann. \n"
     },
     {
       "type": "verso",

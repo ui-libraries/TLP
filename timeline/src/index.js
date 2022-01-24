@@ -16,42 +16,48 @@ combined.forEach((item, index) => {
     let dateStyle
     let versoDateStyle, rectoDateStyle
     dateStyle = getDateStyle(item.date)
+    let randomVerso = makeid(5)
+    let randomRecto = makeid(5)
 
-    
+    if (item.type === "recto") {
+        used.push(item)
+        let num
 
-        if (item.type === "recto") {
-            used.push(item)
-            let num
-    
-            let title = item.manuscript
-            if (getVersoMatch(item.date) === "") {
-                versoDateStyle = ""
-            } else {
-                versoDateStyle = dateStyle
-            }
-    
-    
-            template = `
+        let title = item.manuscript
+        if (getVersoMatch(item.date) === "") {
+            versoDateStyle = ""
+        } else {
+            versoDateStyle = dateStyle
+        }
+
+
+        template = `
         <li>
-            <div class="entry left ${_.toLower(versoDateStyle)}">
+            <div id="${randomRecto}" class="entry left ${_.toLower(versoDateStyle)}">
                 ${getVersoMatch(item.date)}
             </div>
             <div class="point"></div>
-            <div class="entry right ${_.toLower(dateStyle)}">
-                <h4><strong>${item.date}</strong></p>${getUrl(item)}</h4>
+            <div id="${randomVerso}" class="entry right ${_.toLower(dateStyle)}">
+                <h4><strong>${item.date}</strong></p>${item.manuscript}</h4>
             </div>
         </li>
         `
-        }
-        
+    }
 
-
+    $('#list').append(template)
+    $(`#${randomVerso}`).click(e => {
+        let str = item.eng
+        str.replace(/[^\x20-\x7E]/g, '')
+        alert(item.eng)
         
-        $('#list').append(template)
-    
+    })
+    $(`#${randomRecto}`).click(e => {
+        let text = getVersoMatchText(item.date)
+        text.replace(/[^\x20-\x7E]/g, '')
+        alert(text)
+    })
+
 })
-
-console.log(used)
 
 function getDateStyle(date) {
     let dateObj = new Date(date)
@@ -66,8 +72,20 @@ function getVersoMatch(rectoDate) {
         "date": rectoDate,
         "type": "verso"
     })
-    if (matched) { 
-        return `<h4><strong>${rectoDate}</strong></p>${matched.manuscript}</h4>` 
+    if (matched) {
+        return `<h4><strong>${rectoDate}</strong></p>${matched.manuscript}</h4>`
+    } else {
+        return ""
+    }
+}
+
+function getVersoMatchText(rectoDate) {
+    let matched = _.find(combined, {
+        "date": rectoDate,
+        "type": "verso"
+    })
+    if (matched) {
+        return `${matched.eng}`
     } else {
         return ""
     }
@@ -78,8 +96,8 @@ function getRectoMatch(versoDate) {
         "date": versoDate,
         "type": "recto"
     })
-    if (matched) { 
-        return matched.manuscript 
+    if (matched) {
+        return matched.manuscript
     } else {
         return ""
     }
@@ -96,34 +114,13 @@ function getUrl(item) {
     return url
 }
 
-
-
-
-/*
-
-        if (item['pt-number'] != "") {
-            let num = item['pt-number']
-            console.log(num)
-            title = `<a href='http://tractatus.lib.uiowa.edu/map/?pt=${num}>${item.manuscript}</a>}`
-        }
-
-
-<li>
-    <div class="entry left sep">
-        <h4>1914-09-02 <br /> Ms-101,20r[2]</h4>
-    </div>
-    <div class="point"></div>
-    <div class="entry right">
-        <h4>Ms-101,20r[2]</h4>
-    </div>
-</li>
-<li>
-    <div class="entry left">
-        <h4>Ms-101,20r[2]</h4>
-    </div>
-    <div class="point"></div>
-    <div class="entry right">
-        <h4>Ms-101,20r[2]</h4>
-    </div>
-</li>
-*/
+function makeid(length) {
+    var result           = '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * 
+ charactersLength));
+   }
+   return result;
+}
