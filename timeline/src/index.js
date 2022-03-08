@@ -5,8 +5,9 @@ import {
     combined
 } from './combined'
 let used = []
+let combo = _.orderBy(combined, ['date'],['asc'])
 
-combined.forEach((item, index) => {
+combo.forEach((item, index) => {
     /*
     if verso, create a snippet with found recto
     if recto, create a snippet with found verso
