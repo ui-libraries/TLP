@@ -153,6 +153,7 @@ export var tractatus
             $("#accordion").collapse().sortable()
             $("#version-selector-all").val(version)
             $("#reset-btn").on("click", function () {
+                localStorage.setItem('tlp-version', "ger")
                 let url = window.location.href
                 url = url.split("?")[0]
                 window.location.replace(url)
