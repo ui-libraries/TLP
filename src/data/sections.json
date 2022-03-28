@@ -5776,21 +5776,11 @@
             "str": ""
         },
         {
-            "label": "6.0121",
+            "label": "6.021",
             "precision": 4,
             "fontSize": "18px",
             "y_axis": 7,
             "x_axis": 111,
-            "ger": "",
-            "ogd": "",
-            "str": ""
-        },
-        {
-            "label": "6.2311",
-            "precision": 4,
-            "fontSize": "18px",
-            "y_axis": 29,
-            "x_axis": 115,
             "ger": "",
             "ogd": "",
             "str": ""
