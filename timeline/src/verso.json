@@ -1,4 +1,4 @@
-export const verso = [
+[
     {
       "type": "verso",
       "date": "1914-08-26",

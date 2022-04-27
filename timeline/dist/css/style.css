@@ -1,153 +1,136 @@
-html, body, ul, li {
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
-    color:#272424;
-    background-color: #f1f1f6;
-}
-
-.container {
-    padding: 20px 0;
-}
-
-.container h1 {
-    text-align: center;
-}
-
-.timeline {
-    position: relative;
-    margin: 0 auto;
-    width: 90%;
-    
-}
-
-.timeline ul li {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.point {
-    min-width: 20px;
-    height: 20px;
-    background-color: #f1f1f6;
-    border-radius: 100%;
-    z-index: 2;
-    border: 3px #333333 solid;
-    position: relative;
-    left: 1px;
-}
-
-@media (max-width: 800px) {
-    .point {
-        min-width: 15px;
-        height: 15px;
-    }
-
-    html, body {
-        font-size: 10px;
-    }
-
-}
-
-@media (max-width: 650px) {
-    html, body {
-        font-size: 10px;
-    }
-    
-    .point {
-        min-width: 12px;
-        height: 12px;
-    }
-
-}
-
-@media (max-width: 450px) {
-    html, body {
-        font-size: 14px;
-    }
-
-    p {
-        padding: 10px !important;
-    }
-}
-
-.timeline ul li .entry {
-    width: 50%;
-    padding: 0 20px;
-    font-weight: normal;
-}
-
-.timeline ul li .entry h4 {
-    width: 50%;
-    text-align: center;
-    padding: 5px 0px;
-    border-radius: 10px;
-}
-
-.jan h4 {
-    background-color: red;
-}
-
-.feb h4 {
-    background-color: orange;
-}
-
-.mar h4 {
-    background-color: yellow;
-}
-
-.apr h4 {
-    background-color: chartreuse;
-}
-
-.may h4 {
-    background-color: green;
-}
-
-.jun h4 {
-    background-color: springgreen;
-}
-
-.jul h4 {
-    background-color: cyan;
-}
-
-.aug h4 {
-    background-color: azure;
-}
-
-.sep h4 {
-    background-color:#ADD8E6;
-}
-
-.oct h4 {
-    background-color: violet;
-}
-
-.nov h4 {
-    background-color: magenta;
-}
-
-.dec h4 {
-    background-color: rosybrown;
-}
-
-.timeline ul li .right h4 {
-    float: left;
-}
-
-.timeline ul li .left h4 {
-    float: right;
-}
-
-.timeline::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 3px;
-    left: 50%;
-    background-color: #333333;
-}
-
+ body{
+      font-family: serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+      font-weight: 400;
+      color: black;
+      background-color: white;
+  }
+  
+  .container{
+      padding: 2rem;
+      padding-bottom: 400px;
+      margin: 0 auto;
+      max-width: 800px;
+  }
+  
+  .top-section{
+      text-align: center;
+      padding: 4rem 0;
+      max-width: 600px;
+      margin: 0 auto;
+  }
+  
+  .timeline{
+      position: relative;
+      min-height: 250px;
+  }
+  
+  .line{
+      position: absolute;
+      z-index: 2;
+      left: calc(50% - 1px);
+      width: 2px;
+      top: -50px;
+      background-color: #fff;
+      display: none;
+  }
+  
+  .line:before,
+  .line::after{
+      position: absolute;
+      display: block;
+      content: '';
+      height: 1rem;
+      width: 1rem;
+      border-radius: 50%;
+      background-color: #fff;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+  .line:after{
+      bottom: 0;
+  }
+  
+  .section{
+      display: flex;
+      opacity: 0;
+      transform: translateX(-100%);
+      transition: 600ms ease;
+      position: relative;
+      z-index: 1;
+      margin: 50px 0;
+      padding: 1rem;
+      align-items: center;
+      min-height: 450px;
+      max-height: 450px;
+  }
+  
+  .section:nth-child(odd){
+      transform: translateX(100%);
+  }
+  
+  .bead{
+      position: absolute;
+      display: block;
+      height: 1rem;
+      width: 1rem;
+      border-radius: 50%;
+      background-color: #fff;
+      left: 50%;
+      top: 20%;
+      transform: translateX(-50%);
+  }
+  
+  .content{
+      width: calc(50% - 1rem);
+      padding: 4rem 0;
+      transform: translateX(-20%);
+      transition: 600ms ease;
+      position: relative;
+  }
+  
+  .content:nth-child(odd){
+      flex-direction: row-reverse;
+      transform: translateX(30%);
+  }
+  
+  
+  .show-me:nth-child(n){
+      transform: none;
+      opacity: 1;
+  }
+  
+  h1{
+      font-weight: 400;
+      letter-spacing: 1px;
+  }
+  
+  span.tlp{
+      display:none;
+  }
+  
+  span.pt{
+      display:none;
+  }
+  
+  /* HOVER COLOR CHANGE */
+  .entry{
+      color: black;
+  
+  }
+  
+  span.ger{
+      display:none;
+  }
+  
+  span.eng{
+      display:none
+  }
+  
+  .entry:hover{
+      display:block;
+      color: #99b9d2;
+  }

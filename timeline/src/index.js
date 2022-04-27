@@ -1,18 +1,13 @@
-import _ from 'lodash'
-//import { verso } from './verso'
-//import { recto } from './recto'
 import {
     combined
 } from './combined'
+import _ from 'lodash'
+
 let used = []
-let combo = _.orderBy(combined, ['date'],['asc'])
+const combo = _.orderBy(combined, ['date'], ['asc'])
+console.log(JSON.stringify(combo))
 
 combo.forEach((item, index) => {
-    /*
-    if verso, create a snippet with found recto
-    if recto, create a snippet with found verso
-    add each match to a list and do not let it repeat
-    */
     let template
     let dateStyle
     let versoDateStyle, rectoDateStyle
@@ -20,7 +15,7 @@ combo.forEach((item, index) => {
     let randomVerso = makeid(5)
     let randomRecto = makeid(5)
 
-    if (item.type === "recto") {
+    if (item['original-type'] === "recto") {
         used.push(item)
         let num
 
@@ -32,31 +27,46 @@ combo.forEach((item, index) => {
         }
 
 
-        template = `
-        <li>
-            <div id="${randomRecto}" class="entry left ${_.toLower(versoDateStyle)}">
-                ${getVersoMatch(item.date)}
-            </div>
-            <div class="point"></div>
-            <div id="${randomVerso}" class="entry right ${_.toLower(dateStyle)}">
-                <h4><strong>${item.date}</strong></p>${item.manuscript}</h4>
-            </div>
-        </li>
-        `
-    }
 
-    $('#list').append(template)
-    $(`#${randomVerso}`).click(e => {
-        let str = item.eng
-        str.replace(/[^\x20-\x7E]/g, '')
-        alert(item.eng)
-        
-    })
-    $(`#${randomRecto}`).click(e => {
-        let text = getVersoMatchText(item.date)
-        text.replace(/[^\x20-\x7E]/g, '')
-        alert(text)
-    })
+        template = `
+            <div class="section">
+               <div class="bead"></div>
+               <div class="content verso">
+                  <p>Ms-101,17v[2] * 5 September 1914 </p>
+                  <div class="entry">
+                     <p>
+                        <span class="eng">
+                        I am on my way to a great discovery. But will I get there?! Am more sensual than before. Masturbated again today.  It's icy and stormy outside. Am lying on the straw on the ground, writing and reading on a small wooden case (price 2.50 crowns).
+                        </span>
+                        <span class="tlp">
+                        I am on my way to a great discovery. But will I get there?! Am more sensual than before. Masturbated again today.  It's icy and stormy outside. Am lying on the straw on the ground, writing and reading on a small wooden case (price 2.50 crowns).
+                        </span>
+                        <span class="deu">
+                        Ich bin auf dem Wege zu einer großen Entdeckung. Aber ob ich dahingelangen werde?! Bin sinnlicher / als früher. Heute wieder onaniert. Draußen ist es eisig & stürmisch. Ich liege auf dem Stroh am Boden & schreibe & lese auf einem kleinen Holzkoffer (Preis 2˙50 Kronen).
+                        </span>
+                     </p>
+                  </div>
+               </div>
+               <div class="content recto">
+                  <p> Ms-101,17r[2] * 4 September 1914 </p>
+                  <div class="entry">
+                     <p>
+                        <span class="eng">
+                        If the existence of the subject-predicate sentence does not show everything necessary, then it could surely only be shown by the existence of some specific fact of that form. And knowing such a fact cannot be essential for logic.
+                        </span>
+                        <span class="tlp">
+                        If the existence of the subject-predicate sentence does not show everything necessary, then it could surely only be shown by the existence of some specific fact of that form. And knowing such a fact cannot be essential for logic.
+                        </span>
+                        <span class="deu">
+                        Wenn nicht die Existenz des Subjekt-Prädikat Satzes alles Nötige zeigt dann könnte es doch nur die
+                        Existenz irgend einer besonderen Tatsache jener Form zeigen. Und die Kenntnis einer solchen kann nicht für die Logik wesentlich sein.
+                        </span>
+                     </p>
+                  </div>
+               </div>
+            </div>`
+        $('.timeline').append(template)
+    }
 
 })
 
@@ -116,12 +126,12 @@ function getUrl(item) {
 }
 
 function makeid(length) {
-    var result           = '';
-    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var result = '';
+    var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * 
- charactersLength));
-   }
-   return result;
+    for (var i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() *
+            charactersLength));
+    }
+    return result;
 }
