@@ -302,17 +302,6 @@ function versoGroupsByDate(verso) {
     return group
 }
 
-function writeIndex() {
-    let html = head()
-    html += getSectionsHtml()
-    //html += sanityCheck()
-    html += foot()
-    fs.writeFile("dist/index.html", html, function (err) {
-        if (err) return console.log(err)
-        console.log("worked")
-    })
-}
-
 function writeFile(content) {
     fs.writeFile("test.json", content, function (err) {
         if (err) return console.log(err)
