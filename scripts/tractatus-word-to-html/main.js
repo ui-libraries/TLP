@@ -135,7 +135,6 @@ function mergeSortedRectoAndVerso(rectoList, versoList) {
         result.recto = []
         result.verso = []
         result.recto = filterByProperty(rectoList, "date", date)
-        console.log(result.recto)
         result.verso = filterByProperty(versoList, "date", date)
         result.date = date
         merged.push(result)
