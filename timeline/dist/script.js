@@ -76,6 +76,12 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
+document.addEventListener('keydown', function(event) {
+	if (event.code == 'KeyW') {
+	  wFunction()
+	}
+  });
+
 function tFunction() {
   var d = document.getElementsByClassName('deu');
   	for (var i = 0; i < d.length; i++) 
@@ -87,11 +93,16 @@ function tFunction() {
   	{
   		e[i].style.display = 'none';
   	}
-  var d = document.getElementsByClassName('pt');
-  	for (var i = 0; i < d.length; i++) 
+  var r = document.getElementsByClassName('pt');
+  	for (var i = 0; i < r.length; i++) 
   	{
-  		d[i].style.display = 'none';
-  	}	
+  		r[i].style.display = 'none';
+  	}
+  var w = document.getElementsByClassName('witho');
+	  for (var i = 0; i < w.length; i++) 
+	  {
+		  w[i].style.display = 'none';
+	  }		
   var t = document.getElementsByClassName('tlp');
   	for (var i = 0; i < t.length; i++) 
   	{
@@ -110,12 +121,17 @@ function eFunction() {
   	{
   		t[i].style.display = 'none';
   	}
-  var d = document.getElementsByClassName('pt');
-  	for (var i = 0; i < d.length; i++) 
+  var r = document.getElementsByClassName('pt');
+  	for (var i = 0; i < r.length; i++) 
   	{
-  		d[i].style.display = 'none';
+  		r[i].style.display = 'none';
   	}	
-  var e = document.getElementsByClassName('eng');
+  var w = document.getElementsByClassName('witho');
+	  for (var i = 0; i < w.length; i++) 
+	  {
+		  w[i].style.display = 'none';
+	  }	
+	var e = document.getElementsByClassName('eng');
   	for (var i = 0; i < e.length; i++) 
   	{
   		e[i].style.display = 'inline';
@@ -133,11 +149,16 @@ function dFunction() {
   	{
   		t[i].style.display = 'none';
   	}
-  var d = document.getElementsByClassName('pt');
-  	for (var i = 0; i < d.length; i++) 
+  var r = document.getElementsByClassName('pt');
+  	for (var i = 0; i < r.length; i++) 
   	{
-  		d[i].style.display = 'none';
-  	}	
+  		r[i].style.display = 'none';
+  	}
+var w = document.getElementsByClassName('witho');
+	for (var i = 0; i < w.length; i++) 
+	{
+		w[i].style.display = 'none';
+	}	
   var d = document.getElementsByClassName('deu');
   	for (var i = 0; i < d.length; i++) 
   	{
@@ -161,9 +182,42 @@ function rFunction() {
   	{
   		d[i].style.display = 'none';
   	}	
+  var w = document.getElementsByClassName('witho');
+	for (var i = 0; i < w.length; i++) 
+	{
+		w[i].style.display = 'none';
+	}
   var r = document.getElementsByClassName('pt');
   	for (var i = 0; i < r.length; i++) 
   	{
   		r[i].style.display = 'inline';
   	}	
+}
+
+function wFunction() {
+	var e = document.getElementsByClassName('eng');
+		for (var i = 0; i < e.length; i++) 
+		{
+			e[i].style.display = 'none';
+		}
+	var t = document.getElementsByClassName('tlp');
+		for (var i = 0; i < t.length; i++) 
+		{
+			t[i].style.display = 'none';
+		}  
+	var d = document.getElementsByClassName('deu');
+		for (var i = 0; i < d.length; i++) 
+		{
+			d[i].style.display = 'none';
+		}
+	var r = document.getElementsByClassName('pt');
+		for (var i = 0; i < r.length; i++) 
+		{
+			r[i].style.display = 'non';
+		}
+	var w = document.getElementsByClassName('witho');
+		for (var i = 0; i < w.length; i++) 
+		{
+			w[i].style.display = 'inline';
+		}
 }

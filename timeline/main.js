@@ -1,10 +1,14 @@
 const _ = require("lodash")
 let fs = require("fs")
-const recto = require("./recto-stern.json")
-const verso = require("./verso-stern.json")
+let recto = require("./recto-stern.json")
+let verso = require("./verso-stern.json")
 const officialDates = require("./official-dates.json")
+const { orderBy } = require("lodash")
 
 //****************** */
+//let move = moveItems(verso, recto)
+//recto = move.rectoList
+//verso = move.versoList
 writeIndex()
 //****************** */
 
@@ -25,6 +29,29 @@ function writeIndex() {
     })
 }
 
+function moveItems(verso, recto) {
+    let versoList = []
+    let rectoList = []
+    _.forEach(recto, (item)=> {
+        if(_.includes(item.manuscript, "v")) {
+            _.pull(recto, item)
+            versoList.push(item)
+        }
+    })
+
+    _.forEach(verso, (item)=> {
+        if(_.includes(item.manuscript, "r")) {
+            _.pull(verso, item)
+            rectoList.push(item)
+        }
+    })
+
+    return {
+        verso: verso,
+        recto: recto
+    }
+}
+
 /**
  * Loop through the list of sections and generate HTML for each one.
  *
@@ -33,7 +60,11 @@ function writeIndex() {
 
 function getSectionsHtml() {
     let html = ""
-    let merged = mergeSortedRectoAndVerso(recto, verso)
+    let versoList = versoGroupsByDate(verso)
+    //writeJsonToFile(versoList)
+    let rectoList = rectoGroupsByDate(recto)
+    //writeJsonToFile(rectoList)
+    let merged = mergeSortedRectoAndVerso(rectoList, versoList)
     let padded = padList(merged)
     _.forEach(padded, (dateObject) => {
         for (let i = 0; i < dateObject.verso.length; i++) {
@@ -103,8 +134,9 @@ function mergeSortedRectoAndVerso(rectoList, versoList) {
         let result = {}
         result.recto = []
         result.verso = []
-        result.recto = rectoList.filter((e) => e.date === date)
-        result.verso = versoList.filter((e) => e.date === date)
+        result.recto = filterByProperty(rectoList, "date", date)
+        console.log(result.recto)
+        result.verso = filterByProperty(versoList, "date", date)
         result.date = date
         merged.push(result)
     })
@@ -309,6 +341,27 @@ function writeFile(content) {
     })
 }
 
+function filterByProperty(array, prop, value){
+    var filtered = [];
+    for(var i = 0; i < array.length; i++){
+
+        var obj = array[i];
+
+        for(var key in obj){
+            if(typeof(obj[key] == "object")){
+                var item = obj[key];
+                if(item[prop] == value){
+                    filtered.push(item);
+                }
+            }
+        }
+
+    }    
+
+    return filtered;
+
+}
+
 function writeJsonToFile(json) {
     let content = JSON.stringify(json, null, 4)
     writeFile(content)
@@ -323,18 +376,16 @@ function writeJsonToFile(json) {
  */
 
 function generateOfficialDates(recto, verso) {
-    let rectoDates = []
-    let versoDates = []
+    let dates = []
     _.forEach(recto, (section) => {
-        rectoDates.push(section.date)
-    }).sort()
+        dates.push(section.date)
+    })
     _.forEach(verso, (section) => {
-        versoDates.push(section.date)
-    }).sort()
-    return {
-        recto: _.uniq(rectoDates),
-        verso: _.uniq(versoDates),
-    }
+        dates.push(section.date)
+    })
+    dates.sort((a, b) => b < a || -(b > a))
+
+    return _.uniq(dates)
 }
 
 function sanityCheck() {

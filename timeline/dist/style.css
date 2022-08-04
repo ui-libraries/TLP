@@ -48,9 +48,9 @@ body{
     padding: 0;
     line-height: 1.5;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     background-color: #000;
-    background-image: linear-gradient(45deg, #fff -10%, #020d15 1%, #000 55%);;
+    background-image: linear-gradient(45deg, #fff 0%, #fffddb 40%, #f9f6d5 75%);;
 }
 
 .container{
@@ -78,7 +78,7 @@ body{
     left: calc(50% - 1px);
     width: 2px;
     top: -50px;
-    background-color: #fff;
+    background-color: #000;
     display: none;
 }
 
@@ -90,7 +90,7 @@ body{
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #000;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -123,10 +123,11 @@ body{
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #000;
     left: 50%;
     top: 20%;
     transform: translateX(-50%);
+    opacity: 0;
 }
 
 .content{
@@ -153,6 +154,85 @@ h1{
     letter-spacing: 1px;
 }
 
+
+/* Styling for sections */
+
+.a{
+    color: #fff;
+    background-color: green;
+}
+
+.a2{
+    color: #fff;
+    background-color: green;
+    font-style: italic;
+}
+
+/* Dot formats */
+.dot {
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    border: 2px;
+    border-style: dashed;
+    border-color: #000;
+    background-color: none;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:-2px;
+}
+
+.dotA {
+    border-radius: 50%;
+	width: 19px;
+    height: 19px;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+    background-color: green;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:-2px;
+}
+
+.dotB {
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+    background-color: yellow;
+    display: inline-block;
+     margin-left: 25px;
+    margin-right: 25px;
+    margin-top:-2px;
+}
+
+.dotC {
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+    background-color: grey;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:-2px;
+}
+
+
+/* HOVER COLOR CHANGE */
+.entry{
+
+}
+
+/* Sections displane none */
+
 span.tlp{
 	display:none;
 }
@@ -161,21 +241,16 @@ span.pt{
 	display:none;
 }
 
-/* HOVER COLOR CHANGE */
-.entry{
-
-}
-
 span.deu{
 	display:none;
 }
 
-span.tlp{
+span.witho{
 	display:none
 }
 
 .entry:hover{
 	display:block;
-	color: #99b9d2;
+	color: #000000;
 }
 /* HOVER COLOR CHANGE END */
