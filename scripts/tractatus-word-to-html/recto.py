@@ -96,7 +96,7 @@ for item in bigList:
     sternJson.append(this)
 
 
-with open('recto-stern.json', 'w', encoding='utf8') as f:
+with open('recto.json', 'w', encoding='utf8') as f:
     json.dump(sternJson, f, indent=4, ensure_ascii=False)
 
 

@@ -97,7 +97,7 @@ for item in bigList:
     this = extractItems(item)
     sternJson.append(this)
 
-with open('verso-stern.json', 'w', encoding='utf8') as f:
+with open('verso.json', 'w', encoding='utf8') as f:
     json.dump(sternJson, f, indent=4, ensure_ascii=False)
 
 

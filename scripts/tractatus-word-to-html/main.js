@@ -1,7 +1,7 @@
 const _ = require("lodash")
 let fs = require("fs")
-let recto = require("./recto-stern.json")
-let verso = require("./verso-stern.json")
+let recto = require("./recto.json")
+let verso = require("./verso.json")
 const officialDates = require("./official-dates.json")
 const { orderBy } = require("lodash")
 
