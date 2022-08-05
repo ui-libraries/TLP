@@ -1,6 +1,7 @@
 requires python 3.7+, node 15+
 
 `pip install docx`
+
 `pip install guess_language-spirit`
 
 node_modules is included in this repo because it's just lodash. npm install to regenerate the folder
