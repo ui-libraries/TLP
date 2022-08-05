@@ -1,6 +1,6 @@
 requires python 3.7+, node 15+
 
-`pip install docx`
+`pip install python-docx`
 
 `pip install guess_language-spirit`
 
