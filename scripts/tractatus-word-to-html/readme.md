@@ -12,3 +12,5 @@ Rename Word docs to recto.docx and verso.docx and place in same directory as the
 
 an index.html file will be generated in the /dist directory. entire contents of dist go on server
 
+verso.json and recto.json are generated each time it's run, so any hand edits to these files will be clobbered
+
