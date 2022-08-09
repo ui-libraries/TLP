@@ -2,7 +2,6 @@
 # coding: utf-8
 
 import docx
-from guess_language import guess_language
 import re
 import json
 import pandas as pd
