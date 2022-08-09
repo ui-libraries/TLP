@@ -1622,8 +1622,8 @@
     {
         "type": "recto",
         "manuscript": "Ms-101,53r[2] (1914--1020) (NB)",
-        "ger": "Das was in „~p” verneint ist nicht das „~” vor dem „p” sondern dasjenige was allen Zeichen die in dieser Notation mit „~p” gleichbedeutend sind gemeinsam ist; also das Gemeinsame von  ",
-        "eng": "What negates in \"~p\" is not the \"~\" in front of the \"p\", rather it is done by what all signs that have the same meaning as \"~p\" in this notation have in common; and so the common factor in\t\t  ",
+        "ger": "Das was in „~p” verneint ist nicht das „~” vor dem „p” sondern dasjenige was allen Zeichen die in dieser Notation mit „~p” gleichbedeutend sind gemeinsam ist; also das Gemeinsame von            ~p\tund dasselbe     ~~~p\tgilt für die ~p ⌵ ~p  \tAllgemeinheits-  ~p ∙ ~p\tbezeichnung etc.  etc. etc.\t   ",
+        "eng": "What negates in \"~p\" is not the \"~\" in front of the \"p\", rather it is done by what all signs that have the same meaning as \"~p\" in this notation have in common; and so the common factor in\t\t            ~p\tand the same     ~~~p\tholds for the ~p ⌵ ~p  \tsign for  ~p ∙ ~p\tgenerality etc.  etc. etc.\t   [<em>Cf</em>. 5.512 (2-3).] ",
         "date": "1914-10-20",
         "pt-number": " 5·313",
         "pt-page": "61[7]",
