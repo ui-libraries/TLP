@@ -44,12 +44,13 @@ for section in sections:
 
 def extractIsoDate(manuscriptName):
     dateSearch = re.search("19[0-9]+--[0-9]+", manuscriptName)
-    date = dateSearch.group(0)
-    year = date[0:4]
-    month = date[6:8]
-    day = date[8:10]
-    iso = year + '-' + month + '-' + day
-    return iso
+    if (dateSearch):
+        date = dateSearch.group(0)
+        year = date[0:4]
+        month = date[6:8]
+        day = date[8:10]
+        iso = year + '-' + month + '-' + day
+        return iso
 
 def extractItems(items):
     obj = {}
@@ -73,10 +74,15 @@ def extractItems(items):
                 obj["original-type"] = "verso"
             else:
                 obj["original-type"] = "recto"
-        if (guess_language(item) == 'de' or guess_language(item) == 'fr' or guess_language(item) == 'el'):
-            obj['ger'] += item + '<br>'
-        if (guess_language(item) == 'en' or guess_language(item) == 'el'):
-            obj['eng'] += item + '<br>'
+        if ("&&F" in item):
+            obj['ger'] += item + "<br>"
+            obj['eng'] += item + "<br>"
+        if ("&&G" in item):
+            new_ger = item.replace("&&G ", "")
+            obj['ger'] += new_ger + " "
+        if ("&&E" in item):
+            new_eng = item.replace("&&E ", "")
+            obj['eng'] += new_eng + " "
         if (dot in repr(item) and "Cf" not in repr(item)):
             loc = item.split('\t')
             for i in range(len(loc)):

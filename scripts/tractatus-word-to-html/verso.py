@@ -75,10 +75,15 @@ def extractItems(items):
                 obj["original-type"] = "verso"
             else:
                 obj["original-type"] = "recto"
-        if (guess_language(item) == 'de' or guess_language(item) == 'fr' or guess_language(item) == 'el'):
-            obj['ger'] += item + '<br>'
-        if (guess_language(item) == 'en' or guess_language(item) == 'el'):
-            obj['eng'] += item + '<br>'
+        if ("&&F" in item):
+            obj['ger'] += item + "<br>"
+            obj['eng'] += item + "<br>"
+        if ("&&G" in item):
+            new_ger = item.replace("&&G ", "")
+            obj['ger'] += new_ger + " "
+        if ("&&E" in item):
+            new_eng = item.replace("&&E ", "")
+            obj['eng'] += new_eng + " "
         if (dot in repr(item) and "Cf" not in repr(item)):
             loc = item.split('\t')
             for i in range(len(loc)):
