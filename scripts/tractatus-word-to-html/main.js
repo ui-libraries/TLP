@@ -10,6 +10,7 @@ const { orderBy } = require("lodash")
 //recto = move.rectoList
 //verso = move.versoList
 writeIndex()
+console.log("Generating HTML")
 //****************** */
 
 /**
@@ -25,22 +26,22 @@ function writeIndex() {
     html += foot()
     fs.writeFile("./dist/index.html", html, function (err) {
         if (err) return console.log(err)
-        console.log("worked")
+        console.log("Created index.html. Finished.")
     })
 }
 
 function moveItems(verso, recto) {
     let versoList = []
     let rectoList = []
-    _.forEach(recto, (item)=> {
-        if(_.includes(item.manuscript, "v")) {
+    _.forEach(recto, (item) => {
+        if (_.includes(item.manuscript, "v")) {
             _.pull(recto, item)
             versoList.push(item)
         }
     })
 
-    _.forEach(verso, (item)=> {
-        if(_.includes(item.manuscript, "r")) {
+    _.forEach(verso, (item) => {
+        if (_.includes(item.manuscript, "r")) {
             _.pull(verso, item)
             rectoList.push(item)
         }
@@ -48,7 +49,7 @@ function moveItems(verso, recto) {
 
     return {
         verso: verso,
-        recto: recto
+        recto: recto,
     }
 }
 
@@ -340,25 +341,22 @@ function writeFile(content) {
     })
 }
 
-function filterByProperty(array, prop, value){
-    var filtered = [];
-    for(var i = 0; i < array.length; i++){
+function filterByProperty(array, prop, value) {
+    var filtered = []
+    for (var i = 0; i < array.length; i++) {
+        var obj = array[i]
 
-        var obj = array[i];
-
-        for(var key in obj){
-            if(typeof(obj[key] == "object")){
-                var item = obj[key];
-                if(item[prop] == value){
-                    filtered.push(item);
+        for (var key in obj) {
+            if (typeof (obj[key] == "object")) {
+                var item = obj[key]
+                if (item[prop] == value) {
+                    filtered.push(item)
                 }
             }
         }
+    }
 
-    }    
-
-    return filtered;
-
+    return filtered
 }
 
 function writeJsonToFile(json) {

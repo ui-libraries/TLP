@@ -6,6 +6,8 @@ import re
 import json
 import pandas as pd
 
+print('Writing verso.json')
+
 dot = "·"
 
 doc = docx.Document("verso.docx")

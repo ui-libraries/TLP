@@ -6,6 +6,7 @@ import re
 import json
 import pandas as pd
 
+print('Writing recto.json')
 
 dot = "·"
 
