@@ -77,13 +77,14 @@ def extractItems(items):
             else:
                 obj["original-type"] = "recto"
         if ("&&F" in item):
-            obj['ger'] += item + "<br>"
-            obj['eng'] += item + "<br>"
+            new_formal = item.replace("&&F", "")
+            obj['ger'] += new_formal + "<br>"
+            obj['eng'] += new_formal + "<br>"
         if ("&&G" in item):
-            new_ger = item.replace("&&G ", "")
+            new_ger = item.replace("&&G", "")
             obj['ger'] += new_ger + " "
         if ("&&E" in item):
-            new_eng = item.replace("&&E ", "")
+            new_eng = item.replace("&&E", "")
             obj['eng'] += new_eng + " "
         if (dot in repr(item) and "Cf" not in repr(item)):
             loc = item.split('\t')
