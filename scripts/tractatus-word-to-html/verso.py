@@ -4,10 +4,12 @@
 import docx
 import re
 import json
+dot = "·"
+
 
 def formatParas(paras):
     formatted_paras = []
-    for para in all_paras:
+    for para in paras:
         runs = para.runs
         for run in runs:
             if (dot not in para.text):
@@ -25,6 +27,7 @@ def formatParas(paras):
             formatted_paras.append(para.text)
     return formatted_paras
 
+
 def createSection(paras):
     list = []
     section = []
@@ -35,6 +38,7 @@ def createSection(paras):
                 section = []
         section.append(para)
     return list
+
 
 def extractIsoDate(dotdate):
     if re.match("[0-9]+[.]+[0-9]+[.]+[0-9]+", dotdate):
@@ -48,6 +52,7 @@ def extractIsoDate(dotdate):
         year = "19" + lame[2]
         iso = year + '-' + month + '-' + day
         return iso
+
 
 def extractItems(items):
     obj = {}
@@ -66,7 +71,7 @@ def extractItems(items):
         if date:
             obj['date'] = date
         if ('Ms-' in item):
-            obj['manuscript'] = item                
+            obj['manuscript'] = item
             if ("v" in item):
                 obj["original-type"] = "verso"
             else:
@@ -94,21 +99,25 @@ def extractItems(items):
                     obj["cross-references"] = loc[i]
     return obj
 
-print('Writing verso.json')
-dot = "·"
-doc = docx.Document("verso.docx")
-all_paras = doc.paragraphs
-sternJson = []
-formatted_paras = formatParas(all_paras)
-sectionsList = createSection(formatted_paras)
-for item in sectionsList:
-    this = extractItems(item)
-    sternJson.append(this)
 
-with open('verso.json', 'w', encoding='utf8') as f:
-    json.dump(sternJson, f, indent=4, ensure_ascii=False)
-
+def createJson():
+    dot = "·"
+    doc = docx.Document("verso.docx")
+    all_paras = doc.paragraphs
+    formatted_paras = formatParas(all_paras)
+    sectionsList = createSection(formatted_paras)
+    sternJson = []
+    for item in sectionsList:
+        this = extractItems(item)
+        sternJson.append(this)
+    return sternJson
 
 
+def writeFile(sternJson):
+    with open('verso.json', 'w', encoding='utf8') as f:
+        json.dump(sternJson, f, indent=4, ensure_ascii=False)
 
 
+print("creating verso.json...")
+vFile = createJson()
+writeFile(vFile)

@@ -4,10 +4,12 @@
 import docx
 import re
 import json
+dot = "·"
+
 
 def formatParas(paras):
     formatted_paras = []
-    for para in all_paras:
+    for para in paras:
         runs = para.runs
         for run in runs:
             if (dot not in para.text):
@@ -37,6 +39,7 @@ def createSection(paras):
         section.append(para)
     return list
 
+
 def extractIsoDate(manuscriptName):
     dateSearch = re.search("19[0-9]+--[0-9]+", manuscriptName)
     if (dateSearch):
@@ -46,6 +49,7 @@ def extractIsoDate(manuscriptName):
         day = date[8:10]
         iso = year + '-' + month + '-' + day
         return iso
+
 
 def extractItems(items):
     obj = {}
@@ -92,20 +96,24 @@ def extractItems(items):
                     obj["cross-references"] = loc[i]
     return obj
 
-print('Writing recto.json')
-dot = "·"
-doc = docx.Document("recto.docx")
-all_paras = doc.paragraphs
-sternJson = []
-formatted_paras = formatParas(all_paras)
-sectionsList = createSection(formatted_paras)
-for item in sectionsList:
-    this = extractItems(item)
-    sternJson.append(this)
 
-with open('recto.json', 'w', encoding='utf8') as f:
-    json.dump(sternJson, f, indent=4, ensure_ascii=False)
+def createJson():
+    doc = docx.Document("recto.docx")
+    all_paras = doc.paragraphs
+    formatted_paras = formatParas(all_paras)
+    sectionsList = createSection(formatted_paras)
+    sternJson = []
+    for item in sectionsList:
+        this = extractItems(item)
+        sternJson.append(this)
+    return sternJson
 
 
+def writeFile(sternJson):
+    with open('recto.json', 'w', encoding='utf8') as f:
+        json.dump(sternJson, f, indent=4, ensure_ascii=False)
 
 
+print('creating recto.json...')
+rFile = createJson()
+writeFile(rFile)
