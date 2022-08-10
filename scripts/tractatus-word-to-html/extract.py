@@ -4,6 +4,8 @@
 import docx
 import re
 import json
+import sys
+docType = sys.argv[1]
 dot = "·"
 
 
@@ -40,20 +42,34 @@ def createSection(paras):
     return list
 
 
-def extractIsoDate(manuscriptName):
-    dateSearch = re.search("19[0-9]+--[0-9]+", manuscriptName)
-    if (dateSearch):
-        date = dateSearch.group(0)
-        year = date[0:4]
-        month = date[6:8]
-        day = date[8:10]
-        iso = year + '-' + month + '-' + day
-        return iso
+def extractIsoDate(str):
+    iso = ""
+    if (docType == "recto"):
+        dateSearch = re.search("19[0-9]+--[0-9]+", str)
+        if (dateSearch):
+            date = dateSearch.group(0)
+            year = date[0:4]
+            month = date[6:8]
+            day = date[8:10]
+            iso += year + '-' + month + '-' + day
+    if (docType == "verso"):
+        dateSearch = re.match("[0-9]+[.]+[0-9]+[.]+[0-9]+", str)
+        if (dateSearch):
+            splitDate = str.split(".")
+            day = splitDate[0]
+            if len(day) == 1:
+                day = "0" + day
+            month = splitDate[1]
+            if len(month) == 1:
+                month = "0" + month
+            year = "19" + splitDate[2]
+            iso += year + '-' + month + '-' + day
+    return iso
 
 
 def extractItems(items):
     obj = {}
-    obj['type'] = "recto"
+    obj['type'] = docType
     obj['manuscript'] = ""
     obj['ger'] = ""
     obj['eng'] = ""
@@ -64,25 +80,25 @@ def extractItems(items):
     obj["cross-references"] = ""
     obj["original-type"] = ""
     for item in items:
+        date = extractIsoDate(item)
+        if date:
+            obj['date'] = date
         if ('Ms-' in item):
             obj['manuscript'] = item
-            date = extractIsoDate(item)
-            if date:
-                obj['date'] = date
             if ("v" in item):
                 obj["original-type"] = "verso"
             else:
                 obj["original-type"] = "recto"
         if ("&&F" in item):
             new_formal = item.replace("&&F", "")
-            obj['ger'] += new_formal + "<br>"
-            obj['eng'] += new_formal + "<br>"
+            obj['ger'] += new_formal.strip()
+            obj['eng'] += new_formal.strip()
         if ("&&G" in item):
             new_ger = item.replace("&&G", "")
-            obj['ger'] += new_ger + " "
+            obj['ger'] += new_ger.strip()
         if ("&&E" in item):
             new_eng = item.replace("&&E", "")
-            obj['eng'] += new_eng + " "
+            obj['eng'] += new_eng.strip()
         if (dot in repr(item) and "Cf" not in repr(item)):
             loc = item.split('\t')
             for i in range(len(loc)):
@@ -98,7 +114,7 @@ def extractItems(items):
 
 
 def createJson():
-    doc = docx.Document("recto.docx")
+    doc = docx.Document(docType + ".docx")
     all_paras = doc.paragraphs
     formatted_paras = formatParas(all_paras)
     sectionsList = createSection(formatted_paras)
@@ -110,10 +126,10 @@ def createJson():
 
 
 def writeFile(sternJson):
-    with open('recto.json', 'w', encoding='utf8') as f:
+    with open(docType + '.json', 'w', encoding='utf8') as f:
         json.dump(sternJson, f, indent=4, ensure_ascii=False)
 
 
-print('creating recto.json...')
-rFile = createJson()
-writeFile(rFile)
+print('creating ' + docType + '.json...')
+index = createJson()
+writeFile(index)

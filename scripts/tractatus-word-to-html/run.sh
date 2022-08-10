@@ -1,4 +1,4 @@
 #!/bin/sh
-python recto.py
-python verso.py
+python extract.py recto
+python extract.py verso
 node main
