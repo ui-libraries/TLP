@@ -4,43 +4,38 @@
 import docx
 import re
 import json
-import pandas as pd
 
-print('Writing recto.json')
-
-dot = "·"
-
-doc = docx.Document("recto.docx")
-
-all_paras = doc.paragraphs
-
-sections = []
-for para in all_paras:
-    runs = para.runs
-    for run in runs:
-        if (dot not in para.text):
-            if run.italic:
-                text = run.text
-                run.text = '<em>'+text+'</em>'
-            if run.underline:
-                text = run.text
-                underline_type = str(run.underline)
-                if underline_type == 'True':
-                    run.text = "<span class='underline_single'>"+text+"</span>"
-                if underline_type == 'DOUBLE (3)':
-                    run.text = "<span class='underline_double'>"+text+"</span>"
-    if (re.search("\S", para.text)):
-        sections.append(para.text)
+def formatParas(paras):
+    formatted_paras = []
+    for para in all_paras:
+        runs = para.runs
+        for run in runs:
+            if (dot not in para.text):
+                if run.italic:
+                    text = run.text
+                    run.text = '<em>'+text+'</em>'
+                if run.underline:
+                    text = run.text
+                    underline_type = str(run.underline)
+                    if underline_type == 'True':
+                        run.text = "<span class='underline_single'>"+text+"</span>"
+                    if underline_type == 'DOUBLE (3)':
+                        run.text = "<span class='underline_double'>"+text+"</span>"
+        if (re.search("\S", para.text)):
+            formatted_paras.append(para.text)
+    return formatted_paras
 
 
-bigList = []
-node = []
-for section in sections:
-    if ('Ms-' in section):
-        if node:
-            bigList.append(node)
-            node = []
-    node.append(section)
+def createSection(paras):
+    list = []
+    section = []
+    for para in paras:
+        if ('Ms-' in para):
+            if section:
+                list.append(section)
+                section = []
+        section.append(para)
+    return list
 
 def extractIsoDate(manuscriptName):
     dateSearch = re.search("19[0-9]+--[0-9]+", manuscriptName)
@@ -97,11 +92,16 @@ def extractItems(items):
                     obj["cross-references"] = loc[i]
     return obj
 
+print('Writing recto.json')
+dot = "·"
+doc = docx.Document("recto.docx")
+all_paras = doc.paragraphs
 sternJson = []
-for item in bigList:
+formatted_paras = formatParas(all_paras)
+sectionsList = createSection(formatted_paras)
+for item in sectionsList:
     this = extractItems(item)
     sternJson.append(this)
-
 
 with open('recto.json', 'w', encoding='utf8') as f:
     json.dump(sternJson, f, indent=4, ensure_ascii=False)
