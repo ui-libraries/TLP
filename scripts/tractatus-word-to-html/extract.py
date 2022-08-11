@@ -30,7 +30,8 @@ def formatParas(paras):
     return formatted_paras
 
 
-def createSection(paras):
+# returns a list of section lists. 2D list.
+def createSections(paras):
     list = []
     section = []
     for para in paras:
@@ -117,19 +118,19 @@ def createJson():
     doc = docx.Document(docType + ".docx")
     all_paras = doc.paragraphs
     formatted_paras = formatParas(all_paras)
-    sectionsList = createSection(formatted_paras)
-    sternJson = []
+    sectionsList = createSections(formatted_paras)
+    jsonList = []
     for item in sectionsList:
         this = extractItems(item)
-        sternJson.append(this)
-    return sternJson
+        jsonList.append(this)
+    return jsonList
 
 
-def writeFile(sternJson):
+def writeFile(jsonList):
     with open(docType + '.json', 'w', encoding='utf8') as f:
-        json.dump(sternJson, f, indent=4, ensure_ascii=False)
+        json.dump(jsonList, f, indent=4, ensure_ascii=False)
 
 
-print('creating ' + docType + '.json...')
+print('Creating ' + docType + '.json...')
 index = createJson()
 writeFile(index)
