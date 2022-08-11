@@ -15,6 +15,9 @@ def formatParas(paras):
         runs = para.runs
         for run in runs:
             if (dot not in para.text):
+                if run.font.strike:
+                    text = run.text
+                    run.text = '<s>'+text+'</s>'
                 if run.italic:
                     text = run.text
                     run.text = '<em>'+text+'</em>'
