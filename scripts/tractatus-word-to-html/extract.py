@@ -95,14 +95,14 @@ def extractItems(items):
                 obj["original-type"] = "recto"
         if ("&&F" in item):
             new_formal = item.replace("&&F", "")
-            obj['ger'] += new_formal.strip()
-            obj['eng'] += new_formal.strip()
+            obj['ger'] += '<p>' + new_formal.strip() + '</p>'
+            obj['eng'] += '<p>' +new_formal.strip() + '</p>'
         if ("&&G" in item):
             new_ger = item.replace("&&G", "")
-            obj['ger'] += new_ger.strip()
+            obj['ger'] += '<p>' + new_ger.strip() + '</p>'
         if ("&&E" in item):
             new_eng = item.replace("&&E", "")
-            obj['eng'] += new_eng.strip()
+            obj['eng'] += '<p>' + new_eng.strip() + '</p>'
         if (dot in repr(item) and "Cf" not in repr(item)):
             loc = item.split('\t')
             for i in range(len(loc)):
@@ -114,6 +114,7 @@ def extractItems(items):
                     obj["tlp-number"] = loc[i]
                 if ("." in loc[i]):
                     obj["cross-references"] = loc[i]
+        
     return obj
 
 
