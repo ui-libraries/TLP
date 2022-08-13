@@ -141,5 +141,5 @@ def writeFile(jsonList):
 
 
 print('Creating ' + docType + '.json...')
-index = createJson()
-writeFile(index)
+file = createJson()
+writeFile(file)

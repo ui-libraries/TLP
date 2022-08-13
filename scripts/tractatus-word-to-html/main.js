@@ -30,29 +30,6 @@ function writeIndex() {
     })
 }
 
-function moveItems(verso, recto) {
-    let versoList = []
-    let rectoList = []
-    _.forEach(recto, (item) => {
-        if (_.includes(item.manuscript, "v")) {
-            _.pull(recto, item)
-            versoList.push(item)
-        }
-    })
-
-    _.forEach(verso, (item) => {
-        if (_.includes(item.manuscript, "r")) {
-            _.pull(verso, item)
-            rectoList.push(item)
-        }
-    })
-
-    return {
-        verso: verso,
-        recto: recto,
-    }
-}
-
 /**
  * Loop through the list of sections and generate HTML for each one.
  *
@@ -334,13 +311,6 @@ function versoGroupsByDate(verso) {
     return group
 }
 
-function writeFile(content) {
-    fs.writeFile("test.json", content, function (err) {
-        if (err) return console.log(err)
-        console.log("worked")
-    })
-}
-
 function filterByProperty(array, prop, value) {
     var filtered = []
     for (var i = 0; i < array.length; i++) {
@@ -357,30 +327,4 @@ function filterByProperty(array, prop, value) {
     }
 
     return filtered
-}
-
-function writeJsonToFile(json) {
-    let content = JSON.stringify(json, null, 4)
-    writeFile(content)
-}
-
-/**
- * Return a json file with official dates of recto and verso entries
- *
- * @param {object} recto - A list of recto section objects
- * @param {object} verso - A list of verso section objects
- * @return {object} - Two lists of official dates
- */
-
-function generateOfficialDates(recto, verso) {
-    let dates = []
-    _.forEach(recto, (section) => {
-        dates.push(section.date)
-    })
-    _.forEach(verso, (section) => {
-        dates.push(section.date)
-    })
-    dates.sort((a, b) => b < a || -(b > a))
-
-    return _.uniq(dates)
 }
