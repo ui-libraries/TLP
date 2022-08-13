@@ -71,7 +71,7 @@ def extractIsoDate(str):
     return iso
 
 
-def extractItems(items):
+def sectionTemplate():
     obj = {}
     obj['type'] = docType
     obj['manuscript'] = ""
@@ -83,12 +83,17 @@ def extractItems(items):
     obj["tlp-number"] = ""
     obj["cross-references"] = ""
     obj["original-type"] = ""
+    return obj
+
+
+def assignProperties(items):
+    obj = sectionTemplate()
     for item in items:
         date = extractIsoDate(item)
         if date:
-            obj['date'] = date
+            obj['date'] = date.strip()
         if ('Ms-' in item):
-            obj['manuscript'] = item
+            obj['manuscript'] = item.strip()
             if ("v" in item):
                 obj["original-type"] = "verso"
             else:
@@ -96,7 +101,7 @@ def extractItems(items):
         if ("&&F" in item):
             new_formal = item.replace("&&F", "")
             obj['ger'] += '<p>' + new_formal.strip() + '</p>'
-            obj['eng'] += '<p>' +new_formal.strip() + '</p>'
+            obj['eng'] += '<p>' + new_formal.strip() + '</p>'
         if ("&&G" in item):
             new_ger = item.replace("&&G", "")
             obj['ger'] += '<p>' + new_ger.strip() + '</p>'
@@ -114,7 +119,7 @@ def extractItems(items):
                     obj["tlp-number"] = loc[i]
                 if ("." in loc[i]):
                     obj["cross-references"] = loc[i]
-        
+
     return obj
 
 
@@ -124,9 +129,9 @@ def createJson():
     formatted_paras = formatParas(all_paras)
     sectionsList = createSections(formatted_paras)
     jsonList = []
-    for item in sectionsList:
-        this = extractItems(item)
-        jsonList.append(this)
+    for section in sectionsList:
+        obj = assignProperties(section)
+        jsonList.append(obj)
     return jsonList
 
 
