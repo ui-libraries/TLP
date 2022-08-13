@@ -86,30 +86,31 @@ def sectionTemplate():
     return obj
 
 
-def assignProperties(items):
+# loops through the section and assigns properties to the object.
+def assignProperties(sectionList):
     obj = sectionTemplate()
-    for item in items:
-        date = extractIsoDate(item)
+    for para in sectionList:
+        date = extractIsoDate(para)
         if date:
             obj['date'] = date.strip()
-        if ('Ms-' in item):
-            obj['manuscript'] = item.strip()
-            if ("v" in item):
+        if ('Ms-' in para):
+            obj['manuscript'] = para.strip()
+            if ("v" in para):
                 obj["original-type"] = "verso"
             else:
                 obj["original-type"] = "recto"
-        if ("&&F" in item):
-            new_formal = item.replace("&&F", "")
+        if ("&&F" in para):
+            new_formal = para.replace("&&F", "")
             obj['ger'] += '<p>' + new_formal.strip() + '</p>'
             obj['eng'] += '<p>' + new_formal.strip() + '</p>'
-        if ("&&G" in item):
-            new_ger = item.replace("&&G", "")
+        if ("&&G" in para):
+            new_ger = para.replace("&&G", "")
             obj['ger'] += '<p>' + new_ger.strip() + '</p>'
-        if ("&&E" in item):
-            new_eng = item.replace("&&E", "")
+        if ("&&E" in para):
+            new_eng = para.replace("&&E", "")
             obj['eng'] += '<p>' + new_eng.strip() + '</p>'
-        if (dot in repr(item) and "Cf" not in repr(item)):
-            loc = item.split('\t')
+        if (dot in repr(para) and "Cf" not in repr(para)):
+            loc = para.split('\t')
             for i in range(len(loc)):
                 if (dot in loc[i] and loc.index(loc[i]) == 0):
                     obj["pt-number"] = loc[i]
@@ -127,9 +128,9 @@ def createJson():
     doc = docx.Document(docType + ".docx")
     all_paras = doc.paragraphs
     formatted_paras = formatParas(all_paras)
-    sectionsList = createSections(formatted_paras)
+    listOfSections = createSections(formatted_paras)
     jsonList = []
-    for section in sectionsList:
+    for section in listOfSections:
         obj = assignProperties(section)
         jsonList.append(obj)
     return jsonList
