@@ -22,7 +22,6 @@ function scrollHandler(e){
     const lineRect = line.getBoundingClientRect(); //CONST LINEHEIGHT = lineRect.bottom - lineRect.top
 
     const dist = targetY - timelineRect.top
-    console.log(dist);
 
     if (down && !full){
         set = Math.max(set, dist);
@@ -35,7 +34,6 @@ function scrollHandler(e){
     }
 
     sections.forEach(item => {
-        //console.log(items);
         const rect = item.getBoundingClientRect();
 
         if(rect.top + item.offsetHeight / 5 < targetY) {
@@ -142,7 +140,8 @@ function dFunction() {
   var e = document.getElementsByClassName('eng');
   	for (var i = 0; i < e.length; i++) 
   	{
-  		e[i].style.display = 'none';
+  		console.log(e[i])
+		e[i].style.display = 'none';
   	}
   var t = document.getElementsByClassName('tlp');
   	for (var i = 0; i < t.length; i++) 

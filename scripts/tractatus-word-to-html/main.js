@@ -163,7 +163,6 @@ function generateSection(singleVerso, singleRecto) {
         <div class="content verso">
             <p>${singleVerso.manuscript} ${singleVerso.date}</p>
             <div class="entry">
-            <p>
                 <span class="eng">
                 ${singleVerso.eng}
                 </span>
@@ -173,13 +172,11 @@ function generateSection(singleVerso, singleRecto) {
                 <span class="deu">
                 ${singleVerso.ger}
                 </span>
-            </p>
             </div>
         </div>
         <div class="content recto">
             <p>${singleRecto.manuscript} ${singleRecto.date}</p>
             <div class="entry">
-            <p>
                 <span class="eng">
                 ${singleRecto.eng}
                 </span>
@@ -189,7 +186,6 @@ function generateSection(singleVerso, singleRecto) {
                 <span class="deu">
                 ${singleRecto.ger}
                 </span>
-            </p>
             </div>
         </div>
     </div>
