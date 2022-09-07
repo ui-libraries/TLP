@@ -1,3 +1,13 @@
+.underline_single {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.underline_double {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
 .bg-img {
   /* banner image */
   background-image: url("banner.png");
@@ -224,11 +234,6 @@ h1{
     margin-top:-2px;
 }
 
-
-/* HOVER COLOR CHANGE */
-.entry{
-
-}
 
 /* Sections displane none */
 
