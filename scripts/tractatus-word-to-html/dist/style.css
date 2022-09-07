@@ -116,10 +116,8 @@ body{
     transition: 600ms ease;
     position: relative;
     z-index: 1;
-    margin: 50px 0;
-    padding: 1rem;
     align-items: center;
-    min-height: 450px;
+
 }
 
 .section:nth-child(odd){
@@ -134,14 +132,11 @@ body{
     border-radius: 50%;
     background-color: #000;
     left: 50%;
-    top: 20%;
     transform: translateX(-50%);
-    opacity: 0;
 }
 
 .content{
     width: calc(50% - 1rem);
-    padding: 4rem 0;
 	transform: translateX(-20%);
     transition: 600ms ease;
     position: relative;
