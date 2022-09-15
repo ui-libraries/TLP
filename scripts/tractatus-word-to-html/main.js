@@ -13,6 +13,17 @@ writeIndex()
 console.log("Generating HTML")
 //****************** */
 
+function convertDate(isoDate) {
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    let date = _.split(isoDate, "-")
+    let year = date[0]
+    let month = monthNames[parseInt(date[1]) - 1]
+    let day = parseInt(date[2])
+    if (isoDate == "") {
+        return ""}
+    return `${day} ${month}, ${year}`
+}
+
 /**
  * create an index.html file of entire HTML content
  *
@@ -161,31 +172,37 @@ function generateSection(singleVerso, singleRecto) {
     <div class="section">
         <div class="bead"></div>
         <div class="content verso">
-            <p>${singleVerso.manuscript} ${singleVerso.date}</p>
+            <p><strong>${convertDate(singleVerso.date)}</strong></p>
             <div class="entry">
+            <span class="deu">
+                ${singleVerso.ger}
+                </span>
                 <span class="eng">
                 ${singleVerso.eng}
                 </span>
                 <span class="tlp">
                 ${singleVerso.eng}
                 </span>
-                <span class="deu">
-                ${singleVerso.ger}
-                </span>
+                <span class="pt">
+                ${singleVerso.eng}
+                </span>                
             </div>
         </div>
         <div class="content recto">
-            <p>${singleRecto.manuscript} ${singleRecto.date}</p>
+            <p><strong>${convertDate(singleRecto.date)}</strong></p>
             <div class="entry">
+            <span class="deu">
+                ${singleRecto.ger}
+                </span>
                 <span class="eng">
                 ${singleRecto.eng}
                 </span>
                 <span class="tlp">
                 ${singleRecto.eng}
                 </span>
-                <span class="deu">
-                ${singleRecto.ger}
-                </span>
+                <span class="pt">
+                ${singleRecto.eng}
+                </span>                
             </div>
         </div>
     </div>
@@ -205,32 +222,45 @@ function head() {
     </head>
     
     <div class="bg-img">
-      <div class="header1">
-        <div class="topnav">
-          <a href="#contact">Contact</a>
-          <a href="#ms104">MS-104</a>
-          <a href="#ms103">MS-103</a>
-          <a href="#ms102">MS-102</a>
-          <a href="#ms101">MS-101</a>
-          <a href="#about">About</a>
-          <br>
+    </div>
+    
+    <div class="sidenav">
+        <p class="Menu-Item">
+        <a href="#about">About</a>
+        </p>
+                <div class="Drop-Text">
+                <p>
+                This site hosts an interactive copy of manuscripts composed by Ludwig Wittgenstein between 1914 and 1917
+                in their original German alongside an English translation by David Stern, Joachim Schulte, and Katia Saporiti. This new translation is the first to
+                carefully mediate the transformation of Wittgenstein's wartime notebook material into the <em>Tractatus-Logico-Philosophicus</em>. 
+                In appreciation of this process, the site further presents a markup of the wartime notebooks with a color-coded mapping
+                to corresponding portions of the <em>Tractatus-Logico-Philosophicus</em> (TLP) as well as the Wittgenstein's first draft of this work (Ms-104).
+                These relationships can be accessed through key-triggered layers. Please see key in navigation bar for more information. 
+                </p>
         </div>
-      </div>
+        <p class="Key-Menu">
+        <a href="#key">Key</a>
+        </p>
+                <div class="Key">
+                <p>
+                    [d] = German original<br>
+                    [e] = English translation<br>
+                    [t] = Tractatus-related entries with highlighting<br>
+                    [r] = Ms-104 with highlighting<br>
+                    <span class='NBequalsTLP'>Green</span> = (Nearly) Identical Passages<br>
+                    <span class='NBalmostequalsTLP'>Yellow</span> = Similar Passages<br>
+                    <span class='NBlikeTLP'>Grey</span> = Related Passages
+                </p>
+                </div>
+        <a href="#ms101">Ms-101</a>
+        <a href="#ms102">Ms-102</a>
+        <a href="#ms103">Ms-103</a>
     </div>
     
     <body>
         <div class="container">
-            <div class="top-section" id="about">
-                <h1><em>Ludwig Wittgenstein's Manuscript Notebooks 1914-1918</em></h1>
-                <p>This site hosts an interactive copy of several manuscripts composed by Ludwig Wittgenstein between 1914-1918 (MS-101-104)
-                 in their original German alongside an English translation by David Stern. This translation and markup of the <em>Notebooks</em> provides
-                  a useful mapping of portions of Wittgenstein's notebooks corresponding to entries in the <em>Tractatus-Logico-Philosophicus</em>.  
-                  These similarities have been represented visually and made accessible in this site through a color-coded system; portions in
-                   orange correspond to portions related or similar to entries in the <em>TLP</em> while yellow and green text correspond to those portions of increasing
-                    similarity to entries found in the <em>TLP</em>. 
-                    To access the different layers on this page, press [E] for Stern's English translation, [D] for the original Deutsch, 
-                     [T] to display <em>TLP</em> entries (both colored and in italics), and [R] to display related entries from the proto-Tractatus.
-                </p>
+            <div class="top-section">
+                
             </div>
             <div class="timeline">
                 <div class="line"></div>

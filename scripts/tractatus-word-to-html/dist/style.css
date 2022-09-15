@@ -9,19 +9,19 @@
 }
 
 .bg-img {
-  /* banner image */
-  background-image: url("banner.png");
-
-  min-height: 380px;
-
-  /* Center and scale banner image */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /*position the navbar */
-  position: relative;
-}
+    /* banner image */
+    background-image: url("banner.png");
+    height: 300px;
+    width: 100%;
+  
+    /* Center and scale banner image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /*position the navbar */
+    position: relative;
+  }
 
 /* Position the navbar inside banner image */
 .header1 {
@@ -30,37 +30,102 @@
   width: auto;
 }
 
-/* Navbar */
-.topnav {
-  overflow: hidden;
-  opacity: 25;
+/* Sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove for "auto" height */
+    width: 80px; /* Width of  sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: visible; /* Disable horizontal scroll */
+    padding-top: 20px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+/* Navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #acacac;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* Mouse over nav links, change color */
+.sidenav a:hover {
+    color: #000;
+  }
+
+/*  Dropdown About Box Hover */
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Navbar links */
-.topnav a {
-  float: right;
-  color: #f2f2f2;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.Menu-Item:hover + .Drop-Text {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    transform: translate(72px, -40px); 
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.Drop-Text {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    width: 500px;
+    border: 2px solid #000000;
+    padding: 10px;
+    font-size: 16px;
+    position:absolute;
+    display: none;
 }
+
+/* Navbar Key Box Hover */
+
+.Key-Menu:hover + .Key {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    transform: translate(72px, -40px); 
+}
+
+.Key {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    width: 200px;
+    border: 2px solid #000000;
+    padding: 10px;
+    font-size: 16px;
+    position:absolute;
+    display: none;
+}
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 10px;}
+    .sidenav a {font-size: 8px;}
+  }
+
+  /* Style page content */
+.main {
+    margin-left: 80px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
 
 
 body{
     font-family: serif;
-    margin: 0;
+    margin: 2px;
     padding: 0;
     line-height: 1.5;
     font-weight: 400;
     color: #000;
     background-color: #000;
-    background-image: linear-gradient(45deg, #fff 0%, #fffddb 40%, #f9f6d5 75%);;
+    background-image: linear-gradient(45deg, #fff 0%, #fff 40%, #fff 75%);
+    border: 5px solid #000;
 }
 
 .container{
@@ -84,7 +149,7 @@ body{
 
 .line{
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     left: calc(50% - 1px);
     width: 2px;
     top: -50px;
@@ -116,8 +181,9 @@ body{
     transition: 600ms ease;
     position: relative;
     z-index: 1;
+    margin: 50px 0;
+    padding: 1rem;
     align-items: center;
-
 }
 
 .section:nth-child(odd){
@@ -132,7 +198,9 @@ body{
     border-radius: 50%;
     background-color: #000;
     left: 50%;
+    top: 20%;
     transform: translateX(-50%);
+    opacity: 0;
 }
 
 .content{
@@ -163,72 +231,34 @@ h1{
 
 .a{
     color: #fff;
-    background-color: green;
+    background-color: lightgreen;
 }
 
 .a2{
     color: #fff;
-    background-color: green;
+    background-color: lightgreen;
     font-style: italic;
 }
 
-/* Dot formats */
-.dot {
-    border-radius: 50%;
-    width: 19px;
-    height: 19px;
-    border: 2px;
-    border-style: dashed;
-    border-color: #000;
-    background-color: none;
-    display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top:-2px;
+/* Styling for color coding */
+.NBlikeTLP {
+    background: lightgrey;
 }
 
-.dotA {
-    border-radius: 50%;
-	width: 19px;
-    height: 19px;
-    border: 2px;
-    border-style: solid;
-    border-color: #000;
-    background-color: green;
-    display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top:-2px;
+.NBalmostequalsTLP {
+    background: yellow;
 }
 
-.dotB {
-    border-radius: 50%;
-    width: 19px;
-    height: 19px;
-    border: 2px;
-    border-style: solid;
-    border-color: #000;
-    background-color: yellow;
-    display: inline-block;
-     margin-left: 25px;
-    margin-right: 25px;
-    margin-top:-2px;
+.NBequalsTLP {
+    background: lightgreen;
 }
 
-.dotC {
-    border-radius: 50%;
-    width: 19px;
-    height: 19px;
-    border: 2px;
-    border-style: solid;
-    border-color: #000;
-    background-color: grey;
-    display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top:-2px;
+/* HOVER COLOR CHANGE */
+.entry:hover{
+	display:block;
+	color: #000000;
 }
-
+/* HOVER COLOR CHANGE END */
 
 /* Sections displane none */
 
@@ -244,12 +274,10 @@ span.deu{
 	display:none;
 }
 
-span.witho{
+span.eng_tlp{
 	display:none
 }
 
-.entry:hover{
-	display:block;
-	color: #000000;
+span.eng_pt{
+	display:none
 }
-/* HOVER COLOR CHANGE END */
