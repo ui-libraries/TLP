@@ -3,7 +3,9 @@ let fs = require("fs")
 let recto = require("./recto.json")
 let verso = require("./verso.json")
 const officialDates = require("./official-dates.json")
-const { orderBy } = require("lodash")
+const {
+    orderBy
+} = require("lodash")
 
 //****************** */
 //let move = moveItems(verso, recto)
@@ -20,7 +22,8 @@ function convertDate(isoDate) {
     let month = monthNames[parseInt(date[1]) - 1]
     let day = parseInt(date[2])
     if (isoDate == "") {
-        return ""}
+        return ""
+    }
     return `${day} ${month}, ${year}`
 }
 
@@ -35,7 +38,7 @@ function writeIndex() {
     html += getSectionsHtml()
     //html += sanityCheck()
     html += foot()
-    fs.writeFile("./dist/index.html", html, function (err) {
+    fs.writeFile("./dist/index.html", html, function(err) {
         if (err) return console.log(err)
         console.log("Created index.html. Finished.")
     })
@@ -85,6 +88,9 @@ function padList(mergedList) {
                     ger: "",
                     manuscript: "",
                     type: "verso",
+                    stern: "",
+                    "pt-stern": "",
+                    "tlp-number": ""
                 })
             }
         }
@@ -97,6 +103,9 @@ function padList(mergedList) {
                     ger: "",
                     manuscript: "",
                     type: "recto",
+                    stern: "",
+                    "pt-stern": "",
+                    "tlp-number": ""
                 })
             }
         }
@@ -168,41 +177,38 @@ function findSameDates(list, item) {
  * @return {string} - An HTML section with content from the given recto and verso objects
  */
 function generateSection(singleVerso, singleRecto) {
+    console.log(singleRecto)
+    TLP = ""
+    if (singleRecto["tlp-number"] !== "") {
+        TLP = "<em>TLP " + singleRecto["tlp-number"] +" </em>"
+    }
     let html = `
-    <div class="section">
+        <div class="section">
         <div class="bead"></div>
         <div class="content verso">
-            <p><strong>${convertDate(singleVerso.date)}</strong></p>
+            <p>
+            <strong>${convertDate(singleVerso.date)}</strong>
+            </p>
             <div class="entry">
-            <span class="deu">
-                ${singleVerso.ger}
-                </span>
-                <span class="eng">
-                ${singleVerso.eng}
-                </span>
-                <span class="tlp">
-                ${singleVerso.eng}
-                </span>
-                <span class="pt">
-                ${singleVerso.eng}
-                </span>                
+            <span class="deu"> ${singleVerso.ger} </span>
+            <span class="eng"> ${singleVerso.eng} </span>
+            <span class="tlp"> ${TLP} ${singleRecto['stern']} </span>
+            <span class="pt"> ${singleRecto["pt-stern"]} </span>
             </div>
         </div>
         <div class="content recto">
-            <p><strong>${convertDate(singleRecto.date)}</strong></p>
+            <p>
+            <strong>${convertDate(singleRecto.date)}</strong>
+            </p>
             <div class="entry">
-            <span class="deu">
-                ${singleRecto.ger}
-                </span>
-                <span class="eng">
-                ${singleRecto.eng}
-                </span>
-                <span class="tlp">
-                ${singleRecto.eng}
-                </span>
-                <span class="pt">
-                ${singleRecto.eng}
-                </span>                
+            <span class="deu"> ${singleRecto.ger} </span>
+            <span class="eng"> ${singleRecto.eng} </span>
+            <span class="eng_tlp">
+                <span class='NBlikeTLP'> ${singleRecto['eng']} </span>
+            </span>
+            <span class="eng_pt">
+                <span class='NBlikeTLP'> ${singleRecto['pt-stern']} </span>
+            </span>
             </div>
         </div>
     </div>
@@ -343,7 +349,7 @@ function filterByProperty(array, prop, value) {
         var obj = array[i]
 
         for (var key in obj) {
-            if (typeof (obj[key] == "object")) {
+            if (typeof(obj[key] == "object")) {
                 var item = obj[key]
                 if (item[prop] == value) {
                     filtered.push(item)

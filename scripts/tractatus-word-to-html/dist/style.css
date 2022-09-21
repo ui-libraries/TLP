@@ -241,15 +241,15 @@ h1{
 }
 
 /* Styling for color coding */
-.NBlikeTLP {
+.NBlikeTLP p {
     background: lightgrey;
 }
 
-.NBalmostequalsTLP {
+.NBalmostequalsTLP p {
     background: yellow;
 }
 
-.NBequalsTLP {
+.NBequalsTLP p{
     background: lightgreen;
 }
 
