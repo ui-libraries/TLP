@@ -157,6 +157,7 @@ body{
     display: none;
 }
 
+
 .line:before,
 .line::after{
     position: absolute;
@@ -184,6 +185,8 @@ body{
     margin: 50px 0;
     padding: 1rem;
     align-items: center;
+    min-height: 350px;	
+    max-height: 350px
 }
 
 .section:nth-child(odd){

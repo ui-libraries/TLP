@@ -186,14 +186,11 @@ function generateSection(singleVerso, singleRecto) {
         <div class="section">
         <div class="bead"></div>
         <div class="content verso">
-            <p>
-            <strong>${convertDate(singleVerso.date)}</strong>
-            </p>
             <div class="entry">
-            <span class="deu"> ${singleVerso.ger} </span>
-            <span class="eng"> ${singleVerso.eng} </span>
+            <span class="deu"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleVerso.ger} </span>
+            <span class="eng"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleVerso.eng} </span>
             <span class="tlp"> ${TLP} ${singleRecto['stern']} </span>
-            <span class="pt"> ${singleRecto["pt-stern"]} </span>
+            <span class="pt"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleRecto["pt-stern"]} </span>
             </div>
         </div>
         <div class="content recto">
