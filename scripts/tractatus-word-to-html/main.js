@@ -194,7 +194,7 @@ function generateSection(singleVerso, singleRecto) {
             </div>
         </div>
         <div class="content recto">
-            <p>
+            <p title="${singleRecto.manuscript}">
             <strong>${convertDate(singleRecto.date)}</strong>
             </p>
             <div class="entry">
