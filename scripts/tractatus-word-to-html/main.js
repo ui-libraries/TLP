@@ -177,10 +177,11 @@ function findSameDates(list, item) {
  * @return {string} - An HTML section with content from the given recto and verso objects
  */
 function generateSection(singleVerso, singleRecto) {
-    console.log(singleRecto)
     TLP = ""
+    PT = ""
     if (singleRecto["tlp-number"] !== "") {
-        TLP = "<em>TLP " + singleRecto["tlp-number"] +" </em>"
+        TLP = "<em>TLP: " + singleRecto["tlp-number"] +" </em>"
+        PT = "<em>PT: " + singleRecto["pt-number"] + "</em>"
     }
     let html = `
         <div class="section">
@@ -191,20 +192,23 @@ function generateSection(singleVerso, singleRecto) {
             <span class="eng"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleVerso.eng} </span>
             <span class="tlp"> ${TLP} ${singleRecto['stern']} </span>
             <span class="pt"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleRecto["pt-stern"]} </span>
+            <span class="tlp_deu">${TLP} ${singleRecto['original-ger']} </span>
+            <span class="pt_deu">${PT} ${singleRecto['original-ger-pt']} </span>
             </div>
         </div>
         <div class="content recto">
-            <p title="${singleRecto.manuscript}">
+            <p class="tooltip">
+            <span>${singleRecto.manuscript}</span>
             <strong>${convertDate(singleRecto.date)}</strong>
             </p>
             <div class="entry">
             <span class="deu"> ${singleRecto.ger} </span>
             <span class="eng"> ${singleRecto.eng} </span>
             <span class="eng_tlp">
-                <span class='NBlikeTLP'> ${singleRecto['eng']} </span>
+                <span> ${singleRecto['eng']} </span>
             </span>
             <span class="eng_pt">
-                <span class='NBlikeTLP'> ${singleRecto['pt-stern']} </span>
+                <span> ${singleRecto['eng']} </span>
             </span>
             </div>
         </div>
@@ -222,6 +226,7 @@ function head() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ludwig Wittgenstein's Manuscript Notebooks</title>
         <link rel="stylesheet" href="style.css">
+        <style type="text/css" id="sheet"></style>
     </head>
     
     <div class="bg-img">

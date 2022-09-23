@@ -1,0 +1,2074 @@
+[
+    {
+        "eng": "<p>The world is the totality of facts, not of things.</p>",
+        "tlp-number": "1.1"
+    },
+    {
+        "eng": "<p>The world is determined by the facts, and by their being <em>all</em> the facts. </p>",
+        "tlp-number": "1.11"
+    },
+    {
+        "eng": "<p>For the totality of facts determines what is the case, and also whatever is not the case.</p>",
+        "tlp-number": "1.12"
+    },
+    {
+        "eng": "<p>The facts in logical space are the world.</p>",
+        "tlp-number": "1.13"
+    },
+    {
+        "eng": "<p>The world divides into facts.</p>",
+        "tlp-number": "1.2"
+    },
+    {
+        "eng": "<p>Something can either be the case or not be the case while everything else remains the same.</p><p>What is the case—a fact—is the obtaining of states of affairs.</p>",
+        "tlp-number": "1.21"
+    },
+    {
+        "eng": "<p>A state of affairs is a combination of objects (items, things).</p>",
+        "tlp-number": "2.01"
+    },
+    {
+        "eng": "<p>It is in the nature of a thing that it can be a constituent of a state of affairs.</p>",
+        "tlp-number": "2.011"
+    },
+    {
+        "eng": "<p>In logic nothing is coincidental: if a thing <em>can</em> occur in a state of affairs, the possibility of the state of affairs must already be foreshadowed in the thing.</p>",
+        "tlp-number": "2.012"
+    },
+    {
+        "eng": "<p>It would, so to speak, seem like a coincidence if, once everything is given, a state of things fitted a thing that could exist all by itself (in isolation).</p><p>If things can occur in states of affairs, this must be built into them.</p><p>(What is logical cannot be <em>merely</em> possible. Logic deals with every possibility, and all possibilities are its facts.)</p><p>Just as we cannot in the least think of spatial objects as being outside space nor of temporal objects as being outside time, so we cannot think of <em>any </em>object without the possibility<em> </em>of its combining with others.</p><p>If I can think of an object as figuring in the context formed by a state of affairs, I cannot think of it without the <em>possibility</em> of this context.</p>",
+        "tlp-number": "2.0121"
+    },
+    {
+        "eng": "<p>A thing is independent, insofar as it can occur in all <em>possible </em>states of things, but this form of independence is a form of being involved in states of affairs, a form of dependence. (It is impossible for words to appear in two different roles: isolated, and in sentences.)</p>",
+        "tlp-number": "2.0122"
+    },
+    {
+        "eng": "<p>Once I know an object I also know all<em> </em>the possibilities of its occurring in states of affairs. </p><p>(Every such possibility must lie in the nature of the object.) </p><p>A new possibility cannot be discovered afterwards.</p>",
+        "tlp-number": "2.0123"
+    },
+    {
+        "eng": "<p>To know an object, I need not know its external properties – but I must know all its internal properties.</p>",
+        "tlp-number": "2.01231"
+    },
+    {
+        "eng": "<p>If all objects are given, then all <em>possible </em>states of affairs are given at the same time.</p>",
+        "tlp-number": "2.0124"
+    },
+    {
+        "eng": "<p>Every thing is, as it were, in a space of possible states of affairs. I can imagine this space empty, but not the thing without the space.</p>",
+        "tlp-number": "2.013"
+    },
+    {
+        "eng": "<p>A spatial object must be located in infinite space. (A point in space is an argument place.)</p><p>A spot in the visual field need not be red but it must have some<em> </em>colour: it is, so to speak, surrounded by colour-space. Notes must have <em>some </em>pitch, tactile objects <em>some </em>degree of hardness, and so on.</p>",
+        "tlp-number": "2.0131"
+    },
+    {
+        "eng": "<p>Objects contain the possibility of all states of things.</p>",
+        "tlp-number": "2.014"
+    },
+    {
+        "eng": "<p>The possibility of an object’s occurring in a state of affairs is its form.</p>",
+        "tlp-number": "2.0141"
+    },
+    {
+        "eng": "",
+        "tlp-number": "2.02"
+    },
+    {
+        "eng": "<p>Every statement about complexes can be broken down into a statement about their constituents and into the sentences that completely describe those complexes.</p>",
+        "tlp-number": "2.0201"
+    },
+    {
+        "eng": "<p>Objects form the substance of the world. This is why they cannot be composite.</p>",
+        "tlp-number": "2.021"
+    },
+    {
+        "eng": "<p>If the world had no substance, then whether a sentence made sense would depend on whether another sentence was true.</p>",
+        "tlp-number": "2.0211"
+    },
+    {
+        "eng": "<p>In that case it would be impossible to outline a picture of the world (true or false).</p>",
+        "tlp-number": "2.0212"
+    },
+    {
+        "eng": "<p>Obviously an imagined world, however different from the real world, must have <em>something</em><em> – </em>a form – in common with it.</p>",
+        "tlp-number": "2.022"
+    },
+    {
+        "eng": "<p>This stable form consists precisely of the objects.</p>",
+        "tlp-number": "2.023"
+    },
+    {
+        "eng": "<p>The substance of the world <em>can </em>determine only a form, and not any material properties. For only when it comes to sentences do we have a way of representing these material properties–they are formed only when there is a configuration of objects.</p>",
+        "tlp-number": "2.0231"
+    },
+    {
+        "eng": "<p>Roughly speaking, objects are colourless.</p>",
+        "tlp-number": "2.0232"
+    },
+    {
+        "eng": "<p>Leaving external properties aside, two objects with the same logical form are only distinct from one another in that they are different.</p>",
+        "tlp-number": "2.0233"
+    },
+    {
+        "eng": "<p>Either a thing has properties not possessed by any other thing, and then we can without further ado pick it out from the others by means of a description and point it out; or, on the other hand, there are several things that have all their properties in common, in which case it is impossible tout court to point to one of them.</p><p>For if there is nothing in virtue of which a thing stands out, I cannot make it stand out, for otherwise it would stand out anyway.</p>",
+        "tlp-number": "2.02331"
+    },
+    {
+        "eng": "<p>Substance is what persists independently of what is the case.</p>",
+        "tlp-number": "2.024"
+    },
+    {
+        "eng": "<p>It is form and content.</p>",
+        "tlp-number": "2.025"
+    },
+    {
+        "eng": "<p>Space, time and colour (colouration) are forms of objects.</p>",
+        "tlp-number": "2.0251"
+    },
+    {
+        "eng": "<p>Only if there are objects can there be a stable form of the world.</p>",
+        "tlp-number": "2.026"
+    },
+    {
+        "eng": "<p>What is stable, what is persistent, and what is an object – these are one.</p>",
+        "tlp-number": "2.027"
+    },
+    {
+        "eng": "<p>Objects are what is stable and persistent; their configuration is what is changing and mutable.</p>",
+        "tlp-number": "2.0271"
+    },
+    {
+        "eng": "<p>A configuration of objects forms a state of affairs.\t</p>",
+        "tlp-number": "2.0272"
+    },
+    {
+        "eng": "<p>In a state of affairs objects are interconnected, like the links of a chain.</p>",
+        "tlp-number": "2.03"
+    },
+    {
+        "eng": "<p>In a state of affairs objects stand in certain relations to one another.</p>",
+        "tlp-number": "2.031"
+    },
+    {
+        "eng": "<p>The way in which objects are connected in a state of affairs is the structure of the state of affairs.</p>",
+        "tlp-number": "2.032"
+    },
+    {
+        "eng": "<p>Form is the possibility of structure.</p>",
+        "tlp-number": "2.033"
+    },
+    {
+        "eng": "<p>The structure of a fact consists of the structures of states of affairs.</p>",
+        "tlp-number": "2.034"
+    },
+    {
+        "eng": "<p>The totality of obtaining states of affairs is the world.</p>",
+        "tlp-number": "2.04"
+    },
+    {
+        "eng": "<p>The totality of obtaining states of affairs also determines which states of affairs do not obtain.</p>",
+        "tlp-number": "2.05"
+    },
+    {
+        "eng": "<p>The obtaining and non-obtaining of states of affairs is reality.</p><p>(The obtaining of states of affairs we also call a positive fact, and their non-obtaining a negative one.)</p>",
+        "tlp-number": "2.06"
+    },
+    {
+        "eng": "<p>States of affairs are independent of one another.</p>",
+        "tlp-number": "2.061"
+    },
+    {
+        "eng": "<p>It is impossible to infer the obtaining or non-obtaining of a state of affairs from the obtaining or non-obtaining of another state of affairs.</p>",
+        "tlp-number": "2.062"
+    },
+    {
+        "eng": "<p>The sum total of reality is the world.</p>",
+        "tlp-number": "2.063"
+    },
+    {
+        "eng": "<p>We render facts by picturing them.</p>",
+        "tlp-number": "2.1"
+    },
+    {
+        "eng": "<p>A picture betokens a state of things in logical space, the obtaining and non-obtaining of states of affairs.</p>",
+        "tlp-number": "2.11"
+    },
+    {
+        "eng": "",
+        "tlp-number": "2.12"
+    },
+    {
+        "eng": "<p>In a picture, the elements of the picture correspond to the objects.</p>",
+        "tlp-number": "2.13"
+    },
+    {
+        "eng": "<p>In a picture, the picture’s elements stand in for the objects.</p>",
+        "tlp-number": "2.131"
+    },
+    {
+        "eng": "<p>It is constitutive of a picture that its elements stand in certain relations to one another.</p>",
+        "tlp-number": "2.14"
+    },
+    {
+        "eng": "",
+        "tlp-number": "2.141"
+    },
+    {
+        "eng": "<p>The specific ways in which the elements of a picture stand in relations to each other betoken that things stand in the same relations to one another.</p><p>Let us call this connection between the elements of a picture its structure, and let us call the possibility of this structure the picture’s form of depiction.</p>",
+        "tlp-number": "2.15"
+    },
+    {
+        "eng": "<p>The form of depiction is the possibility that things are related to one another in the same way as the elements of the picture.</p>",
+        "tlp-number": "2.151"
+    },
+    {
+        "eng": "<p>In <em>this</em> way a picture is linked to reality – it extends so far that it reaches reality.</p>",
+        "tlp-number": "2.1511"
+    },
+    {
+        "eng": "<p>Like a ruler, it is placed against reality.  </p>",
+        "tlp-number": "2.1512"
+    },
+    {
+        "eng": "<p>Only the end points of the ruler’s graduation lines <em>touch</em> the object to be measured.</p>",
+        "tlp-number": "2.15121"
+    },
+    {
+        "eng": "<p>According to this view, what also forms part of a picture is a pictorial relationship, by means of which it becomes a picture.</p>",
+        "tlp-number": "2.1513"
+    },
+    {
+        "eng": "<p>The depicting relation consists of the assignments of the picture's elements to things.</p>",
+        "tlp-number": "2.1514"
+    },
+    {
+        "eng": "<p>These assignments are, as it were, the antennae of the picture's elements, by means of which it touches reality.</p>",
+        "tlp-number": "2.1515"
+    },
+    {
+        "eng": "<p>To be a picture, a fact must have something in common with what is depicted.</p>",
+        "tlp-number": "2.16"
+    },
+    {
+        "eng": "<p>Only if a picture and what it depicts contain something identical can one of them really be a picture of the other.</p>",
+        "tlp-number": "2.161"
+    },
+    {
+        "eng": "<p>What a picture must share with reality, if it is to be able to depict it in the way it does – correctly or incorrectly – is its form of depiction.</p>",
+        "tlp-number": "2.17"
+    },
+    {
+        "eng": "<p>A picture can depict any reality whose form it has. </p><p>A spatial picture, anything spatial, a coloured one, anything coloured, etc.</p>",
+        "tlp-number": "2.171"
+    },
+    {
+        "eng": "<p>A picture cannot, however, depict its own form of depiction: it displays this form.</p>",
+        "tlp-number": "2.172"
+    },
+    {
+        "eng": "<p>A picture represents its subject from the outside (its standpoint is its form of representation), and this is why it represents its subject correctly or incorrectly.</p>",
+        "tlp-number": "2.173"
+    },
+    {
+        "eng": "<p>A picture cannot, however, place itself outside its form of representation.</p>",
+        "tlp-number": "2.174"
+    },
+    {
+        "eng": "<p>What any picture, of whatever form, must share with reality, if it is to be able to depict it – correctly or incorrectly – in any way at all, is logical form, i.e., the form of reality.</p>",
+        "tlp-number": "2.18"
+    },
+    {
+        "eng": "<p>If the form of depiction is logical form, then the picture is called a logical picture.</p>",
+        "tlp-number": "2.181"
+    },
+    {
+        "eng": "<p>Every picture is <em>also</em> a logical one. (On the other hand, not every picture is, for example, a spatial one.)</p>",
+        "tlp-number": "2.182"
+    },
+    {
+        "eng": "<p>Logical pictures can depict the world.</p>",
+        "tlp-number": "2.19"
+    },
+    {
+        "eng": "<p>What a picture shares with what it depicts is the logical form of depiction.</p>",
+        "tlp-number": "2.2"
+    },
+    {
+        "eng": "<p>A picture depicts reality by representing a possibility of the obtaining and non-obtaining of states of affairs.</p>",
+        "tlp-number": "2.201"
+    },
+    {
+        "eng": "<p>A picture represents a possible state of things in logical space.</p>",
+        "tlp-number": "2.202"
+    },
+    {
+        "eng": "<p>A picture contains the possibility of the state of things that it represents.</p>",
+        "tlp-number": "2.203"
+    },
+    {
+        "eng": "<p>A picture agrees with reality or fails to agree; it is correct or incorrect, true or false.</p>",
+        "tlp-number": "2.21"
+    },
+    {
+        "eng": "<p>A picture represents what it represents, independently of its truth or falsity, by means of its form of depiction.</p>",
+        "tlp-number": "2.22"
+    },
+    {
+        "eng": "",
+        "tlp-number": "2.221"
+    },
+    {
+        "eng": "<p>The agreement or disagreement of its sense with reality is what its truth or falsity consists in.</p>",
+        "tlp-number": "2.222"
+    },
+    {
+        "eng": "<p>To make out whether a picture is true or false we must compare it with reality.</p>",
+        "tlp-number": "2.223"
+    },
+    {
+        "eng": "<p>All by itself, the picture does not enable us to make out whether it is true or false.</p>",
+        "tlp-number": "2.224"
+    },
+    {
+        "eng": "<p>There is no such thing as a picture that is true <em>a priori</em>.</p><p>A logical picture of facts is a thought.</p>",
+        "tlp-number": "2.225"
+    },
+    {
+        "eng": "<p>“A state of affairs is thinkable” means: we can picture it.</p>",
+        "tlp-number": "3.001"
+    },
+    {
+        "eng": "<p>The totality of true thoughts is a picture of the world.</p>",
+        "tlp-number": "3.01"
+    },
+    {
+        "eng": "<p>A thought contains the possibility of the state of things of which it is the thought. Whatever is thinkable is possible too.</p>",
+        "tlp-number": "3.02"
+    },
+    {
+        "eng": "<p>We cannot think anything illogical, for otherwise we would have to think illogically.</p>",
+        "tlp-number": "3.03"
+    },
+    {
+        "eng": "<p>People used to say that God can create anything so long as it does not fall foul of the laws of logic. – The reason being that of an “illogical” world we could not <em>say</em> what it would look like.</p>",
+        "tlp-number": "3.031"
+    },
+    {
+        "eng": "<p>It is as impossible to represent something that “contradicts logic” in language as it is to represent by its co-ordinates a figure that contradicts the laws of space, or to specify the co-ordinates of a point that does not exist.</p>",
+        "tlp-number": "3.032"
+    },
+    {
+        "eng": "<p>While we are able to give a spatial representation of a state of affairs running afoul of the laws of physics, we cannot give such a representation of one that would run counter to the laws of geometry.</p>",
+        "tlp-number": "3.0321"
+    },
+    {
+        "eng": "<p>An <em>a priori </em>correct thought would be one whose possibility ensured its truth.</p>",
+        "tlp-number": "3.04"
+    },
+    {
+        "eng": "<p>We could know <em>a priori </em>that a thought is true only if its truth could be gleaned from the thought itself (without any object of comparison).</p>",
+        "tlp-number": "3.05"
+    },
+    {
+        "eng": "",
+        "tlp-number": "3.1"
+    },
+    {
+        "eng": "<p>We use the perceptible sign of a sentence (spoken or written, etc.) as a projection of a possible state of things.</p><p>Thinking the sense of the sentence is the method of projection.</p>",
+        "tlp-number": "3.11"
+    },
+    {
+        "eng": "<p>A sign through which we express a thought, I call a sentential sign. And a sentence is a sentential sign in its projective relation to the world.</p>",
+        "tlp-number": "3.12"
+    },
+    {
+        "eng": "<p>A sentence includes everything that is needed for projection, but not what is projected.</p><p>So the possibility of what is projected is included in the sentence, but not what is  projected.</p><p>And so a sentence does not yet contain its sense, but it does contain the possibility of expressing it.</p><p>(What is called “the content of a sentence” is the content of a sentence that makes sense.) </p><p>A sentence contains the form, but not the content, of its sense.</p>",
+        "tlp-number": "3.13"
+    },
+    {
+        "eng": "<p>What constitutes a sentential sign is that in it its elements, the words, stand in certain relations to one another.</p>",
+        "tlp-number": "3.14"
+    },
+    {
+        "eng": "<p>A sentence is not a mixture of words. – (Just as a musical theme is not a mixture of notes.)</p>",
+        "tlp-number": "3.141"
+    },
+    {
+        "eng": "",
+        "tlp-number": "3.142"
+    },
+    {
+        "eng": "<p>That a sentential sign is a fact is concealed by the customary form of expression in writing or print.</p><p>For in a printed sentence, for example, the sentential sign does not look especially different from a word.</p><p>(This is how it could come about that Frege called a sentence a composite name.)</p>",
+        "tlp-number": "3.143"
+    },
+    {
+        "eng": "<p>What is essential to a sentential sign becomes very clear if we imagine it put together, not from the letters of an alphabet, but from spatial objects (such as tables, chairs, books).</p><p>Then the spatial relationship between these things will express the sense of the sentence.</p>",
+        "tlp-number": "3.1431"
+    },
+    {
+        "eng": "<p>Don’t say “The complex sign ‘<em>aRb</em>’ says that <em>a </em>stands to <em>b </em>in the relation <em>R</em>”, but instead: <em>That</em> “<em>a</em>” stands to “<em>b</em>” in a certain relation says <em>that aRb</em>.</p>",
+        "tlp-number": "3.1432"
+    },
+    {
+        "eng": "<p>States of things can be described, but not <em>labelled</em>.</p><p>(Names are like points, sentences like arrows – they have a sense.)</p>",
+        "tlp-number": "3.144"
+    },
+    {
+        "eng": "<p>In a sentence a thought can be expressed such that elements of the sentential sign correspond to the objects of the thought.</p>",
+        "tlp-number": "3.2"
+    },
+    {
+        "eng": "<p>I call such elements “simple signs”, and such a sentence “completely analyzed”.</p>",
+        "tlp-number": "3.201"
+    },
+    {
+        "eng": "<p>The simple signs employed in sentences are called names.</p>",
+        "tlp-number": "3.202"
+    },
+    {
+        "eng": "<p>A name means an object. The object is its meaning. (“A” is the same sign as “A”.)</p>",
+        "tlp-number": "3.203"
+    },
+    {
+        "eng": "<p>The configuration of of objects in a state of things corresponds to the configuration of simple signs in a sentential sign.</p>",
+        "tlp-number": "3.21"
+    },
+    {
+        "eng": "<p>In a sentence, a name functions as a representative for an object.</p>",
+        "tlp-number": "3.22"
+    },
+    {
+        "eng": "<p>I can only <em>name</em> objects.  Signs stand in for them. I can only speak <em>of</em> them; I cannot <em>verbalize</em><em> them</em>. A sentence can only say <em>how</em> a thing is, not <em>what</em> it is.</p>",
+        "tlp-number": "3.221"
+    },
+    {
+        "eng": "<p>To postulate that simple signs be possible is to postulate that sense be determinate.</p>",
+        "tlp-number": "3.23"
+    },
+    {
+        "eng": "<p>A sentence about a complex stands in an internal relation to a sentence about one of the constituents of the complex.</p><p>A complex can be given only by its description, and this will be right or wrong. A sentence that mentions a complex that does not exist will not be nonsensical, but just false.</p><p>When an element of a sentence signifies a complex, this can be gleaned from an indeterminateness in the sentences in which it occurs. We <em>know </em>that everything is not yet determined by the sentence. (After all, the notation for generality <em>contains </em>a prototype.)</p><p>The condensation of a symbol for a complex into a simple symbol can be expressed by a definition.</p>",
+        "tlp-number": "3.24"
+    },
+    {
+        "eng": "<p>A sentence has one and only one complete analysis.</p>",
+        "tlp-number": "3.25"
+    },
+    {
+        "eng": "<p>A sentence expresses what it expresses in a definite, clearly specifiable way: a sentence is articulate.</p>",
+        "tlp-number": "3.251"
+    },
+    {
+        "eng": "<p>A name cannot be broken down further by using definitions.  It is a primitive sign.</p>",
+        "tlp-number": "3.26"
+    },
+    {
+        "eng": "<p>Every defined sign signifies <em>via </em>those signs by which it was defined, and these definitions point the way. </p><p>Two signs, one primitive and one defined by primitive signs, cannot signify in the same way. Names <em>cannot </em>be broken down further by using definitions. (This can’t be done to any sign that has meaning all by itself and autonomously.)</p>",
+        "tlp-number": "3.261"
+    },
+    {
+        "eng": "<p>What is not expressed by a sign is shown in its application. What is swallowed by signs is voiced in their application.</p>",
+        "tlp-number": "3.262"
+    },
+    {
+        "eng": "<p>The meanings of primitive signs can be explained by means of elucidations. Elucidations are sentences containing primitive signs. So they can only be understood if the meanings of these signs are already known.</p>",
+        "tlp-number": "3.263"
+    },
+    {
+        "eng": "<p>Only sentences make sense; only in the context of a sentence does a name have meaning.</p>",
+        "tlp-number": "3.3"
+    },
+    {
+        "eng": "<p>Any part of a sentence that characterizes its sense I call an expression (a symbol). </p><p>Everything that sentences can have in common with one another that is essential to their sense is an expression. </p><p>An expression characterizes a form and a content.</p>",
+        "tlp-number": "3.31"
+    },
+    {
+        "eng": "<p>An expression presupposes the forms of all the sentences in which it can occur. It is the shared distinctive feature of a class of sentences.</p>",
+        "tlp-number": "3.311"
+    },
+    {
+        "eng": "<p>Thus, it is represented by the general form of the sentences that it characterizes. </p><p>And in particular, in this form the expression will be <em>constant</em> and everything else <em>variable</em>.</p>",
+        "tlp-number": "3.312"
+    },
+    {
+        "eng": "<p>An expression is thus represented by a variable whose values are the sentences containing the expression.</p><p>(In a limiting case the variable becomes a constant, the expression a sentence.)</p>",
+        "tlp-number": "3.313"
+    },
+    {
+        "eng": "<p>An expression has meaning only in a sentence. All variables can be construed as sentential variables. \t</p>",
+        "tlp-number": "3.314"
+    },
+    {
+        "eng": "<p>If we turn a constituent of a sentence into a variable, the resulting variable sentence will have a class of sentences as its values. In general, this class still depends on what we, by arbitrary convention, mean by parts of that sentence. But if we turn all the signs in it that have arbitrarily stipulated meanings into variables, there will still be such a class. Now this, however, is not dependent on any convention, but solely on the nature of that sentence. It conforms to a logical form – a logical prototype.</p>",
+        "tlp-number": "3.315"
+    },
+    {
+        "eng": "<p>The kinds of values a sentential variable may take are fixed by stipulation.</p><p>The stipulation of values <em>is </em>the variable.</p>",
+        "tlp-number": "3.316"
+    },
+    {
+        "eng": "<p>Values for a sentential variable are stipulated by <em>specifying</em> <em>which</em><em> sentences</em> have the variable as a common feature.</p><p>This stipulation is a description of those sentences.</p><p>The stipulation will therefore be concerned only with symbols, not with their meaning.</p><p>And the <em>only</em> thing that is essential to the stipulation is<em> that it exclusively describes symbols and says nothing about what </em><em>is</em><em> signif</em><em>ied</em>.</p><p>The way in which a description of those sentences is given is irrelevant.</p>",
+        "tlp-number": "3.317"
+    },
+    {
+        "eng": "",
+        "tlp-number": "3.318"
+    },
+    {
+        "eng": "<p>A sign is the perceptible aspect of a symbol.</p>",
+        "tlp-number": "3.32"
+    },
+    {
+        "eng": "<p>So one and the same sign (written or spoken, etc.) can be shared by two different symbols – in which case they will signify in different ways.</p>",
+        "tlp-number": "3.321"
+    },
+    {
+        "eng": "<p>Signifying two objects by the same sign but using two different <em>modes of signification </em>can never indicate a shared feature. For the sign is arbitrary, after all. So we could choose two different signs instead, and then where would that leave the common element in signification?</p>",
+        "tlp-number": "3.322"
+    },
+    {
+        "eng": "<p>In ordinary language it very frequently happens that the same word signifies in different ways – and so belongs to different symbols – or that two words that signify in different ways are applied in sentences in what looks like the same way.</p><p>Accordingly, the word “is” figures as a copula, as an equals sign, and as an expression for existence; “exist” figures as an intransitive verb like “go”, and “identical” as an adjective; we speak of <em>a</em> <em>something</em>, but also of <em>something's </em>happening. </p><p>(In the sentence, “Green is green” – where the first word is a person’s name and the last an adjective – these words do not just have different meanings, they are <em>different symbols</em>.)</p>",
+        "tlp-number": "3.323"
+    },
+    {
+        "eng": "<p>In this way the most fundamental confusions easily arise (all philosophy is full of them).</p>",
+        "tlp-number": "3.324"
+    },
+    {
+        "eng": "<p>To avoid these errors we must use a sign-language that excludes them by not using the same sign for different symbols and by not using signs that signify in different ways in what looks like the same way. That is to say, a sign-language obeying <em>logical </em>grammar – logical<em> </em>syntax.</p><p>(Frege’s and Russell’s conceptual notation is such a language that, however, still does not exclude all mistakes.)</p>",
+        "tlp-number": "3.325"
+    },
+    {
+        "eng": "<p>To discern a symbol by its sign we must pay attention to how it is used when it makes sense.</p>",
+        "tlp-number": "3.326"
+    },
+    {
+        "eng": "<p>Signs determine a logical form only in tandem with their logico-syntactical employment.</p>",
+        "tlp-number": "3.327"
+    },
+    {
+        "eng": "<p>If a sign is <em>not needed</em>, then it is meaningless. That is the point of Occam's razor.</p><p>(If everything works out as if a sign had meaning, then it does have meaning.)</p>",
+        "tlp-number": "3.328"
+    },
+    {
+        "eng": "<p>The meaning of a sign must never play a role in logical syntax. It must be possible to set up logical syntax without mentioning the <em>meaning </em>of a sign: <em>only </em>the description of expressions may be presupposed. </p>",
+        "tlp-number": "3.33"
+    },
+    {
+        "eng": "<p>This observation made, let us have a look at Russell's “theory of types”.  Russell’s error comes to the fore through the fact that in formulating his rules for signs he had to mention the meanings of signs.</p>",
+        "tlp-number": "3.331"
+    },
+    {
+        "eng": "<p>No sentence can make a statement about itself, because a sentential sign cannot be contained in itself. (That is the whole of the “theory of types”.)</p>",
+        "tlp-number": "3.332"
+    },
+    {
+        "eng": "<p>A function cannot be its own argument because the function sign already contains the prototype of its argument, and cannot contain itself.</p><p>For let us suppose that the function <em>F</em>(<em>fx</em>) could be its own argument: there would then be a sentence “<em>F</em>(<em>F</em>(<em>f</em>x))”, and in this sentence the outer function <em>F </em>and the inner function <em>F </em>must have different meanings, since the inner one has the form <em>φ</em> (<em>fx</em>) and the outer one has the form <em>ψ</em> (<em>φ</em> (<em>fx</em>)). The two functions merely share the letter “<em>F</em>”, which by itself, however, signifies nothing.</p><p>This immediately becomes clear if instead of “<em>F</em>(<em>Fu</em>)” we write “(∃<em>φ</em>):<em>F</em>(<em>φu</em>).<em>φu</em><em> </em>= <em>Fu</em>”.</p>",
+        "tlp-number": "3.333"
+    },
+    {
+        "eng": "<p>The rules of logical syntax must go without saying, once we know how every single sign signifies.</p>",
+        "tlp-number": "3.334"
+    },
+    {
+        "eng": "<p>Accidental features are those that are due to the particular way the sentential sign is produced. Essential features are those that suffice to enable a sentence to express its sense.</p>",
+        "tlp-number": "3.34"
+    },
+    {
+        "eng": "<p>So what is essential about a sentence is what all sentences that can express the same sense have in common.</p><p>Similarly – and generally speaking – what is essential in a symbol is what all symbols that can serve the same purpose have in common.</p>",
+        "tlp-number": "3.341"
+    },
+    {
+        "eng": "<p>So one could say that the real name is what all symbols signifying an object have in common. This would, step by step, yield the result that no kind of compositeness is essential to a name.</p>",
+        "tlp-number": "3.3411"
+    },
+    {
+        "eng": "<p>In our notations there is indeed something arbitrary, but <em>this </em>is not arbitrary – that <em>as soon as </em>we have laid down something arbitrarily, then something else <em>must</em> be<em> </em>the case. (This is due to the <em>nature </em>of notation.)</p>",
+        "tlp-number": "3.342"
+    },
+    {
+        "eng": "<p>A particular mode of signifying may be unimportant but it is always important that it is a<em> possible </em>mode of signifying. And that’s the way it is throughout philosophy: again and again the individual case turns out to be unimportant, but the possibility of each individual case reveals something about the essence of the world.</p>",
+        "tlp-number": "3.3421"
+    },
+    {
+        "eng": "<p>Definitions are rules for translating from one language into another. Every correct sign-language must be translatable into every other according to such rules. <em>T</em><em>his </em>is what they all have in common.</p>",
+        "tlp-number": "3.343"
+    },
+    {
+        "eng": "<p>The signifying element in a symbol is what is common to all those symbols by which that symbol can be replaced according to the rules of logical syntax.</p>",
+        "tlp-number": "3.344"
+    },
+    {
+        "eng": "<p>For instance one can express what is common to all notations for truth-functions in the following way: they have in common that they all <em>can be replaced</em> by a notation that uses “~p” (“not p”) and “p∨q” (“p or q”) .</p><p>(This characterizes the fashion in which a particular possible notation can be illuminating in a general way.)</p>",
+        "tlp-number": "3.3441"
+    },
+    {
+        "eng": "<p>Even in the process of analysing a sign for a complex this sign doesn’t break down in an arbitrary way that, for every composite sentence, might lead to a different resolution.</p>",
+        "tlp-number": "3.3442"
+    },
+    {
+        "eng": "<p>A sentence specifies a location in logical space. The existence of the sentence’s constituents — the existence of a sentence with a sense — suffices to guarantee the existence of this logical location.</p>",
+        "tlp-number": "3.4"
+    },
+    {
+        "eng": "",
+        "tlp-number": "3.41"
+    },
+    {
+        "eng": "<p>A geometrical and a logical location agree to this extent: that each is the possibility of something’s existence.</p>",
+        "tlp-number": "3.411"
+    },
+    {
+        "eng": "<p>Although a sentence may specify only one location in logical space, the entire logical space must already be given by it.</p><p>(Otherwise negation, logical sum, logical product, etc., would – coordinately – introduce more and more new elements.)</p><p>(The logical scaffolding enclosing a picture gives orientation to logical space. A sentence probes the whole of logical space.)</p>",
+        "tlp-number": "3.42"
+    },
+    {
+        "eng": "<p>A sentential sign, used in thinking, is a thought.</p><p>A thought is a sentence that makes sense.</p>",
+        "tlp-number": "3.5"
+    },
+    {
+        "eng": "<p>Language is the totality of sentences.</p>",
+        "tlp-number": "4.001"
+    },
+    {
+        "eng": "<p>Human beings have the capacity to construct languages by which every sense can be expressed, without having an inkling of how and what each word means. – Just as we speak without knowing how the individual sounds are produced.</p><p>Everyday language is a part of the human organism and no less complicated than it.</p><p>It is not humanly possible to gather the logic of language from it in a direct way.</p><p>Language disguises thought. So much so, that from the outer form of the clothes one cannot infer the form of the thought beneath, because the outer  form of the clothes is not designed to reveal the form of the body, but for entirely different purposes.</p><p>The tacit conventions involved in understanding everyday language are extremely complicated.</p>",
+        "tlp-number": "4.002"
+    },
+    {
+        "eng": "<p>For the most part the statements made and the questions raised about philosophical matters are not wrong but nonsensical. So we cannot answer such questions at all, but can only observe their nonsensicality. Most of the questions and statements of philosophers are due to our failure to understand the logic of our language.</p><p>(They are of the same kind as the question whether the Good is more or less identical than the Beautiful.)</p><p>And it is no wonder that in truth the deepest problems are not problems at all.</p>",
+        "tlp-number": "4.003"
+    },
+    {
+        "eng": "<p>All philosophy is a “critique of language” (though not in Mauthner's sense). Russell deserves credit for having shown that the apparent logical form of a sentence need not be its real form.</p>",
+        "tlp-number": "4.0031"
+    },
+    {
+        "eng": "<p>A sentence is a picture of reality.</p><p>A sentence is a model of reality as conceived by us.</p>",
+        "tlp-number": "4.01"
+    },
+    {
+        "eng": "<p>At first sight a sentence – say as it is set out on the printed page – does not seem to be a picture of the reality it is about. But neither does musical notation at first sight seem to be a picture of music, nor our phonetic notation (the letters of the alphabet) to be a picture of our speech.</p><p>And yet these sign-languages turn out to be pictures, even in the ordinary sense, of what they represent.</p>",
+        "tlp-number": "4.011"
+    },
+    {
+        "eng": "<p>It is obvious that a sentence of the form “<em>aRb</em>” strikes us<em> </em>as a picture. Evidently, here the sign is a simile of what it signifies.</p>",
+        "tlp-number": "4.012"
+    },
+    {
+        "eng": "<p>And once we penetrate into the essence of this kind of pictorialness, we see that it is <em>n</em><em>ot </em>obstructed by <em>apparent irregularities </em>(such as the use of ♯ and ♭ in musical notation).</p><p>For even these irregularities depict what they are supposed to express, only in a different way.</p>",
+        "tlp-number": "4.013"
+    },
+    {
+        "eng": "<p>A gramophone record, the musical thought, the written music, the sound waves, all stand to one another in that internal depicting relation that holds between language and the world. </p><p>They all share their logical construction.</p><p>(Like the two youths, their two horses, and their lilies in the fairy tale. In a certain sense, they are all one.)</p>",
+        "tlp-number": "4.014"
+    },
+    {
+        "eng": "<p>There is a general rule by which a musician can read the symphony from the score, by which one can derive the symphony from the groove on the gramophone record and then, using the first rule, derive the score again. That is what constitutes the inner similarity of these apparently very different formations. And that rule is the law of projection which projects the symphony into the language of the score. It is the rule for translating this language into the language of the gramophone record.</p>",
+        "tlp-number": "4.0141"
+    },
+    {
+        "eng": "<p>The possibility of all similes, of all the pictoriality of our ways of speaking, reposes in the logic of depiction.</p>",
+        "tlp-number": "4.015"
+    },
+    {
+        "eng": "<p>To understand what is essential about a sentence, consider hieroglyphic writing, which depicts the facts it describes.</p><p>And it developed into alphabetic writing, without losing what is essential to depiction.</p>",
+        "tlp-number": "4.016"
+    },
+    {
+        "eng": "<p>We can see this from the fact that we understand the sense of a sentential sign without that sense having been explained to us.</p>",
+        "tlp-number": "4.02"
+    },
+    {
+        "eng": "<p>A sentence is a picture of reality: for if I understand a sentence, I know the state of things that it represents. And I understand the sentence without its sense having been explained to me.</p>",
+        "tlp-number": "4.021"
+    },
+    {
+        "eng": "<p>A sentence <em>shows</em> how things stand, <em>if</em> it is true. And it <em>says</em> <em>that</em> that is how they stand.</p>",
+        "tlp-number": "4.022"
+    },
+    {
+        "eng": "<p>Sentences must capture reality in terms of yes or no. </p><p>To achieve this, they must describe it completely.</p><p>A sentence is a description of a state of affairs.</p><p>Just as a description describes an object in accordance with its external properties, so a sentence describes reality in accordance with its internal properties.</p><p>Relying on a logical scaffolding a sentence constructs a world, which is why one can see from the sentence how all logical matters stand, <em>if</em> the sentence is true.  One can <em>draw inferences</em> from a false sentence.</p>",
+        "tlp-number": "4.023"
+    },
+    {
+        "eng": "<p>To understand a sentence amounts to knowing what is the case if it is true.</p><p>(So one can understand it without knowing whether it is true.)</p><p>One understands it if one understands its constituents.</p>",
+        "tlp-number": "4.024"
+    },
+    {
+        "eng": "<p>Translating one language into another is not a matter of translating each <em>sentence </em>of the one into a <em>sentence</em> of the other: rather, it is only the constituents of the sentence that are translated.</p><p>(And the dictionary translates not only nouns, but also verbs, adjectives, and conjunctions, etc.; and it treats them all alike.)</p>",
+        "tlp-number": "4.025"
+    },
+    {
+        "eng": "<p>The meanings of simple signs (words) must be explained to us if we are to understand them.</p><p>Sentences, on the other hand, are our means of communication.</p>",
+        "tlp-number": "4.026"
+    },
+    {
+        "eng": "<p>It is in the nature of a sentence that it can convey a <em>new</em> sense to us.</p>",
+        "tlp-number": "4.027"
+    },
+    {
+        "eng": "<p>A sentence must use old expressions to convey a new sense.</p><p>A sentence conveys a state of things, and so it must be <em>essentially </em>connected with that state of things.</p><p>And the connection is precisely that it is its logical picture.</p><p>A sentence states something only insofar as it is a picture.</p>",
+        "tlp-number": "4.03"
+    },
+    {
+        "eng": "<p>In a sentence an arrangement of a state of things is, as it were, tried out.</p><p>Instead of “This sentence has such and such a sense”, one can just say “This sentence represents such and such a state of things”.</p>",
+        "tlp-number": "4.031"
+    },
+    {
+        "eng": "<p>One name stands for one thing, another for another thing, and they are mutually connected, so that the whole, like a <em>tableau vivant</em>, betokens a state of affairs.</p>",
+        "tlp-number": "4.0311"
+    },
+    {
+        "eng": "<p>The possibility of sentences is based on the principle that signs function as representatives for objects.</p><p>My basic idea is that the “logical constants” are not representatives; that the <em>logic </em>of facts is not amenable to representation.</p>",
+        "tlp-number": "4.0312"
+    },
+    {
+        "eng": "<p>A sentence is a picture of a state of things only insofar as it is logically articulated.</p><p>(Even the sentence “<em>ambulo”</em> is composite: for with another ending its stem yields a different sense, as does its ending with another stem.)</p>",
+        "tlp-number": "4.032"
+    },
+    {
+        "eng": "<p>In a sentence there must be exactly as many distinguishable features as in the state of things it represents.</p><p>They must both be endowed with the same logical (mathematical) multiplicity. (Compare Hertz's <em>Mechanics</em> on dynamic models<em>.</em>)</p>",
+        "tlp-number": "4.04"
+    },
+    {
+        "eng": "<p>Of course, this mathematical multiplicity cannot itself be depicted. One cannot escape it when depicting.</p>",
+        "tlp-number": "4.041"
+    },
+    {
+        "eng": "<p>If we wanted to express what is expressed by “(<em>x</em>).<em>fx</em>”, say by putting an index in front of “<em>fx</em>” such as “Gen.<em>fx</em>” – it would not be adequate, for we would not know what was generalized. If we tried to indicate it by adding an index “<em>g</em>” to the “<em>fx</em>” – for instance by writing “f(<em>x</em><em>g</em>)” – it still would not be adequate, for we would not know the scope of the sign for generality.</p><p>If we tried to do it by introducing a mark into the argument places – such as “(<em>G</em>, <em>G</em>).<em>F </em>(<em>G</em>, <em>G</em>)” – it would not be adequate: we could not ascertain the identity of the variables. And so on.</p><p>All these modes of signifying are inadequate because they do not have the required mathematical multiplicity.  </p>",
+        "tlp-number": "4.0411"
+    },
+    {
+        "eng": "<p>By the same token, the idealist's use of “spatial glasses” to explain the seeing of spatial relations is inadequate, because it cannot explain the multiplicity of these relations.</p>",
+        "tlp-number": "4.0412"
+    },
+    {
+        "eng": "<p>Reality is compared with sentences.</p>",
+        "tlp-number": "4.05"
+    },
+    {
+        "eng": "<p>A sentence can be true or false only in virtue of being a picture<em> </em>of reality.</p>",
+        "tlp-number": "4.06"
+    },
+    {
+        "eng": "<p>If one does not take into acount that a sentence makes sense independently of the facts, one can easily come to believe that true and false are relations of equal status between signs and what they signify.</p><p>In this case one might for instance say that “<em>p</em>” signifies in the true way what “~<em>p</em>” signifies in the false way, etc.</p>",
+        "tlp-number": "4.061"
+    },
+    {
+        "eng": "<p>Isn’t it possible to communicate by means of false sentences just as we have done up to now with true ones, so long as we know that they are meant to be false? No! For a sentence is true if things stand the way we say they do by means of this sentence; and if by “<em>q</em>” we mean ~<em>q</em> and things stand the way we mean, then acccording to the new interpretation, “<em>q</em>” is true, and not false.</p>",
+        "tlp-number": "4.062"
+    },
+    {
+        "eng": "<p>But it is important that the signs “p” and “~p” <em>can</em> say the same thing. For it shows that there is nothing in reality corresponding to the sign “~”.</p><p>That negation occurs in a sentence is not by itself a feature of its sense (~~p = p).</p><p>The sentences “<em>p</em>” and “~<em>p</em>” have opposite senses, but one and the same reality corresponds to them.</p>",
+        "tlp-number": "4.0621"
+    },
+    {
+        "eng": "<p>A picture to illustrate the concept of truth.  A black spot on white paper; the form of the spot can be described by specifying for each point on the sheet whether it is black or white. To the fact that a point is black there corresponds a positive fact, and to the fact that a point is white (not black), a negative fact. If I refer to a point on the sheet (a Fregean truth-value), then this corresponds to the assumption that is put forward for judgment, etc. etc.</p><p>However, to be able to say that a point is black or white, I must first know when a point is called black, and when white: I cannot say “p” is true (or false) unless I have stipulated in what circumstances I call “p” true, and in so doing I lay down the sense of the sentence.</p><p>Now the point where the simile becomes flawed is this: we can pick a point on the paper even if we don’t know what is white and what is black, but if a sentence makes no sense, nothing at all corresponds to it, for it signifies no thing (no truth-value) which might have properties called “false” or “true”. The verb of a sentence is not “is true” or “is false”, as Frege thought: rather, what “is true” must already include the verb.</p>",
+        "tlp-number": "4.063"
+    },
+    {
+        "eng": "<p>Every sentence must make sense <em>from the very beginning</em>; affirmation cannot give it a sense, for its sense is just what is affirmed. And the same goes for denial, etc.</p>",
+        "tlp-number": "4.064"
+    },
+    {
+        "eng": "<p>One could say: the negation already alludes to the logical location specified by the negated sentence. </p><p>A negating sentence and a negated sentence specify <em>different </em>logical locations.</p><p>The negating sentence specifies a logical location using the logical location of the negated sentence by describing the former as lying outside the latter.</p><p>That the negated sentence can be negated once more suffices to show that what is negated is already a sentence, and not just something preliminary to a sentence.</p>",
+        "tlp-number": "4.0641"
+    },
+    {
+        "eng": "<p>A sentence represents the obtaining and non-obtaining of states of affairs.</p>",
+        "tlp-number": "4.1"
+    },
+    {
+        "eng": "<p>The totality of true sentences is the whole of natural science (or the totality of the natural sciences).</p>",
+        "tlp-number": "4.11"
+    },
+    {
+        "eng": "<p>Philosophy is not one of the natural sciences.</p><p>(The word “philosophy” must mean something above or below the natural sciences, but not alongside<em> </em>them.)</p>",
+        "tlp-number": "4.111"
+    },
+    {
+        "eng": "<p>The point of philosophy is the logical clarification of thoughts.</p><p>Philosophy is not a doctrine but an activity.</p><p>A philosophical work consists chiefly of elucidations.</p><p>Philosophy does not result in “philosophical sentences”, but rather in sentences becoming clear.</p><p>Philosophy should clarify and demarcate sharply thoughts that are otherwise opaque and blurred, as it were.</p>",
+        "tlp-number": "4.112"
+    },
+    {
+        "eng": "<p>Psychology is no more akin to philosophy than is any other natural science.</p><p>Theory of knowledge is the philosophy of psychology.</p><p>Does not my examination of sign-language correspond to the examination of thought-processes, which philosophers used to consider so essential to the philosophy of logic? Only more often than not they got involved in irrelevant psychological investigations, and there is an analogous danger in following my method.</p>",
+        "tlp-number": "4.1121"
+    },
+    {
+        "eng": "<p>Darwin’s theory has no more to do with philosophy than any other hypothesis of natural science.</p>",
+        "tlp-number": "4.1122"
+    },
+    {
+        "eng": "<p>Philosophy delimits the contestable domain of natural science.</p>",
+        "tlp-number": "4.113"
+    },
+    {
+        "eng": "<p>It should demarcate what is thinkable and thereby what is unthinkable.</p><p>It should delimit the unthinkable by advancing through the thinkable from within.</p>",
+        "tlp-number": "4.114"
+    },
+    {
+        "eng": "<p>It will mean the unsayable by clearly representing the sayable.</p>",
+        "tlp-number": "4.115"
+    },
+    {
+        "eng": "<p>Everything that can be thought at all can be thought clearly. Everything that can be put into words can be put clearly.</p>",
+        "tlp-number": "4.116"
+    },
+    {
+        "eng": "<p>Sentences can represent the whole of reality, but they cannot represent what they must share with reality to be able to represent it—logical form.</p><p>If we were to represent logical form, we would have to be able to position ourselves as well as our sentences outside logic, that is, outside the world.</p><p>If we were to represent logical form, we would have to be able to position ourselves outside logic with our sentence, that is, outside the world.</p>",
+        "tlp-number": "4.12"
+    },
+    {
+        "eng": "<p>Sentences cannot represent logical form: it is mirrored in them.</p><p>Whatever is mirrored in language cannot be represented by it.</p><p>What expresses <em>itself</em> in<em> </em>language, <em>we </em>cannot express by means of language.</p><p>Sentences <em>show</em> the logical form of reality.</p>",
+        "tlp-number": "4.121"
+    },
+    {
+        "eng": "<p>Thus the sentence “<em>f</em>(<em>a</em>)” shows that the object <em>a </em>figures in its sense; the two sentences “<em>f</em><em>a</em>” and “<em>ga</em>” show that they are both about the same object.</p><p>If two sentences contradict each other, their structure shows it. Likewise, if one follows from the other. And so on.     </p>",
+        "tlp-number": "4.1211"
+    },
+    {
+        "eng": "<p>What <em>can </em>be shown, <em>cannot</em> be said.</p>",
+        "tlp-number": "4.1212"
+    },
+    {
+        "eng": "<p>And now we see why we feel that if only everything in our sign-language were all right, we would have a correct conception of logic.</p>",
+        "tlp-number": "4.1213"
+    },
+    {
+        "eng": "<p>In a certain sense we can talk of formal properties of objects and states of affairs or of properties of the structure of facts, and in the same sense of formal relations and relations of structures.</p><p>(Sometimes I speak of an “internal property” rather than a “property of a structure”, and of an “internal relation” rather than a “relation of structures”.</p><p>I introduce these expressions to point out the source of the confusion between internal relations and proper (external) relations, so common among philosophers.)</p><p>On the other hand, it is impossible to assert by means of sentences that such internal properties and relations hold: rather, this shows itself in the sentences<em> </em>that represent the relevant states of affairs and are about the objects in question.</p>",
+        "tlp-number": "4.122"
+    },
+    {
+        "eng": "<p>An internal property of a fact may be called a feature of this fact (in the sense that we speak of facial features, for example).</p>",
+        "tlp-number": "4.1221"
+    },
+    {
+        "eng": "<p>A property is internal if it is inconceivable for its object to fail to possess it.</p><p>(This shade of blue and that one stand,<em> ipso facto</em>, in the internal relation of lighter to darker. It is inconceivable that <em>these </em>two objects should not stand in this relation.)</p><p>(Here the shifting use of the word “object” corresponds to the shifting use of the words “property” and “relation”.)</p>",
+        "tlp-number": "4.123"
+    },
+    {
+        "eng": "<p>An internal property of a possible state of things is not expressed by means of a sentence: rather, it expresses itself in the sentence representing the state of things by means of an internal property of the sentence.</p><p>It would be just as nonsensical to ascribe a formal property to a sentence as to deny its ascription.</p>",
+        "tlp-number": "4.124"
+    },
+    {
+        "eng": "<p>Forms cannot be distinguished from one another by saying that one has this property, the other that, for this presupposes that it makes sense to ascribe either property to either form.</p>",
+        "tlp-number": "4.1241"
+    },
+    {
+        "eng": "<p>The obtaining of an internal relation between possible states of things expresses itself in language by means of an internal relation between the sentences representing them.</p>",
+        "tlp-number": "4.125"
+    },
+    {
+        "eng": "<p>Now this settles the controversial issue “whether all relations are internal or external”.</p>",
+        "tlp-number": "4.1251"
+    },
+    {
+        "eng": "<p>A series ordered by <em>internal</em> relations I call a series of forms.</p><p>The number series is ordered not in accordance with an external relation, but in accordance with an internal one. </p><p>The same holds of the series of sentences “<em>aRb</em>”,</p><p>“(∃<em>x</em>,<em>y</em>):<em>aRx</em>.<em>xRy</em>.<em>yRb</em>”, and so on.</p><p>(If <em>b</em> stands in one of these relations to <em>a</em>, I call <em>b</em> a successor to <em>a.</em>)</p>",
+        "tlp-number": "4.1252"
+    },
+    {
+        "eng": "<p>In the same sense that we speak of formal properties, we may now talk of formal concepts too.</p><p>(I introduce this expression to point out the reasons for the confusion of formal concepts and concepts proper, which permeates all of the old logic.)</p><p>Something’s being an object instantiating a formal concept cannot be expressed by a sentence, but it is revealed by the sign for the object itself. (A name shows that it signifies an object, a numeral that it refers to a number, etc.)</p><p>Unlike proper concepts, formal concepts cannot be represented by a function.</p><p>This is because their features—formal properties—are not expressed by functions.</p><p>The expression for a formal property is a feature of certain symbols.</p><p>So the sign for the features of a formal concept is a distinctive trait of all symbols whose meanings instantiate the concept.</p><p>So the expression for a formal concept is a sentential variable in which this distinctive trait alone is constant.</p>",
+        "tlp-number": "4.126"
+    },
+    {
+        "eng": "<p>The sentential variable signifies the formal concept, and its values signify the objects that are its instances.</p>",
+        "tlp-number": "4.127"
+    },
+    {
+        "eng": "<p>Every variable is the sign for a formal concept.</p><p>For every variable represents a constant form that all its values possess, and which may<em> </em>be regarded as a formal property of those values.</p>",
+        "tlp-number": "4.1271"
+    },
+    {
+        "eng": "<p>Wherever the word “object” (“thing”, “entity”, etc.) is correctly used, it is expressed in conceptual notation by a variable name.</p><p>For example, in the sentence “There are 2 objects<em> </em>such that…”, by “(∃<em>x</em>, <em>y</em>)…”.</p><p>Wherever it is used otherwise, that is as a proper concept-word, nonsensical pseudo-sentences emerge.</p><p>So for instance one cannot say “There are objects”, as one might say, “There are books”. And it is equally impossible to say, “There are 100 objects” or “There are א0 objects”.</p><p>And it is nonsense to speak of the <em>total number of objects</em>.</p><p>The same applies to the words “complex”, “fact”, “function”, “number”, etc. </p><p>They all signify formal concepts and are all represented in conceptual notation by variables, not by functions or classes. (As Frege and Russell believed.)</p><p>Expressions such as “1 is a number”, “There is only one zero”, and all similar ones are nonsensical.</p><p>(It is just as nonsensical to say, “There is only one 1”, as it would be to say, “At 3 o'clock 2+2 equals 4”.)</p>",
+        "tlp-number": "4.1272"
+    },
+    {
+        "eng": "<p>Once an object instantiating a formal concept is given, the formal concept is given too. So one cannot introduce as primitive ideas both a formal concept and objects that are instances of the formal concept. For example, one cannot introduce as primitive ideas both the concept of a function and specific functions (as Russell does); or the concept of number along with particular numbers.</p>",
+        "tlp-number": "4.12721"
+    },
+    {
+        "eng": "<p>To express the general sentence “b is a successor of a” in conceptual notation, we need an expression for the general term of the series of forms: </p><p>The only way to express the general term of a series of forms consists in using a variable, for the concept of a term of this series of forms is a <em>formal</em> concept. (This is something Frege and Russell overlooked. Their way of attempting to express general sentences like the one above is, therefore, wrong; it contains a vicious circle.)</p><p>We can specify the general term of a series of forms by stating its first term and the general form of the operation that generates the next term from the previous one.</p>",
+        "tlp-number": "4.1273"
+    },
+    {
+        "eng": "<p>It’s nonsense to ask the question whether a formal concept exists. For no sentence can be the answer to such a question.</p><p>(So, for example, one cannot ask: “Are there unanalyzable subject-predicate sentences?”)</p>",
+        "tlp-number": "4.1274"
+    },
+    {
+        "eng": "<p>Logical forms are <em>without </em>number.</p><p>This is why there are no superlative numbers in logic, and this is why there is no philosophical monism or dualism, etc.</p>",
+        "tlp-number": "4.128"
+    },
+    {
+        "eng": "<p>The sense of a sentence is its agreement and disagreement with the possibilities of obtaining and non-obtaining of states of affairs.</p>",
+        "tlp-number": "4.2"
+    },
+    {
+        "eng": "<p>The simplest kind of sentence, an elementary sentence, asserts the obtaining of a state of affairs.</p>",
+        "tlp-number": "4.21"
+    },
+    {
+        "eng": "<p>It is a sign of a sentence's being elementary that no elementary sentence can contradict it.</p>",
+        "tlp-number": "4.211"
+    },
+    {
+        "eng": "<p>An elementary sentence consists of names. It is a combination, a concatenation, of names.</p>",
+        "tlp-number": "4.22"
+    },
+    {
+        "eng": "<p>It is obvious that in analysing sentences we are bound to arrive at elementary sentences consisting of names in immediate connection.</p><p>Here the question arises: how does a sentential compound come about?</p>",
+        "tlp-number": "4.221"
+    },
+    {
+        "eng": "<p>Even if the world is infinitely complex, so that every fact consists of infinitely many states of affairs and every state of affairs is composed of infinitely many objects, there would still have to be objects and states of affairs.</p>",
+        "tlp-number": "4.2211"
+    },
+    {
+        "eng": "<p>In a sentence, a name occurs only in the context of an elementary sentence.</p>",
+        "tlp-number": "4.23"
+    },
+    {
+        "eng": "<p>Names are the simple symbols. I indicate them by single letters (“<em>x</em>”, “<em>y</em>”, “<em>z</em>”). </p><p>An elementary sentence I write as a function of names, following the pattern “<em>f</em>(<em>x</em>)”, “<em>φ</em>(<em>x</em>,<em>y</em>)”, etc. </p><p>Or I indicate it by the letters “<em>p</em>”, “<em>q</em>”, “<em>r</em>”.</p>",
+        "tlp-number": "4.24"
+    },
+    {
+        "eng": "<p>When I use two signs with one<em> </em>and the same meaning, I express this by putting the sign “=” between them.</p><p>So “<em>a</em><em> </em>= <em>b</em>” means: the sign “<em>b</em>” can be substituted for the sign “<em>a</em>”.</p><p>(If I use an equation to introduce a new sign “<em>b</em>” by specifying that it is meant to serve as a substitute for some already known sign<em> </em>“<em>a</em>”, then, like Russell, I write the equation – the definition – following the pattern “<em>a</em><em> </em>= <em>b </em>Def.” A definition is a rule for signs.)</p>",
+        "tlp-number": "4.241"
+    },
+    {
+        "eng": "<p>Expressions of the form “<em>a</em><em> </em>= <em>b</em>”<em> </em>are, therefore, only expedient aids in representation. They state nothing about the meaning of the signs “<em>a”</em> and “<em>b</em>”.</p>",
+        "tlp-number": "4.242"
+    },
+    {
+        "eng": "<p>Can we understand two names without knowing whether they signify the same thing or two different things? – Can we understand a sentence containing two names without knowing whether they mean the same thing or different things?</p><p>If, for example, I know the meaning of an English word and of a German word that means the same then it is impossible for me not to know that they mean the same; it is impossible for me not to be able to translate them into each other.</p><p>Expressions like “<em>a</em><em> </em><em>= </em><em>a</em>”, or those derived from them, are neither elementary sentences, nor are they (as will become clear later on) signs that make sense in some other way. </p>",
+        "tlp-number": "4.243"
+    },
+    {
+        "eng": "<p>If an elementary sentence is true, the state of affairs obtains; if it is false, the state of affairs does not obtain.</p>",
+        "tlp-number": "4.25"
+    },
+    {
+        "eng": "<p>To specify all true elementary sentences is to describe the world completely. The world is completely described by specifying all elementary sentences, plus specifying which of them are true and which false.</p>",
+        "tlp-number": "4.26"
+    },
+    {
+        "eng": "<p>For <em>n</em><em> </em>states of affairs, there are </p><p>possibilities of obtaining and non-obtaining.</p><p>All combinations of states of affairs may obtain, and the remainder not obtain.</p>",
+        "tlp-number": "4.27"
+    },
+    {
+        "eng": "<p>There correspond to these combinations the same number of possibilities of truth – and falsity – for <em>n </em>elementary sentences.</p>",
+        "tlp-number": "4.28"
+    },
+    {
+        "eng": "<p>The truth-possibilities of elementary sentences mean the possibilities of obtaining and non-obtaining of states of affairs.</p>",
+        "tlp-number": "4.3"
+    },
+    {
+        "eng": "",
+        "tlp-number": "4.31"
+    },
+    {
+        "eng": "<p>A sentence is an expression of agreement and disagreement with the truth-possibilities of elementary sentences.</p>",
+        "tlp-number": "4.4"
+    },
+    {
+        "eng": "<p>The truth-possibilities of elementary sentences are the conditions of truth and falsity of sentences.</p>",
+        "tlp-number": "4.41"
+    },
+    {
+        "eng": "<p>From the very beginning it is likely that the introduction of elementary sentences provides the basis for understanding all other kinds of sentence. Indeed it can be <em>felt</em> that understanding general sentences depends on understanding elementary sentences.</p>",
+        "tlp-number": "4.411"
+    },
+    {
+        "eng": "<p>As regards agreement and non-agreement between a sentence and the truth-possibilities of <em>n</em> elementary sentences, there are</p>",
+        "tlp-number": "4.42"
+    },
+    {
+        "eng": "<p>We can express agreement with truth-possibilities by assigning the mark “T<em>”</em> (true) to them in the table.</p><p>The absence of this mark means disagreement.</p>",
+        "tlp-number": "4.43"
+    },
+    {
+        "eng": "<p>A statement of agreement and non-agreement with the truth-possibilities of elementary sentences expresses the truth-conditions of a sentence.</p><p>A sentence is the expression of its truth-conditions.</p><p>(So Frege was quite right to prefix them to his conceptual notation as an explanation of its signs. Only that the explanation of the concept of truth given by Frege is wrong: if “the True” and “the False” really were objects and the arguments in ~<em>p</em>, etc., then according to Frege’s definition the sense of “~<em>p</em>”<em> </em>would not be well-defined in the least.</p>",
+        "tlp-number": "4.431"
+    },
+    {
+        "eng": "<p>The sign that results from assigning that mark “T” to truth-possibilities is a sentential sign.</p>",
+        "tlp-number": "4.44"
+    },
+    {
+        "eng": "<p>It is clear that there is no object (or complex of objects) corresponding to a complex of the signs <em>“F”</em> and <em>“T”</em>, just as there is none corresponding to the horizontal and vertical lines or to the brackets. – There are no “logical objects”.</p><p>Of course, similar considerations apply to all signs that express what the tables of <em>“</em><em>T'</em>s” and <em>“</em><em>F'</em>s” express.</p>",
+        "tlp-number": "4.441"
+    },
+    {
+        "eng": "<p>(Frege's “judgement stroke” “⊢” is logically quite meaningless: in Frege (and Russell) it only indicates that these authors hold the sentences marked in this way to be true. Thus “⊢” is no more a component part of a composite sentence than is, for instance, the sentence's number. A sentence cannot possibly state of itself that it is true.)</p><p>If the order of the truth-possibilities in a table is fixed once and for all by a combinatory rule, then the last column by itself will suffice as an expression of the truth-conditions. If we now write this column as a row, the sentential sign will become: </p><p>“(TT-T )(p,q)” or more lucidly, “(TTFT)(p,q)”.</p><p>(The number of places in the right-hand pair of brackets determines the number of terms in the left-hand pair.)</p>",
+        "tlp-number": "4.442"
+    },
+    {
+        "eng": "<p>For <em>n </em>elementary sentences there are <em>L</em><em>n</em><em> </em>possible groups of truth-conditions.</p><p>The groups of truth-conditions that go with the truth-possibilities of a number of elementary sentences can be arranged in a series.</p>",
+        "tlp-number": "4.45"
+    },
+    {
+        "eng": "<p>Among the possible groups of truth-conditions there are two extreme cases.</p><p>In one case the sentence is true for all the truth-possibilities of the elementary sentences. Here we say that the truth-conditions are <em>tautologous</em>. </p><p>In the second case the sentence is false for all truth-possibilities; the truth-conditions are <em>contradictory</em>.</p><p>In the first case we call the sentence a tautology; in the second, a contradiction.</p>",
+        "tlp-number": "4.46"
+    },
+    {
+        "eng": "<p>A sentence shows what it says: a tautology and a contradiction show that they say nothing.</p><p>Because a tautology is unconditionally true, it has no truth-conditions; on no condition is a contradiction true.</p><p>Tautologies and contradictions lack sense.</p><p>(Like a point from which two arrows go in opposite directions.)</p><p>(For example, I know nothing about the weather if I know that it is either raining or not raining.)</p>",
+        "tlp-number": "4.461"
+    },
+    {
+        "eng": "<p>On the other hand, tautologies and contradictions are not nonsense. They belong to the symbolism, and they do so in a way similar to that in which “0” forms part of the symbolism of arithmetic.</p>",
+        "tlp-number": "4.4611"
+    },
+    {
+        "eng": "<p>Tautologies and contradictions are not pictures of reality. They do not represent any possible state of things. For tautologies admit <em>all </em>possible states of things, contradictions admit <em>none</em>.</p><p>In a tautology the conditions of agreement with the world, the representing relations, cancel one another out, so that it does not stand in any representing relation to reality.</p>",
+        "tlp-number": "4.462"
+    },
+    {
+        "eng": "<p>The truth-conditions of a sentence trace out the leeway the sentence leaves to the facts.</p><p>(A sentence, a picture, or a model is, in the negative sense, like a solid body restricting the freedom of movement of other ones; in the positive sense, like a space bounded by solid substance in which there is room for a body.)</p><p>A tautology leaves the whole of – infinite – logical space open to reality; a contradiction fills the whole of logical space, leaving not a dot to reality. Thus neither of them can trace out reality in any way.</p>",
+        "tlp-number": "4.463"
+    },
+    {
+        "eng": "<p>The truth of tautologies is certain, of sentences possible, of contradictions impossible. (Certain, possible, impossible: here we have a hint of the graduation needed in probability theory.)</p>",
+        "tlp-number": "4.464"
+    },
+    {
+        "eng": "<p>The logical product of a tautology and a sentence says the same thing as the sentence. This product, therefore, is identical with the sentence. For what is essential to a symbol cannot be altered without altering its sense.</p>",
+        "tlp-number": "4.465"
+    },
+    {
+        "eng": "<p>To a specific logical combination of signs corresponds a specific logical combination of their meanings. It is only to the uncombined signs that <em>absolutely</em> <em>any </em>combination corresponds. </p><p>That is, sentences that are true for every state of things cannot be combinations of signs at all, for otherwise only certain combinations of objects could correspond to them. </p><p>(And what isn’t a logical combination has <em>no </em>combination of objects corresponding to it.)</p><p>Tautology and contradiction are limiting cases of the combination of signs, namely their disintegration.</p>",
+        "tlp-number": "4.466"
+    },
+    {
+        "eng": "<p>Of course the signs are still combined with each other even in tautologies and contradictions, that is, they stand in relations to one other, but these relations are meaningless, they are not essential to the <em>symbol</em>.</p>",
+        "tlp-number": "4.4661"
+    },
+    {
+        "eng": "<p>It now seems possible to specify the most general sentential form: that is, to describe the sentences of any sign-language whatsoever, so that every possible sense can be expressed by a symbol that fits the description, and every symbol that fits the description can express a sense, provided that the meanings of the names are suitably chosen.</p><p>It is obvious that in describing the most general sentential form, only<em> </em>what is essential to it may be described –  otherwise, it would not be the most general one.</p><p>That there may not be a sentence whose form could not have been anticipated (<em>i.e. </em>constructed) proves the existence of a general sentential form. The general sentential form is: such and such is the way things stand.</p>",
+        "tlp-number": "4.5"
+    },
+    {
+        "eng": "<p>Suppose I was given <em>all </em>elementary sentences. Then I can simply ask: what sentences I can construct out of them?  –These are <em>all </em>the sentences, and <em>this </em>is how they are delimited.</p>",
+        "tlp-number": "4.51"
+    },
+    {
+        "eng": "<p>Sentences are all that follows from the totality of all elementary sentences (and, of course, from its being the<em> totality of them all</em>.)  (So one could say, in a certain sense, that <em>all</em> sentences are generalizations of elementary sentences.)</p>",
+        "tlp-number": "4.52"
+    },
+    {
+        "eng": "<p>A sentence is a truth-function of elementary sentences.</p><p>(An elementary sentence is a truth-function of itself.)</p>",
+        "tlp-number": "4.53"
+    },
+    {
+        "eng": "<p>Elementary sentences are the truth-arguments of sentences.</p>",
+        "tlp-number": "5.01"
+    },
+    {
+        "eng": "<p>It easily happens that the arguments of functions are mistaken for the indices of names. For both argument and index provide ways of recognizing the meaning of the signs including them. </p><p>In Russell’s “+<em>c</em>”, for instance, “<em>c</em>” is an index indicating that the whole sign is the addition sign for cardinal numbers. But this way of signifying is due to an arbitrary convention and we could choose a simple sign instead of “+<em>c</em>”; in “~<em>p</em>”, however, “<em>p” </em>is not an index but an argument; the sense of “~<em>p</em>” <em>cannot </em>be understood unless one has already grasped the sense of “<em>p</em>”. (In the name “Julius Caesar” “Julius” is an index. An index is always part of a description of the object to whose name we attach it. <em>That </em>Caesar, for example – the one belonging to the Julian gens.)</p><p>If I am not mistaken, Frege's theory of the meaning of sentences and functions is based on confusing argument and index. For Frege, the sentences of logic were names, and their arguments were the indexes of those names.</p>",
+        "tlp-number": "5.02"
+    },
+    {
+        "eng": "<p>Truth-functions admit of being arranged in series.</p><p>That is the basis of the theory of probability.</p>",
+        "tlp-number": "5.1"
+    },
+    {
+        "eng": "<p>The truth-functions of any number of elementary sentences can be set out in a table of the following kind:</p><p>Those truth-possibilities of a sentence’s truth-arguments that make it true are what I call its<em> </em><em>tr</em><em>uth-grounds</em>.</p>",
+        "tlp-number": "5.101"
+    },
+    {
+        "eng": "<p>If all the truth-grounds which are common to a number of sentences are at the same time truth-grounds of a given sentence, then we say that the truth of this sentence follows from the truth of those sentences.</p>",
+        "tlp-number": "5.11"
+    },
+    {
+        "eng": "<p>In particular, the truth of a sentence “<em>p</em>”<em> </em>follows from the truth of another sentence “<em>q</em>”<em> </em>if all the truth-grounds of the latter are truth-grounds of the former.</p>",
+        "tlp-number": "5.12"
+    },
+    {
+        "eng": "<p>The truth-grounds of the one are contained in those of the other; <em>p </em>follows from <em>q</em>.</p>",
+        "tlp-number": "5.121"
+    },
+    {
+        "eng": "<p>If <em>p </em>follows from <em>q</em>, the sense of “<em>p” </em>is contained in the sense of “<em>q</em>”.</p>",
+        "tlp-number": "5.122"
+    },
+    {
+        "eng": "<p>If a god creates a world in which certain sentences are true, he thereby at the same time creates a world in which all the sentences that follow from them are true. And similarly he could not create a world in which sentence “<em>p</em>”<em> </em>is true without creating all its objects.</p>",
+        "tlp-number": "5.123"
+    },
+    {
+        "eng": "<p>A sentence affirms every sentence that follows from it.</p>",
+        "tlp-number": "5.124"
+    },
+    {
+        "eng": "<p>“<em>p.q</em>” is one of the sentences that affirm “<em>p</em>” while also being one of the sentences that affirm “<em>q</em>”.</p><p>Two sentences form opposites if there is no sentence with a sense that affirms both.</p><p>Every sentence that contradicts another denies it.</p>",
+        "tlp-number": "5.1241"
+    },
+    {
+        "eng": "<p>We see from the structure of the sentences that the truth of one sentence follows from the truth of others.</p>",
+        "tlp-number": "5.13"
+    },
+    {
+        "eng": "<p>If the truth of one sentence follows from the truth of others, this expresses itself through relations in which the forms of those sentences stand to one another; and there is no need for us to establish such relations between them by combining them with one another in one sentence. On the contrary, such relations are internal and they obtain as soon as those sentences are given and in virtue of their very existence.</p>",
+        "tlp-number": "5.131"
+    },
+    {
+        "eng": "<p>In inferring <em>q</em> from <em>p</em>∨<em>q </em>and ~<em>p </em>the relation between the sentential forms of “<em>p</em>∨<em>q</em>” and “~<em>p</em>” is concealed by our mode of signifying. But if instead of “<em>p</em>∨<em>q</em>” we write “<em>p</em>|<em>q</em>.|.<em>p</em>|<em>q</em>”, and instead of “~<em>p</em>”, “<em>p</em>|<em>p</em>” (<em>p</em>|<em>q </em>= neither <em>p </em>nor <em>q</em>), then the inner connection becomes apparent.</p><p>(The possibility of inferring <em>fa</em> from (<em>x</em>).<em> fx</em> shows that generality is also present in the symbol “(<em>x</em>).<em> fx</em>”.)</p>",
+        "tlp-number": "5.1311"
+    },
+    {
+        "eng": "<p>The kind of inference concerned can be gathered from the two sentences themselves.</p><p>Only they themselves can justify the inference.</p><p> “Laws of inference”, which—as in Frege and Russell—are supposed to justify inferences, are senseless and would be superfluous.</p>",
+        "tlp-number": "5.132"
+    },
+    {
+        "eng": "",
+        "tlp-number": "5.133"
+    },
+    {
+        "eng": "<p>From an elementary sentence, no other can be deduced.</p>",
+        "tlp-number": "5.134"
+    },
+    {
+        "eng": "<p>In no way can an inference be made from the obtaining of any one state of things to the obtaining of another, an entirely different state of things.</p>",
+        "tlp-number": "5.135"
+    },
+    {
+        "eng": "<p>There is no causal nexus that might justify such an inference.</p>",
+        "tlp-number": "5.136"
+    },
+    {
+        "eng": "<p>Superstition is nothing but belief in a causal nexus.</p>",
+        "tlp-number": "5.1361"
+    },
+    {
+        "eng": "<p>Freedom of the will consists in the impossibility of our knowing future actions now. We could know them only if causality were an <em>in</em><em>trinsic</em><em> </em>necessity like that of logical inference. – The connection between knowing and the known is that of logical necessity.</p><p>(“<em>A </em>knows that <em>p</em>” is senseless if <em>p </em>is a tautology.)</p>",
+        "tlp-number": "5.1362"
+    },
+    {
+        "eng": "<p>If the truth of a sentence does not <em>follow </em>from the fact that it is self-evident to us, then self-evidence in no way justifies our belief in its truth.</p>",
+        "tlp-number": "5.1363"
+    },
+    {
+        "eng": "<p>If a sentence follows from another, then the latter says more than the former, and the former says less than the latter.</p>",
+        "tlp-number": "5.14"
+    },
+    {
+        "eng": "<p>If <em>p </em>follows from <em>q </em>and <em>q </em>follows from <em>p</em>, then they are one and the same sentence.</p>",
+        "tlp-number": "5.141"
+    },
+    {
+        "eng": "<p>A tautology follows from all sentences: it says <em>nothing</em>.</p>",
+        "tlp-number": "5.142"
+    },
+    {
+        "eng": "<p>Contradiction is that shared feature of sentences which <em>no </em>sentence has in common with another. Tautology is that shared feature of all sentences which have nothing in common with one another.</p><p>Contradiction vanishes so to speak outside all sentences, tautology inside them.</p><p>Contradiction is the outer limit of sentences, tautology their substanceless centre.</p>",
+        "tlp-number": "5.143"
+    },
+    {
+        "eng": "<p>If “<em>T</em><em>r</em>” is the number of truth-grounds of sentence “<em>r</em>”, and <em>T</em><em>rs</em><em> </em>the number of those truth-grounds of sentence “<em>s</em>” that are at the same time truth-grounds of “<em>r</em>”, then let us call the ratio: <em>T</em><em>rs</em>/<em>T</em><em>r</em><em> </em>the measure of the <em>probability </em>given by  sentence “<em>r</em>” to sentence “<em>s</em>”.</p>",
+        "tlp-number": "5.15"
+    },
+    {
+        "eng": "<p>In a table like the one in 5.101, let <em>T</em><em>r</em><em> </em>be the number of “<em>T</em><em>'</em>s” in sentence <em>r</em>, and let <em>T</em><em>rs</em><em> </em>be the number of “<em>T</em><em>'</em>s” in sentence <em>s </em>that stand in columns in which sentence <em>r </em>has “<em>T</em><em>'</em>s”. Then sentence “<em>r</em>” assigns to sentence <em>s </em>the probability <em>T</em><em>rs</em>/<em>T</em><em>r</em>.</p>",
+        "tlp-number": "5.151"
+    },
+    {
+        "eng": "",
+        "tlp-number": "5.1511"
+    },
+    {
+        "eng": "<p>Sentences that share no truth-arguments with one another we call independent of one another. </p><p>Two elementary sentences give one another the probability 1/2.</p><p>If <em>p </em>follows from <em>q</em>, then sentence “<em>q</em>” gives sentence “<em>p</em>” the probability 1. The certainty of logical inference is a limiting case of probability. </p><p>(Application to tautology and contradiction.)</p>",
+        "tlp-number": "5.152"
+    },
+    {
+        "eng": "<p>A sentence is in itself neither probable nor improbable. Either an event occurs or it does not: there is nothing in between.</p>",
+        "tlp-number": "5.153"
+    },
+    {
+        "eng": "<p>Suppose that an urn contains an equal number of white and black balls (and no others). I draw one ball after another and put them back into the urn. Then by this test I can discover that the numbers of black and white balls drawn converge as the drawing continues.</p><p>So <em>this </em>is not a fact of mathematics. </p><p>Now, if I say, “It’s equally probable that I will draw a white ball as a black one”, this means: “All the circumstances known to me (including the laws of nature hypothetically assumed) give no <em>more </em>probability to the occurrence of the one event than to that of the other.” That is, they give each event the probability 1/2, as can easily be gathered from the above explanations. </p><p>What I confirm by the test is that the occurrence of the two events is independent of circumstances about which I have no more detailed knowledge.</p>",
+        "tlp-number": "5.154"
+    },
+    {
+        "eng": "<p>The unit for a probability sentence is this: that the circumstances—of which I have no additional knowledge—give such and such a degree of probability to the occurrence of a particular event.</p>",
+        "tlp-number": "5.155"
+    },
+    {
+        "eng": "<p>In this way probability is a generalization.</p><p>It involves a general description of a sentential form.</p><p>We use probability only in lieu of certainty. – Namely, in case our knowledge of a fact is incomplete, while we do know <em>something </em>about its form.</p><p>(A sentence may well be an incomplete picture of a certain state of things, but it is always <em>a</em> complete picture.)</p><p>A probability sentence is, as it were, an extract from other sentences.</p>",
+        "tlp-number": "5.156"
+    },
+    {
+        "eng": "<p>The structures of sentences stand in internal relations to one another.</p>",
+        "tlp-number": "5.2"
+    },
+    {
+        "eng": "<p>In our form of expression we can highlight these internal relations by representing a sentence as the result of an operation that generates it from other sentences (the operation’s bases).</p>",
+        "tlp-number": "5.21"
+    },
+    {
+        "eng": "<p>An operation is the expression of a relation between the structures of its result and of its bases.</p>",
+        "tlp-number": "5.22"
+    },
+    {
+        "eng": "<p>An operation is what has to be done to one sentence to turn it into another.</p>",
+        "tlp-number": "5.23"
+    },
+    {
+        "eng": "<p>And that will, of course, depend on their formal properties, the internal similarity of their forms.</p>",
+        "tlp-number": "5.231"
+    },
+    {
+        "eng": "<p>A series is ordered by an internal relation equivalent to the operation by which one term is generated from another.</p>",
+        "tlp-number": "5.232"
+    },
+    {
+        "eng": "<p>Operations can only come onstage when one sentence is generated from another in a logically meaningful way, and that is to say, only when the logical construction of sentences sets in.</p>",
+        "tlp-number": "5.233"
+    },
+    {
+        "eng": "<p>Truth-functions of elementary sentences are results of operations with elementary sentences as bases. (These operations I call truth-operations.)</p>",
+        "tlp-number": "5.234"
+    },
+    {
+        "eng": "<p>The sense of a truth-function of <em>p </em>is a function of the sense of <em>p</em>.</p><p>(Negation reverses the sense of a sentence.) </p>",
+        "tlp-number": "5.2341"
+    },
+    {
+        "eng": "<p>An operation makes its appearance in a variable; it shows how we can get from one form of sentences to another. </p><p>It expresses the difference between these forms. </p><p>(And the shared features of bases and result of an operation are the bases themselves.)</p>",
+        "tlp-number": "5.24"
+    },
+    {
+        "eng": "<p>An operation does not characterize a form, but only a difference between forms.</p>",
+        "tlp-number": "5.241"
+    },
+    {
+        "eng": "<p>The same operation that produces “<em>q</em>” from “<em>p</em>” also produces “<em>r</em>” from “<em>q</em>”, and so on. This can only be expressed by “<em>p</em>”, “<em>q</em>”, “<em>r</em>”, etc. being variables that give general expression to certain formal relations.</p>",
+        "tlp-number": "5.242"
+    },
+    {
+        "eng": "<p>The occurrence of an operation does not characterize the sense of a sentence. </p><p>Indeed, an operation states nothing, only its result does, and this depends on the operation’s bases. </p><p>(Operation and function must not be confused with each other.)</p>",
+        "tlp-number": "5.25"
+    },
+    {
+        "eng": "<p>A function cannot be its own argument, but the result of an operation can become its own basis.</p>",
+        "tlp-number": "5.251"
+    },
+    {
+        "eng": "<p>Only in this way is advancing from term to term in a series of forms possible (from type to type in Russell and Whitehead’s hierarchies). (Russell and Whitehead did not admit the possibility of advancing in this way, but they relied on it again and again.)</p>",
+        "tlp-number": "5.252"
+    },
+    {
+        "eng": "<p>The repeated application of an operation to its own result I call its successive application. (“<em>O</em>'<em>O</em>'<em>O</em>'<em>a</em>” is the result of three successive applications of the operation “<em>O</em>'<em>ξ</em>” to “<em>a</em>”.)</p><p>It is in a similar sense that I speak of successive applications of <em>several </em>operations to a number of sentences.</p>",
+        "tlp-number": "5.2521"
+    },
+    {
+        "eng": "<p>Accordingly, for the general term of the series of forms <em>a</em>, <em>O</em>'<em>a</em>, <em>O</em>'<em>O</em>'<em>a</em>, … I use the sign “[<em>a</em>, <em>x</em>, <em>O</em>'<em>x</em>]”. This bracketed expression is a variable. The first term of the expression in brackets is the beginning of the series of forms, the second is the form of a term <em>x </em>selected arbitrarily from the series, and the third is the form of the term immediately following <em>x </em>in the series.</p>",
+        "tlp-number": "5.2522"
+    },
+    {
+        "eng": "<p>The concept of successive applications of an operation is equivalent to the concept “and so on”.</p>",
+        "tlp-number": "5.2523"
+    },
+    {
+        "eng": "<p>One operation can nullify the effect of another. Operations can cancel each other out.</p>",
+        "tlp-number": "5.253"
+    },
+    {
+        "eng": "<p>Operations can vanish (for example, negation in “~~<em>p</em>”: ~~<em>p</em><em> </em>= <em>p</em>).</p>",
+        "tlp-number": "5.254"
+    },
+    {
+        "eng": "<p>All sentences are results of truth-operations on elementary sentences.</p><p>A truth-operation is the way in which a truth-function is generated from elementary sentences.</p><p>It is in the nature of truth-operations that the way in which elementary sentences yield their truth-functions is the same as that in which truth-functions yield further ones. Every truth-operation generates from truth-functions of elementary sentences another truth-function of elementary sentences, that is, another sentence. The result of any truth-operation on the results of truth-operations on elementary sentences is yet again the result of a <em>single </em>truth-operation on elementary sentences. </p><p>Every sentence is the result of truth-operations on elementary sentences.</p>",
+        "tlp-number": "5.3"
+    },
+    {
+        "eng": "<p>The tables in 4.31 are meaningful, even when “<em>p</em>”, “<em>q</em>”, “<em>r</em>”, etc. are not elementary sentences.</p><p>And it is easy to see that the sentential sign in 4.442 expresses a single<em> </em>truth-function of elementary sentences even when “<em>p” </em>and “<em>q</em>” are truth-functions of elementary sentences.</p>",
+        "tlp-number": "5.31"
+    },
+    {
+        "eng": "<p>All truth-functions are results of successive applications of a finite number of truth-operations to elementary sentences.</p>",
+        "tlp-number": "5.32"
+    },
+    {
+        "eng": "<p>Here it becomes apparent that there are no such things as “logical objects”, “logical constants” (in Frege’s and Russell’s sense).</p>",
+        "tlp-number": "5.4"
+    },
+    {
+        "eng": "<p>For all results of truth-operations on truth-functions that are one and the same truth-function of elementary sentences are identical.</p>",
+        "tlp-number": "5.41"
+    },
+    {
+        "eng": "<p>Clearly, ∨, ⊃, etc. are not relations in the sense in which right and left, etc. are relations.</p><p>The interdefinability of Frege's and Russell's “primitive signs” of logic suffices to show that they are not primitive, still less signs for relations.</p><p>And it is obvious that the “⊃” that we define in terms of “~” and “∨” is identical with that by which we define “∨” by means of “~”; and that this second “∨” is identical with the first, and so on.</p>",
+        "tlp-number": "5.42"
+    },
+    {
+        "eng": "<p>At first sight it seems scarcely credible that from one fact <em>p </em>infinitely many <em>others </em>should follow, namely, ~~<em>p</em>, ~~~~<em>p</em>, etc. It is no less strange, however, that the infinite number of sentences of logic (mathematics) follow from half a dozen “basic laws”.</p><p>But all the sentences of logic say the same thing. Namely, nothing.</p>",
+        "tlp-number": "5.43"
+    },
+    {
+        "eng": "<p>Truth-functions are not material functions.</p><p>If, for instance, an affirmation can be produced by double negation, is the negation—in some sense—contained in the affirmation? Does “~~<em>p</em>”<em> </em>negate ~<em>p</em>, or does it affirm <em>p</em>, or both?</p><p>The sentence “~~<em>p</em>”<em> </em>is not about negation in the way in which it might be about an object; on the other hand, the possibility of negation is already preformed in affirmation.</p><p>And if there were an object called “~”, then “~~<em>p</em>”<em> </em>would have to say something different from what “<em>p</em>” says. For the one sentence would then be about ~ and the other would not.</p>",
+        "tlp-number": "5.44"
+    },
+    {
+        "eng": "<p>This kind of disappearance of apparent logical constants also happens if “~(∃x).~<em> f</em>x” amounts to the same as “(x).<em> f</em>x”, or if “(∃x).<em> f</em>x.x<em> </em>= a” amounts to the same as “<em>f</em>a”.</p>",
+        "tlp-number": "5.441"
+    },
+    {
+        "eng": "<p>If we are given a sentence, then <em>at the same time</em> we are given the results of all truth-operations that have it as their basis.</p>",
+        "tlp-number": "5.442"
+    },
+    {
+        "eng": "<p>If there are primitive signs of logic, then any correct logic must clearly show their relative status and spell out their raison d’être. The construction of logic out of<em> </em>its primitive signs must become clear.</p>",
+        "tlp-number": "5.45"
+    },
+    {
+        "eng": "<p>If logic is based on primitive concepts, they must be independent of one another. Once a primitive concept is introduced, it must be introduced for all contexts in which it occurs at all. One cannot, therefore, introduce it first for <em>one</em> context and then again for another one. For instance, once negation is introduced, we must now understand it in the same way both in sentences of the form ~<em>p </em>and in sentences like “~(<em>p</em>∨<em>q</em>)”, “(∃x).~<em> fx</em>”, etc. We must not introduce it first for one class of cases and then for another, since it would then remain doubtful whether its meaning were the same in both cases, and there would be no reason for using the same way of combining signs in both cases.</p><p>(In short, what Frege said about introducing signs by means of definitions (in <em>The Fundamental Laws of Arithmetic</em>) also applies, <em>mutatis mutandis</em>, to the introduction of primitive signs.)</p>",
+        "tlp-number": "5.451"
+    },
+    {
+        "eng": "<p>The introduction of any new expedient into the symbolism of logic must always be a momentous event. In logic a new expedient may not be introduced in brackets or in a footnote with a completely innocent face, as it were. </p><p>(Thus in <em>Principia Mathematica </em>some of Russell and Whitehead’s definitions and primitive propositions are expressed in words. Why do they spring words on us at these points? This would require a justification. But that is, and must be, lacking, since the practice is actually illegitimate.)</p><p>But if we need to introduce a new expedient at some point, we must first ask “Where will the use of this expedient now be <em>unavoidable</em>?” At this point its logical status must be explained.</p>",
+        "tlp-number": "5.452"
+    },
+    {
+        "eng": "<p>All numbers figuring in logic must be amenable to justification.</p><p>Or rather, it must emerge that there are no numbers in logic.</p><p>There are no superlative numbers.</p>",
+        "tlp-number": "5.453"
+    },
+    {
+        "eng": "<p>In logic there are no neighbours, nor can there be any classification.</p><p>Logic does not allow for degrees of generality and specificity.</p>",
+        "tlp-number": "5.454"
+    },
+    {
+        "eng": "<p>The solutions to logical problems must be simple, since they set the standard of simplicity.</p><p>People have always had an inkling that there must be a realm of questions where the answers – <em>a priori</em><em> – </em>are symmetrically united and form a self-contained regular structure.</p><p>A realm governed by the maxim: <em>simplex sigillum veri</em>.</p>",
+        "tlp-number": "5.4541"
+    },
+    {
+        "eng": "<p>If we introduced the signs of logic properly, then we would have introduced the sense of all their combinations at the same time; that is,<em> </em>not only “<em>p</em>∨<em>q</em>” but also “~(<em>p</em>∨~<em>q</em>)”, etc., etc. We should also have introduced at the same time the impact of all possible combinations of brackets. And in this way it would have become clear that the real  general primitive signs are not exemplified by “<em>p</em>∨<em>q</em>”, “(∃<em>x</em>).<em> fx</em>”, etc. but by the most general form of their combinations.</p>",
+        "tlp-number": "5.46"
+    },
+    {
+        "eng": "<p>What is significant is the apparently irrelevant fact that logical pseudorelations such as ∨ and ⊃ – as opposed to real relations – require brackets.</p><p>The use of brackets with these apparently primitive signs already indicates that they are not the real primitive signs. And surely no one would believe, would they, that brackets have an independent meaning.</p>",
+        "tlp-number": "5.461"
+    },
+    {
+        "eng": "<p>The signs for logical operations are punctuation marks.</p>",
+        "tlp-number": "5.4611"
+    },
+    {
+        "eng": "<p>It is clear that whatever can be said <em>in advance </em>about the form of all sentences, must be sayable <em>all at once</em>.</p><p>After all, an elementary sentence already contains all logical operations. For “<em>f</em><em>a</em>” amounts to the same as “(∃<em>x</em>).<em>f</em><em>x</em>.<em>x </em>= <em>a</em>”.</p><p>Wherever there is compositeness, there is argument and function, and where these are present, all the logical constants are already there.</p><p>One could say: the sole logical constant is what <em>all </em>sentences, by their nature, have in common with one another.</p><p>But that is the general sentential form.</p>",
+        "tlp-number": "5.47"
+    },
+    {
+        "eng": "<p>The general sentential form is the quintessence of sentencehood.</p>",
+        "tlp-number": "5.471"
+    },
+    {
+        "eng": "<p>To specify the essence of sentences amounts to specifying the essence of all description, and thus the essence of the world.</p>",
+        "tlp-number": "5.4711"
+    },
+    {
+        "eng": "<p>A description of the most general sentential form is a description of the one and only general primitive sign in logic.</p>",
+        "tlp-number": "5.472"
+    },
+    {
+        "eng": "<p>Logic must take care of itself.</p><p>If a sign is <em>possible</em>, it must also be capable of signifying. Whatever is possible in logic is permissible as well. (“Socrates is identical” means nothing, because there is no property called “identical”.  The sentence is nonsense, not because a symbol is, shall we say, impermissible in itself, but because we have not made some arbitrary definition.) </p><p>In a certain sense, we cannot pick the wrong logic.</p>",
+        "tlp-number": "5.473"
+    },
+    {
+        "eng": "<p>There is only one way in which self-evidence, which Russell mentioned so often, can become dispensable in logic: language itself is to forestall every logical mistake. – That logic is <em>a priori</em> consists in this: that one <em>cannot</em> think illogically.</p>",
+        "tlp-number": "5.4731"
+    },
+    {
+        "eng": "<p>We cannot give a sign the wrong sense.</p>",
+        "tlp-number": "5.4732"
+    },
+    {
+        "eng": "<p>Of course, Occam's razor is no arbitrary rule, nor one that is justified by its practical success: its point is that <em>unnecessary </em>sign-units mean nothing.</p><p>Signs that serve <em>one </em>purpose are logically equivalent, and signs that serve <em>none </em>are logically meaningless.</p>",
+        "tlp-number": "5.47321"
+    },
+    {
+        "eng": "<p>Frege says: any legitimately constructed sentence must make sense. And I say: any possible sentence is legitimately constructed, and, if it doesn’t make sense, that can only be because we have not given any <em>meaning </em>to some of its constituents. </p><p>(Even if we think we have.)</p><p>Thus the reason why “Socrates is identical” says nothing is that we have given <em>no </em>meaning to the <em>adjectival</em> use of the word “identical”. For when it appears as a sign for identity, it symbolizes in an entirely different way – the signifying relation is different – therefore the symbols in the two cases are entirely different, too: the two symbols only happen to share their signs.</p>",
+        "tlp-number": "5.4733"
+    },
+    {
+        "eng": "<p>The number of fundamental operations we need depends <em>solely </em>on our notation.</p>",
+        "tlp-number": "5.474"
+    },
+    {
+        "eng": "<p>The  only thing that matters is the construction of a system of signs with a particular number of dimensions – with a particular mathematical multiplicity.</p>",
+        "tlp-number": "5.475"
+    },
+    {
+        "eng": "<p>It is clear that this is not about a<em> number of</em><em> primitive concepts </em>that must be signified, but rather the expression of a rule.</p>",
+        "tlp-number": "5.476"
+    },
+    {
+        "eng": "<p>Every truth-function is a result of successive applications of the operation “(-----<em>T </em>)(<em>ξ </em>, . . . . .)” to elementary sentences.</p><p>This operation negates all the sentences in the right-hand pair of brackets, and I call it the negation of these sentences.</p>",
+        "tlp-number": "5.5"
+    },
+    {
+        "eng": "<p>When the terms of a bracketed expression are sentences —and their order inside the brackets is irrelevant—then I indicate this by a sign of the form “(<em>ξ</em>̅  )”. “<em>ξ</em>” is a variable whose values are terms of the bracketed expression, and the bar over it indicates that it stands for all its values in the brackets. </p><p>(Thus if <em>ξ</em>, for example,<em> </em>has the three values <em>P</em>, <em>Q</em>, <em>R</em>, then (<em>ξ</em>̅  )<em> </em>= (<em>P</em>, <em>Q</em>, <em>R</em>).) </p><p>The values of the variable are to be stipulated.</p><p>The stipulation is a description of the sentences which the variable stands in for.</p><p>The way in which a description of the terms of the bracketed expression is carried out is irrelevant.</p><p>We <em>can</em> distinguish three kinds of description: 1) Direct enumeration. In this case we can simply substitute for the variable the constants that are its values. 2) Specifying a function <em>f</em>(<em>x</em>)<em> </em>whose values for all values of <em>x </em>are the sentences to be described. 3) Specifying a formal law in accordance with which those sentences are constructed. In this case the terms of the expression in brackets are all the terms of a series of forms.</p>",
+        "tlp-number": "5.501"
+    },
+    {
+        "eng": "<p><em>N </em>(<em>ξ</em>̅  ) is the negation of all the values of the sentential variable <em>ξ</em>.</p>",
+        "tlp-number": "5.502"
+    },
+    {
+        "eng": "<p>Obviously, it is easy to state how sentences may and may not be constructed by means of this operation. Hence there must be an exact way in which this can find expression.</p>",
+        "tlp-number": "5.503"
+    },
+    {
+        "eng": "<p>If <em>ξ</em><em> </em>has only one value, then <em>N</em>(<em>ξ</em>̅  ) = ~<em>p</em> (not <em>p</em>); if it has two values, then <em>N</em>(<em>ξ</em>̅  )<em> </em>= ~<em>p.</em>~<em>q </em>(neither p nor q).</p>",
+        "tlp-number": "5.51"
+    },
+    {
+        "eng": "<p>How can an all-embracing, world-reflecting logic use such contrived hooks and manipulations? Only by their all knitting themselves together into an infinitely fine network, the great mirror.</p>",
+        "tlp-number": "5.511"
+    },
+    {
+        "eng": "<p>“~<em>p</em>” is true if “<em>p</em>” is false. Therefore, in the sentence “~<em>p</em>”, when true, “<em>p</em>” is a false sentence. How then can the tilde “~” make it agree with reality?</p><p>What negates in “~<em>p</em>” though is not the “~”: rather, the negating is done by what all the signs of this notation which negate <em>p</em> have in common. </p><p>That is, the common rule governing the construction of “~<em>p</em>”, “~~~<em>p</em>”, “~<em>p </em>∨~<em>p</em>”, “~<em>p </em>.~<em>p</em>”, etc., etc. (ad inf.). And what is common here mirrors negation.</p>",
+        "tlp-number": "5.512"
+    },
+    {
+        "eng": "<p>It could be said that the sentence “<em>p</em>.<em>q</em>” is what is common to all symbols that affirm both <em>p </em>and <em>q</em>. The sentence “<em>p</em>∨<em>q</em>” is what is common to all symbols that affirm either <em>p </em>or <em>q</em>.</p><p>And so one may say: Two sentences are opposites of one another if they have nothing in common, and: every sentence has only one negative, since there is only one sentence that lies entirely outside it.</p><p>Thus it also becomes apparent in Russell’s notation that “<em>q</em>:<em>p</em>∨~<em>p</em>” says the same as “<em>q</em>”, and that “<em>p</em>∨~<em>p</em>” says nothing.</p>",
+        "tlp-number": "5.513"
+    },
+    {
+        "eng": "<p>Once a notation is established, it will contain a rule that governs how all sentences that negate <em>p </em>are constructed, a rule that governs the construction of all sentences that affirm <em>p</em>, a rule that governs the construction of all sentences that affirm <em>p </em>or <em>q,</em> and so on. These rules are equivalent to the symbols, and in them their sense is mirrored.</p>",
+        "tlp-number": "5.514"
+    },
+    {
+        "eng": "<p>It must become evident from our symbols that it can only be sentences that are connected by “∨”, “.”, etc.</p><p>And this is indeed the case, for the symbol “<em>p</em>”, and “<em>q</em>”, itself presupposes “∨”, “~”, etc. If the sign “<em>p</em>” in “<em>p</em>∨<em>q</em>” does not stand for a complex sign, then it cannot make sense by itself: but then the signs “<em>p</em>∨<em>p</em>”, “<em>p</em>.<em>p</em>”, etc., which have the same sense as “<em>p</em>”, cannot make sense either. However, if “<em>p</em>∨<em>p</em>” makes no sense, then “<em>p</em>∨<em>q</em>” cannot make sense either.</p>",
+        "tlp-number": "5.515"
+    },
+    {
+        "eng": "<p>Must the sign for a negative sentence be constructed by means of that for the positive sentence? Why shouldn’t it be possible to express a negative sentence by means of a negative fact? (For instance, if “<em>a</em>” does not stand in a certain relation to “<em>b</em>” this might express that <em>aRb </em>is not the case.)</p><p>Yet even in this case the negative sentence is constructed by indirectly relying on the positive one.</p><p>The positive <em>sentence </em>necessarily presupposes the existence of the negative <em>sentence</em>, and <em>vice versa</em>.</p>",
+        "tlp-number": "5.5151"
+    },
+    {
+        "eng": "<p>If the values of <em>ξ</em> are all the values of a function <em>f</em><em>x </em>for all values of <em>x</em>, then it will turn out that N(<em>ξ</em>̅  )<em> </em>= ~(∃<em>x</em>).<em>fx</em>.</p>",
+        "tlp-number": "5.52"
+    },
+    {
+        "eng": "<p>I separate the concept <em>all </em>from truth-functions.</p><p>Frege and Russell introduced generality together with logical product or logical sum. This made the sentences “(∃<em>x</em>).<em>f</em><em>x</em>” and “(<em>x</em>).<em>f</em><em>x</em>”, in which either idea is enshrined, difficult to understand.</p>",
+        "tlp-number": "5.521"
+    },
+    {
+        "eng": "<p>What is peculiar about  the sign for generality is, first, that it indicates a logical prototype, and second, that it throws constants into sharp relief.</p>",
+        "tlp-number": "5.522"
+    },
+    {
+        "eng": "<p>The sign for generality occurs as an argument.</p>",
+        "tlp-number": "5.523"
+    },
+    {
+        "eng": "<p>Once the objects are given, then thereby <em>all</em> objects are given to us.</p><p>Once the elementary sentences are given, then thereby <em>all </em>elementary sentences are given.</p>",
+        "tlp-number": "5.524"
+    },
+    {
+        "eng": "<p>It is incorrect to render the sentence “(∃<em>x</em>).<em>f</em><em>x</em>” verbally by “<em>f</em><em>x </em>is <em>possible</em>”, as Russell does.</p><p>The certainty, possibility, or impossibility of a state of things is not expressed by a sentence, but by whether an expression is a tautology, a sentence with sense, or a contradiction.</p><p>That precedent to which one would invariably like to appeal must already reside in the symbol itself.</p>",
+        "tlp-number": "5.525"
+    },
+    {
+        "eng": "<p>The world can be completely described using fully generalized sentences, that is<em> </em>to say: without first assigning any name to a particular object.</p><p>Then to arrive at the ordinary mode of expression, we simply need to say after an expression such as “There is one and only one <em>x </em>such that …”: and that <em>x </em>is <em>a</em>.</p>",
+        "tlp-number": "5.526"
+    },
+    {
+        "eng": "<p>A fully generalized sentence is composite, just like every other sentence. (This is shown by our needing to mention “<em>φ</em><em> </em>” and “<em>x</em>” separately in “(∃<em>x</em>, <em>φ</em>).<em>φx</em>”. Both stand, independently, in signifying relations to the world, as in an ungeneralized sentence.)</p><p>A characteristic of a composite symbol: it has something in common with <em>other </em>symbols.</p>",
+        "tlp-number": "5.5261"
+    },
+    {
+        "eng": "<p>After all, the truth or falsity of <em>every</em><em> </em>sentence alters something about the general construction of the world. And the leeway that the totality of elementary sentences allows in its construction is precisely what is delimited by entirely general sentences. </p><p>(If an elementary sentence is true, then, at any rate, <em>yet another </em>elementary sentence is true.)</p>",
+        "tlp-number": "5.5262"
+    },
+    {
+        "eng": "<p>Identity of object I express by identity of sign, and not by means of a sign of identity. Difference of objects I express by difference of signs.</p>",
+        "tlp-number": "5.53"
+    },
+    {
+        "eng": "<p>It’s obvious enough that identity is not a relation between objects. This becomes very clear if one considers, for example, the sentence “(<em>x</em>):<em>f</em><em>x.</em>⊃.<em>x</em><em> </em>= <em>a</em>”. What this sentence says is simply that <em>only a </em>satisfies function <em>f</em>, not that only things that stand in a certain relation to <em>a </em>satisfy <em>f</em>. </p><p>Of course, one might then say that, after all, <em>only a </em>stands in this relation to <em>a</em>; but if we were to expresse this, we ourselves would need the identity sign.</p>",
+        "tlp-number": "5.5301"
+    },
+    {
+        "eng": "<p>Russell's definition of “=” won’t do, because according to it one cannot say that two objects have all their properties in common. (Even if this sentence is never correct, it still makes <em>sense</em>.)</p>",
+        "tlp-number": "5.5302"
+    },
+    {
+        "eng": "<p>Roughly speaking, to say of <em>two </em>things that they are identical is nonsense, and to say of <em>one </em>thing that it is identical with itself is to say nothing at all.</p>",
+        "tlp-number": "5.5303"
+    },
+    {
+        "eng": "<p>Accordingly, I do not write “<em>f</em>(<em>a</em>,<em>b</em>).<em>a </em>= <em>b”</em>, but “<em>f</em>(<em>a</em>,<em>a</em>)” (or “<em>f</em>(<em>b</em>,<em>b</em>)”); and not “<em>f</em>(<em>a</em>,<em>b</em>).~<em>a</em><em> </em>= <em>b”</em>, but “<em>f</em>(<em>a</em>,<em>b</em>)”.</p>",
+        "tlp-number": "5.531"
+    },
+    {
+        "eng": "<p>And analogously: not “(∃<em>x</em>,<em>y</em>).<em>f</em>(<em>x</em>,<em>y</em>).<em>x</em><em> </em>= <em>y</em>”, but “(∃<em>x</em>).<em>f</em>(<em>x</em>,<em>x</em>)”; and not “(∃<em>x</em>,<em>y</em>).<em>f</em>(<em>x</em>,<em>y</em>). ~<em>x</em><em> </em>= <em>y</em>”, but “(∃<em>x</em>,<em>y</em>).<em>f</em>(<em>x</em>,<em>y</em>)”.</p><p>(So instead of the Russellian “(∃<em>x</em>,<em>y</em>).<em>f</em>(<em>x</em>,<em>y</em>)”: “(∃<em>x</em>,<em>y</em>).<em>f</em>(<em>x</em>,<em>y</em>).v.(∃<em>x</em>).<em>f</em>(<em>x</em>,<em>x</em>)”.)</p>",
+        "tlp-number": "5.532"
+    },
+    {
+        "eng": "<p>And hence, instead of “(<em>x</em>):<em>fx </em>⊃ <em>x</em><em> </em>= <em>a</em>” we write, for example, “<em>(</em><em>∃</em><em>x</em><em>).</em><em>fx</em><em>.</em><em>⊃</em><em>.</em><em>fa</em><em>:~(</em><em>∃</em><em>x</em><em>,</em><em>y</em><em>).</em><em>fx</em><em>.</em><em>fy</em>”. </p><p>And the sentence, “<em>Only </em>one <em>x </em>satisfies <em>f</em>( )”, will read “(∃<em>x</em>).<em>fx</em>:~(∃<em>x</em>,<em>y</em>).<em>fx</em>.<em>fy</em>”.</p>",
+        "tlp-number": "5.5321"
+    },
+    {
+        "eng": "<p>Accordingly the identity sign is not an essential component of our conceptual notation.</p>",
+        "tlp-number": "5.533"
+    },
+    {
+        "eng": "<p>And now we see that pseudo-sentences like “<em>a </em><em> </em>= <em>a</em>”, “<em>a</em><em> </em>= <em>b.b</em><em> </em>= <em>c</em>.⊃<em>a </em>= <em>c</em>”, “(x).x<em> </em>= x”, “(∃<em>x </em>).<em>x </em>= <em>a</em>”, etc. cannot even be written down using a correct conceptual notation.</p>",
+        "tlp-number": "5.534"
+    },
+    {
+        "eng": "<p>Das, was das Axiom of Infinity sagen soll, würde sich in der Sprache dadurch ausdrücken, dass es unendlich viele Namen mit verschiedener Bedeutung gäbe.\nIn this way all the problems that used to be connected with such pseudo-sentences are dealt with.</p><p>All the problems arising in the wake of Russell's “axiom of infinity” have already to be solved here.</p><p>What the axiom of infinity is supposed to say would express itself in language by there being infinitely many names with different meanings.</p>",
+        "tlp-number": "5.535"
+    },
+    {
+        "eng": "<p>There are certain cases in which one is tempted to use expressions of the form “<em>a</em><em> </em>= <em>a” </em>or “<em>p</em>⊃<em>p” </em>and the like. In particular, this happens when one wants to talk about prototypes: sentence, thing, etc. So Russell in his <em>Principles of Mathematics </em>rendered nonsense such as “<em>p </em>is a sentence” symbolically as “<em>p</em>⊃<em>p</em>”, and prefixed it to certain sentences as a hypothesis in order to ensure that their argument-places might only be filled by sentences.</p><p>(It is nonsense to prefix the hypothesis <em>p</em>⊃<em>p</em> to a sentence to ensure that its arguments have the right form. This is so because with a non-sentence as argument the antecedent hypothesis becomes not false but nonsensical, and because using the wrong sort of arguments makes the sentence itself nonsensical. That is to say, in this way it protects itself against the wrong arguments just as well, or as badly, as the senseless hypothesis attached for this purpose.)</p>",
+        "tlp-number": "5.5351"
+    },
+    {
+        "eng": "<p>Likewise, people have wanted to express “There are no <em>things</em>” by writing “~(∃<em>x</em>).<em>x</em><em> </em>= <em>x</em>”. But even if this were a sentence, wouldn’t it be true, if indeed “There were things”, but none of these things were identical with itself?</p>",
+        "tlp-number": "5.5352"
+    },
+    {
+        "eng": "<p>In their generalized form sentences occur in other sentences only as bases of truth-operations.</p>",
+        "tlp-number": "5.54"
+    },
+    {
+        "eng": "<p>At first sight it looks as if there were another way in which one sentence could occur in another.</p><p>In particular in certain forms of psychological sentence, such as “<em>A </em>believes that <em>p </em>is the case” or “<em>A</em> thinks <em>p</em>”, etc. </p><p>For on the surface, it looks as if the sentence <em>p </em>stood in some kind of relation to an object <em>A</em>.</p><p>(And in modern theory of knowledge (Russell, Moore, etc.) these sentences have actually been construed in this way.)</p>",
+        "tlp-number": "5.541"
+    },
+    {
+        "eng": "<p>It is clear, however, that “<em>A </em>believes that <em>p</em>”, “<em>A</em> thinks <em>p</em>”, and “<em>A </em>says <em>p</em>” are of the form “‘<em>p</em>’ says <em>p</em>”: and here this is not a matter of correlating one fact and one object, but rather of correlating facts by correlating their objects.</p>",
+        "tlp-number": "5.542"
+    },
+    {
+        "eng": "<p>And this shows that the soul – the subject, etc. – as it is conceived in today’s superficial psychology is an absurdity.</p><p>For a composite soul would no longer be a soul.</p>",
+        "tlp-number": "5.5421"
+    },
+    {
+        "eng": "<p>The correct explanation of the form of the sentence “A judges <em>p</em>” must show that it is impossible to judge something nonsensical. (Russell's theory does not satisfy this condition.)</p>",
+        "tlp-number": "5.5422"
+    },
+    {
+        "eng": "<p>Perceiving a complex means perceiving that its constituents are related to one another in such and such a way.</p><p>This may well explain that this figure</p><p>can be seen as a cube in two different ways, as well as all similar phenomena. For we really do see two different facts.</p><p>(If I look in the first place at the corners marked <em>a</em> and only glance at the <em>b’</em>s, then the <em>a’</em>s appear in front, and <em>vice versa</em>.)</p>",
+        "tlp-number": "5.5423"
+    },
+    {
+        "eng": "<p>The question about all possible forms of elementary sentences must now be answered <em>a priori</em>.</p><p>Elementary sentences consist of names. But as we are unable to specify the number of names with different meanings, we cannot specify the composition of elementary sentences either.</p>",
+        "tlp-number": "5.55"
+    },
+    {
+        "eng": "<p>Our principle is this: whenever a question can be decided at all by means of logic it must be possible to decide it without further ado. </p><p>(And if ever we cannot help answering a problem of this kind by observing the world, this shows that we are on a completely wrong track.)</p>",
+        "tlp-number": "5.551"
+    },
+    {
+        "eng": "<p>The “experience” we need to understand logic is not this: that things are such and such, but that something<em> is</em>. But that is <em>not </em>an experience, after all.</p><p>Logic is <em>prior</em> to every experience – that something is<em> thus</em>.</p><p>It is prior to the How, not prior to the What.</p>",
+        "tlp-number": "5.552"
+    },
+    {
+        "eng": "<p>And if this were not so, how could we apply logic? One might say: if there would be a logic even if there were no world, how could there be a logic given that there is a world?</p>",
+        "tlp-number": "5.5521"
+    },
+    {
+        "eng": "<p>Russell said that there were simple relations between different numbers of things (individuals). But between what numbers? And how is this supposed to be settled? – By experience?</p><p>(There is no superlative number.)</p>",
+        "tlp-number": "5.553"
+    },
+    {
+        "eng": "<p>The specification of any particular form would be completely arbitrary.</p>",
+        "tlp-number": "5.554"
+    },
+    {
+        "eng": "<p>It is supposed to be possible to answer <em>a priori </em>the question whether I can get into a position in which I need a sign for a 27-termed relation to signify something.</p>",
+        "tlp-number": "5.5541"
+    },
+    {
+        "eng": "<p>But may we even ask such a question? Can we set up a form of signs without knowing whether anything can correspond to it?</p><p>Does it make sense to ask what there must <em>be </em>such that something can be the case?</p>",
+        "tlp-number": "5.5542"
+    },
+    {
+        "eng": "<p>It is clear that we have an idea of elementary sentences, quite independently of their particular logical form.</p><p>But where one has a system for constructing symbols, the system is what is logically important and not the individual symbols.</p><p>And in any case, how could it be possible in logic to have to deal with forms that I can invent? Rather, I have to deal with whatever makes it possible for me to invent forms.</p>",
+        "tlp-number": "5.555"
+    },
+    {
+        "eng": "<p>There can be no hierarchy of the forms of elementary sentences. We can anticipate only what we ourselves construct.</p>",
+        "tlp-number": "5.556"
+    },
+    {
+        "eng": "<p>Empirical reality is delimited by the totality of objects. Here too, the limit reveals itself in the totality of elementary sentences. </p><p>Hierarchies are and must be independent of reality.</p>",
+        "tlp-number": "5.5561"
+    },
+    {
+        "eng": "<p>If we know on purely logical grounds that there must be elementary sentences, this must be known by anyone who understands sentences in their unanalysed form.</p>",
+        "tlp-number": "5.5562"
+    },
+    {
+        "eng": "<p>In fact, in logical terms all the sentences of our everyday language are, just as they are, perfectly set out. – If there is something utterly simple which at this point we are supposed to mention, then it is not an allegory of the truth, but the complete truth itself. </p><p>(Our problems are not abstract, but perhaps the most concrete of all.)</p>",
+        "tlp-number": "5.5563"
+    },
+    {
+        "eng": "<p>The <em>application </em>of logic decides what elementary sentences there are.</p><p>Logic cannot anticipate what is involved in its application.</p><p>This is clear: logic must not run afoul of its application.</p><p>But logic and its application must touch each other.</p><p>Therefore logic and its application must not cut across one another.</p>",
+        "tlp-number": "5.557"
+    },
+    {
+        "eng": "<p>If I cannot specify <em>a priori </em>what elementary sentences there are, any attempt to do so must lead to obvious nonsense.</p>",
+        "tlp-number": "5.5571"
+    },
+    {
+        "eng": "<p><em>The limits of my language </em>mean the limits of my world.</p>",
+        "tlp-number": "5.6"
+    },
+    {
+        "eng": "<p>Logic permeates the world: the limits of the world are the limits of logic too.</p><p>So we cannot say in logic: “The world has this in it, and this, but not that.”</p><p>For that would seem to presuppose that we exclude certain possibilities, and this cannot be the case, since this would require that logic should go beyond the limits of the world, as if it could inspect these limits from the other side as well.</p><p>We cannot think what we cannot think; and hence we cannot <em>say</em> what we cannot think either.</p>",
+        "tlp-number": "5.61"
+    },
+    {
+        "eng": "<p>This remark provides the key to deciding the question how much truth there is in solipsism.</p><p>For what the solipsist <em>is driving at</em><em> </em>is quite correct, only it cannot be <em>said</em>, but shows itself.</p><p>That the world is <em>my </em>world shows itself in the fact that the limits of <em>language </em>(the only language I understand) mean the limits of <em>my </em>world.</p>",
+        "tlp-number": "5.62"
+    },
+    {
+        "eng": "<p>The world and life are one.</p>",
+        "tlp-number": "5.621"
+    },
+    {
+        "eng": "<p>I am my world. (The microcosm).</p>",
+        "tlp-number": "5.63"
+    },
+    {
+        "eng": "<p>The subject that thinks, entertains ideas: there is no such thing.</p><p>If I were to write a book called <em>The World as I Encountered It</em>, then this would also have to report on my body, and say which parts are subject to my will and which are not, etc. For this is a method of isolating the subject, or rather of showing that in an important sense there is no subject; for it alone could <em>not </em>be mentioned in that book.—</p>",
+        "tlp-number": "5.631"
+    },
+    {
+        "eng": "<p>The subject is a limit, not a part, of the world.</p>",
+        "tlp-number": "5.632"
+    },
+    {
+        "eng": "<p>Where <em>in </em>the world is a metaphysical subject discernable?</p><p>You say this is just like the case of the eye and the visual field. But as a matter of fact, you do <em>not </em>see the eye. Aa—a </p><p>And nothing <em>in the visual field </em>suggests that it is seen by an eye.</p>",
+        "tlp-number": "5.633"
+    },
+    {
+        "eng": "<p>For the form of the visual field is surely not like this:</p>",
+        "tlp-number": "5.6331"
+    },
+    {
+        "eng": "<p>What this is connected with is that no part of our experience is <em>a priori </em>too.</p><p>Everything we see could also be otherwise.</p><p>Everything we can describe at all could also be otherwise.</p><p>There is no order of things <em>a priori</em>.</p>",
+        "tlp-number": "5.634"
+    },
+    {
+        "eng": "<p>Here one sees that solipsism, strictly worked out, coincides with pure realism. The self of solipsism shrinks to an extensionless point, and what remains is the reality co-ordinated with it.</p>",
+        "tlp-number": "5.64"
+    },
+    {
+        "eng": "<p>So there really is a sense in which in philosophy there is a non-psychological way of speaking of the self.  </p><p>The self enters into philosophy by way of “the world’s being my world”.</p><p>The philosophical self is not the human being, not the human body, nor the human soul, with which psychology deals, but rather the metaphysical subject, the limit – not a part – of the world.</p><p>The general form of a truth-function is: [<em>p</em>̅  , <em>ξ</em>̅  , N(<em>ξ</em>̅   )].</p><p>This is the general form of a sentence.</p>",
+        "tlp-number": "5.641"
+    },
+    {
+        "eng": "<p>This just says that every sentence is a result of successive applications of the operation N’(<em>ξ</em>̅  ) to elementary sentences.</p>",
+        "tlp-number": "6.001"
+    },
+    {
+        "eng": "<p>If we are given the general form of sentential construction, then we at the same time are given the general form for generating one sentence from another by means of an operation.</p>",
+        "tlp-number": "6.002"
+    },
+    {
+        "eng": "<p>Thus the general form of an operation Ω’(<em>η</em><em>̅</em><em> </em>   ) is: [<em>ξ</em>̅   N(<em>ξ</em>̅  )]’ (<em>η</em><em>̅</em><em> </em>   ) (=[<em>η</em><em>̅</em><em> </em>   , <em>ξ</em>̅  , N(<em>ξ</em>̅ )]).</p><p>This is the most general form of transition from one sentence to another.</p>",
+        "tlp-number": "6.01"
+    },
+    {
+        "eng": "<p>And in <em>this</em> way we arrive at numbers. I give the following definitions:</p><p>So according to these rules for the use of signs, we write the series <em>x</em>, Ω’<em>x</em>, Ω’Ω’<em>x</em>, Ω’Ω’Ω’<em>x</em>,…</p><p>Therefore in place of “[<em>x</em>, <em>ξ</em>, Ω’<em>ξ</em>]”, I write: “[Ω0’<em>x</em>, Ω<em>ν</em>’<em>x</em>, Ω<em>ν</em>+1’<em>x</em>]” </p><p>And I give the following definitions:</p>",
+        "tlp-number": "6.02"
+    },
+    {
+        "eng": "<p>A number is the exponent of an operation.</p>",
+        "tlp-number": "6.021"
+    },
+    {
+        "eng": "<p>The concept of number is just what is common to all numbers, the general form of a number.</p><p>The concept of number is the variable number.</p><p>And the concept of numerical equality is the general form of all particular cases of numerical equality.</p>",
+        "tlp-number": "6.022"
+    },
+    {
+        "eng": "<p>The general form of a whole number is: [0, <em>ξ</em>, <em>ξ</em>+1].</p>",
+        "tlp-number": "6.03"
+    },
+    {
+        "eng": "<p>In mathematics, the theory of classes is entirely superfluous. </p><p>This is connected with the fact that the generality we need in mathematics is not a <em>contingent</em> one.</p>",
+        "tlp-number": "6.031"
+    },
+    {
+        "eng": "<p>The sentences of logic are tautologies.</p>",
+        "tlp-number": "6.1"
+    },
+    {
+        "eng": "<p>So the sentences of logic say nothing. (They are the analytic sentences.)</p>",
+        "tlp-number": "6.11"
+    },
+    {
+        "eng": "<p>All theories that make a sentence of logic seem to have content are false. For example, one might believe that the words “true” and “false” signify two properties among other properties, and then it would seem to be a remarkable fact that every sentence possesses one of these properties. This, however, does not seem to be obvious at all, no more obvious than the sentence “All roses are either yellow or red”, for example, would sound, even if it were true. Indeed, the logical sentence fully assumes the role of a sentence of natural science, and this is a sure sign that it has been misconstrued.</p>",
+        "tlp-number": "6.111"
+    },
+    {
+        "eng": "<p>The correct explanation of logical sentences must assign them a unique position among all sentences.</p>",
+        "tlp-number": "6.112"
+    },
+    {
+        "eng": "<p>It is the special feature of logical sentences that one can see that they are true from the mere symbol, and this fact encompasses the whole philosophy of logic. And so too it is one of the most important facts that the truth or falsity of nonlogical sentences <em>cannot </em>be recognized just from the sentences.</p>",
+        "tlp-number": "6.113"
+    },
+    {
+        "eng": "<p>The sentences of logic<em> </em>are tautologies, and this <em>shows </em>the formal – logical – properties of language, of the world.</p><p>The fact that a tautology is yielded by <em>this way </em>of connecting its constituents characterizes the logic of its constituents.</p><p>If sentences are to yield a tautology when they are connected in a certain way, they must have certain structural properties. That they yield a tautology when combined <em>in this way </em>shows therefore that they possess these structural properties.</p>",
+        "tlp-number": "6.12"
+    },
+    {
+        "eng": "<p>For example, that the sentences “<em>p</em>” and “~<em>p</em>” in the compound “~(<em>p</em>.~<em>p</em>)” yield a tautology shows that they contradict each other. The fact that the sentences “<em>p</em>⊃<em>q</em>”, “<em>p</em>”, and “<em>q</em>”, conjoined into “(<em>p </em>⊃<em>q</em>).(<em>p</em>):⊃:(<em>q</em>)”, yield a tautology shows that <em>q </em>follows from <em>p </em>and <em>p</em>⊃<em>q</em>. That “(<em>x</em>).<em>fx</em>:⊃:<em>fa</em>”<em> </em>is a tautology shows that <em>fa</em> follows from (<em>x</em>).<em>fx</em>, etc. etc.</p>",
+        "tlp-number": "6.1201"
+    },
+    {
+        "eng": "<p>It is clear that we could have used contradictions for this purpose instead of tautologies.</p>",
+        "tlp-number": "6.1202"
+    },
+    {
+        "eng": "<p>The following intuitive method can be used to recognize a tautology as such in those cases where no sign for generality occurs in the relevant tautology: I write \"T <em>p</em> F\", \"T <em>q</em> F\", \"T <em>r</em> F\" etc. instead of \"<em>p</em>\", \"<em>q</em>\", \"<em>r</em>\", etc. I express the truth combinations by brackets, for example:</p><p>and the correlation of the truth or falsity of the whole sentence with the truth-combinations of the truth-arguments by lines in the following way:</p><p>So this sign, for example, would represent the sentence<em> p</em>⊃<em>q</em>. Now suppose that I want to examine the sentence ~(<em>p</em>.~<em>p</em>) (law of contradiction) in order to find out whether it is a tautology. The form \"~ξ\" is written in our notation:</p><p>So the sentence ~(p.~q) runs thus:</p><p>If we put \"p\" here instead of \"q\" and examine the connection of the outermost T and F with the innermost ones, we find that the truth of the whole sentence is correlated with <em>all</em> the truth-combinations of its argument, and its falsity with none of the truth-combinations.</p>",
+        "tlp-number": "6.1203"
+    },
+    {
+        "eng": "<p>The sentences of logic demonstrate the logical properties of sentences by combining them into sentences that say nothing.</p><p>This method could also be called a null method. In a logical sentence, sentences are brought into equilibrium with one another, and the state of equilibrium then reveals the requisite logical make-up of these sentences.</p>",
+        "tlp-number": "6.121"
+    },
+    {
+        "eng": "<p>The upshot is that we can do without logical sentences; for in a suitable notation we can in fact perceive the formal properties of the sentences just by inspecting them.</p>",
+        "tlp-number": "6.122"
+    },
+    {
+        "eng": "<p>If, for example, two sentences “<em>p</em>”<em> </em>and “<em>q</em>”<em> </em>combine in “<em>p</em>⊃<em>q</em>” to<em> </em>yield a tautology, then clearly <em>q </em>follows from <em>p</em>. </p><p>For instance, that “<em>q</em>” follows from “<em>p</em>⊃<em>q</em>.<em>p</em>” can be seen from the two sentences themselves, but we can <em>also</em> show it by combining them to form “<em>p</em>⊃<em>q</em>.<em>p</em>.⊃.<em>q</em>” and proceeding to show that this is a tautology.</p>",
+        "tlp-number": "6.1221"
+    },
+    {
+        "eng": "<p>This throws light on the question why logical sentences can no more be confirmed by experience than they can be refuted by it. Not only must a sentence of logic be incapable of being refuted by any possible experience, it must likewise be unconfirmable by any possible experience.</p>",
+        "tlp-number": "6.1222"
+    },
+    {
+        "eng": "<p>Now it becomes clear why people have often felt as though “logical truths” must be “<em>postulated</em>” by us. For we can postulate them in the sense of being able to postulate an adequate notation.</p>",
+        "tlp-number": "6.1223"
+    },
+    {
+        "eng": "<p>Now it also becomes clear why logic used to be called the theory of forms and of inference.</p>",
+        "tlp-number": "6.1224"
+    },
+    {
+        "eng": "<p>This is clear: the logical laws must not be governed by logical laws in turn.</p><p>(There is no special law of contradiction for each “type”, as Russell thought; rather, one<em> </em>law is enough, since it is not to be applied to itself.)</p>",
+        "tlp-number": "6.123"
+    },
+    {
+        "eng": "<p>General validity is <em>not </em>the mark of logical sentences. </p><p>After all, to be general only means to happen to apply to all things. Surely an ungeneralized sentence can be a tautology just as well as a generalized one.</p>",
+        "tlp-number": "6.1231"
+    },
+    {
+        "eng": "<p>We could call generality in the logical sense essential, as opposed to the contingent generality of such sentences as “All people are mortal”. Sentences like Russell's axiom of reducibility are not logical sentences, and this explains our feeling that, if true, that might only be due to a lucky fluke.</p>",
+        "tlp-number": "6.1232"
+    },
+    {
+        "eng": "<p>It is possible to imagine a world in which the axiom of reducibility is not valid. But clearly, logic has nothing to do with the question whether our world is really like that or not.</p>",
+        "tlp-number": "6.1233"
+    },
+    {
+        "eng": "<p>Logical sentences describe the scaffolding of the world, or rather, they represent it. They are not “about” anything. They presuppose that names  mean something and elementary sentences make sense: and this is their connection with the world. It is clear that certain combinations of symbols – essentially endowed with particular characteristics – are tautologies must divulge something about the world. That’s the decisive point. We have said that in the symbols we use, some things are arbitary, some things are not. In logic only the latter are expressive: but that means that in logic it is not <em>we </em>who<em> </em>express what we want by means of signs, but rather in logic the nature of the intrinsically necessary signs itself testifies: once we know the logical syntax of an arbitrary sign-language, then all logical sentences are already given.</p>",
+        "tlp-number": "6.124"
+    },
+    {
+        "eng": "<p>It is possible – indeed possible even on the old conception of logic – to give from the start a description of all “true” logical sentences.</p>",
+        "tlp-number": "6.125"
+    },
+    {
+        "eng": "<p>And this is why there can <em>never </em>be suprises in logic.</p>",
+        "tlp-number": "6.1251"
+    },
+    {
+        "eng": "<p>One can work out whether a sentence belongs to logic by working out the logical properties of <em>symbols</em>.</p><p>And that’s what we do in “proving” a logical sentence. For, without bothering about sense and meaning, we construct the logical sentence out of others in accordance with mere <em>rules for signs</em>.</p><p>Here is how we prove logical sentences: we let them develop from other logical sentences by successively applying certain operations that keep generating further tautologies from the initial ones. (More specifically, only tautologies <em>follow </em>from a tautology.)</p><p>Of  course, this way of demonstrating that sentences are tautologies is by no means essential to logic. If only because the sentences from which the proof starts must demonstrate without any proof that they are tautologies.</p>",
+        "tlp-number": "6.126"
+    },
+    {
+        "eng": "<p>In logic, process and result are equivalent. (Hence, no surprise.)</p>",
+        "tlp-number": "6.1261"
+    },
+    {
+        "eng": "<p>In logic, proof is merely a mechanical expedient facilitating the identification of a tautology in complicated cases.</p>",
+        "tlp-number": "6.1262"
+    },
+    {
+        "eng": "<p>Indeed, it would be too strange if a sentence with a sense could be proved <em>logically </em>from others <em>just</em> as a logical sentence can. It is obvious from the very beginning that a logical proof of a sentence with a sense and a proof <em>in </em>logic are bound to be two completely different matters.</p>",
+        "tlp-number": "6.1263"
+    },
+    {
+        "eng": "<p>A sentence that makes sense states something, and its proof shows that this is the case. In logic every sentence is the form of a proof.</p><p>Every logical sentence is a <em>modus ponens </em>set out in signs. (And <em>modus ponens </em>cannot be expressed by a sentence.)</p>",
+        "tlp-number": "6.1264"
+    },
+    {
+        "eng": "<p>Logic can always be construed in such a way that every sentence is its own proof.</p>",
+        "tlp-number": "6.1265"
+    },
+    {
+        "eng": "<p>All sentences of logic are on a par, rather than some being essentially basic laws from which others are derived. </p><p>Every tautology itself shows that it is a tautology.</p>",
+        "tlp-number": "6.127"
+    },
+    {
+        "eng": "<p>It is clear that the number of “basic laws of logic” is arbitrary, since we could derive logic from a single<em> </em>basic law simply by producing, for example, the logical product of Frege's basic laws. (Frege might say that this basic law would no longer be immediately self-evident. But it is strange that a thinker as precise as Frege appealed to the degree of self-evidence as a criterion of logical sentences.)</p>",
+        "tlp-number": "6.1271"
+    },
+    {
+        "eng": "<p>Logic is not a doctrine, but a mirror image of the world.</p>",
+        "tlp-number": "6.13"
+    },
+    {
+        "eng": "<p>Mathematics is a logical method.</p><p>Mathematical sentences are equations, and hence pseudo-sentences.</p>",
+        "tlp-number": "6.2"
+    },
+    {
+        "eng": "",
+        "tlp-number": "6.21"
+    },
+    {
+        "eng": "<p>What we need in real life is never a mathematical sentence. Rather, we make use of mathematical sentences <em>only </em>to infer from sentences that are not part of mathematics other ones that do not belong to mathematics either.</p><p>(Again and again in philosophy the question, “What is the real point of using this word or this sentence?” leads to valuable insights.)</p>",
+        "tlp-number": "6.211"
+    },
+    {
+        "eng": "<p>The logic of the world, which logical sentences reveal in tautologies, is revealed in equations by mathematics.</p>",
+        "tlp-number": "6.22"
+    },
+    {
+        "eng": "<p>If two expressions are combined by means of the equals sign, that means that they can be substituted for one another. But whether this is the case must emerge from the two expressions themselves.</p><p>That two expressions can be substituted for one another characterizes their logical form.</p>",
+        "tlp-number": "6.23"
+    },
+    {
+        "eng": "<p>It is a property of affirmation that it can be construed as double negation.</p><p>It is a property of “1+1+1+1” that it can be construed as “(1+1)+(1+1)”.</p>",
+        "tlp-number": "6.231"
+    },
+    {
+        "eng": "<p>Frege says that these two expressions have the same meaning but different senses. </p><p>However, the chief point about equations is that they are not needed to show that two expressions connected by the equals sign have the same meaning, for this can be gleaned from the two expressions themselves.</p>",
+        "tlp-number": "6.232"
+    },
+    {
+        "eng": "<p>And that the sentences of mathematics can be proved just means that their correctness can be grasped without any need to check what they express against the facts to find out whether it is correct.</p>",
+        "tlp-number": "6.2321"
+    },
+    {
+        "eng": "<p>The identity of the meaning of two expressions cannot be <em>asserted</em>. For to be able to assert anything about their meaning, I have to know their meaning, and just by knowing their meaning, I know whether they mean the same or different things.</p>",
+        "tlp-number": "6.2322"
+    },
+    {
+        "eng": "<p>An equation merely characterizes the point of view from which I consider the two expressions: that is, from the point of view of the sameness of their meanings.</p>",
+        "tlp-number": "6.2323"
+    },
+    {
+        "eng": "<p>The answer to the question whether we need intuition to solve mathematical problems must be: here language itself affords what is needed in terms of intuition.</p>",
+        "tlp-number": "6.233"
+    },
+    {
+        "eng": "<p>It is precisely the procedure of <em>calculating </em>that provides this intuition.</p><p>Calculation is not an experiment.</p>",
+        "tlp-number": "6.2331"
+    },
+    {
+        "eng": "<p>Mathematics is a method of logic.</p>",
+        "tlp-number": "6.234"
+    },
+    {
+        "eng": "<p>The main point of the mathematical method is that it employs equations. For it is on the basis of this method that every mathematical sentence must be self-explanatory.</p>",
+        "tlp-number": "6.2341"
+    },
+    {
+        "eng": "<p>The way mathematics arrives at its equations is the method of substitution.</p><p>For equations express the substitutability of two expressions and we proceed from a number of equations to new ones by substituting certain expressions for another lot in accordance with the equations.</p>",
+        "tlp-number": "6.24"
+    },
+    {
+        "eng": "<p>Thus the proof of the sentence 2 ⨉ 2 = 4 runs:</p>",
+        "tlp-number": "6.241"
+    },
+    {
+        "eng": "<p>To explore logic amounts to exploring <em>all lawlikeness</em>. And outside logic, everything is pure chance.</p>",
+        "tlp-number": "6.3"
+    },
+    {
+        "eng": "<p>At any rate, the so-called law of induction cannot be a law of logic, for it is obviously a sentence with a sense. – And this is why it cannot be an <em>a priori </em>law either.</p>",
+        "tlp-number": "6.31"
+    },
+    {
+        "eng": "<p>The law of causality is not a law but the form of a law.</p>",
+        "tlp-number": "6.32"
+    },
+    {
+        "eng": "<p>“Law of causality”  is a generic name. And just as in mechanics there are, for instance, minimum-laws, such as that of least action, so in physics there are<em> </em>laws of causality, laws of the form of causality.</p>",
+        "tlp-number": "6.321"
+    },
+    {
+        "eng": "<p>Indeed people used to have a notion that there must be <em>a </em>“law of least action” before they knew exactly how it was to be spelled out. (Here, as always, what is certain <em>a priori </em>turns out to be something purely logical.)</p>",
+        "tlp-number": "6.3211"
+    },
+    {
+        "eng": "<p>We do not <em>believe</em> <em>a priori </em>in a law of conservation, rather we <em>know a priori </em>the possibility of a logical form.</p>",
+        "tlp-number": "6.33"
+    },
+    {
+        "eng": "<p>All such sentences, including the principle of sufficient reason, the laws of continuity in nature and of least effort in nature, etc. etc. – all these are <em>a priori </em>insights about possible formulations of scientific sentences.</p>",
+        "tlp-number": "6.34"
+    },
+    {
+        "eng": "<p>Newtonian mechanics, for instance, introduces uniformity into world description. Imagine a white surface with irregular black spots. We then say: whatever kind of picture develops from these, I can always get as near as I like to its description by covering the surface with a sufficiently fine square mesh and going on to say of every square that it is white or black. In this way I will have managed to introduce uniformity into my description of this surface. The form is optional, because I could have just as well used a net with a triangular or hexagonal mesh to the same effect. It may be that the description using a triangular net would have been simpler, that is, we might be able to describe the surface more accurately with a coarser triangular mesh than with a finer square mesh or vice versa, and so on. Different systems of describing the world correspond to different nets. Mechanics imposes one form of world description by saying: all sentences used in a description of the world must be obtained in a given way from a number of given sentences – the mechanical axioms. In this way it supplies the building blocks for constructing the edifice of science, and says: Whatever building you want to erect, it must somehow be assembled from these, and only these, building blocks.</p><p>(Just as I must be able to write down <em>any</em> number in the number system, so I must be able to write down <em>any</em> sentence of physics in the system of mechanics.)</p>",
+        "tlp-number": "6.341"
+    },
+    {
+        "eng": "<p>And now we can see the position in which logic and mechanics stand to each other. (One might also arrange for the net to consist of different kinds of mesh: we could use triangular and hexagonal, for instance.) That a picture of the above-mentioned kind can be described by a net of a given form says <em>nothing </em>about the picture. (For this holds of every picture of this kind.) But what <em>does</em> characterize a picture is that it can be described <em>completely </em>by a specific net of a <em>specific </em>fineness. </p><p>Likewise, that the world can be described by Newtonian mechanics says nothing about the world: but what does say something about it is that the world can be described in just this way. We are also told something about the world by the fact that it can be described more simply by means of one system of mechanics than by means of another.</p>",
+        "tlp-number": "6.342"
+    },
+    {
+        "eng": "<p>Mechanics is an attempt to construct according to a single blueprint all the <em>true </em>sentences we need for a description of the world.</p>",
+        "tlp-number": "6.343"
+    },
+    {
+        "eng": "<p>By permeating the whole logical apparatus the laws of physics manage to speak of the objects of the world.</p>",
+        "tlp-number": "6.3431"
+    },
+    {
+        "eng": "<p>Don’t forget that any description of the world by means of mechanics will be a completely general one. For instance, it will never mention any <em>particular </em>point masses, but rather <em>arbitrary ones.</em></p>",
+        "tlp-number": "6.3432"
+    },
+    {
+        "eng": "<p>Although the spots in our picture are geometrical figures, geometry can obviously say nothing about their actual form and position. The net, though, is <em>purely</em> geometrical and all its properties can be specified <em>a priori</em>.</p><p>Laws like the principle of sufficient reason, etc. are about the net and not about what the net describes.</p>",
+        "tlp-number": "6.35"
+    },
+    {
+        "eng": "<p>If there were a law of causality, it might go like this: “There are laws of nature.”</p><p>But of course that cannot be said: it shows forth.</p>",
+        "tlp-number": "6.36"
+    },
+    {
+        "eng": "<p>In Hertz's terminology, we might say: Only “<em>lawlike</em>”<em> </em>connections are <em>thinkable</em>.</p>",
+        "tlp-number": "6.361"
+    },
+    {
+        "eng": "<p>We cannot compare any process to “the passage of time” – there is no such thing – but only to another process (such as the ticking of a chronometer).</p><p>So the only possible ways of describing progression in time will rely on some other process.</p><p>Something analogous goes for space. When, for instance, we say that neither of two (mutually exclusive) events can occur, because there is <em>no cause </em>why one rather than the other should occur, it is really a matter of our being unable to describe <em>one </em>of the two events at all unless there is some sort of asymmetry. And <em>if </em>there really is such an asymmetry, we can regard it as the <em>cause </em>of the occurrence of the one and the nonoccurrence of the other.</p>",
+        "tlp-number": "6.3611"
+    },
+    {
+        "eng": "<p>The Kantian problem of the right and left hand that cannot be superimposed already arises in two dimensions, and even in one-dimensional space where two congruent figures, a and b, cannot be superimposed without moving them out of this space.</p><p>In point of fact, right hand and left hand are completely congruent. It is quite irrelevant that they cannot be superimposed. </p><p>A right-hand glove could be put on the left hand, if it could be turned round in four-dimensional space.</p>",
+        "tlp-number": "6.36111"
+    },
+    {
+        "eng": "<p>What can be described can happen too, and what the law of causality is supposed to exclude cannot even be described.</p>",
+        "tlp-number": "6.362"
+    },
+    {
+        "eng": "<p>The procedure of induction consists in our adopting the <em>simplest </em>law that can be reconciled with our experience.</p>",
+        "tlp-number": "6.363"
+    },
+    {
+        "eng": "<p>This procedure, however, has no logical justification but only a psychological one.</p><p>It is clear that there is no reason to believe that the simplest outcome will really come to pass.</p>",
+        "tlp-number": "6.3631"
+    },
+    {
+        "eng": "<p>That the sun will rise tomorrow is a hypothesis, and this means that we do not<em> know </em>whether it will rise.</p>",
+        "tlp-number": "6.36311"
+    },
+    {
+        "eng": "<p>There is no constraint that compels one thing to happen because something else has happened. The only kind of necessity is <em>logical</em> necessity.</p>",
+        "tlp-number": "6.37"
+    },
+    {
+        "eng": "<p>The whole modern world view is based on the illusion that the so-called laws of nature are explanations of natural phenomena.</p>",
+        "tlp-number": "6.371"
+    },
+    {
+        "eng": "<p>So moderns stop at the laws of nature, treating them as sacrosanct, which is how the ancients treated God and Fate. </p><p>And actually they are both right, and both wrong.  The ancients, though, were more clear-sighted in that they recognised a distinct terminus, whereas according to the new dispensation things are supposed to look as if <em>everything </em>were explained.</p>",
+        "tlp-number": "6.372"
+    },
+    {
+        "eng": "<p>The world is independent of my will.</p>",
+        "tlp-number": "6.373"
+    },
+    {
+        "eng": "<p>Even if all we wish for were to happen, still this would only be so by the grace of Fate, so to say, for there is no <em>logical </em>connection between the will and the world that would guarantee it, and the supposed physical connection in its turn is surely not something we could will.</p>",
+        "tlp-number": "6.374"
+    },
+    {
+        "eng": "<p>Just as there is only <em>logical</em> necessity, so too there is only <em>logical </em>impossibility.</p>",
+        "tlp-number": "6.375"
+    },
+    {
+        "eng": "<p>For instance, for two colours to be at the same place in the visual field simultaneously is impossible, indeed logically impossible, for it is ruled out by the logical structure of colour.</p><p>Remember how this contradiction presents itself in physics: roughly, that a particle cannot have two velocities at the same time; and hence that particles in different places at the same time cannot be identical. </p><p>(It is clear the logical product of two elementary sentences can neither be a tautology nor a contradiction. The statement that a point in the visual field has two different colours at the same time is a contradiction.)</p>",
+        "tlp-number": "6.3751"
+    },
+    {
+        "eng": "<p>All sentences are on a par.</p>",
+        "tlp-number": "6.4"
+    },
+    {
+        "eng": "<p>The meaning of the world must reside outside it. In the world everything is as it is, and everything happens as it does happen: there is no value <em>in </em>it – and if there were any, it would have no value. </p><p>If there is any value that does have value, it must reside outside all events and ways of being. For all events and ways of being are accidental. </p><p>What makes them non-accidental cannot reside <em>within </em>the world, since if it did it would itself be accidental. </p><p>It must reside outside the world.</p>",
+        "tlp-number": "6.41"
+    },
+    {
+        "eng": "<p>And this is why there can be no ethical sentences. </p><p>Sentences cannot express anything higher.</p>",
+        "tlp-number": "6.42"
+    },
+    {
+        "eng": "<p>It is clear that ethics cannot be proclaimed.</p><p>(Ethics and aesthetics are one.)</p>",
+        "tlp-number": "6.421"
+    },
+    {
+        "eng": "<p>When an ethical law of the form “You ought to…” is laid down, one's first thought is, “And what’s going to happen if I don’t do it?” But clearly ethics has nothing to do with punishment and reward in the ordinary sense. So this question about the <em>consequences </em>of an action must be irrelevant. – At least these consequences must not be events. For there must be something right about that way of asking the question after all. While there must be a kind<em> </em>of ethical reward and punishment, these are bound to reside in the action itself. </p><p>(And it is clear also that the reward must be something pleasant, the punishment something unpleasant.)</p>",
+        "tlp-number": "6.422"
+    },
+    {
+        "eng": "<p>The will as the medium of the ethical cannot be spoken of.</p><p>And the will as a phenomenon concerns only psychology.</p>",
+        "tlp-number": "6.423"
+    },
+    {
+        "eng": "<p>If good or bad willing changes the world, it can only change the limits of the world, not the facts; not what can be expressed by language.</p><p>In short, the world will in this way have to become entirely different in kind. It must, so to speak, wax or wane as a whole.</p><p>The world of a happy person is a different one from that of an unhappy person.</p>",
+        "tlp-number": "6.43"
+    },
+    {
+        "eng": "<p>Similarly, in death the world does not change, but ends.</p>",
+        "tlp-number": "6.431"
+    },
+    {
+        "eng": "<p>Death is not an event in life. One does not live to experience death. </p><p>If we mean by eternity not infinite temporal duration but timelessness, then someone who lives in the present lives eternally.</p><p>Our life is endless, in the same sense in which our visual field is limitless.</p>",
+        "tlp-number": "6.4311"
+    },
+    {
+        "eng": "<p>Not only is there no guarantee of the temporal immortality of the human soul, that is to say, its eternal survival after death; above all, this assumption completely fails to do the work people always wanted it to do. Is any riddle solved by my surviving forever? Isn’t eternal life itself as much of a riddle as our present life? The solution of the riddle of life in space and time lies <em>outside </em>space and time. </p><p>(After all, it is not problems of natural science that have to be solved.)</p>",
+        "tlp-number": "6.4312"
+    },
+    {
+        "eng": "<p>The <em>way</em> the world is is a matter of complete indifference to what is higher. God does not reveal himself <em>in </em>the world.</p>",
+        "tlp-number": "6.432"
+    },
+    {
+        "eng": "<p>The facts all just contribute to setting the problem, not to the solution.</p>",
+        "tlp-number": "6.4321"
+    },
+    {
+        "eng": "<p>What is mystical is not the<em> way </em>the world is, but <em>that </em>it is.</p>",
+        "tlp-number": "6.44"
+    },
+    {
+        "eng": "<p>To view the world <em>sub specie aeterni</em> is to view it as a whole, and a limited one at that.</p><p>Sensing the world as a limited whole is the mystical feeling.</p>",
+        "tlp-number": "6.45"
+    },
+    {
+        "eng": "<p>If the answer cannot be put into words, the question cannot be put into words either. </p><p>There is no such thing as <em>the riddle</em>. </p><p>If a question can be raised at all, then it <em>can</em> be<em> </em>answered as well.</p>",
+        "tlp-number": "6.5"
+    },
+    {
+        "eng": "<p>Scepticism is <em>not </em>irrefutable, but obviously nonsensical, if it tries to raise doubts where no questions can be asked.</p><p>For doubt can only exist where there is a question, a question only where there is an answer, and an answer only where something <em>can </em>be<em> said</em>.</p>",
+        "tlp-number": "6.51"
+    },
+    {
+        "eng": "<p>We feel that even if all <em>possible </em>scientific questions were answered, the problems of life would still not have been touched at all. To be sure, there would then be no question left, and just this is the answer.</p>",
+        "tlp-number": "6.52"
+    },
+    {
+        "eng": "<p>The solution of the problem of life is felt once this problem is disappearing.</p><p>(Isn’t this why those to whom, after prolonged doubts, the meaning of life became clear have then been unable to say what that meaning amounted to?)</p>",
+        "tlp-number": "6.521"
+    },
+    {
+        "eng": "<p>Some things can’t be said, though. They <em>show</em> themselves. That is what is mystical.</p>",
+        "tlp-number": "6.522"
+    },
+    {
+        "eng": "<p>The right method in philosophy would really be to say nothing except what can be said, <em>i.e. </em>sentences of natural science – <em>i.e. </em>something that has nothing to do with philosophy – and then, whenever someone wanted to say something metaphysical, to demonstrate to him that he had failed to give a meaning to certain signs in his sentences. Although the other person wouldn’t be satisfied – he would not feel we were teaching him philosophy – <em>this</em> method would be the only strictly right one.</p>",
+        "tlp-number": "6.53"
+    }
+]

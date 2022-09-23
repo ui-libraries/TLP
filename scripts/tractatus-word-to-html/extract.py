@@ -8,7 +8,6 @@ import sys
 docType = sys.argv[1]
 dot = "·"
 
-
 def formatParas(paras):
     formatted_paras = []
     for para in paras:
@@ -18,6 +17,15 @@ def formatParas(paras):
                 if run.font.strike:
                     text = run.text
                     run.text = '<s>'+text+'</s>'
+                if run.font.highlight_color:
+                    text = run.text
+                    highlight_type = str(run.font.highlight_color)
+                    if highlight_type == "YELLOW (7)":
+                        run.text = "<span class='NBalmostequalsTLP'>"+text+"</span>"
+                    if highlight_type == "BRIGHT_GREEN (4)":
+                        run.text = "<span class='NBequalsTLP'>"+text+"</span>"
+                    if highlight_type == "GRAY_25 (16)" or highlight_type == "GRAY_50 (15)":
+                        run.text = "<span class='NBlikeTLP'>"+text+"</span>"
                 if run.italic:
                     text = run.text
                     run.text = '<em>'+text+'</em>'
@@ -113,13 +121,13 @@ def assignProperties(sectionList):
             loc = para.split('\t')
             for i in range(len(loc)):
                 if (dot in loc[i] and loc.index(loc[i]) == 0):
-                    obj["pt-number"] = loc[i]
+                    obj["pt-number"] = loc[i].strip()
                 if ("[" in loc[i]):
                     obj["pt-page"] = loc[i]
                 if (dot in loc[i] and loc.index(loc[i]) > 0):
                     obj["tlp-number"] = loc[i]
                 if ("." in loc[i]):
-                    obj["cross-references"] = loc[i]
+                    obj["cross-references"] = loc
 
     return obj
 
