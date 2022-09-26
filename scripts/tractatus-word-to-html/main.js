@@ -3,9 +3,6 @@ let fs = require("fs")
 let recto = require("./recto.json")
 let verso = require("./verso.json")
 const officialDates = require("./official-dates.json")
-const {
-    orderBy
-} = require("lodash")
 
 //****************** */
 //let move = moveItems(verso, recto)
@@ -177,8 +174,12 @@ function findSameDates(list, item) {
  * @return {string} - An HTML section with content from the given recto and verso objects
  */
 function generateSection(singleVerso, singleRecto) {
-    TLP = ""
-    PT = ""
+    let TLP = ""
+    let PT = ""
+    let originalGer = ""
+    if (singleRecto['original-ger-pt'] != undefined) {
+        originalGer = singleRecto['original-ger-pt']
+    }
     if (singleRecto["tlp-number"] !== "") {
         TLP = "<em>TLP: " + singleRecto["tlp-number"] +" </em>"
         PT = "<em>PT: " + singleRecto["pt-number"] + "</em>"
@@ -192,7 +193,7 @@ function generateSection(singleVerso, singleRecto) {
             <span class="eng"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleVerso.eng} </span>
             <span class="tlp"> ${TLP} ${singleRecto['stern']} </span>
             <span class="pt"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleRecto["pt-stern"]} </span>
-            <span class="tlp_deu">${TLP} ${singleRecto['original-ger']} </span>
+            <span class="tlp_deu">${TLP} ${originalGer} </span>
             <span class="pt_deu">${PT} ${singleRecto['original-ger-pt']} </span>
             </div>
         </div>
