@@ -125,7 +125,7 @@ body{
     color: #000;
     background-color: #000;
     background-image: linear-gradient(45deg, #fff 0%, #fff 40%, #fff 75%);
-    border: 5px solid #000;
+    
 }
 
 .container{
@@ -185,8 +185,8 @@ body{
     margin: 50px 0;
     padding: 1rem;
     align-items: center;
-    min-height: auto;
-    max-height: auto;
+    min-height: 350px;
+    max-height: 350px;
 }
 
 .section:nth-child(odd){
@@ -308,3 +308,7 @@ span.pt_deu {
     top: 15px;
     text-decoration: none;
   }
+
+.datemenu {
+    margin-top: 20px;
+}

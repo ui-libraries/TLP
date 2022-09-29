@@ -81,6 +81,28 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+/*
+let j1914 = document.getElementById('a1914');
+j1914.addEventListener("click", function() {
+    let elements = document.getElementsByClassName('y1914')
+    let requiredElement = elements[0]
+    requiredElement.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"})
+})
+
+let j1915 = document.getElementById('a1915');
+j1915.addEventListener("click", function() {
+    let elements = document.getElementsByClassName('y1915')
+    let requiredElement = elements[0]
+    requiredElement.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"})
+})
+
+let j1916 = document.getElementById('a1916');
+j1916.addEventListener("click", function() {
+    let elements = document.getElementsByClassName('y1916')
+    let requiredElement = elements[0]
+    requiredElement.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"})
+}) */
+
 
 /*tFunction (displays tlp & eng_tlp, hides rest) */
 function tFunction() {
@@ -178,7 +200,7 @@ function eFunction() {
 
 }
 
-/*dFunction (displays deu, hides rest) */
+/*gFunction (displays deu, hides rest) */
 function gFunction() {
 
     var e = document.getElementsByClassName('eng');
@@ -235,7 +257,7 @@ function rFunction() {
     }
     var d = document.getElementsByClassName('deu');
     for (var i = 0; i < d.length; i++) {
-        d[i].style.display = 'inline';
+        d[i].style.display = 'none';
     }
     var e_t = document.getElementsByClassName('eng_tlp');
     for (var i = 0; i < e_t.length; i++) {
@@ -243,11 +265,11 @@ function rFunction() {
     }
     var e_p = document.getElementsByClassName('eng_pt');
     for (var i = 0; i < e_p.length; i++) {
-        e_p[i].style.display = 'none';
+        e_p[i].style.display = 'inline';
     }
     var r = document.getElementsByClassName('pt');
     for (var i = 0; i < r.length; i++) {
-        r[i].style.display = 'none';
+        r[i].style.display = 'inline';
     }
     var t_d = document.getElementsByClassName('tlp_deu');
     for (var i = 0; i < t_d.length; i++) {

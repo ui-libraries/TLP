@@ -176,6 +176,9 @@ function findSameDates(list, item) {
 function generateSection(singleVerso, singleRecto) {
     let TLP = ""
     let PT = ""
+    let date = singleRecto['date']
+    let year = date.substring(0, 4)
+    let month = date.substring(5, 7)
     let originalGer = ""
     if (singleRecto['original-ger-pt'] != undefined) {
         originalGer = singleRecto['original-ger-pt']
@@ -185,14 +188,14 @@ function generateSection(singleVerso, singleRecto) {
         PT = "<em>PT: " + singleRecto["pt-number"] + "</em>"
     }
     let html = `
-        <div class="section">
+        <div id="y${year}m${month}" class="section">
         <div class="bead"></div>
         <div class="content verso">
             <div class="entry">
-            <span class="deu"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleVerso.ger} </span>
-            <span class="eng"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleVerso.eng} </span>
+            <span class="deu"> <p class="tooltip"><span>${singleVerso.manuscript}</span><strong>${convertDate(singleVerso.date)}</strong></p><br>${singleVerso.ger} </span>
+            <span class="eng"> <p class="tooltip"><span>${singleVerso.manuscript}</span><strong>${convertDate(singleVerso.date)}</strong></p><br>${singleVerso.eng} </span>
             <span class="tlp"> ${TLP} ${singleRecto['stern']} </span>
-            <span class="pt"> <strong>${convertDate(singleVerso.date)}</strong><br>${singleRecto["pt-stern"]} </span>
+            <span class="pt"> ${singleRecto["pt-stern"]} </span>
             <span class="tlp_deu">${TLP} ${originalGer} </span>
             <span class="pt_deu">${PT} ${singleRecto['original-ger-pt']} </span>
             </div>
@@ -256,14 +259,37 @@ function head() {
                     [e] = English translation<br>
                     [t] = Tractatus-related entries with highlighting<br>
                     [r] = Ms-104 with highlighting<br>
-                    <span class='NBequalsTLP'>Green</span> = (Nearly) Identical Passages<br>
-                    <span class='NBalmostequalsTLP'>Yellow</span> = Similar Passages<br>
-                    <span class='NBlikeTLP'>Grey</span> = Related Passages
+                    [c] = Compare original German TLP to recto<br>
+                    <span style="background: lightgreen">Green</span> = (Nearly) Identical Passages<br>
+                    <span style="background: yellow">Yellow</span> = Similar Passages<br>
+                    <span style="background: lightgrey">Grey</span> = Related Passages
                 </p>
                 </div>
-        <a href="#ms101">Ms-101</a>
-        <a href="#ms102">Ms-102</a>
-        <a href="#ms103">Ms-103</a>
+                <ul class="datemenu">1914
+                    <li><a href="#y1914m08">August</a></li>
+                    <li><a href="#y1914m09">September</a></li>
+                    <li><a href="#y1914m10">October</a></li>
+                    <li><a href="#y1914m11">November</a></li>
+                    <li><a href="#y1914m12">December</a></li>
+                </ul>
+                <ul>1915
+                    <li><a href="#y1915m01">January</a></li>
+                    <li><a href="#y1915m02">February</a></li>
+                    <li><a href="#y1915m03">March</a></li>
+                    <li><a href="#y1915m04">April</a></li>
+                    <li><a href="#y1915m05">May</a></li>
+                    <li><a href="#y1915m06">June</a></li>
+                </ul>
+                <ul>1916
+                    <li><a href="#y1916m04">April</a></li>
+                    <li><a href="#y1916m05">May</a></li>
+                    <li><a href="#y1916m07">July</a></li>
+                    <li><a href="#y1916m08">August</a></li>
+                    <li><a href="#y1916m09">September</a></li>
+                    <li><a href="#y1916m10">October</a></li>
+                    <li><a href="#y1916m11">November</a></li>
+                    <li><a href="#y1916m12">December</a></li>
+                </ul>
     </div>
     
     <body>
