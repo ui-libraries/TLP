@@ -52,31 +52,31 @@ window.addEventListener('scroll', scrollHandler)
 
 /* keydown events */
 document.addEventListener('keydown', function(event) {
-    if (event.code == 'KeyT') {
+    if (event.code == 'Digit2') {
         tFunction()
     }
 });
 
 document.addEventListener('keydown', function(event) {
-    if (event.code == 'KeyE') {
+    if (event.code == 'Digit1') {
         eFunction()
     }
 });
 
 document.addEventListener('keydown', function(event) {
-    if (event.code == 'KeyG') {
+    if (event.code == 'Digit4') {
         gFunction()
     }
 });
 
 document.addEventListener('keydown', function(event) {
-    if (event.code == 'KeyC') {
+    if (event.code == 'Digit5') {
         cFunction()
     }
 });
 
 document.addEventListener('keydown', function(event) {
-    if (event.code == 'KeyR') {
+    if (event.code == 'Digit3') {
         rFunction()
     }
 });

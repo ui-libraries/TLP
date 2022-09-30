@@ -187,24 +187,23 @@ function generateSection(singleVerso, singleRecto) {
         TLP = "<em>TLP: " + singleRecto["tlp-number"] +" </em>"
         PT = "<em>PT: " + singleRecto["pt-number"] + "</em>"
     }
+
     let html = `
         <div id="y${year}m${month}" class="section">
         <div class="bead"></div>
         <div class="content verso">
             <div class="entry">
-            <span class="deu"> <p class="tooltip"><span>${singleVerso.manuscript}</span><strong>${convertDate(singleVerso.date)}</strong></p><br>${singleVerso.ger} </span>
-            <span class="eng"> <p class="tooltip"><span>${singleVerso.manuscript}</span><strong>${convertDate(singleVerso.date)}</strong></p><br>${singleVerso.eng} </span>
+            <span class="deu"> <div class="tooltip"><strong>${convertDate(singleVerso.date)}</strong><span class="tooltiptext">${singleVerso.manuscript}</span></div><br>${singleVerso.ger} </span>
+            <span class="eng"> <div class="tooltip"><strong>${convertDate(singleVerso.date)}</strong><span class="tooltiptext">${singleVerso.manuscript}</span></div><br>${singleVerso.eng} </span>
             <span class="tlp"> ${TLP} ${singleRecto['stern']} </span>
-            <span class="pt"> ${singleRecto["pt-stern"]} </span>
+            <span class="pt"> ${PT} ${singleRecto["pt-stern"]} </span>
             <span class="tlp_deu">${TLP} ${originalGer} </span>
             <span class="pt_deu">${PT} ${singleRecto['original-ger-pt']} </span>
             </div>
         </div>
         <div class="content recto">
             <p class="tooltip">
-            <span>${singleRecto.manuscript}</span>
-            <strong>${convertDate(singleRecto.date)}</strong>
-            </p>
+            <div class="tooltip"><strong>${convertDate(singleRecto.date)}</strong><span class="tooltiptext">${singleRecto.manuscript}</span></div>
             <div class="entry">
             <span class="deu"> ${singleRecto.ger} </span>
             <span class="eng"> ${singleRecto.eng} </span>
@@ -232,7 +231,7 @@ function head() {
         <link rel="stylesheet" href="style.css">
         <style type="text/css" id="sheet"></style>
     </head>
-    
+    <body>
     <div class="bg-img">
     </div>
     
@@ -254,12 +253,12 @@ function head() {
         <a href="#key">Key</a>
         </p>
                 <div class="Key">
-                <p>
-                    [d] = German original<br>
-                    [e] = English translation<br>
-                    [t] = Tractatus-related entries with highlighting<br>
-                    [r] = Ms-104 with highlighting<br>
-                    [c] = Compare original German TLP to recto<br>
+                <p>                    
+                    [1] = English translation<br>
+                    [2] = Tractatus-related entries with highlighting<br>
+                    [3] = Ms-104 with highlighting<br>
+                    [4] = German original<br>
+                    [5] = German with Tractatus-related cross-references<br>
                     <span style="background: lightgreen">Green</span> = (Nearly) Identical Passages<br>
                     <span style="background: yellow">Yellow</span> = Similar Passages<br>
                     <span style="background: lightgrey">Grey</span> = Related Passages
@@ -272,7 +271,7 @@ function head() {
                     <li><a href="#y1914m11">November</a></li>
                     <li><a href="#y1914m12">December</a></li>
                 </ul>
-                <ul>1915
+                <ul class="datemenu">1915
                     <li><a href="#y1915m01">January</a></li>
                     <li><a href="#y1915m02">February</a></li>
                     <li><a href="#y1915m03">March</a></li>
@@ -280,9 +279,10 @@ function head() {
                     <li><a href="#y1915m05">May</a></li>
                     <li><a href="#y1915m06">June</a></li>
                 </ul>
-                <ul>1916
+                <ul class="datemenu">1916
                     <li><a href="#y1916m04">April</a></li>
                     <li><a href="#y1916m05">May</a></li>
+                    <li><a href="#y1916m06">June</a></li>
                     <li><a href="#y1916m07">July</a></li>
                     <li><a href="#y1916m08">August</a></li>
                     <li><a href="#y1916m09">September</a></li>
@@ -292,7 +292,6 @@ function head() {
                 </ul>
     </div>
     
-    <body>
         <div class="container">
             <div class="top-section">
                 
